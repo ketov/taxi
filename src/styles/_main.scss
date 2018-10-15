@@ -1,0 +1,218 @@
+body{
+    background: $lightgray;
+    color: $dark-text;
+    font-family: $CR;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+
+.wrapper{
+    margin: 0 auto;
+    min-width: 940px;
+    padding: 0;
+    width: 940px;
+}
+
+.clear{
+    clear: both;
+}
+
+.overflow-hidden{
+    overflow: hidden;
+}
+
+[data-animation] {
+    opacity: 0;
+}
+
+[data-animation].animated {
+    opacity: 1;
+}
+
+h1{
+    font-family: $CL;
+    font-size: 450%;
+    font-weight: normal;
+    line-height: 100%;
+}
+
+h2{
+    font-family: $CL;
+    font-size: 295%;
+    font-weight: normal;
+    margin: 0 0 38px 0;
+    padding: 0 0 36px 0;
+    position: relative;
+    &:after{
+        background: $blue;
+        bottom: 0;
+        content: '';
+        position: absolute;
+        height: 3px;
+        left: 50%;
+        margin-left: -25px;
+        width: 50px;
+    }
+}
+
+h3{
+    font-family: $CL;
+    font-size: 225%;
+    font-weight: normal;
+    line-height: 110%;
+    margin: 0;
+}
+
+.link{
+    span{
+        background-image: linear-gradient($green,$green);
+        background-repeat: repeat-x;
+        background-size: 1px 1px;
+        background-position: 0 100%;
+        line-height: 145%;
+        transition: 200ms ease;
+    }
+    &:hover span{
+        background-size: 21px 21px;
+        color: $dark-text;
+    }
+}
+
+p{
+    font-size: 125%;
+    margin: 0;
+}
+
+p.big{
+    font-size: 190%;
+    line-height: 160%;
+}
+
+.comment{
+    font-family: $CL;
+    font-size: 115%;
+}
+
+button{
+    background: $green;
+    border: none;
+    border-radius: 35px;
+    color: $dark-text;
+    cursor: pointer;
+    font-family: $CB;
+    font-size: 90%;
+    letter-spacing: 1px;
+    outline: none;
+    padding: 19px 56px 18px;
+    position: relative;
+    text-transform: uppercase;
+    top: 0;
+    transition: 0.15s ease;
+    &:hover{
+        background: $lightgreen;
+    }
+    &:active{
+        top: 2px;
+    }
+}
+
+input{
+    outline: none;
+}
+
+@font-face{
+    font-family: CirceLight;
+    src: url('../fonts/Circe-Light.ttf');
+}
+
+@font-face{
+    font-family: CirceRegular;
+    src: url('../fonts/Circe-Regular.ttf');
+}
+
+@font-face{
+    font-family: CirceBold;
+    src: url('../fonts/Circe-Bold.ttf');
+}
+
+.fixed-menu-container{
+    position: relative;
+}
+
+@media(max-width: 1380px){
+    h1{
+        font-size: 400%;
+        line-height: 105%;
+    }
+    h2{
+        margin: 0 0 26px;
+        padding: 0 0 24px 0;
+    }
+}
+
+@media(max-width: 1200px){
+    h1{
+        font-size: 370%;
+        line-height: 115%;
+    }
+    h2{
+        font-size: 275%;
+    }
+    h3{
+        font-size: 180%;
+    }
+    p{
+        font-size: 120%;
+    }
+    p.big{
+        font-size: 170%;
+    }
+}
+
+@media(max-width: 1000px){
+    h1{
+        font-size: 340%;
+        line-height: 115%;
+    }
+    h2{
+        font-size: 245%;
+        margin: 0 0 16px;
+        padding: 0 0 16px;
+    }
+    p{
+        font-size: 110%;
+        margin: 0 0 16px;
+    }
+    p.big{
+        font-size: 150%;
+    }
+}
+
+@media(max-width: 850px){
+    p{
+        font-size: 105%;
+    }
+    p.big{
+        font-size: 140%;
+    }
+}
+
+@media(max-width: 767px){
+    p{
+        font-size: 115%;
+    }
+}
+
+@media(max-width: 550px){
+    h1{
+        font-size: 300%;
+    }
+}
+
+@media(max-width: 450px){
+    h1{
+        font-size: 250%;
+    }
+}
