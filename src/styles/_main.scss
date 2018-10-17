@@ -1,5 +1,5 @@
 body{
-    background: $lightgray;
+    background: $white;
     color: $dark-text;
     font-family: $CR;
     margin: 0;
@@ -45,16 +45,6 @@ h2{
     margin: 0 0 38px 0;
     padding: 0 0 36px 0;
     position: relative;
-    &:after{
-        background: $blue;
-        bottom: 0;
-        content: '';
-        position: absolute;
-        height: 3px;
-        left: 50%;
-        margin-left: -25px;
-        width: 50px;
-    }
 }
 
 h3{
