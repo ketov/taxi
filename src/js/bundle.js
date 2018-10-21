@@ -29,7 +29,6 @@ import "script!./libs/jquery.scrollAnimations.min";
 
 // Собственный js
 import "./main";
-import "./blocks/product";
 //import "./blocks/nav";
 //import "./blocks/projects-slider";
 

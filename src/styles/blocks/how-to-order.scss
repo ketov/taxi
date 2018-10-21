@@ -1,0 +1,56 @@
+.how-to-order{
+    background: $blue;
+    color: $white;
+    margin: 110px 0 0 0;
+    padding: 105px 0 112px;
+    h2{
+        margin: 0 0 22px 0;
+    }
+    .col-md-8{
+        align-items: center;
+        display: flex;
+    }
+    &__number{
+        max-width: 84px;
+        padding: 0;
+    }
+    p{
+        font-size: 145%;
+    }
+    p.how-to-order__p1{
+        font-size: 115%;
+        line-height: 160%;
+        margin: 0 0 68px 0;
+        text-align: center;
+    }
+    p.how-to-order__p2{
+        font-size: 115%;
+        line-height: 160%;
+        margin: 68px 0 0 0;
+        text-align: center;
+    }
+}
+
+.row--advantages{
+    margin: 0 0 96px 0;
+}
+
+@media(max-width: 1380px){
+
+}
+
+@media(max-width: 1200px){
+
+}
+
+@media(max-width: 1000px){
+
+}
+
+@media(max-width: 850px){
+
+}
+
+@media(max-width: 767px){
+
+}

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Такси | Главная</title>
+    <title>Главная</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta charset="UTF-8">
@@ -13,12 +13,61 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;amp;subset=cyrillic-ext">
   </head>
   <body>
-    <!--img(src="assets/img/DesktopHD.png" alt="шаблон.десктоп" style="position: absolute; z-index: 1; opacity: 0.5;")-->
+    <!--img(src="assets/img/index-desktop.png" alt="шаблон.десктоп" style="position: absolute; z-index: 1; opacity: 0.5;")-->
+    <header data-animation="fadeIn" data-animation-delay="500ms">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2"><img class="logo" src="assets/img/logo.svg" alt="логотип"></div>
+          <div class="col-md-8"><a class="link" href="#"><span>Услуги трансфера</span></a><a class="link" href="#"><span>Частые вопросы</span></a><a class="link" href="#"><span>Гид «Как добраться»</span></a><a class="link" href="#"><span>Вежливые люди</span></a></div>
+          <div class="col-md-2 phone"><a href="tel:+79223104870">+7 (922) 310-48-70</a></div>
+        </div>
+      </div>
+    </header>
+    <section class="index-offer">
+      <div class="container">
+        <div class="row" data-animation="fadeIn">
+          <div class="col-md-12">
+            <h1>Заказывайте такси-трансфер в аэропорт Симферополя и города Крыма</h1>
+          </div>
+        </div>
+        <div class="search search--main">
+          <div class="container">
+            <div class="row">
+              <form class="col-md-10 offset-1 index-offer__form">
+                <div class="row">
+                  <div class="col-md-4">
+                    <fieldset>
+                      <input class="input" id="from">
+                      <label for="from">Откуда</label>
+                    </fieldset>
+                  </div>
+                  <div class="col-md-4">
+                    <fieldset>
+                      <input class="input focus" id="where" value="Симферополь">
+                      <label for="where">Куда</label>
+                    </fieldset>
+                  </div>
+                  <div class="col-md-2">
+                    <fieldset>
+                      <input class="input" id="passengers">
+                      <label for="passengers">Пассажиры</label>
+                    </fieldset>
+                  </div>
+                  <div class="col-md-2">
+                    <button>Найти</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div><img class="main-img" src="assets/img/main-illustration.png" alt="главная иллюстрация">
+      </div>
+    </section>
     <section class="reviews">
       <h2>Отзывы</h2>
       <div class="container">
         <div class="row">
-          <div class="col-md-3">
+          <div class="col-md-3"><img class="reviews__triangle" src="assets/img/reviews-triangle.svg" alt="">
             <p>
               В&nbsp;наше время, отношение таксистов к&nbsp;мамам с&nbsp;детьми
               какое-то предвзятое. Никогда не&nbsp;получалось уехать на&nbsp;такси
@@ -27,7 +76,7 @@
             </p><a class="link" href="#"><span>Читать весь отзыв на сайте</span></a>
             <div class="author">Vanessa87</div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3"><img class="reviews__triangle" src="assets/img/reviews-triangle.svg" alt="">
             <p>
               Часто пользуюсь услугами этой службы такси. Данное такси никогда не подводит,
               приезжает точно в срок. У водителя всегда есть сдача, какую купюру я бы
@@ -35,7 +84,7 @@
             </p><a class="link" href="#"><span>Читать весь отзыв на сайте</span></a>
             <div class="author">pytenkova</div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3"><img class="reviews__triangle" src="assets/img/reviews-triangle.svg" alt="">
             <p>
               Машинку назначили быстро, сообщение о машине пришло буквально
               в течение 5 минут. Водитель даже без просьбы помог
@@ -43,7 +92,7 @@
             </p><a class="link" href="#"><span>Читать весь отзыв на сайте</span></a>
             <div class="author">shes7</div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3"><img class="reviews__triangle" src="assets/img/reviews-triangle.svg" alt="">
             <p>
               Заказывал через приложение, машина приехала через 10 минут.
               Водитель помог убрать багаж. Сам по себе человек приятный.
@@ -55,236 +104,421 @@
         </div>
       </div>
     </section>
-    <section class="first-screen">
-      <header data-animation="fadeIn" data-animation-delay="500ms">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4"><img class="logo" src="assets/img/logo.svg" alt="логотип"></div>
-            <div class="col-md-8"><a class="link header__company" href=""><span>о компании</span></a><a class="link header__about-product" href=""><span>о продукте</span></a><a class="link header__financial-analytics" href=""><span>финансовая аналитика</span></a><a class="link header__index-form" href=""><span>напишите нам</span></a></div>
+    <section class="advantages">
+      <h2>Преимущества</h2>
+      <div class="container">
+        <div class="row row--advantages">
+          <div class="col-md-4 row">
+            <div class="col-md-4 advantages__number"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="n-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 81.3 102.5" style="enable-background:new 0 0 81.3 102.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#31CB87;stroke-miterlimit:10;}
+</style>
+<path id="_x31_" class="st0" d="M29.1,38.9l-11-17.3L44.7,2.3h15.1v98h-21V32.1L29.1,38.9z"/>
+</svg>
+
+            </div>
+            <div class="col-md-8">
+              <p>Гарантия подачи машины</p>
+            </div>
+          </div>
+          <div class="col-md-4 row">
+            <div class="col-md-4 advantages__number"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="n-2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 81.3 102.5" style="enable-background:new 0 0 81.3 102.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#31CB87;stroke-miterlimit:10;}
+</style>
+<path id="_x32_" class="st0" d="M72.6,100.8H9.4V84c0.1-0.1,2.4-2.3,6.9-6.6l7.7-7.7c1.7-1.9,3.9-4.2,6.7-7c3.2-3.4,5.4-6,6.7-8
+	l4.6-7.1c3.3-4.9,4.9-10,4.9-15.3c0-6.4-3-9.7-9-9.7c-2.7,0-4.9,0.9-6.4,2.6c-1.6,1.7-3,4.4-4.3,7.9l-17.5-8
+	c1.7-7.4,5.2-13.1,10.4-17.3c5.3-4.2,12.1-6.2,20.4-6.2c9.1,0,16.1,2.6,21.1,7.7c5.1,5.1,7.7,11.4,7.7,18.8
+	c0,18.6-10.9,36.3-32.8,53.1h36.1C72.6,81.2,72.6,100.8,72.6,100.8z"/>
+</svg>
+
+            </div>
+            <div class="col-md-8">
+              <p>Бесплатное ожидание даже в&nbsp;случае сильной задержки рейса</p>
+            </div>
+          </div>
+          <div class="col-md-4 row">
+            <div class="col-md-4 advantages__number"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="n-3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 81.3 102.5" style="enable-background:new 0 0 81.3 102.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#31CB87;stroke-miterlimit:10;}
+</style>
+<path id="_x33_" class="st0" d="M40.5,101.9c-7.5,0-14-1.5-19.6-4.4s-9.8-6.9-12.7-11.8l11.6-15.5C26.1,77.4,32.6,81,39.1,81
+	c3.9,0,7-0.9,9.1-2.7c2.1-1.8,3.2-4.1,3.2-6.9c0-7.2-5.6-10.8-16.7-10.8h-6.2v-21h5.6c4,0,7.3-0.9,9.7-2.6c2.5-1.7,3.7-4.1,3.7-7.2
+	c0-2.4-0.7-4.4-2.2-6c-1.5-1.5-3.7-2.3-6.7-2.3c-6.5,0-12.2,2.9-16.9,8.8l-11.4-15c6-9.8,16.1-14.7,30.4-14.7
+	c8.7,0,15.7,2.3,21.1,6.9C67.3,11.9,70,18,70,25.6c0,10.9-4.9,18.6-14.6,23V49c5.8,1.1,10.3,3.8,13.5,7.9c3.2,4.2,4.8,9.3,4.8,15.3
+	c0,9-3.2,16.2-9.5,21.7C58.1,99.3,50.1,101.9,40.5,101.9z"/>
+</svg>
+
+            </div>
+            <div class="col-md-8">
+              <p>Наличие детских удерживающих устройств</p>
+            </div>
           </div>
         </div>
-      </header>
-      <h1 data-animation="fadeIn">Заказ такси в Крыму</h1>
-      <p data-animation="fadeIn">Комплексное решение для&nbsp;микрофинансирования с&nbsp;настраиваемыми рабочими процессами и&nbsp;политикой рисков</p>
-    </section>
-    <section class="product">
-      <div class="container about-company">
+        <div class="row row--advantages">
+          <div class="col-md-4 row">
+            <div class="col-md-4 advantages__number"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="n-4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 81.3 102.5" style="enable-background:new 0 0 81.3 102.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#31CB87;stroke-miterlimit:10;}
+</style>
+<path id="_x34_" class="st0" d="M68,100.3H47v-21H2.5V63.6l35-61.3h24.1l-32.1,56H47v-21h21v21h11.5v21H68V100.3z"/>
+</svg>
+
+            </div>
+            <div class="col-md-8">
+              <p>Фиксированная цена во&nbsp;все дни, включая выходные и&nbsp;праздники</p>
+            </div>
+          </div>
+          <div class="col-md-4 row">
+            <div class="col-md-4 advantages__number"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="n-5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 81.3 102.5" style="enable-background:new 0 0 81.3 102.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#31CB87;stroke-miterlimit:10;}
+</style>
+<path id="_x35_" class="st0" d="M16.1,56.3l6.7-54.9h48.4v21h-30l-2,12.5h3.4c8.8,0,16.1,2.9,21.8,8.7c5.9,5.7,8.8,13.4,8.8,23.2
+	c0,10.6-3.4,19-10.1,25.2c-6.8,6.1-15.4,9.1-25.6,9.1c-5.5,0-11-1.2-16.5-3.5c-5.5-2.4-9.7-5.6-12.5-9.7l11.8-16.1
+	c2,2.3,4.6,4.3,8,5.9s6.6,2.4,9.7,2.4c3.7,0,6.8-1.1,9.2-3.4s3.6-5.2,3.6-8.9c0-4.2-1.6-7.6-4.8-10.2c-3.2-2.6-7.6-3.8-13.2-3.8
+	C25.1,53.8,19.5,54.6,16.1,56.3z"/>
+</svg>
+
+            </div>
+            <div class="col-md-8">
+              <p>Все поездки по&nbsp;системе «от&nbsp;двери до&nbsp;дверей» без&nbsp;доплат</p>
+            </div>
+          </div>
+          <div class="col-md-4 row">
+            <div class="col-md-4 advantages__number"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="n-6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 81.3 102.5" style="enable-background:new 0 0 81.3 102.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#31CB87;stroke-miterlimit:10;}
+</style>
+<path id="_x36_" class="st0" d="M6.4,65.5c0-8.4,1.5-16.5,4.5-24.2s7-14.3,11.9-19.8c10.3-11,21-18,32.3-21l8.5,15.8
+	c-7.5,2.5-14,6.2-19.7,11.1c-5.6,4.9-9.9,10.6-12.7,17c3.8-3.5,9.6-5.3,17.2-5.3c7.3,0,13.6,2.8,18.9,8.4c5.4,5.5,8.1,12.6,8.1,21.4
+	c0,10.3-3.3,18.3-9.9,24.2c-6.6,5.8-14.3,8.7-23.1,8.7c-10.7,0-19.5-3.5-26.2-10.5C9.7,84.4,6.4,75.7,6.4,65.5z M28.8,65.7
+	c0,4.8,1.2,8.5,3.6,11.2c2.4,2.7,5.8,4.1,10.2,4.1c3.3,0,5.8-1,7.7-2.9c1.9-2,2.8-4.4,2.8-7.4c0-3.5-1-6.4-3.1-8.5S45,59,41.2,59
+	C36.1,58.8,32,61.1,28.8,65.7z"/>
+</svg>
+
+            </div>
+            <div class="col-md-8">
+              <p>Выполняем до&nbsp;99% заказов даже в&nbsp;случае форс-мажора</p>
+            </div>
+          </div>
+        </div>
         <div class="row">
-          <div class="col-md-10 offset-1 company" id="company">
-            <h2>О компании</h2>
+          <div class="col-md-4 row">
+            <div class="col-md-4 advantages__number"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="n-7" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 81.3 102.5" style="enable-background:new 0 0 81.3 102.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#31CB87;stroke-miterlimit:10;}
+</style>
+<path id="_x37_" class="st0" d="M48.1,23.3H8.8v-21h64.4v14.3L40,100.3H17L48.1,23.3z"/>
+</svg>
+
+            </div>
+            <div class="col-md-8">
+              <p>Круглосуточная линия поддержки ответит на&nbsp;все Ваши вопросы</p>
+            </div>
+          </div>
+          <div class="col-md-4 row">
+            <div class="col-md-4 advantages__number"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="n-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 81.3 102.5" style="enable-background:new 0 0 81.3 102.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#31CB87;stroke-miterlimit:10;}
+</style>
+<path id="_x38_" class="st0" d="M41.1,101.9c-10.5,0-18.9-2.4-25.5-7.3s-10-11.5-10-19.7c0-6,1.4-11.1,4.1-15.4s6.3-7.4,10.9-9.4
+	v-0.4c-3.8-2.1-6.9-5.1-9.2-9.1C9.2,36.6,8,31.9,8,26.5c0-7.6,3.1-13.8,9.4-18.6C23.7,3,31.5,0.6,40.9,0.6S58.2,3,64.4,7.9
+	C70.8,12.8,74,19,74,26.5c0,4.9-1.3,9.4-3.8,13.6s-5.9,7.4-10.2,9.5V50c4.8,1.2,8.7,3.9,11.8,8c3.1,4.2,4.6,9.2,4.6,15
+	c0,9.1-3.3,16.1-9.8,21.3C59.9,99.4,51.4,101.9,41.1,101.9z M42,60.4h-1.7c-3.5,0-6.4,0.9-8.8,2.8C29.2,65,28,67.6,28,70.7
+	c0,3.2,1.1,5.7,3.2,7.5s5.4,2.7,9.7,2.7c4.4,0,7.7-0.8,9.9-2.5s3.2-4.2,3.1-7.7c-0.1-3.3-1.2-5.8-3.3-7.6
+	C48.6,61.3,45.7,60.4,42,60.4z M40.2,39.4H42c3,0,5.3-0.9,7-2.6c1.7-1.7,2.5-3.9,2.5-6.5c0-5.8-3.6-8.7-10.8-8.7
+	c-3.4,0-5.9,0.8-7.7,2.4s-2.7,3.7-2.7,6.3s0.9,4.8,2.6,6.5C34.7,38.5,37.1,39.4,40.2,39.4z"/>
+</svg>
+
+            </div>
+            <div class="col-md-8">
+              <p>Скидка 10% на&nbsp;обратную поездку</p>
+            </div>
+          </div>
+          <div class="col-md-4 row">
+            <div class="col-md-4 advantages__number"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="n-9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 81.3 102.5" style="enable-background:new 0 0 81.3 102.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#31CB87;stroke-miterlimit:10;}
+</style>
+<path id="_x39_" class="st0" d="M75.9,38.4c0,18.3-4.9,33.1-14.6,44.4s-22,17.7-37,19.2l-6.9-16.7C35.2,81.5,46.3,72.8,51,59.4
+	c-3.8,3.5-8.9,5.3-15.3,5.3c-8,0-15-2.9-21-8.7C9,50.2,6.1,43,6.1,34.2c0-10.4,3.4-18.5,10.2-24.5C23.2,3.6,31,0.6,39.8,0.6
+	C50.6,0.6,59.4,4,66,10.9C72.6,17.9,75.9,27,75.9,38.4z M53.5,38.2c0-4.9-1.3-8.8-3.8-12c-2.5-3.1-5.9-4.7-10.1-4.7
+	c-3.3,0-5.9,1.1-8,3.3s-3.1,4.8-3.1,7.8c0,3.5,1.2,6.5,3.5,8.9s5.4,3.6,9.1,3.6C46.2,45.1,50.4,42.8,53.5,38.2z"/>
+</svg>
+
+            </div>
+            <div class="col-md-8">
+              <p>Чеки – БСО. Отчетная</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="standards">
+      <h2>Стандарты</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3"><a class="standards__nav" href="#"><span>Гарантинуем подачу машины</span></a><a class="standards__nav" href="#"><span>Машина подается того класса, который заказывали</span></a><a class="standards__nav" href="#"><span>Задерживается рейс?</span></a><a class="standards__nav" href="#"><span>Все цены на&nbsp;сайте указаны за&nbsp;машину</span></a><a class="standards__nav" href="#"><span>Машина подаётся заранее</span></a><a class="standards__nav" href="#"><span>Если нужно, в&nbsp;авто будет детское кресло</span></a><a class="standards__nav" href="#"><span>Можно получить мини-экскурсию</span></a><a class="standards__nav" href="#"><span>Круглосуточная информационная поддержка</span></a></div>
+          <div class="col-md-9">
+            <h3>Гарантируем подачу машины</h3>
             <p>
-              ZEN-IT — компания, специализирующаяся на&nbsp;разработке, продвижении
-              и&nbsp;предоставлении различного рода услуг для лидеров онлайн-кредитования
-              в&nbsp;России. Мы&nbsp;создаём решения, которые помогают финансовым компаниям
-              управлять своим бизнесом. За&nbsp;6&nbsp;лет работы мы&nbsp;реализовали широкий спектр
-              инновационных проектов и&nbsp;FinTech-решений. Будучи надёжным технологическим
-              партнёром, мы уже заслужили доверие ведущих брендов рынка РФ.
+              Гарантируем подачу машины. Если вы сделали заказ за&nbsp;24 часа,
+              в&nbsp;любой ситуации мы гарантируем подачу машины! Даже в&nbsp;случае форс-мажора,
+              мы найдем замену в&nbsp;течении 10 минут. Как мы это делаем?
+              В&nbsp;экстренных ситуациях мы доплачиваем водителям, чтобы гарантированно
+              найти машину и&nbsp;выполнить наши обязательства. В&nbsp;нашей системе зарегистрировано
+              свыше 6000 исполнителей, а&nbsp;это значит, что&nbsp;мы не&nbsp;испытываем дефицита
+              в&nbsp;водителях и&nbsp;мы гарантированно выполним Ваш заказ.
             </p>
-          </div>
-        </div>
-      </div>
-      <div class="container about-product" data-animation="fadeIn" data-animation-delay="500ms">
-        <div class="row">
-          <div class="col-md-10">
-            <h2>О продукте</h2>
-            <p class="big">
-              Наше решение предоставляет технологическую основу для&nbsp;полноценного жизненного
-              цикла кредита и&nbsp;охватывает все необходимые процессы для&nbsp;запуска и&nbsp;ведения
-              эффективного бизнеса — управление продуктами, рисками, отчётностью
-              и&nbsp;рядом других функций. Платформа, разработанная с&nbsp;учётом особенностей настройки
-              и&nbsp;масштабируемости, позволяет удовлетворить потребности финансовых организаций
-              разных размеров.
+            <h3>Машина подается того класса, который заказывали</h3>
+            <p>
+              Или класса выше. Вместительность известна заранее:
+              сколько человек может уехать, для&nbsp;скольких сумок
+              и&nbsp;чемоданов стандартных размеров есть место в&nbsp;багажнике. Заказывая
+              через какое-нибудь местное приложение такси от&nbsp;аэропорта,
+              это не&nbsp;всегда можно предсказать.
             </p>
-          </div>
-        </div>
-        <div class="row product__row" data-animation="fadeIn">
-          <div class="col-md-12">
-            <div class="row">
-              <div class="col-md-5 product__item"><svg xmlns="http://www.w3.org/2000/svg" width="81" height="76" viewBox="0 0 81 76" id="product-icon-1">
-  <g fill="none" fill-rule="evenodd" stroke="#1838FF" stroke-width="2" transform="translate(2 2)">
-    <polygon points="7.274 72.407 .255 50.256 8.767 47.559 15.786 69.71"/>
-    <path d="M9.7724 51.0444C13.4934 44.7764 18.7804 35.0074 24.7904 30.6464 27.7244 28.5184 31.7124 28.2614 35.2154 27.6414M14.4531 65.8061C16.4051 65.4541 18.3581 65.1021 20.3101 64.7501 25.9121 63.7411 32.7011 61.0531 36.2561 56.3121M41.6049 50.5575C44.1749 52.6435 46.0369 54.1565 46.0369 54.1565L76.8979 16.1405 57.5179.4065 26.6559 38.4225C26.6559 38.4225 30.2259 41.3205 34.2999 44.6275L34.7349 44.9835 34.9259 44.8195C37.6579 41.5015 41.1379 37.2735 41.1379 37.2735 42.6099 35.4855 45.2779 35.2275 47.0649 36.6995 48.8539 38.1715 49.1119 40.8385 47.6399 42.6265L38.2119 54.0765 36.2559 56.3115"/>
-    <path d="M62.9721 13.4911C63.7961 14.1591 63.9211 15.3691 63.2531 16.1921 62.5841 17.0151 61.3751 17.1411 60.5521 16.4731 59.7281 15.8041 59.6031 14.5951 60.2711 13.7721 60.9401 12.9481 62.1491 12.8231 62.9721 13.4911zM56.3159 21.6908C61.2559 25.7008 63.2289 31.4548 60.7229 34.5428 58.2159 37.6298 52.1789 36.8818 47.2389 32.8718 42.2989 28.8618 40.3259 23.1078 42.8329 20.0198 45.3389 16.9318 51.3759 17.6798 56.3159 21.6908z"/>
-  </g>
-</svg>
-
-                <h3>Автоматизированная система управления кредитами</h3>
-                <p>Решение охватывает полный цикл кредитования от&nbsp;ввода данных до проверки кредитной истории, оценки рейтинга и&nbsp;принятия решения.</p>
-              </div>
-              <div class="col-md-5 offset-1 product__item"><svg xmlns="http://www.w3.org/2000/svg" width="81" height="76" viewBox="0 0 81 76" id="product-icon-2">
-  <g fill="none" fill-rule="evenodd" transform="translate(1 9)">
-    <path stroke="#1838FF" stroke-width="2" d="M63 50L3 50C1.35 50 0 48.65 0 47L0 3C0 1.35 1.35 0 3 0L63 0C64.65 0 66 1.35 66 3L66 47C66 48.65 64.65 50 63 50zM0 40L65 40"/>
-    <path fill="#1838FF" d="M35,45 C35,46.104 34.104,47 33,47 C31.896,47 31,46.104 31,45 C31,43.896 31.896,43 33,43 C34.104,43 35,43.896 35,45"/>
-    <path stroke="#1838FF" stroke-width="2" d="M33,50 L33,58"/>
-    <path stroke="#1838FF" stroke-linecap="round" stroke-width="2" d="M16,58 L50,58"/>
-    <path stroke="#1838FF" stroke-width="2" d="M14 28C14 29.657 12.657 31 11 31 9.343 31 8 29.657 8 28 8 26.343 9.343 25 11 25 12.657 25 14 26.343 14 28zM30 14C30 15.657 28.657 17 27 17 25.343 17 24 15.657 24 14 24 12.343 25.343 11 27 11 28.657 11 30 12.343 30 14zM42 25C42 26.657 40.657 28 39 28 37.343 28 36 26.657 36 25 36 23.343 37.343 22 39 22 40.657 22 42 23.343 42 25zM58 11C58 12.657 56.657 14 55 14 53.343 14 52 12.657 52 11 52 9.343 53.343 8 55 8 56.657 8 58 9.343 58 11zM14 26L24.667 16M42 23L52.667 13M29.3335 15.6665L36.6665 22.9995"/>
-  </g>
-</svg>
-
-                <h3>CRM</h3>
-                <p>CRM — система управления учётными записями предоставляет обширные возможности для&nbsp;планирования и&nbsp;координации коммуникаций с&nbsp;клиентами по&nbsp;всем каналам связи.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row product__row" data-animation="fadeIn">
-          <div class="col-md-12">
-            <div class="row">
-              <div class="col-md-5 product__item"><svg xmlns="http://www.w3.org/2000/svg" width="81" height="76" viewBox="0 0 81 76" id="product-icon-3">
-  <g fill="none" fill-rule="evenodd" stroke="#1838FF" stroke-width="2" transform="translate(0 8)">
-    <polygon points="37.072 17.282 46.034 10.771 34.957 10.771 31.534 .236 28.11 10.771 17.034 10.771 25.995 17.282 22.572 27.817 31.534 21.306 40.495 27.817"/>
-    <path stroke-linecap="round" d="M32 34.6084L32 60.6084M24 40.6084L24 60.6084M16 45.6084L16 60.6084M8 49.6084L8 60.6084M1 52.6084L1 60.6084M40 40.6084L40 60.6084M48 45.6084L48 60.6084M56 49.6084L56 60.6084M63 52.6084L63 60.6084"/>
-  </g>
-</svg>
-
-                <h3>Кредитный скоринг</h3>
-                <p>Точная оценка кредитоспособности клиентов поможет снизить кредитный риск. Полностью автоматизированная система принятия решений минимизирует операционные расходы.</p>
-              </div>
-              <div class="col-md-5 offset-1 product__item"><svg xmlns="http://www.w3.org/2000/svg" width="81" height="76" viewBox="0 0 81 76" id="product-icon-4">
-  <g fill="none" fill-rule="evenodd" stroke="#1838FF" stroke-width="2" transform="translate(0 7)">
-    <polyline points="12.707 .707 12.707 12.707 .707 12.707"/>
-    <path d="M12.7071 12.7071L.7071.7071M43.7071 42.7071L22.7071 42.7071 22.7071 19.7071C22.7071 19.1551 23.1551 18.7071 23.7071 18.7071L42.7071 18.7071C43.2591 18.7071 43.7071 19.1551 43.7071 19.7071L43.7071 42.7071z"/>
-    <path stroke-linecap="round" d="M29.7071 24.7071L36.7071 24.7071M43.7071 18.7071L49.2071 28.2071M22.7071 18.7071L17.2071 28.2071"/>
-    <polyline points="53.707 .707 53.707 12.707 65.707 12.707"/>
-    <path d="M53.7071,12.7071 L65.7071,0.7071"/>
-    <polyline points="12.707 60.707 12.707 48.707 .707 48.707"/>
-    <path d="M12.7071,48.7071 L0.7071,60.7071"/>
-    <polyline points="53.707 60.707 53.707 48.707 65.707 48.707"/>
-    <path d="M53.7071,48.7071 L65.7071,60.7071"/>
-  </g>
-</svg>
-
-                <h3>Управление рисками</h3>
-                <p>
-                  Отчётность в&nbsp;режиме реального времени позволяет МФО консолидировать
-                  ключевые показатели эффективности. Впечатляющая структура отчётности,
-                  в&nbsp;которой выделяются области требующие внимания, позволяет принимать
-                  верные решения самые короткие сроки.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row product__row" data-animation="fadeIn">
-          <div class="col-md-12">
-            <div class="row">
-              <div class="col-md-11 product__item product__item--last"><svg xmlns="http://www.w3.org/2000/svg" width="81" height="76" viewBox="0 0 81 76" id="product-icon-5">
-  <g fill="none" fill-rule="evenodd" stroke="#1838FF" stroke-width="2" transform="translate(1 10)">
-    <path d="M49.9081,27 C49.9081,29.209 51.6991,31 53.9081,31 C56.1171,31 57.9081,29.209 57.9081,27 L57.6771,25.342 C55.8641,11.102 43.6201,0 28.9081,0 C13.9271,0 1.5031,11.514 0.0501,26.13 C-0.0749,27.395 -0.0169,28.551 0.8481,29.577 C1.6041,30.473 2.7361,31 3.9081,31 C4.9621,31 5.9881,30.575 6.7341,29.831 C8.1061,28.461 8.1371,26.054 8.4061,24.258 C8.7111,22.232 9.1571,20.226 9.7561,18.267 C10.8441,14.708 12.4341,11.272 14.6351,8.262 C16.5371,5.658 18.9251,3.351 21.7871,1.828 C23.9771,0.663 26.4221,0 28.9081,0 C39.3611,0 48.0301,11.274 49.6401,26.034 L49.9081,27 Z"/>
-    <path d="M36.9081 27.5C36.9081 31.09 33.3261 34 28.9081 34 24.4901 34 20.9081 31.09 20.9081 27.5L21.0421 25.332C21.7281 10.917 24.9891 0 28.9081 0 32.8441 0 36.1161 11.013 36.7831 25.521L36.9081 27.5zM20.9081 26.5C20.9081 30.09 17.9981 33 14.4081 33 11.4961 33 9.0311 31.085 8.2041 28.446L7.9081 27M49.9081 26.5C49.9081 30.09 46.9981 33 43.4081 33 39.8181 33 36.9081 30.09 36.9081 26.5"/>
-    <path stroke-linecap="round" d="M3.1581 31.125L18.9081 56M53.9081 31.125L38.1581 56M13.9081 33L23.9081 56M42.9081 33L33.9081 56"/>
-  </g>
-</svg>
-
-                <h3>Модуль управления взысканием</h3>
-                <p>
-                  Готовый модуль управления взысканием возволяет повысить уровень сборов
-                  с&nbsp;портфеля до&nbsp;максимально возможного. Мы автоматизировали процесс сбора
-                  просроченной задолженности: интеграция ПО с&nbsp;сторонними сервисами,
-                  встроенный модуль моделирования бизнес-процессов, отчётность.
-                  Используя наши технологии, все ручные действия будут сведены к&nbsp;минимуму.
-                </p>
-              </div>
-            </div>
+            <h3>Задерживается рейс?</h3>
+            <p>
+              Работник нашей компании гарантированно вас дождется,
+              и&nbsp;за&nbsp;это время Вам не&nbsp;придется доплачивать, что&nbsp;очень удобно
+              для&nbsp;каждого клиента. При переносе вылета, диспетчер произведет
+              замену автомобиля, поэтому Вы&nbsp;гарантированно не&nbsp;останетесь без&nbsp;транспорта.
+            </p>
+            <h3>Все цены на сайте указаны за машину</h3>
+            <p>
+              У&nbsp;нас на&nbsp;сайте все&nbsp;цены фиксированы и&nbsp;указаны за&nbsp;машину.
+              Мы понимаем, что&nbsp;в&nbsp;Крыму распространена проблема подсадки
+              в&nbsp;автомобиль других людей, без&nbsp;ведома клиента, однако, мы&nbsp;не&nbsp;оказываем
+              таких услуг и&nbsp;при&nbsp;заказе у&nbsp;нас случайно такого не&nbsp;может произойти.
+            </p>
+            <h3>Машина подается заранее</h3>
+            <p>
+              Перевозчик знает номер рейса, которым вы&nbsp;прилетаете в&nbsp;аэропорт
+              — такси уже ждет на&nbsp;стоянке, а&nbsp;водитель встречает вас так близко
+              к&nbsp;зоне прилета, насколько позволяют правила. То&nbsp;же&nbsp;самое — для
+              такси от&nbsp;вокзалов и&nbsp;из&nbsp;отелей: встречающий будет на&nbsp;месте,
+              по&nbsp;указанному адресу — таково правило сервиса. Можно вызвать
+              местное такси в&nbsp;аэропорт это будет дороже и&nbsp;придется ждать машину,
+              искать водителя, и&nbsp;времени уйдет на&nbsp;пол часа больше,
+              чем если Вы закажите у&nbsp;нас.
+            </p>
+            <h3>Если нужно, в&nbsp;авто будет детское кресло</h3>
+            <p>
+              При заказе нашего такси достаточно выбрать, сколько вам нужно
+              детских кресел и&nbsp;для&nbsp;какого возраста. Водитель приедет на&nbsp;машине,
+              укомплектованной для&nbsp;перевозки детей. Если на&nbsp;месте пытаться заказать
+              такси в&nbsp;аэропорт и&nbsp;просить машину с&nbsp;одним-двумя детскими креслами,
+              приходится ждать не&nbsp;меньше 30 минут, пока оператор ищет варианты,
+              а&nbsp;может и&nbsp;не&nbsp;найти.
+            </p>
+            <h3>Можно получить мини-экскурсию</h3>
+            <p>
+              Мы стараемся назначать на&nbsp;заказы местных водителей. Поэтому можно
+              расспросить о&nbsp;Крыме и&nbsp;городе куда Вы направляетесь.
+              Такси от&nbsp;Вежливых людей в&nbsp;Крыму, в&nbsp;первую очередь
+              туристическая услуга. Водители-профессионалы это понимают
+              и&nbsp;стараются сделать так, чтобы турист начал отдыхать еще во&nbsp;время поездки.
+            </p>
+            <h3>Круглосуточная информационная поддержка</h3>
+            <p>
+              Наши менеджеры ответят Вам на&nbsp;все вопросы в&nbsp;любое время суток.
+              Мы&nbsp;ведем наших клиентов, пока не&nbsp;доставим их по&nbsp;адресу.
+              Вы гарантированно получите обратную связь по&nbsp;любому вопросу.
+            </p>
           </div>
         </div>
       </div>
     </section>
-    <section class="financial-analytics parallax-window" data-parallax="scroll" data-image-src="assets/img/financial-analytics-visual.jpg">
+    <section class="how-to-order">
+      <h2>Как заказать</h2>
       <div class="container">
-        <div class="row" data-animation="fadeIn">
-          <div class="col-md-12">
-            <h2>Финансовая аналитика</h2>
-          </div>
-        </div>
-        <div class="row" data-animation="fadeIn">
-          <div class="col-md-6 offset-3">
-            <p class="comment">
-              Dashboard — инструмент отчётности, который используется
-              для&nbsp;быстрого визуального сравнительного анализа ключевых показателей
+        <div class="row">
+          <div class="col-md-10 offset-1">
+            <p class="how-to-order__p1">
+              Услуга трансфера от&nbsp;Вежливых людей - выгодная альтернатива вызова
+              такси в&nbsp;Крыму, в&nbsp;аэропорт или&nbsp;из&nbsp;аэропорта. Так же мы можем организовать
+              поездку между городами Крыма или&nbsp;туристическими местами, но&nbsp;обычно это поездки
+              от&nbsp;или&nbsp;до&nbsp;ж/д вокзала, авто вокзала, аэропорта или&nbsp;орского порта.
             </p>
           </div>
         </div>
-        <div class="row dashboard" data-animation="fadeIn" data-animation-delay="500ms">
-          <div class="col-md-6 dashboard-mobile"><img src="assets/img/dashboard.png" alt="дашборд"></div>
-          <div class="col-md-6">
-            <div class="financial-analytics__item">
-              <h3>Скорость принятия решений</h3>
-              <p>
-                Специально разработанные отчётыпозволяют руководителям
-                Fintech-компаний оперативно принимать решения. Все возникающие
-                проблемы и отклонений от плана видны в режиме реального времени.
-              </p>
+        <div class="row row--advantages">
+          <div class="col-md-4 row">
+            <div class="col-md-4 advantages__number"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="n-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 81.3 102.5" style="enable-background:new 0 0 81.3 102.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#31CB87;stroke-miterlimit:10;}
+</style>
+<path id="_x31_" class="st0" d="M29.1,38.9l-11-17.3L44.7,2.3h15.1v98h-21V32.1L29.1,38.9z"/>
+</svg>
+
             </div>
-            <div class="financial-analytics__item">
-              <h3>Анализы и прогнозы</h3>
-              <p>
-                Также этот инструмент помогает менеджерам компании анализировать
-                тенденции за прошедший период и прогнозировать показатели на будущее.
-              </p>
-            </div>
-            <div class="financial-analytics__item">
-              <h3>Улучшение KPI</h3>
-              <p>
-                С помощью нашей аналитики вы можете добиться улучшения
-                ключевых показателей микрофинансовых компаний в следующих
-                структурных подразделениях: маркетинг, управление рисками
-                и взысканием.
-              </p>
-            </div>
-            <div class="financial-analytics__item">
-              <h3>Гибкость</h3>
-              <p>
-                Вы можете создать индивидуальное решение для кредитования,
-                которое идеально соответствует потребностям вашего бизнеса,
-                взяв за основу нашу платформу.
-              </p>
+            <div class="col-md-8">
+              <p>Укажите пункты назначения</p>
             </div>
           </div>
-          <div class="col-md-6 dashboard-desktop"><img src="assets/img/dashboard.png" alt="дашборд"></div>
-        </div>
-      </div>
-    </section>
-    <section class="partners">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="partners__logo" data-animation="fadeIn" data-animation-delay="100ms"><img src="assets/img/partners/partner-platiza.svg" alt="Платиза"></div>
-            <div class="partners__logo" data-animation="fadeIn" data-animation-delay="200ms"><img src="assets/img/partners/partner-nbk.svg" alt="Бюро кредитных историй"></div>
-            <div class="partners__logo" data-animation="fadeIn" data-animation-delay="300ms"><img src="assets/img/partners/partner-equifax.svg" alt="Equifax"></div>
-            <div class="partners__logo" data-animation="fadeIn" data-animation-delay="400ms"><img src="assets/img/partners/partner-cyberplat.png" alt="Cyberplat"></div>
-            <div class="partners__logo" data-animation="fadeIn" data-animation-delay="500ms"><img src="assets/img/partners/partner-bankiru.svg" alt="Banki.ru"></div>
-            <div class="partners__logo" data-animation="fadeIn" data-animation-delay="600ms"><img src="assets/img/partners/partner-mastercard.svg" alt="Mastercard"></div>
-            <div class="partners__logo" data-animation="fadeIn" data-animation-delay="700ms"><img src="assets/img/partners/partner-visa.svg" alt="Visa"></div>
-            <div class="partners__logo" data-animation="fadeIn" data-animation-delay="800ms"><img src="assets/img/partners/partner-yandex.svg" alt="Яндекс.Деньги"></div>
+          <div class="col-md-4 row">
+            <div class="col-md-4 advantages__number"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="n-2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 81.3 102.5" style="enable-background:new 0 0 81.3 102.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#31CB87;stroke-miterlimit:10;}
+</style>
+<path id="_x32_" class="st0" d="M72.6,100.8H9.4V84c0.1-0.1,2.4-2.3,6.9-6.6l7.7-7.7c1.7-1.9,3.9-4.2,6.7-7c3.2-3.4,5.4-6,6.7-8
+	l4.6-7.1c3.3-4.9,4.9-10,4.9-15.3c0-6.4-3-9.7-9-9.7c-2.7,0-4.9,0.9-6.4,2.6c-1.6,1.7-3,4.4-4.3,7.9l-17.5-8
+	c1.7-7.4,5.2-13.1,10.4-17.3c5.3-4.2,12.1-6.2,20.4-6.2c9.1,0,16.1,2.6,21.1,7.7c5.1,5.1,7.7,11.4,7.7,18.8
+	c0,18.6-10.9,36.3-32.8,53.1h36.1C72.6,81.2,72.6,100.8,72.6,100.8z"/>
+</svg>
+
+            </div>
+            <div class="col-md-8">
+              <p>Подтвердите свой тариф</p>
+            </div>
+          </div>
+          <div class="col-md-4 row">
+            <div class="col-md-4 advantages__number"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="n-3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 81.3 102.5" style="enable-background:new 0 0 81.3 102.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#31CB87;stroke-miterlimit:10;}
+</style>
+<path id="_x33_" class="st0" d="M40.5,101.9c-7.5,0-14-1.5-19.6-4.4s-9.8-6.9-12.7-11.8l11.6-15.5C26.1,77.4,32.6,81,39.1,81
+	c3.9,0,7-0.9,9.1-2.7c2.1-1.8,3.2-4.1,3.2-6.9c0-7.2-5.6-10.8-16.7-10.8h-6.2v-21h5.6c4,0,7.3-0.9,9.7-2.6c2.5-1.7,3.7-4.1,3.7-7.2
+	c0-2.4-0.7-4.4-2.2-6c-1.5-1.5-3.7-2.3-6.7-2.3c-6.5,0-12.2,2.9-16.9,8.8l-11.4-15c6-9.8,16.1-14.7,30.4-14.7
+	c8.7,0,15.7,2.3,21.1,6.9C67.3,11.9,70,18,70,25.6c0,10.9-4.9,18.6-14.6,23V49c5.8,1.1,10.3,3.8,13.5,7.9c3.2,4.2,4.8,9.3,4.8,15.3
+	c0,9-3.2,16.2-9.5,21.7C58.1,99.3,50.1,101.9,40.5,101.9z"/>
+</svg>
+
+            </div>
+            <div class="col-md-8">
+              <p>Заполните форму</p>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="index-form">
-      <div class="container">
         <div class="row">
-          <div class="col-md-6 offset-3">
-            <h2 data-animation="fadeIn">Напишите нам</h2>
-            <p class="comment" data-animation="fadeIn">
-              Если у&nbsp;вас есть вопросы или&nbsp;вы хотите запланировать демонстрацию,
-              не&nbsp;стесняйтесь обращаться к&nbsp;нам, мы&nbsp;свяжемся с&nbsp;вами в&nbsp;течение 5&nbsp;минут
+          <div class="col-md-4 row">
+            <div class="col-md-4 advantages__number"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="n-4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 81.3 102.5" style="enable-background:new 0 0 81.3 102.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#31CB87;stroke-miterlimit:10;}
+</style>
+<path id="_x34_" class="st0" d="M68,100.3H47v-21H2.5V63.6l35-61.3h24.1l-32.1,56H47v-21h21v21h11.5v21H68V100.3z"/>
+</svg>
+
+            </div>
+            <div class="col-md-8">
+              <p>Получите контакты водителя</p>
+            </div>
+          </div>
+          <div class="col-md-4 row">
+            <div class="col-md-4 advantages__number"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="n-5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 81.3 102.5" style="enable-background:new 0 0 81.3 102.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#31CB87;stroke-miterlimit:10;}
+</style>
+<path id="_x35_" class="st0" d="M16.1,56.3l6.7-54.9h48.4v21h-30l-2,12.5h3.4c8.8,0,16.1,2.9,21.8,8.7c5.9,5.7,8.8,13.4,8.8,23.2
+	c0,10.6-3.4,19-10.1,25.2c-6.8,6.1-15.4,9.1-25.6,9.1c-5.5,0-11-1.2-16.5-3.5c-5.5-2.4-9.7-5.6-12.5-9.7l11.8-16.1
+	c2,2.3,4.6,4.3,8,5.9s6.6,2.4,9.7,2.4c3.7,0,6.8-1.1,9.2-3.4s3.6-5.2,3.6-8.9c0-4.2-1.6-7.6-4.8-10.2c-3.2-2.6-7.6-3.8-13.2-3.8
+	C25.1,53.8,19.5,54.6,16.1,56.3z"/>
+</svg>
+
+            </div>
+            <div class="col-md-8">
+              <p>Свяжитесь с&nbsp;водителем по&nbsp;прилёту</p>
+            </div>
+          </div>
+          <div class="col-md-4 row">
+            <div class="col-md-4 advantages__number"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="n-6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 81.3 102.5" style="enable-background:new 0 0 81.3 102.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#31CB87;stroke-miterlimit:10;}
+</style>
+<path id="_x36_" class="st0" d="M6.4,65.5c0-8.4,1.5-16.5,4.5-24.2s7-14.3,11.9-19.8c10.3-11,21-18,32.3-21l8.5,15.8
+	c-7.5,2.5-14,6.2-19.7,11.1c-5.6,4.9-9.9,10.6-12.7,17c3.8-3.5,9.6-5.3,17.2-5.3c7.3,0,13.6,2.8,18.9,8.4c5.4,5.5,8.1,12.6,8.1,21.4
+	c0,10.3-3.3,18.3-9.9,24.2c-6.6,5.8-14.3,8.7-23.1,8.7c-10.7,0-19.5-3.5-26.2-10.5C9.7,84.4,6.4,75.7,6.4,65.5z M28.8,65.7
+	c0,4.8,1.2,8.5,3.6,11.2c2.4,2.7,5.8,4.1,10.2,4.1c3.3,0,5.8-1,7.7-2.9c1.9-2,2.8-4.4,2.8-7.4c0-3.5-1-6.4-3.1-8.5S45,59,41.2,59
+	C36.1,58.8,32,61.1,28.8,65.7z"/>
+</svg>
+
+            </div>
+            <div class="col-md-8">
+              <p>Водитель довезёт Вас с&nbsp;комфортом</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-10 offset-1">
+            <p class="how-to-order__p2">
+              Заказать такси желательно заранее, за&nbsp;1-2 дня до&nbsp;вылета,
+              так&nbsp;как мы подбираем водителям поездки в&nbsp;обе стороны,
+              что&nbsp;позволяет гарантировать для&nbsp;Вас наименьшую цену
+              без&nbsp;потери качества.
             </p>
-            <input class="index-form__name" placeholder="Как вас зовут?" type="text" data-animation="fadeInUp" data-animation-delay="50ms">
-            <input class="index-form__contact" placeholder="Эл. почта или телефон" type="text" data-animation="fadeInUp" data-animation-delay="75ms">
-            <input class="index-form__company" placeholder="Компания" type="text" data-animation="fadeInUp" data-animation-delay="100ms">
-            <input class="index-form__message" placeholder="Сообщение" type="text" data-animation="fadeInUp" data-animation-delay="125ms">
-            <button data-animation="fadeIn" data-animation-delay="500ms">отправить</button>
           </div>
+        </div>
+      </div>
+    </section>
+    <section class="destinations">
+      <h2>Цены на популярные направления</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4"><a class="link" href="#"><span class="destinations__main-span"><i class="i-left">в Алупку<i class="dash"> —</i></i><i class="i-right">1 500 руб.</i></span></a></div>
+          <div class="col-md-4"><a class="link" href="#"><span class="destinations__main-span"><i class="i-left">в Бахчисарай<i class="dash"> —</i></i><i class="i-right">1 190 руб.</i></span></a></div>
+          <div class="col-md-4"><a class="link" href="#"><span class="destinations__main-span"><i class="i-left">в Белогорск<i class="dash"> —</i></i><i class="i-right">990 руб.</i></span></a></div>
+          <div class="col-md-4"><a class="link" href="#"><span class="destinations__main-span"><i class="i-left">в Верхнюю Кутузовку<i class="dash"> —</i></i><i class="i-right">890 руб.</i></span></a></div>
+          <div class="col-md-4"><a class="link" href="#"><span class="destinations__main-span"><i class="i-left">в Гаспру<i class="dash"> —</i></i><i class="i-right">1 490 руб.</i></span></a></div>
+          <div class="col-md-4"><a class="link" href="#"><span class="destinations__main-span"><i class="i-left">в Гурзуф<i class="dash"> —</i></i><i class="i-right">1 090 руб.</i></span></a></div>
+          <div class="col-md-4"><a class="link" href="#"><span class="destinations__main-span"><i class="i-left">в Джанкой<i class="dash"> —</i></i><i class="i-right">1 190 руб.</i></span></a></div>
+          <div class="col-md-4"><a class="link" href="#"><span class="destinations__main-span"><i class="i-left">в Заозерное<i class="dash"> —</i></i><i class="i-right">1 190 руб.</i></span></a></div>
+          <div class="col-md-4"><a class="link" href="#"><span class="destinations__main-span"><i class="i-left">в Евпаторию<i class="dash"> —</i></i><i class="i-right">1 090 руб.</i></span></a></div>
         </div>
       </div>
     </section>
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-md-3"><img class="logo" src="assets/img/logo.svg" alt="логотип"></div>
-          <div class="col-md-6"><a class="fb" href=""><img src="assets/img/social-fb-dark.svg" alt="фейсбук"></a><a class="link email" href="mailto:info@zenit.team">info@zenit.team</a><a class="link transfer-conditions" href="">Условия передачи данных</a></div>
-          <div class="col-md-3 copyright">© 2018 ZEN-IT</div>
+          <div class="col-md-3">© 2018 Служба такси «Вежливые люди»</div>
+          <div class="col-md-6"></div>
+          <div class="col-md-3 ketov">Дизайн —<a class="link" href="http://ketov.name" target="_blank"><span>Юрий Кетов</span></a></div>
         </div>
       </div>
     </footer>

@@ -48,5 +48,32 @@ $(document).ready(function () {
             fontSize: "2em", // размер шрифта элемента
             borderWidth: "5px" // ширина границ элемента
         });
-    })
+    });
+
+    $('.input').on('focus', function(){
+        var el = $(this);
+        el.addClass('focus');
+    });
+
+    $('.input').on('focusout', function(){
+        var el = $(this);
+        var t = el.val().trim();
+        if(t===''){
+            el.removeClass('focus');
+        }
+    });
+
+    /*$('.input').one('focus', function(){
+       var el = $(this);
+       el.addClass('focus');
+    });
+
+    $('.input').one('focusout', function(){
+        var el = $(this);
+        var t = el.val().trim();
+        if(t===''){
+            el.removeClass('focus');
+        }
+    });*/
+
 });

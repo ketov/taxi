@@ -1,7 +1,7 @@
 doctype html
 html
     head
-        title Такси | Главная
+        title Главная
         meta(name="description", content="")
         meta(name="keywords", content="")
         meta(charset="UTF-8") 
@@ -12,15 +12,95 @@ html
         link(rel="stylesheet" type="text/css" href="assets/css/all.min.css")
         link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic-ext")
     body
-        //img(src="assets/img/DesktopHD.png" alt="шаблон.десктоп" style="position: absolute; z-index: 1; opacity: 0.5;")
+        //img(src="assets/img/index-desktop.png" alt="шаблон.десктоп" style="position: absolute; z-index: 1; opacity: 0.5;")
+        include includes/header
+        include includes/index-offer
         include includes/reviews
-        include includes/first-screen
-        include includes/product
-        include includes/financial-analytics
-        include includes/partners
-        include includes/index-form
+        include includes/advantages
+        include includes/standards
+        include includes/how-to-order
+
+        section.destinations
+            h2 Цены на популярные направления
+            div.container
+                div.row
+                    div.col-md-4
+                        a.link(href="#")
+                            span.destinations__main-span
+                                i.i-left
+                                    | в Алупку
+                                    i.dash  —
+                                i.i-right 1 500 руб.
+
+                    div.col-md-4
+                        a.link(href="#")
+                            span.destinations__main-span
+                                i.i-left
+                                    | в Бахчисарай
+                                    i.dash  —
+                                i.i-right 1 190 руб.
+
+                    div.col-md-4
+                        a.link(href="#")
+                            span.destinations__main-span
+                                i.i-left
+                                    | в Белогорск
+                                    i.dash  —
+                                i.i-right 990 руб.
+
+                    div.col-md-4
+                        a.link(href="#")
+                            span.destinations__main-span
+                                i.i-left
+                                    | в Верхнюю Кутузовку
+                                    i.dash  —
+                                i.i-right 890 руб.
+
+                    div.col-md-4
+                        a.link(href="#")
+                            span.destinations__main-span
+                                i.i-left
+                                    | в Гаспру
+                                    i.dash  —
+                                i.i-right 1 490 руб.
+
+                    div.col-md-4
+                        a.link(href="#")
+                            span.destinations__main-span
+                                i.i-left
+                                    | в Гурзуф
+                                    i.dash  —
+                                i.i-right 1 090 руб.
+
+                    div.col-md-4
+                        a.link(href="#")
+                            span.destinations__main-span
+                                i.i-left
+                                    | в Джанкой
+                                    i.dash  —
+                                i.i-right 1 190 руб.
+
+                    div.col-md-4
+                        a.link(href="#")
+                            span.destinations__main-span
+                                i.i-left
+                                    | в Заозерное
+                                    i.dash  —
+                                i.i-right 1 190 руб.
+
+                    div.col-md-4
+                        a.link(href="#")
+                            span.destinations__main-span
+                                i.i-left
+                                    | в Евпаторию
+                                    i.dash  —
+                                i.i-right 1 090 руб.
+
+
+
+
+
         include includes/footer
-                            
        
         script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js")
         script(src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js")

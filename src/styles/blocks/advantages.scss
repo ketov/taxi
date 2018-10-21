@@ -1,0 +1,43 @@
+.advantages{
+    background: $dark-blue;
+    color: $white;
+    padding: 105px 0 117px;
+    h2{
+        margin: 0 0 88px 0;
+    }
+    .col-md-8{
+        align-items: center;
+        display: flex;
+    }
+    &__number{
+        max-width: 84px;
+        padding: 0;
+    }
+    p{
+        font-size: 145%;
+    }
+}
+
+.row--advantages{
+    margin: 0 0 96px 0;
+}
+
+@media(max-width: 1380px){
+
+}
+
+@media(max-width: 1200px){
+
+}
+
+@media(max-width: 1000px){
+
+}
+
+@media(max-width: 850px){
+
+}
+
+@media(max-width: 767px){
+
+}

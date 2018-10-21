@@ -1,6 +1,6 @@
 body{
     background: $white;
-    color: $dark-text;
+    color: $black;
     font-family: $CR;
     margin: 0;
     padding: 0;
@@ -32,24 +32,24 @@ body{
 }
 
 h1{
-    font-family: $CL;
-    font-size: 450%;
+    font-family: $CB;
+    font-size: 300%;
     font-weight: normal;
     line-height: 100%;
+    text-align: center;
 }
 
 h2{
-    font-family: $CL;
-    font-size: 295%;
+    font-family: $CB;
+    font-size: 300%;
     font-weight: normal;
-    margin: 0 0 38px 0;
-    padding: 0 0 36px 0;
-    position: relative;
+    line-height: 100%;
+    text-align: center;
 }
 
 h3{
-    font-family: $CL;
-    font-size: 225%;
+    font-family: $CB;
+    font-size: 200%;
     font-weight: normal;
     line-height: 110%;
     margin: 0;
@@ -66,7 +66,6 @@ h3{
     }
     &:hover span{
         background-size: 21px 21px;
-        color: $dark-text;
     }
 }
 
@@ -88,28 +87,49 @@ p.big{
 button{
     background: $green;
     border: none;
-    border-radius: 35px;
-    color: $dark-text;
+    border-radius: 0;
+    color: $white;
     cursor: pointer;
     font-family: $CB;
-    font-size: 90%;
+    font-size: 85%;
     letter-spacing: 1px;
     outline: none;
-    padding: 19px 56px 18px;
+    padding: 19px 8px 18px;
     position: relative;
+    text-align: center;
     text-transform: uppercase;
     top: 0;
     transition: 0.15s ease;
-    &:hover{
-        background: $lightgreen;
-    }
     &:active{
         top: 2px;
     }
 }
 
 input{
+    border: 1px solid $light-gray;
+    margin: 0;
     outline: none;
+    padding: 26px 0 5px 16px;
+    transition: 0.1s ease;
+    width: 100%;
+}
+
+input.focus ~ label{
+    font-size: 85%;
+    top: 8px;
+}
+
+label{
+    color: $dark-gray;
+    display: block;
+    left: 16px;
+    position: absolute;
+    transition: 0.2s;
+    top: 17px;
+}
+
+fieldset{
+    position: relative;
 }
 
 @font-face{

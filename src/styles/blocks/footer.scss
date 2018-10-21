@@ -1,56 +1,20 @@
 footer{
-    background: $dark-bg;
-    color: $white;
-    font-size: 85%;
-    padding: 22px 0 22px 0;
-    .logo{
-        width: 164px;
+    border-top: 1px solid $light-gray;
+    font-size: 115%;
+    margin: 120px 0 0 0;
+    padding: 24px 0 23px;
+    .link{
+        color: $black;
     }
-    .fb{
-        background: $green;
-        border-radius: 24px;
-        padding: 9px 15px 9px 14px;
-    }
-    .fb, .email{
-        margin-right: 7%;
-    }
-    a{
-        color: $white;
-    }
-    .col-md-6{
-        margin: 11px 0 0 0;
-        text-align: center;
-    }
-    .copyright{
-        margin: 11px 0 0 0;
+    .ketov{
         text-align: right;
     }
 }
 
 @media(max-width: 1000px){
-    footer{
-        padding: 16px 0;
-        .fb, .email{
-            margin-right: 6%;
-        }
-    }
+
 }
 
 @media(max-width: 767px){
-    footer{
-        padding: 24px 0 16px;
-        .logo{
-            display: block;
-            margin: 0 auto;
-        }
-        .col-md-6{
-            margin: 20px 0 0;
-        }
-        .fb, .email{
-            margin-right: 5%;
-        }
-        .copyright{
-            text-align: center;
-        }
-    }
+
 }

@@ -1,0 +1,52 @@
+.destinations{
+    h2{
+        margin: 80px 0 52px 0;
+    }
+    a {
+        display: flex;
+        color: $black;
+        font-size: 115%;
+        width: 100%;
+    }
+    .link{
+        &:hover span{
+            background-size: 32px 32px;
+        }
+    }
+    &__main-span{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 0 8px 0;
+        width: 100%;
+    }
+    i{
+        font-family: $CR;
+        font-style: normal;
+    }
+    .dash{
+        display: none;
+    }
+    .col-md-4{
+        margin: 0 0 36px 0;
+    }
+}
+
+@media(max-width: 1000px){
+
+}
+
+@media(max-width: 850px){
+
+}
+
+@media(max-width: 767px){
+
+}
+
+@media(max-width: 650px){
+
+}
+
+@media(max-width: 550px){
+
+}

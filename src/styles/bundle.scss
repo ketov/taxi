@@ -21,11 +21,14 @@
 @import '_main.scss';
 
 // Блоки
-@import 'blocks/financial-analytics.scss';
-@import 'blocks/first-screen.scss';
+@import 'blocks/404.scss';
+@import 'blocks/advantages.scss';
+@import 'blocks/all-pages.scss';
+@import 'blocks/destinations.scss';
 @import 'blocks/footer.scss';
 @import 'blocks/header.scss';
-@import 'blocks/index-form.scss';
-@import "blocks/partners.scss";
-@import 'blocks/product.scss';
+@import 'blocks/how-to-order.scss';
+@import 'blocks/index-offer.scss';
 @import 'blocks/reviews.scss';
+@import 'blocks/search.scss';
+@import 'blocks/standards.scss';
