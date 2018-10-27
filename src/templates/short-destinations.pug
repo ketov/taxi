@@ -1,0 +1,164 @@
+doctype html
+html
+    head
+        title Короткие маршруты
+        meta(name="description", content="")
+        meta(name="keywords", content="")
+        meta(charset="UTF-8") 
+        meta(name='viewport' content='width=device-width,initial-scale=1')
+        meta(content='true' name='HandheldFriendly')
+        meta(content='width' name='MobileOptimized')
+        meta(content='yes' name='apple-mobile-web-app-capable')
+        link(rel="stylesheet" type="text/css" href="assets/css/all.min.css")
+    body
+        //img(src="assets/img/short-routes.png" alt="шаблон.десктоп" style="position: absolute; z-index: 1; opacity: 0.5;")
+        include includes/header-inner
+        section.search.search--inner.search--short-destinations
+            div.search__breadcrumbs
+                a.link(href="#")
+                    span Главная
+                span.slash /
+                a.link(href="#")
+                    span Такси из Симферополя
+                span.slash /
+                span.current Такси из Симферополя в Любимовку
+            h1 Заказать такси в Любимовку
+            div.container
+                div.row
+                    form.col-md-10.offset-1
+                        div.row
+                            div.col-md-4
+                                fieldset
+                                    input.input(id="from")
+                                    label(for="from") Откуда
+
+                            div.col-md-4
+                                fieldset
+                                    input.input.focus(id="where" value="Симферополь")
+                                    label(for="where") Куда
+
+                            div.col-md-2
+                                fieldset
+                                    input.input(id="passengers")
+                                    label(for="passengers") Пассажиры
+
+                            div.col-md-2
+                                button Найти
+
+
+        section.short-destinations__message
+            div.container
+                div.row
+                    div.col-md-10.offset-1
+                        p Дорогие друзья!
+                        p
+                            | Наша служба такси является междугородней и, к сожалению,
+                            | мы не предоставляем поездки на средние и короткие дистанции.
+                            | Но мы заботливо подготовили для Вас контакты наших коллег,
+                            | которые осуществляют городские перевозки.
+
+        section.destinations
+            h2 Такси Симферополя
+            div.container
+                div.row
+                    div.col-md-4
+                        a.link(href="tel:+79785555555")
+                            span.destinations__main-span
+                                i.i-left
+                                    | Севтакси
+                                    i.dash  —
+                                i.i-right +7 (978) 555-55-55
+
+                    div.col-md-4
+                        a.link(href="tel:+79780701900")
+                            span.destinations__main-span
+                                i.i-left
+                                    | МегаКрым
+                                    i.dash  —
+                                i.i-right +7 (978) 070-19-00
+
+                    div.col-md-4
+                        a.link(href="tel:+79787164137")
+                            span.destinations__main-span
+                                i.i-left
+                                    | Ананас
+                                    i.dash  —
+                                i.i-right +7 (978) 716-41-37
+
+                    div.col-md-4
+                        a.link(href="tel:+79898500900")
+                            span.destinations__main-span
+                                i.i-left
+                                    | Везёт
+                                    i.dash  —
+                                i.i-right +7 (989) 850-09-00
+
+                    div.col-md-4
+                        a.link(href="tel:+79788052576")
+                            span.destinations__main-span
+                                i.i-left
+                                    | ВИП
+                                    i.dash  —
+                                i.i-right +7 (978) 805-25-76
+
+        section.destinations
+            h2 Популярные междугородние направления из Севастополя
+            div.container
+                div.row
+                    div.col-md-4
+                        a.link(href="#")
+                            span.destinations__main-span
+                                i.i-left
+                                    | в аэропорт Симферополя
+                                    i.dash  —
+                                i.i-right 1 500 руб.
+
+                    div.col-md-4
+                        a.link(href="#")
+                            span.destinations__main-span
+                                i.i-left
+                                    | в Ялту
+                                    i.dash  —
+                                i.i-right 1 700 руб.
+
+                    div.col-md-4
+                        a.link(href="#")
+                            span.destinations__main-span
+                                i.i-left
+                                    | в Гаспру
+                                    i.dash  —
+                                i.i-right 1 600 руб.
+
+                    div.col-md-4
+                        a.link(href="#")
+                            span.destinations__main-span
+                                i.i-left
+                                    | в Алушту
+                                    i.dash  —
+                                i.i-right 2 000 руб.
+
+                    div.col-md-4
+                        a.link(href="#")
+                            span.destinations__main-span
+                                i.i-left
+                                    | в Любимовку
+                                    i.dash  —
+                                i.i-right 1 000 руб.
+
+                    div.col-md-4
+                        a.link(href="#")
+                            span.destinations__main-span
+                                i.i-left
+                                    | в Любимовку
+                                    i.dash  —
+                                i.i-right 1 000 руб.
+
+                div.row
+                    a.button(href="") Все направления
+
+        include includes/reviews
+        include includes/footer
+       
+        script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js")
+        script(src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js")
+        script(src="assets/js/app.min.js")

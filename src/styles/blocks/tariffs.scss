@@ -1,0 +1,83 @@
+.tariffs{
+    h3{
+        margin: 40px 0 22px;
+        text-align: center;
+    }
+    &__tariff{
+        background: $white;
+        color: $black;
+        padding: 26px 24px 24px;
+        position: relative;
+        text-align: center;
+        .i{
+            cursor: pointer;
+            padding: 12px;
+            position: absolute;
+            right: 0;
+            top: 0;
+            &:hover ~ .comment{
+                opacity: 1;
+                top: -65px;
+                transition: 0.25s;
+            }
+        }
+        .comment{
+            background: $white;
+            font-size: 100%;
+            left: 50%;
+            margin-left: -37px;
+            opacity: 0;
+            padding: 11px 19px;
+            position: absolute;
+            top: -60px;
+            transition: 0.25s ease;
+            width: 234px;
+        }
+        img{
+            display: block;
+            margin: 0 auto;
+        }
+        .name{
+            font-size: 125%;
+            margin: 6px 0 0 0;
+        }
+        .model{
+            font-size: 85%;
+        }
+        .price{
+            font-family: $CB;
+            font-size: 170%;
+            position: relative;
+        }
+        .rub{
+            font-size: 80%;
+            margin: 0 0 0 5px;
+        }
+        .button{
+            font-size: 65%;
+            margin: 3px 0 0 0;
+            padding: 14px 0 11px;
+            width: 100%;
+        }
+    }
+}
+
+@media(max-width: 1380px){
+
+}
+
+@media(max-width: 1200px){
+
+}
+
+@media(max-width: 1000px){
+
+}
+
+@media(max-width: 850px){
+
+}
+
+@media(max-width: 767px){
+
+}

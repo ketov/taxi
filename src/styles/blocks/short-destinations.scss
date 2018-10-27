@@ -1,0 +1,35 @@
+.short-destinations{
+    &__message{
+        margin: -120px 0 0 0;
+        .col-md-10{
+            background: $green;
+            color: $white;
+            padding: 30px 48px 52px;
+            p{
+                font-size: 170%;
+                line-height: 145%;
+                margin: 17px 0 0;
+            }
+        }
+    }
+}
+
+@media(max-width: 1000px){
+
+}
+
+@media(max-width: 850px){
+
+}
+
+@media(max-width: 767px){
+
+}
+
+@media(max-width: 650px){
+
+}
+
+@media(max-width: 550px){
+
+}

@@ -84,7 +84,8 @@ p.big{
     font-size: 115%;
 }
 
-button{
+button
+{
     background: $green;
     border: none;
     border-radius: 0;
@@ -100,6 +101,29 @@ button{
     text-transform: uppercase;
     top: 0;
     transition: 0.15s ease;
+    &:active{
+        top: 2px;
+    }
+}
+
+.button{
+    background: $green;
+    border: none;
+    border-radius: 0;
+    color: $white;
+    cursor: pointer;
+    display: table;
+    font-family: $CB;
+    font-size: 85%;
+    letter-spacing: 1px;
+    outline: none;
+    padding: 19px 36px 18px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    top: 0;
+    transition: 0.15s ease;
+    width: auto;
     &:active{
         top: 2px;
     }

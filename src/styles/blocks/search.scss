@@ -2,13 +2,26 @@
     &--inner{
         background: $blue;
         color: $white;
-        padding: 112px 0 60px;
+        padding: 103px 0 60px;
     }
     &--main{
         padding: 40px 0 60px;
     }
+    &__breadcrumbs{
+        text-align: center;
+        .link{
+            color: $white;
+            font-size: 115%;
+        }
+        .current{
+            font-size: 115%;
+        }
+        .slash{
+            margin: 0 12px 0 12px;
+        }
+    }
     h1{
-        margin: 0 0 32px 0;
+        margin: 38px 0 28px 0;
     }
     form{
         background: $white;
@@ -23,6 +36,10 @@
     .col-md-2{
         padding-left: 0;
     }
+}
+
+.search.search--inner.search--short-destinations{
+    padding: 103px 0 160px;
 }
 
 .index-offer__form{

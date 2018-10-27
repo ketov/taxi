@@ -1,0 +1,57 @@
+doctype html
+html
+    head
+        title Выбор тарифа
+        meta(name="description", content="")
+        meta(name="keywords", content="")
+        meta(charset="UTF-8") 
+        meta(name='viewport' content='width=device-width,initial-scale=1')
+        meta(content='true' name='HandheldFriendly')
+        meta(content='width' name='MobileOptimized')
+        meta(content='yes' name='apple-mobile-web-app-capable')
+        link(rel="stylesheet" type="text/css" href="assets/css/all.min.css")
+    body
+        //img(src="assets/img/tariffs-desktop.png" alt="шаблон.десктоп" style="position: absolute; z-index: 1; opacity: 0.5;")
+        include includes/header-inner
+        section.search.search--inner
+            div.search__breadcrumbs
+                a.link(href="#")
+                    span Главная
+                span.slash /
+                a.link(href="#")
+                    span Такси из Ялты
+                span.slash /
+                span.current Такси из Ялты в аэропорт Симферополя
+            h1 Такси из Ялты в аэропорт Симферополя
+            div.container
+                div.row
+                    form.col-md-10.offset-1
+                        div.row
+                            div.col-md-4
+                                fieldset
+                                    input.input.focus(id="from" value="Ялта")
+                                    label(for="from") Откуда
+
+                            div.col-md-4
+                                fieldset
+                                    input.input.focus(id="where" value="Симферополь")
+                                    label(for="where") Куда
+
+                            div.col-md-2
+                                fieldset
+                                    input.input(id="passengers")
+                                    label(for="passengers") Пассажиры
+
+                            div.col-md-2
+                                button Найти
+
+            include includes/tariffs
+
+
+        include includes/reviews
+        include includes/question-answer
+        include includes/footer
+       
+        script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js")
+        script(src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js")
+        script(src="assets/js/app.min.js")
