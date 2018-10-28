@@ -1,0 +1,105 @@
+doctype html
+html
+    head
+        title Заказ такси
+        meta(name="description", content="")
+        meta(name="keywords", content="")
+        meta(charset="UTF-8") 
+        meta(name='viewport' content='width=device-width,initial-scale=1')
+        meta(content='true' name='HandheldFriendly')
+        meta(content='width' name='MobileOptimized')
+        meta(content='yes' name='apple-mobile-web-app-capable')
+        link(rel="stylesheet" type="text/css" href="assets/css/all.min.css")
+    body
+        //img(src="assets/img/order-desktop.png" alt="шаблон.десктоп" style="position: absolute; z-index: 1; opacity: 0.5;")
+        include includes/header-inner
+        section.search.search--inner.search--order
+            div.search__breadcrumbs
+                a.link(href="#")
+                    span Главная
+                span.slash /
+                a.link(href="#")
+                    span Такси из Ялты
+                span.slash /
+                span.current Такси из Ялты в аэропорт Симферополя
+
+        section.order
+            h2 Заказ такси
+            div.container
+                div.row
+                    form.col-md-6.offset-1
+                        div.row
+                            div.col-md-12
+                                h3 Информация о трансфере
+                                fieldset
+                                    input.input(id="from" name="from")
+                                    label(for="from") Место отправления (адрес или название отеля)
+
+                        div.row
+                            div.col-md-6
+                                fieldset
+                                    input.input(id="date" name="date")
+                                    label(for="date") Дата
+                            div.col-md-6
+                                fieldset
+                                    input.input(id="time" name="time")
+                                    label(for="time") Время
+
+                        div.row
+                            div.col-md-12
+                                fieldset.select
+                                    div.comment Ваш часовой пояс
+                                    img.tick(src="assets/img/select-triangle.svg" alt="")
+                                    select(name="timezone")
+                                        option Калининград (MSK-1)
+                                        option(selected) Москва (MSK)
+                                        option Самара (MSK+1)
+                                        option Екатеринбург (MSK+2)
+                                        option Омск (MSK+3)
+                                        option Красноярск (MSK+4)
+                                        option Иркутск (MSK+5)
+                                        option Якутск (MSK+6)
+                                        option Владивосток (MSK+7)
+                                        option Магадан (MSK+8)
+                                        option Камчатка (MSK+9)
+
+                        div.row
+                            div.col-md-6
+                                fieldset.select
+                                    div.comment Взрослые пассажиры
+                                    img.tick(src="assets/img/select-triangle.svg" alt="")
+                                    select(name="adult-passengers")
+                                        option(selected) 1
+                                        option 2
+                                        option 3
+                                        option 4
+                                        option 5
+
+                            div.col-md-6
+                                fieldset.select
+                                    div.comment Дети
+                                    img.tick(src="assets/img/select-triangle.svg" alt="")
+                                    select(name="child-passengers")
+                                        option(selected) -
+                                        option 1
+                                        option 2
+                                        option 3
+                                        option 4
+                                        option 5
+
+                        div.row
+                            fieldset.checkbox
+                                label(for="child-seats-and-boosters-block") Детские кресла и бустеры
+                                input(type="checkbox" id="child-seats-and-boosters-block")
+
+
+
+
+
+        include includes/reviews
+        include includes/question-answer
+        include includes/footer
+       
+        script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js")
+        script(src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js")
+        script(src="assets/js/app.min.js")

@@ -63,6 +63,24 @@ $(document).ready(function () {
         }
     });
 
+
+
+
+
+    $('#adult-passengers-label').on('click', function(){
+        $('#adult-passengers').children('option').show();
+    });
+
+    $('.checkbox').children('input').on('click', function(){
+        var el = $(this);
+        if(el.prop('checked')){
+            el.siblings('label').addClass('active');
+        }
+        else{
+            el.siblings('label').removeClass('active');
+        }
+    });
+
     /*$('.input').one('focus', function(){
        var el = $(this);
        el.addClass('focus');

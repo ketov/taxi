@@ -1,0 +1,42 @@
+.order{
+    h2{
+        margin: 84px 0 0 0;
+    }
+    form{
+        box-shadow: 0 7px 56px 0px rgba(210,214,217,.5);
+        margin-top: 30px;
+        padding: 48px 60px 0;
+        h3{
+            margin: 0 0 22px 0;
+        }
+        .row{
+            margin: 0 0 24px 0;
+            .col-md-6:first-child{
+                padding-right: 8px;
+            }
+            .col-md-6:last-child{
+                padding-left: 8px
+            }
+        }
+    }
+}
+
+@media(max-width: 1380px){
+
+}
+
+@media(max-width: 1200px){
+
+}
+
+@media(max-width: 1000px){
+
+}
+
+@media(max-width: 850px){
+
+}
+
+@media(max-width: 767px){
+
+}

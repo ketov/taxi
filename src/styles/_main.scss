@@ -79,11 +79,6 @@ p.big{
     line-height: 160%;
 }
 
-.comment{
-    font-family: $CL;
-    font-size: 115%;
-}
-
 button
 {
     background: $green;
@@ -143,6 +138,24 @@ input.focus ~ label{
     top: 8px;
 }
 
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    padding: 0;
+    background-image: url(/pics/i/icon-select-arrow.svg);
+    background-position: 98% center;
+    background-repeat: no-repeat;
+    border: none;
+    background: transparent;
+    outline: none;
+    border-radius: 0;
+    width: 100%;
+}
+
 label{
     color: $dark-gray;
     display: block;
@@ -154,6 +167,82 @@ label{
 
 fieldset{
     position: relative;
+}
+
+fieldset.select{
+    border: 1px solid $light-gray;
+    .comment{
+        color: $dark-gray;
+        cursor: pointer;
+        display: block;
+        font-size: 85%;
+        left: 15px;
+        position: absolute;
+        transition: 0.2s;
+        top: 7px;
+        z-index: 0;
+    }
+    .tick{
+        position: absolute;
+        right: 20px;
+        top: 23px;
+        transition: 0.2s;
+    }
+    select{
+        padding: 26px 30px 5px 16px;
+        option{
+            width: 90%;
+        }
+    }
+    &:focus .tick{
+        transform: rotate(40deg);
+    }
+}
+
+fieldset.select:focus{
+    border: 1px solid red;
+}
+
+.checkbox{
+    label{
+        color: $black;
+        cursor: pointer;
+        padding: 2px 0 0 56px;
+        position: relative;
+        &:after{
+            background: $white;
+            border-radius: 15px;
+            content: '';
+            height: 20px;
+            left: 2px;
+            position: absolute;
+            transition: 0.25s ease;
+            width: 20px;
+        }
+        &:before{
+            background: $red;
+            border-radius: 19px;
+            content: '';
+            left: 0;
+            height: 24px;
+            position: absolute;
+            top: 0;
+            transition: 0.25s ease;
+            width: 48px;
+        }
+    }
+    label.active{
+        &:before{
+            background: $green;
+        }
+        &:after{
+            left: 26px;
+        }
+    }
+}
+
+input[type=checkbox]{
+    display: none;
 }
 
 @font-face{
