@@ -25,10 +25,14 @@
 import "script!./libs/parallax.min";
 //import "script!./libs/jquery-3.3.1.slim.min";
 import "script!./libs/jquery.scrollAnimations.min";
+import "script!./libs/swiper.min";
+//import "script!./libs/jquery.simple-scroll-follow.min";
 
 
 // Собственный js
 import "./main";
+import "./blocks/advantages";
+import "./blocks/header";
 import "./blocks/question-answer";
 //import "./blocks/nav";
 //import "./blocks/projects-slider";

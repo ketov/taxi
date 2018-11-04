@@ -1,7 +1,7 @@
 doctype html
 html
     head
-        title Все направления
+        title Откуда
         meta(name="description", content="")
         meta(name="keywords", content="")
         meta(charset="UTF-8") 
@@ -18,20 +18,20 @@ html
                 a.link(href="#")
                     span Главная
                 span.slash /
-                span.current Такси в аэропорт Симферополя
-            h1 Такси-трансфер в аэропорт Симферополя
+                span.current Такси из аэропорта Симферополя
+            h1 Такси-трансфер из аэропорта Симферополя
             div.container
                 div.row
                     form.col-md-10.offset-1
                         div.row
                             div.col-md-4
                                 fieldset
-                                    input.input(id="from")
+                                    input.input.focus(id="from" value="Симферополь")
                                     label(for="from") Откуда
 
                             div.col-md-4
                                 fieldset
-                                    input.input.focus(id="where" value="Симферополь")
+                                    input.input(id="where")
                                     label(for="where") Куда
 
                             div.col-md-2
@@ -44,15 +44,18 @@ html
 
 
 
+        include includes/reviews
+        include includes/advantages
+
         section.destinations
-            h2 Все направления в аэропорт Симферополя
+            h2 Все направления из аэропорта Симферополя
             div.container
                 div.row
                     div.col-md-4
                         a.link(href="#")
                             span.destinations__main-span
                                 i.i-left
-                                    | из Алупки
+                                    | в Алупку
                                     i.dash  —
                                 i.i-right 1 500 руб.
 
@@ -60,7 +63,7 @@ html
                         a.link(href="#")
                             span.destinations__main-span
                                 i.i-left
-                                    | из Бахчисарая
+                                    | в Бахчисарай
                                     i.dash  —
                                 i.i-right 1 190 руб.
 
@@ -68,7 +71,7 @@ html
                         a.link(href="#")
                             span.destinations__main-span
                                 i.i-left
-                                    | из Белогорска
+                                    | в Белогорск
                                     i.dash  —
                                 i.i-right 990 руб.
 
@@ -76,7 +79,7 @@ html
                         a.link(href="#")
                             span.destinations__main-span
                                 i.i-left
-                                    | из Верхней Кутузовки
+                                    | в Верхнюю Кутузовку
                                     i.dash  —
                                 i.i-right 890 руб.
 
@@ -84,7 +87,7 @@ html
                         a.link(href="#")
                             span.destinations__main-span
                                 i.i-left
-                                    | из Гаспры
+                                    | в Гаспру
                                     i.dash  —
                                 i.i-right 1 490 руб.
 
@@ -92,7 +95,7 @@ html
                         a.link(href="#")
                             span.destinations__main-span
                                 i.i-left
-                                    | из Гурзуфа
+                                    | в Гурзуф
                                     i.dash  —
                                 i.i-right 1 090 руб.
 
@@ -100,7 +103,7 @@ html
                         a.link(href="#")
                             span.destinations__main-span
                                 i.i-left
-                                    | из Джанкой
+                                    | в Джанкой
                                     i.dash  —
                                 i.i-right 1 190 руб.
 
@@ -108,7 +111,7 @@ html
                         a.link(href="#")
                             span.destinations__main-span
                                 i.i-left
-                                    | из Заозерного
+                                    | в Заозерный
                                     i.dash  —
                                 i.i-right 1 190 руб.
 
@@ -116,7 +119,7 @@ html
                         a.link(href="#")
                             span.destinations__main-span
                                 i.i-left
-                                    | из Евпатории
+                                    | в Евпаторию
                                     i.dash  —
                                 i.i-right 1 090 руб.
 
@@ -124,7 +127,7 @@ html
                         a.link(href="#")
                             span.destinations__main-span
                                 i.i-left
-                                    | из Инкермана
+                                    | в Инкерман
                                     i.dash  —
                                 i.i-right 1 090 руб.
 
@@ -132,7 +135,7 @@ html
                         a.link(href="#")
                             span.destinations__main-span
                                 i.i-left
-                                    | из Казачей бухты
+                                    | в Казачью бухту
                                     i.dash  —
                                 i.i-right 1 190 руб.
 
@@ -140,7 +143,7 @@ html
                         a.link(href="#")
                             span.destinations__main-span
                                 i.i-left
-                                    | из Керчи
+                                    | в Керчь
                                     i.dash  —
                                 i.i-right 3 890 руб.
 
@@ -148,7 +151,7 @@ html
                         a.link(href="#")
                             span.destinations__main-span
                                 i.i-left
-                                    | из Нижней Кутузовки
+                                    | в Нижнюю Кутузовку
                                     i.dash  —
                                 i.i-right 990 руб.
 
@@ -156,7 +159,7 @@ html
                         a.link(href="#")
                             span.destinations__main-span
                                 i.i-left
-                                    | из Нового Света
+                                    | в Новый Свет
                                     i.dash  —
                                 i.i-right 1 690 руб.
 
@@ -164,7 +167,7 @@ html
                         a.link(href="#")
                             span.destinations__main-span
                                 i.i-left
-                                    | из Орловки
+                                    | в Орловку
                                     i.dash  —
                                 i.i-right 1 690 руб.
 
@@ -172,7 +175,7 @@ html
                         a.link(href="#")
                             span.destinations__main-span
                                 i.i-left
-                                    | из Полюшко
+                                    | в Полюшко
                                     i.dash  —
                                 i.i-right 1 090 руб.
 
@@ -180,7 +183,7 @@ html
                         a.link(href="#")
                             span.destinations__main-span
                                 i.i-left
-                                    | из Приморского
+                                    | в Приморский
                                     i.dash  —
                                 i.i-right 1 890 руб.
 
@@ -188,7 +191,7 @@ html
                         a.link(href="#")
                             span.destinations__main-span
                                 i.i-left
-                                    | из Рыбачьего
+                                    | в Рыбачье
                                     i.dash  —
                                 i.i-right 1 590 руб.
 
@@ -196,7 +199,7 @@ html
                         a.link(href="#")
                             span.destinations__main-span
                                 i.i-left
-                                    | из Севастополя
+                                    | в Севастополь
                                     i.dash  —
                                 i.i-right 1 090 руб.
 
@@ -204,7 +207,7 @@ html
                         a.link(href="#")
                             span.destinations__main-span
                                 i.i-left
-                                    | из Уютного
+                                    | в Уютное
                                     i.dash  —
                                 i.i-right 990 руб.
 
@@ -212,7 +215,7 @@ html
                         a.link(href="#")
                             span.destinations__main-span
                                 i.i-left
-                                    | из Скалистого
+                                    | в Скалистое
                                     i.dash  —
                                 i.i-right 690 руб.
 
@@ -220,7 +223,7 @@ html
                         a.link(href="#")
                             span.destinations__main-span
                                 i.i-left
-                                    | из Судака
+                                    | в Судак
                                     i.dash  —
                                 i.i-right 1 490 руб.
 
@@ -228,7 +231,7 @@ html
                         a.link(href="#")
                             span.destinations__main-span
                                 i.i-left
-                                    | из Щелкино
+                                    | в Щелкино
                                     i.dash  —
                                 i.i-right 2 090 руб.
 
@@ -236,10 +239,13 @@ html
                         a.link(href="#")
                             span.destinations__main-span
                                 i.i-left
-                                    | из Ялты
+                                    | в Ялту
                                     i.dash  —
                                 i.i-right 1 090 руб.
 
+
+                div.row
+                    a.button(href="#") Весь список
 
 
         include includes/footer

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Главная</title>
+    <title>Откуда</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta charset="UTF-8">
@@ -12,8 +12,8 @@
     <link rel="stylesheet" type="text/css" href="assets/css/all.min.css">
   </head>
   <body>
-    <!--img(src="assets/img/index-desktop.png" alt="шаблон.десктоп" style="position: absolute; z-index: 1; opacity: 0.5;")-->
-    <header data-animation="fadeIn" data-animation-delay="500ms">
+    <!--img(src="assets/img/DesktopHD.png" alt="шаблон.десктоп" style="position: absolute; z-index: 1; opacity: 0.5;")-->
+    <header class="inner" data-animation="fadeIn" data-animation-delay="500ms">
       <div class="container">
         <div class="row">
           <div class="col-md-2"><img class="logo" src="assets/img/logo.svg" alt="логотип"></div>
@@ -34,43 +34,36 @@
         </div>
       </div>
     </header>
-    <section class="index-offer">
+    <section class="search search--inner">
+      <div class="search__breadcrumbs"><a class="link" href="#"><span>Главная</span></a><span class="slash">/</span><span class="current">Такси из аэропорта Симферополя</span></div>
+      <h1>Такси-трансфер из аэропорта Симферополя</h1>
       <div class="container">
-        <div class="row" data-animation="fadeIn">
-          <div class="col-md-12">
-            <h1>Заказывайте такси-трансфер в&nbsp;аэропорт Симферополя и&nbsp;города Крыма</h1>
-          </div>
-        </div>
-        <div class="search search--main" data-animation="fadeIn" data-animation-delay="600ms">
-          <div class="container">
+        <div class="row">
+          <form class="col-md-10 offset-1">
             <div class="row">
-              <form class="col-md-10 offset-1 index-offer__form">
-                <div class="row">
-                  <div class="col-md-4">
-                    <fieldset>
-                      <input class="input" id="from">
-                      <label for="from">Откуда</label>
-                    </fieldset>
-                  </div>
-                  <div class="col-md-4">
-                    <fieldset>
-                      <input class="input focus" id="where" value="Симферополь">
-                      <label for="where">Куда</label>
-                    </fieldset>
-                  </div>
-                  <div class="col-md-2">
-                    <fieldset>
-                      <input class="input" id="passengers">
-                      <label for="passengers">Пассажиры</label>
-                    </fieldset>
-                  </div>
-                  <div class="col-md-2">
-                    <button>Найти</button>
-                  </div>
-                </div>
-              </form>
+              <div class="col-md-4">
+                <fieldset>
+                  <input class="input focus" id="from" value="Симферополь">
+                  <label for="from">Откуда</label>
+                </fieldset>
+              </div>
+              <div class="col-md-4">
+                <fieldset>
+                  <input class="input" id="where">
+                  <label for="where">Куда</label>
+                </fieldset>
+              </div>
+              <div class="col-md-2">
+                <fieldset>
+                  <input class="input" id="passengers">
+                  <label for="passengers">Пассажиры</label>
+                </fieldset>
+              </div>
+              <div class="col-md-2">
+                <button>Найти</button>
+              </div>
             </div>
-          </div><img class="main-img" src="assets/img/main-illustration.svg" alt="главная иллюстрация">
+          </form>
         </div>
       </div>
     </section>
@@ -289,225 +282,8 @@
         </div>
       </div>
     </section>
-    <section class="standards">
-      <h2>Стандарты</h2>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3" id="standards-menu-container">
-            <div id="standards-menu"><a class="standards__nav standards__nav--1" href="#"><span>Гарантинуем подачу машины</span></a><a class="standards__nav standards__nav--2" href="#"><span>Машина подается того класса, который заказывали</span></a><a class="standards__nav standards__nav--3" href="#"><span>Задерживается рейс?</span></a><a class="standards__nav standards__nav--4" href="#"><span>Все цены на&nbsp;сайте указаны за&nbsp;машину</span></a><a class="standards__nav standards__nav--5" href="#"><span>Машина подаётся заранее</span></a><a class="standards__nav standards__nav--6" href="#"><span>Если нужно, в&nbsp;авто будет детское кресло</span></a><a class="standards__nav standards__nav--7" href="#"><span>Можно получить мини-экскурсию</span></a><a class="standards__nav standards__nav--8" href="#"><span>Круглосуточная информационная поддержка</span></a></div>
-          </div>
-          <div class="col-md-9">
-            <h3 class="standards__h3--1">Гарантируем подачу машины</h3>
-            <p>
-              Гарантируем подачу машины. Если вы сделали заказ за&nbsp;24 часа,
-              в&nbsp;любой ситуации мы гарантируем подачу машины! Даже в&nbsp;случае форс-мажора,
-              мы найдем замену в&nbsp;течении 10 минут. Как мы это делаем?
-              В&nbsp;экстренных ситуациях мы доплачиваем водителям, чтобы гарантированно
-              найти машину и&nbsp;выполнить наши обязательства. В&nbsp;нашей системе зарегистрировано
-              свыше 6000 исполнителей, а&nbsp;это значит, что&nbsp;мы не&nbsp;испытываем дефицита
-              в&nbsp;водителях и&nbsp;мы гарантированно выполним Ваш заказ.
-            </p>
-            <h3 class="standards__h3--2">Машина подается того класса, который заказывали</h3>
-            <p>
-              Или класса выше. Вместительность известна заранее:
-              сколько человек может уехать, для&nbsp;скольких сумок
-              и&nbsp;чемоданов стандартных размеров есть место в&nbsp;багажнике. Заказывая
-              через какое-нибудь местное приложение такси от&nbsp;аэропорта,
-              это не&nbsp;всегда можно предсказать.
-            </p>
-            <h3 class="standards__h3--3">Задерживается рейс?</h3>
-            <p>
-              Работник нашей компании гарантированно вас дождется,
-              и&nbsp;за&nbsp;это время Вам не&nbsp;придется доплачивать, что&nbsp;очень удобно
-              для&nbsp;каждого клиента. При переносе вылета, диспетчер произведет
-              замену автомобиля, поэтому Вы&nbsp;гарантированно не&nbsp;останетесь без&nbsp;транспорта.
-            </p>
-            <h3 class="standards__h3--4">Все цены на сайте указаны за машину</h3>
-            <p>
-              У&nbsp;нас на&nbsp;сайте все&nbsp;цены фиксированы и&nbsp;указаны за&nbsp;машину.
-              Мы понимаем, что&nbsp;в&nbsp;Крыму распространена проблема подсадки
-              в&nbsp;автомобиль других людей, без&nbsp;ведома клиента, однако, мы&nbsp;не&nbsp;оказываем
-              таких услуг и&nbsp;при&nbsp;заказе у&nbsp;нас случайно такого не&nbsp;может произойти.
-            </p>
-            <h3 class="standards__h3--5">Машина подается заранее</h3>
-            <p>
-              Перевозчик знает номер рейса, которым вы&nbsp;прилетаете в&nbsp;аэропорт
-              — такси уже ждет на&nbsp;стоянке, а&nbsp;водитель встречает вас так близко
-              к&nbsp;зоне прилета, насколько позволяют правила. То&nbsp;же&nbsp;самое — для
-              такси от&nbsp;вокзалов и&nbsp;из&nbsp;отелей: встречающий будет на&nbsp;месте,
-              по&nbsp;указанному адресу — таково правило сервиса. Можно вызвать
-              местное такси в&nbsp;аэропорт это будет дороже и&nbsp;придется ждать машину,
-              искать водителя, и&nbsp;времени уйдет на&nbsp;пол часа больше,
-              чем если Вы закажите у&nbsp;нас.
-            </p>
-            <h3 class="standards__h3--6">Если нужно, в&nbsp;авто будет детское кресло</h3>
-            <p>
-              При заказе нашего такси достаточно выбрать, сколько вам нужно
-              детских кресел и&nbsp;для&nbsp;какого возраста. Водитель приедет на&nbsp;машине,
-              укомплектованной для&nbsp;перевозки детей. Если на&nbsp;месте пытаться заказать
-              такси в&nbsp;аэропорт и&nbsp;просить машину с&nbsp;одним-двумя детскими креслами,
-              приходится ждать не&nbsp;меньше 30 минут, пока оператор ищет варианты,
-              а&nbsp;может и&nbsp;не&nbsp;найти.
-            </p>
-            <h3 class="standards__h3--7">Можно получить мини-экскурсию</h3>
-            <p>
-              Мы стараемся назначать на&nbsp;заказы местных водителей. Поэтому можно
-              расспросить о&nbsp;Крыме и&nbsp;городе куда Вы направляетесь.
-              Такси от&nbsp;Вежливых людей в&nbsp;Крыму, в&nbsp;первую очередь
-              туристическая услуга. Водители-профессионалы это понимают
-              и&nbsp;стараются сделать так, чтобы турист начал отдыхать еще во&nbsp;время поездки.
-            </p>
-            <h3 class="standards__h3--8">Круглосуточная информационная поддержка</h3>
-            <p>
-              Наши менеджеры ответят Вам на&nbsp;все вопросы в&nbsp;любое время суток.
-              Мы&nbsp;ведем наших клиентов, пока не&nbsp;доставим их по&nbsp;адресу.
-              Вы гарантированно получите обратную связь по&nbsp;любому вопросу.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="how-to-order" id="how-to-order">
-      <h2>Как заказать</h2>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-10 offset-1">
-            <p class="how-to-order__p1">
-              Услуга трансфера от&nbsp;Вежливых людей - выгодная альтернатива вызова
-              такси в&nbsp;Крыму, в&nbsp;аэропорт или&nbsp;из&nbsp;аэропорта. Так же мы можем организовать
-              поездку между городами Крыма или&nbsp;туристическими местами, но&nbsp;обычно это поездки
-              от&nbsp;или&nbsp;до&nbsp;ж/д вокзала, авто вокзала, аэропорта или&nbsp;орского порта.
-            </p>
-          </div>
-        </div>
-        <div class="row row--advantages">
-          <div class="col-md-4 row">
-            <div class="col-md-4 advantages__number"><?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="h-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 81.3 102.5" style="enable-background:new 0 0 81.3 102.5;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:none;stroke:#31CB87;stroke-miterlimit:10;}
-</style>
-<path id="_x31_" class="st0" d="M29.1,38.9l-11-17.3L44.7,2.3h15.1v98h-21V32.1L29.1,38.9z"/>
-</svg>
-
-            </div>
-            <div class="col-md-8">
-              <p>Укажите пункты назначения</p>
-            </div>
-          </div>
-          <div class="col-md-4 row">
-            <div class="col-md-4 advantages__number"><?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="h-2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 81.3 102.5" style="enable-background:new 0 0 81.3 102.5;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:none;stroke:#31CB87;stroke-miterlimit:10;}
-</style>
-<path id="_x32_" class="st0" d="M72.6,100.8H9.4V84c0.1-0.1,2.4-2.3,6.9-6.6l7.7-7.7c1.7-1.9,3.9-4.2,6.7-7c3.2-3.4,5.4-6,6.7-8
-	l4.6-7.1c3.3-4.9,4.9-10,4.9-15.3c0-6.4-3-9.7-9-9.7c-2.7,0-4.9,0.9-6.4,2.6c-1.6,1.7-3,4.4-4.3,7.9l-17.5-8
-	c1.7-7.4,5.2-13.1,10.4-17.3c5.3-4.2,12.1-6.2,20.4-6.2c9.1,0,16.1,2.6,21.1,7.7c5.1,5.1,7.7,11.4,7.7,18.8
-	c0,18.6-10.9,36.3-32.8,53.1h36.1C72.6,81.2,72.6,100.8,72.6,100.8z"/>
-</svg>
-
-            </div>
-            <div class="col-md-8">
-              <p>Подтвердите свой тариф</p>
-            </div>
-          </div>
-          <div class="col-md-4 row">
-            <div class="col-md-4 advantages__number"><?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="h-3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 81.3 102.5" style="enable-background:new 0 0 81.3 102.5;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:none;stroke:#31CB87;stroke-miterlimit:10;}
-</style>
-<path id="_x33_" class="st0" d="M40.5,101.9c-7.5,0-14-1.5-19.6-4.4s-9.8-6.9-12.7-11.8l11.6-15.5C26.1,77.4,32.6,81,39.1,81
-	c3.9,0,7-0.9,9.1-2.7c2.1-1.8,3.2-4.1,3.2-6.9c0-7.2-5.6-10.8-16.7-10.8h-6.2v-21h5.6c4,0,7.3-0.9,9.7-2.6c2.5-1.7,3.7-4.1,3.7-7.2
-	c0-2.4-0.7-4.4-2.2-6c-1.5-1.5-3.7-2.3-6.7-2.3c-6.5,0-12.2,2.9-16.9,8.8l-11.4-15c6-9.8,16.1-14.7,30.4-14.7
-	c8.7,0,15.7,2.3,21.1,6.9C67.3,11.9,70,18,70,25.6c0,10.9-4.9,18.6-14.6,23V49c5.8,1.1,10.3,3.8,13.5,7.9c3.2,4.2,4.8,9.3,4.8,15.3
-	c0,9-3.2,16.2-9.5,21.7C58.1,99.3,50.1,101.9,40.5,101.9z"/>
-</svg>
-
-            </div>
-            <div class="col-md-8">
-              <p>Заполните форму</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 row">
-            <div class="col-md-4 advantages__number"><?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="h-4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 81.3 102.5" style="enable-background:new 0 0 81.3 102.5;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:none;stroke:#31CB87;stroke-miterlimit:10;}
-</style>
-<path id="_x34_" class="st0" d="M68,100.3H47v-21H2.5V63.6l35-61.3h24.1l-32.1,56H47v-21h21v21h11.5v21H68V100.3z"/>
-</svg>
-
-            </div>
-            <div class="col-md-8">
-              <p>Получите контакты водителя</p>
-            </div>
-          </div>
-          <div class="col-md-4 row">
-            <div class="col-md-4 advantages__number"><?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="h-5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 81.3 102.5" style="enable-background:new 0 0 81.3 102.5;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:none;stroke:#31CB87;stroke-miterlimit:10;}
-</style>
-<path id="_x35_" class="st0" d="M16.1,56.3l6.7-54.9h48.4v21h-30l-2,12.5h3.4c8.8,0,16.1,2.9,21.8,8.7c5.9,5.7,8.8,13.4,8.8,23.2
-	c0,10.6-3.4,19-10.1,25.2c-6.8,6.1-15.4,9.1-25.6,9.1c-5.5,0-11-1.2-16.5-3.5c-5.5-2.4-9.7-5.6-12.5-9.7l11.8-16.1
-	c2,2.3,4.6,4.3,8,5.9s6.6,2.4,9.7,2.4c3.7,0,6.8-1.1,9.2-3.4s3.6-5.2,3.6-8.9c0-4.2-1.6-7.6-4.8-10.2c-3.2-2.6-7.6-3.8-13.2-3.8
-	C25.1,53.8,19.5,54.6,16.1,56.3z"/>
-</svg>
-
-            </div>
-            <div class="col-md-8">
-              <p>Свяжитесь с&nbsp;водителем по&nbsp;прилёту</p>
-            </div>
-          </div>
-          <div class="col-md-4 row">
-            <div class="col-md-4 advantages__number"><?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="h-6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 81.3 102.5" style="enable-background:new 0 0 81.3 102.5;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:none;stroke:#31CB87;stroke-miterlimit:10;}
-</style>
-<path id="_x36_" class="st0" d="M6.4,65.5c0-8.4,1.5-16.5,4.5-24.2s7-14.3,11.9-19.8c10.3-11,21-18,32.3-21l8.5,15.8
-	c-7.5,2.5-14,6.2-19.7,11.1c-5.6,4.9-9.9,10.6-12.7,17c3.8-3.5,9.6-5.3,17.2-5.3c7.3,0,13.6,2.8,18.9,8.4c5.4,5.5,8.1,12.6,8.1,21.4
-	c0,10.3-3.3,18.3-9.9,24.2c-6.6,5.8-14.3,8.7-23.1,8.7c-10.7,0-19.5-3.5-26.2-10.5C9.7,84.4,6.4,75.7,6.4,65.5z M28.8,65.7
-	c0,4.8,1.2,8.5,3.6,11.2c2.4,2.7,5.8,4.1,10.2,4.1c3.3,0,5.8-1,7.7-2.9c1.9-2,2.8-4.4,2.8-7.4c0-3.5-1-6.4-3.1-8.5S45,59,41.2,59
-	C36.1,58.8,32,61.1,28.8,65.7z"/>
-</svg>
-
-            </div>
-            <div class="col-md-8">
-              <p>Водитель довезёт Вас с&nbsp;комфортом</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-10 offset-1">
-            <p class="how-to-order__p2">
-              Заказать такси желательно заранее, за&nbsp;1-2 дня до&nbsp;вылета,
-              так&nbsp;как мы подбираем водителям поездки в&nbsp;обе стороны,
-              что&nbsp;позволяет гарантировать для&nbsp;Вас наименьшую цену
-              без&nbsp;потери качества.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
     <section class="destinations">
-      <h2>Цены на популярные направления</h2>
+      <h2>Все направления из аэропорта Симферополя</h2>
       <div class="container">
         <div class="row">
           <div class="col-md-4"><a class="link" href="#"><span class="destinations__main-span"><i class="i-left">в Алупку<i class="dash"> —</i></i><i class="i-right">1 500 руб.</i></span></a></div>
@@ -517,9 +293,25 @@
           <div class="col-md-4"><a class="link" href="#"><span class="destinations__main-span"><i class="i-left">в Гаспру<i class="dash"> —</i></i><i class="i-right">1 490 руб.</i></span></a></div>
           <div class="col-md-4"><a class="link" href="#"><span class="destinations__main-span"><i class="i-left">в Гурзуф<i class="dash"> —</i></i><i class="i-right">1 090 руб.</i></span></a></div>
           <div class="col-md-4"><a class="link" href="#"><span class="destinations__main-span"><i class="i-left">в Джанкой<i class="dash"> —</i></i><i class="i-right">1 190 руб.</i></span></a></div>
-          <div class="col-md-4"><a class="link" href="#"><span class="destinations__main-span"><i class="i-left">в Заозерное<i class="dash"> —</i></i><i class="i-right">1 190 руб.</i></span></a></div>
+          <div class="col-md-4"><a class="link" href="#"><span class="destinations__main-span"><i class="i-left">в Заозерный<i class="dash"> —</i></i><i class="i-right">1 190 руб.</i></span></a></div>
           <div class="col-md-4"><a class="link" href="#"><span class="destinations__main-span"><i class="i-left">в Евпаторию<i class="dash"> —</i></i><i class="i-right">1 090 руб.</i></span></a></div>
+          <div class="col-md-4"><a class="link" href="#"><span class="destinations__main-span"><i class="i-left">в Инкерман<i class="dash"> —</i></i><i class="i-right">1 090 руб.</i></span></a></div>
+          <div class="col-md-4"><a class="link" href="#"><span class="destinations__main-span"><i class="i-left">в Казачью бухту<i class="dash"> —</i></i><i class="i-right">1 190 руб.</i></span></a></div>
+          <div class="col-md-4"><a class="link" href="#"><span class="destinations__main-span"><i class="i-left">в Керчь<i class="dash"> —</i></i><i class="i-right">3 890 руб.</i></span></a></div>
+          <div class="col-md-4"><a class="link" href="#"><span class="destinations__main-span"><i class="i-left">в Нижнюю Кутузовку<i class="dash"> —</i></i><i class="i-right">990 руб.</i></span></a></div>
+          <div class="col-md-4"><a class="link" href="#"><span class="destinations__main-span"><i class="i-left">в Новый Свет<i class="dash"> —</i></i><i class="i-right">1 690 руб.</i></span></a></div>
+          <div class="col-md-4"><a class="link" href="#"><span class="destinations__main-span"><i class="i-left">в Орловку<i class="dash"> —</i></i><i class="i-right">1 690 руб.</i></span></a></div>
+          <div class="col-md-4"><a class="link" href="#"><span class="destinations__main-span"><i class="i-left">в Полюшко<i class="dash"> —</i></i><i class="i-right">1 090 руб.</i></span></a></div>
+          <div class="col-md-4"><a class="link" href="#"><span class="destinations__main-span"><i class="i-left">в Приморский<i class="dash"> —</i></i><i class="i-right">1 890 руб.</i></span></a></div>
+          <div class="col-md-4"><a class="link" href="#"><span class="destinations__main-span"><i class="i-left">в Рыбачье<i class="dash"> —</i></i><i class="i-right">1 590 руб.</i></span></a></div>
+          <div class="col-md-4"><a class="link" href="#"><span class="destinations__main-span"><i class="i-left">в Севастополь<i class="dash"> —</i></i><i class="i-right">1 090 руб.</i></span></a></div>
+          <div class="col-md-4"><a class="link" href="#"><span class="destinations__main-span"><i class="i-left">в Уютное<i class="dash"> —</i></i><i class="i-right">990 руб.</i></span></a></div>
+          <div class="col-md-4"><a class="link" href="#"><span class="destinations__main-span"><i class="i-left">в Скалистое<i class="dash"> —</i></i><i class="i-right">690 руб.</i></span></a></div>
+          <div class="col-md-4"><a class="link" href="#"><span class="destinations__main-span"><i class="i-left">в Судак<i class="dash"> —</i></i><i class="i-right">1 490 руб.</i></span></a></div>
+          <div class="col-md-4"><a class="link" href="#"><span class="destinations__main-span"><i class="i-left">в Щелкино<i class="dash"> —</i></i><i class="i-right">2 090 руб.</i></span></a></div>
+          <div class="col-md-4"><a class="link" href="#"><span class="destinations__main-span"><i class="i-left">в Ялту<i class="dash"> —</i></i><i class="i-right">1 090 руб.</i></span></a></div>
         </div>
+        <div class="row"><a class="button" href="#">Весь список</a></div>
       </div>
     </section>
     <footer>

@@ -29,16 +29,20 @@ $(document).ready(function () {
 
     function scrollTo(element, anchor) {
         $(element).click(function () {
-            var destination = $(anchor).offset().top-65;
+            var destination = $(anchor).offset().top-75;
             jQuery("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 500);
             return false;
         });
     }
 
-    scrollTo('.header__company', '#company');
-    scrollTo('.header__about-product', '.about-product');
-    scrollTo('.header__financial-analytics', '.financial-analytics');
-    scrollTo('.header__index-form', '.index-form');
+    scrollTo('.standards__nav--1', '.standards__h3--1');
+    scrollTo('.standards__nav--2', '.standards__h3--2');
+    scrollTo('.standards__nav--3', '.standards__h3--3');
+    scrollTo('.standards__nav--4', '.standards__h3--4');
+    scrollTo('.standards__nav--5', '.standards__h3--5');
+    scrollTo('.standards__nav--6', '.standards__h3--6');
+    scrollTo('.standards__nav--7', '.standards__h3--7');
+    scrollTo('.standards__nav--8', '.standards__h3--8');
 
     $('#company').on('click', function(){
         $( "#company" ).animate({
@@ -64,9 +68,6 @@ $(document).ready(function () {
     });
 
 
-
-
-
     $('#adult-passengers-label').on('click', function(){
         $('#adult-passengers').children('option').show();
     });
@@ -80,6 +81,45 @@ $(document).ready(function () {
             el.siblings('label').removeClass('active');
         }
     });
+
+    if($("#standards-menu").length>0){
+        var el = document.getElementById('standards-menu');
+        var limit = document.getElementById('how-to-order');
+        var elTop = el.getBoundingClientRect().top - document.body.getBoundingClientRect().top;
+        var limitTop = limit.getBoundingClientRect().top - document.body.getBoundingClientRect().top;
+
+        window.addEventListener('scroll', function(){
+            var w = document.querySelector('#standards-menu-container').offsetWidth-30;
+            var h = $('#standards-menu').height();
+            if ((document.documentElement.scrollTop > elTop-70) && (document.documentElement.scrollTop < (limitTop-70-h))){
+                el.style.position = 'fixed';
+                el.style.top = '76px';
+                el.style.width = w+'px';
+            }
+            else if(document.documentElement.scrollTop >= (limitTop-70-h))
+            {
+                el.style.position = 'absolute';
+                el.style.top = $('#standards-menu-container').height()-$('#standards-menu').height()+'px';
+                //alert(($('#standards-menu').height()-h));
+            }
+            else{
+                el.style.position = 'absolute';
+                el.style.top = 0;
+            }
+        });
+    }
+
+
+
+    //alert($('#standards-menu-container').height());
+    //alert($('#standards-menu').height());
+    //alert($('#standards-menu-container').height()-$('#standards-menu').height());
+
+    //alert($('#standards-menu').height());
+
+    //var x = document.getElementById('standards-menu-container').width;
+    //var x = ;
+    //alert(x);
 
     /*$('.input').one('focus', function(){
        var el = $(this);

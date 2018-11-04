@@ -12,12 +12,20 @@
     max-width: 100%;
 }
 
-@media(max-width: 1380px){
-
-}
-
 @media(max-width: 1200px){
-
+    .index-offer{
+        h1{
+            font-size: 345%;
+            line-height: 110%;
+            margin: 120px 0 0;
+        }
+        &__form{
+            -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+            margin-left: 0;
+            max-width: 100%;
+        }
+    }
 }
 
 @media(max-width: 1000px){

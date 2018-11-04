@@ -2,10 +2,10 @@
     &--inner{
         background: $blue;
         color: $white;
-        padding: 103px 0 60px;
+        padding: 96px 0 60px;
     }
     &--main{
-        padding: 40px 0 60px;
+        padding: 40px 0 0;
     }
     &__breadcrumbs{
         text-align: center;
@@ -26,6 +26,7 @@
     form{
         background: $white;
         padding: 48px 72px;
+        z-index: 1;
     }
     button{
         width: 100%;
@@ -39,15 +40,23 @@
 }
 
 .search.search--inner.search--short-destinations{
-    padding: 103px 0 160px;
+    padding: 96px 0 160px;
 }
 
 .search.search--inner.search--order{
-    padding: 95px 0 20px;
+    padding: 88px 0 20px;
 }
 
 .index-offer__form{
     box-shadow: 0px 7px 50px 0px rgba(210,214,217,.5);
+}
+
+@media(max-width: 1200px){
+    .search{
+        &--main{
+            padding: 32px 0 0;
+        }
+    }
 }
 
 @media(max-width: 1000px){

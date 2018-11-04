@@ -9,6 +9,7 @@
         margin: -20px 0 6px 0;
     }
     p{
+        font-size: 115%;
         text-align: center;
     }
     .link{
@@ -35,34 +36,54 @@
     }
 }
 
-@media(max-height: 750px){
+@media(max-height: 767px){
     .b404{
         padding: 190px 0 60px;
+        h1{
+            font-size: 1200%;
+        }
     }
 }
 
 @media(max-height: 700px){
     .b404{
         padding: 160px 0 30px;
+        h3{
+            margin: -32px 0 6px;
+        }
     }
 }
 
-@media(max-width: 1380px){
-
+@media(max-width: 600px){
+    .b404{
+        padding: 120px 0 10px;
+    }
 }
 
-@media(max-width: 1200px){
-
+@media(max-width: 500px){
+    .b404{
+        padding: 100px 0 0;
+        h1{
+            font-size: 1100%;
+        }
+        h3{
+            margin: -36px 0 6px;
+        }
+    }
 }
 
-@media(max-width: 1000px){
-
+@media(max-width: 500px){
+    .b404{
+        h1{
+            font-size: 850%;
+        }
+    }
 }
 
-@media(max-width: 850px){
-
-}
-
-@media(max-width: 767px){
-
+@media(max-width: 350px){
+    .b404{
+        h1{
+            font-size: 700%;
+        }
+    }
 }

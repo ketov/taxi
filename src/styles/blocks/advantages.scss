@@ -16,18 +16,246 @@
     p{
         font-size: 145%;
     }
+    .row{
+        margin: 0 0 96px;
+    }
+    .row:nth-last-child(1){
+        margin: 0;
+    }
+    .row:nth-last-child(2){
+        margin: 0;
+    }
+    .row:nth-last-child(3){
+        margin: 0;
+    }
 }
 
-.row--advantages{
-    margin: 0 0 96px 0;
+#n-1{
+    stroke-dasharray: 430;
+    opacity: 0;
 }
 
-@media(max-width: 1380px){
+#n-1.n-1--active
+{
+    opacity: 1;
+    animation-name: svganimation;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier(0.42,0,0.58,1);
+}
 
+@keyframes svganimation{
+    from {stroke-dashoffset: 430;}
+    to {stroke-dashoffset: 0;}
+}
+
+
+#n-2{
+    stroke-dasharray: 430;
+    opacity: 0;
+}
+
+#n-2.n-2--active
+{
+    opacity: 1;
+    animation-name: svganimation2;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier(0.42,0,0.58,1);
+}
+
+@keyframes svganimation2{
+    from {stroke-dashoffset: 430;}
+    to {stroke-dashoffset: 0;}
+}
+
+
+#n-3{
+    stroke-dasharray: 430;
+    opacity: 0;
+}
+
+#n-3.n-3--active
+{
+    opacity: 1;
+    animation-name: svganimation3;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier(0.42,0,0.58,1);
+}
+
+@keyframes svganimation3{
+    from {stroke-dashoffset: 430;}
+    to {stroke-dashoffset: 0;}
+}
+
+
+
+#n-4{
+    stroke-dasharray: 430;
+    opacity: 0;
+}
+
+#n-4.n-4--active
+{
+    opacity: 1;
+    animation-name: svganimation4;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier(0.42,0,0.58,1);
+}
+
+@keyframes svganimation4{
+    from {stroke-dashoffset: 430;}
+    to {stroke-dashoffset: 0;}
+}
+
+
+
+#n-5{
+    stroke-dasharray: 430;
+    opacity: 0;
+}
+
+#n-5.n-5--active
+{
+    opacity: 1;
+    animation-name: svganimation5;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier(0.42,0,0.58,1);
+}
+
+@keyframes svganimation5{
+    from {stroke-dashoffset: 430;}
+    to {stroke-dashoffset: 0;}
+}
+
+
+
+
+#n-6{
+    stroke-dasharray: 430;
+    opacity: 0;
+}
+
+#n-6.n-6--active
+{
+    opacity: 1;
+    animation-name: svganimation6;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier(0.42,0,0.58,1);
+}
+
+@keyframes svganimation6{
+    from {stroke-dashoffset: 430;}
+    to {stroke-dashoffset: 0;}
+}
+
+
+
+#n-7{
+    stroke-dasharray: 430;
+    opacity: 0;
+}
+
+#n-7.n-7--active
+{
+    opacity: 1;
+    animation-name: svganimation7;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier(0.42,0,0.58,1);
+}
+
+@keyframes svganimation7{
+    from {stroke-dashoffset: 430;}
+    to {stroke-dashoffset: 0;}
+}
+
+
+
+#n-8{
+    stroke-dasharray: 430;
+    opacity: 0;
+}
+
+#n-8.n-8--active
+{
+    opacity: 1;
+    animation-name: svganimation8;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier(0.42,0,0.58,1);
+}
+
+@keyframes svganimation8{
+    from {stroke-dashoffset: 430;}
+    to {stroke-dashoffset: 0;}
+}
+
+
+
+
+#n-9{
+    stroke-dasharray: 430;
+    opacity: 0;
+}
+
+#n-9.n-9--active
+{
+    opacity: 1;
+    animation-name: svganimation9;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier(0.42,0,0.58,1);
+}
+
+@keyframes svganimation9{
+    from {stroke-dashoffset: 430;}
+    to {stroke-dashoffset: 0;}
+}
+
+
+
+
+
+@media(max-width: 1450px){
+    .advantages{
+        p{
+            font-size: 135%;
+        }
+    }
+}
+
+@media(max-width: 1350px){
+    .advantages{
+        p{
+            font-size: 125%;
+            line-height: 135%;
+        }
+    }
 }
 
 @media(max-width: 1200px){
+    .advantages{
+        padding: 80px 0 90px;
+        p{
+            font-size: 115%;
+            line-height: 145%;
+        }
+        .row{
+            margin: 0 0 68px;
+        }
+        h2{
+            margin: 0 0 60px;
+        }
+    }
+}
 
+@media(max-width: 1100px){
+    .advantages{
+        p{
+            font-size: 145%;
+        }
+        .col-md-4.row{
+            -ms-flex: 0 0 48%;
+            flex: 0 0 48%;
+            max-width: 48%;
+        }
+    }
 }
 
 @media(max-width: 1000px){
