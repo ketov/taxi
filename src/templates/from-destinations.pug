@@ -26,13 +26,38 @@ html
                         div.row
                             div.col-md-4
                                 fieldset
-                                    input.input.focus(id="from" value="Симферополь")
-                                    label(for="from") Откуда
+                                    fieldset.select
+                                        div.comment Откуда
+                                        img.tick(src="assets/img/select-triangle.svg" alt="")
+                                        select(name="from")
+                                            option из Алупки
+                                            option из Бахчисарая
+                                            option из Белогорска
+                                            option из Верхней Кутузовки
+                                            option из Гаспры
+                                            option из Гурзуфа
+                                            option из Джанкой
+                                            option из Заозерного
+                                            option из Евпатории
+                                            option(selected) из Симферополя
+                                            option из Ялты
 
                             div.col-md-4
                                 fieldset
-                                    input.input(id="where")
-                                    label(for="where") Куда
+                                    fieldset.select
+                                        div.comment Куда
+                                        img.tick(src="assets/img/select-triangle.svg" alt="")
+                                        select(name="where")
+                                            option(selected) в Алупку
+                                            option в Бахчисарай
+                                            option в Белогорск
+                                            option в Верхнюю Кутузовку
+                                            option в Гаспру
+                                            option в Гурзуф
+                                            option в Джанкой
+                                            option в Заозерный
+                                            option в Евпаторию
+                                            option в Симферополь
 
                             div.col-md-2
                                 fieldset

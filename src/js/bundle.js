@@ -33,6 +33,7 @@ import "script!./libs/swiper.min";
 import "./main";
 import "./blocks/advantages";
 import "./blocks/header";
+import "./blocks/how-to-order";
 import "./blocks/question-answer";
 //import "./blocks/nav";
 //import "./blocks/projects-slider";

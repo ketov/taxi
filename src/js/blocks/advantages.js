@@ -67,7 +67,6 @@ $(document).ready(function () {
             var scroll = $(document).scrollTop();
             if(scroll  > postion5-w/1.5) {
                 $('#n-5').addClass('n-5--active');
-                $('#n-5').addClass('n-5--active');
             }
         });
     }
@@ -82,7 +81,6 @@ $(document).ready(function () {
         $(document).on('scroll', function (){
             var scroll = $(document).scrollTop();
             if(scroll  > postion6-w/1.5) {
-                $('#n-6').addClass('n-6--active');
                 $('#n-6').addClass('n-6--active');
             }
         });
@@ -99,7 +97,6 @@ $(document).ready(function () {
             var scroll = $(document).scrollTop();
             if(scroll  > postion7-w/1.5) {
                 $('#n-7').addClass('n-7--active');
-                $('#n-7').addClass('n-7--active');
             }
         });
     }
@@ -114,7 +111,6 @@ $(document).ready(function () {
         $(document).on('scroll', function (){
             var scroll = $(document).scrollTop();
             if(scroll  > postion8-w/1.5) {
-                $('#n-8').addClass('n-8--active');
                 $('#n-8').addClass('n-8--active');
             }
         });
@@ -132,7 +128,6 @@ $(document).ready(function () {
             var scroll = $(document).scrollTop();
             if(scroll  > postion9-w/1.5) {
                 $('#n-9').addClass('n-9--active');
-                $('#n-9').addClass('n-9--active');
             }
         });
     }
@@ -140,30 +135,4 @@ $(document).ready(function () {
         return;
     }
 
-    /*var postion = $('#n-1').offset().top,
-        w = $(window).height();
-    $(document).on('scroll', function (){
-        var scroll = $(document).scrollTop();
-        if(scroll  > postion-w/1.5) {
-            $('#n-1').addClass('n-1--active');
-        }
-    });
-
-    var postion = $('#n-2').offset().top,
-        w = $(window).height();
-    $(document).on('scroll', function (){
-        var scroll = $(document).scrollTop();
-        if(scroll  > postion-w/1.5) {
-            $('#n-2').addClass('n-2--active');
-        }
-    });
-
-    var postion = $('#n-3').offset().top,
-        w = $(window).height();
-    $(document).on('scroll', function (){
-        var scroll = $(document).scrollTop();
-        if(scroll  > postion-w/1.5) {
-            $('#n-3').addClass('n-3--active');
-        }
-    });*/
 });

@@ -26,8 +26,10 @@
     p.how-to-order__p2{
         font-size: 115%;
         line-height: 160%;
-        margin: 68px 0 0 0;
         text-align: center;
+    }
+    .col-md-4.row{
+        margin: 0 0 96px;
     }
 }
 
@@ -35,14 +37,62 @@
     margin: 0 0 96px 0;
 }
 
-@media(max-width: 1380px){
+@media(max-width: 1450px) {
+    .how-to-order {
+        p {
+            font-size: 135%;
+        }
+        .col-md-4.row:nth-last-child(1){
+            margin: 0 0 60px;
+        }
+        .col-md-4.row:nth-last-child(2){
+            margin: 0 0 60px;
+        }
+        .col-md-4.row:nth-last-child(3){
+            margin: 0 0 60px;
+        }
+    }
+}
 
+@media(max-width: 1350px){
+    .how-to-order{
+        p{
+            font-size: 125%;
+            line-height: 135%;
+        }
+    }
 }
 
 @media(max-width: 1200px){
     .how-to-order{
         margin: 90px 0 0;
         padding: 80px 0 80px;
+        p{
+            font-size: 115%;
+            line-height: 145%;
+        }
+        p.how-to-order__p1{
+            margin: 0 0 60px 0;
+        }
+        .col-md-4.row{
+            margin: 0 0 68px;
+        }
+        h2{
+            margin: 0 0 28px;
+        }
+    }
+}
+
+@media(max-width: 1100px){
+    .how-to-order{
+        p{
+            font-size: 145%;
+        }
+        .col-md-4.row{
+            -ms-flex: 0 0 48%;
+            flex: 0 0 48%;
+            max-width: 48%;
+        }
     }
 }
 
@@ -56,4 +106,127 @@
 
 @media(max-width: 767px){
 
+}
+
+
+
+
+#h-1{
+    stroke-dasharray: 430;
+    opacity: 0;
+}
+
+#h-1.h-1--active
+{
+    opacity: 1;
+    animation-name: svganimation10;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier(0.42,0,0.58,1);
+}
+
+@keyframes svganimation10{
+    from {stroke-dashoffset: 430;}
+    to {stroke-dashoffset: 0;}
+}
+
+
+
+#h-2{
+    stroke-dasharray: 430;
+    opacity: 0;
+}
+
+#h-2.h-2--active
+{
+    opacity: 1;
+    animation-name: svganimation11;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier(0.42,0,0.58,1);
+}
+
+@keyframes svganimation11{
+    from {stroke-dashoffset: 430;}
+    to {stroke-dashoffset: 0;}
+}
+
+
+
+#h-3{
+    stroke-dasharray: 430;
+    opacity: 0;
+}
+
+#h-3.h-3--active
+{
+    opacity: 1;
+    animation-name: svganimation12;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier(0.42,0,0.58,1);
+}
+
+@keyframes svganimation12{
+    from {stroke-dashoffset: 430;}
+    to {stroke-dashoffset: 0;}
+}
+
+
+
+#h-4{
+    stroke-dasharray: 430;
+    opacity: 0;
+}
+
+#h-4.h-4--active
+{
+    opacity: 1;
+    animation-name: svganimation13;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier(0.42,0,0.58,1);
+}
+
+@keyframes svganimation13{
+    from {stroke-dashoffset: 430;}
+    to {stroke-dashoffset: 0;}
+}
+
+
+
+
+#h-5{
+    stroke-dasharray: 430;
+    opacity: 0;
+}
+
+#h-5.h-5--active
+{
+    opacity: 1;
+    animation-name: svganimation14;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier(0.42,0,0.58,1);
+}
+
+@keyframes svganimation14{
+    from {stroke-dashoffset: 430;}
+    to {stroke-dashoffset: 0;}
+}
+
+
+
+
+#h-6{
+    stroke-dasharray: 430;
+    opacity: 0;
+}
+
+#h-6.h-6--active
+{
+    opacity: 1;
+    animation-name: svganimation15;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier(0.42,0,0.58,1);
+}
+
+@keyframes svganimation15{
+    from {stroke-dashoffset: 430;}
+    to {stroke-dashoffset: 0;}
 }

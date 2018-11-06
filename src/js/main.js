@@ -94,7 +94,7 @@ $(document).ready(function () {
             if ((document.documentElement.scrollTop > elTop-70) && (document.documentElement.scrollTop < (limitTop-70-h))){
                 el.style.position = 'fixed';
                 el.style.top = '76px';
-                el.style.width = w+'px';
+                //el.style.width = w+'px';
             }
             else if(document.documentElement.scrollTop >= (limitTop-70-h))
             {
@@ -106,6 +106,7 @@ $(document).ready(function () {
                 el.style.position = 'absolute';
                 el.style.top = 0;
             }
+            el.style.width = w+'px';
         });
     }
 

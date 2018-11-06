@@ -55,6 +55,14 @@ h3{
     margin: 0;
 }
 
+h4{
+    font-family: $CB;
+    font-size: 150%;
+    font-weight: normal;
+    line-height: 110%;
+    margin: 0;
+}
+
 .link{
     span{
         background-image: linear-gradient($green,$green);
@@ -243,6 +251,10 @@ fieldset.select:focus{
 
 input[type=checkbox]{
     display: none;
+}
+
+input[type=checkbox].show{
+    display: block;
 }
 
 @font-face{

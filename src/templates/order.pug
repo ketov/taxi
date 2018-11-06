@@ -87,17 +87,156 @@ html
                                         option 4
                                         option 5
 
-                        div.row
+                        div.row.k-radio
                             fieldset.checkbox
                                 label(for="child-seats-and-boosters-block") Детские кресла и бустеры
                                 input(type="checkbox" id="child-seats-and-boosters-block")
 
+                        div.row
+                            div.col-md-6
+                                fieldset.select
+                                    div.comment Кресло
+                                    img.tick(src="assets/img/select-triangle.svg" alt="")
+                                    select(name="chair")
+                                        option(selected) -
+                                        option 1
+                                        option 2
+                                        option 3
+                                div.order-comment +300 руб.
+
+                            div.col-md-6
+                                fieldset.select
+                                    div.comment Бустеры
+                                    img.tick(src="assets/img/select-triangle.svg" alt="")
+                                    select(name="chair")
+                                        option(selected) -
+                                        option 1
+                                        option 2
+                                        option 3
+                                div.order-comment +300 руб.
+
+
+                        div.row.k-radio.k-radio--back
+                            fieldset.checkbox
+                                label(for="back") Обратный трансфер
+                                input(type="checkbox" id="back")
+
+                        div.row
+                            div.col-md-6
+                                fieldset
+                                    input.input(id="date-back" name="date-back")
+                                    label(for="date-back") Дата
+                            div.col-md-6
+                                fieldset
+                                    input.input(id="time-back" name="time-back")
+                                    label(for="time-back") Время
+
+
+                        div.row
+                            div.col-md-12
+                                h4 Контактные данные
+                            div.col-md-12
+                                fieldset
+                                    input.input(id="name" name="name")
+                                    label(for="name") Имя и фамилия
+
+                        div.row
+                            div.col-md-12
+                                fieldset
+                                    input.input(id="email" name="email")
+                                    label(for="email") Эл. почта
+
+                        div.row
+                            div.col-md-12
+                                fieldset
+                                    input.input(id="phone" name="phone")
+                                    label(for="phone") Номер телефона
+
+                        div.row
+                            div.col-md-12
+                                fieldset
+                                    input.input(id="promocode" name="promocode")
+                                    label(for="promocode") Промокод
 
 
 
+                        div.row
+                            div.col-md-12
+                                h4 Дополнительные товары и услуги
 
-        include includes/reviews
-        include includes/question-answer
+                            div.col-md-12
+                                fieldset.select
+                                    div.comment Бутылка питьевой негазированной воды 0,5 л
+                                    img.tick(src="assets/img/select-triangle.svg" alt="")
+                                    select(name="water")
+                                        option(selected) -
+                                        option 1
+                                        option 2
+                                        option 3
+                                        option 4
+                                        option 5
+                                        option 6
+                                div.order-comment +120 руб.
+
+                            div.row.k-radio
+                                fieldset.checkbox
+                                    label(for="meet") Встреча в аэропорту с табличкой (+200 руб.)
+                                    input(type="checkbox" id="meet")
+
+
+                        div.row
+                            div.col-md-12
+                                div.order__continue.row
+                                    div.col-md-6
+                                        input.show#i-agree(type="checkbox" checked)
+                                        div.i-agree-block
+                                            label(for="i-agree") Я согласен с условиями
+                                            a.link(href="#")
+                                                span Политики конфиденциальности
+                                    div.col-md-6
+                                        button Продолжить
+
+
+                    div.col-md-4
+                        div.order__result
+                            div.order__result-row
+                                div.order__result-header Тариф
+                                div.order__result-text «Эконом» (до 3 пассажиров и 3 багажей)
+
+                            div.order__result-row
+                                div.order__result-header Контактная информация
+                                div.order__result-text.order__result-text--name Юрий Кетов
+                                div.order__result-text.order__result-text--email ketov1992@list.ru
+                                div.order__result-text.order__result-text--phone +7 (922) 310-48-70
+
+                            div.order__result-row
+                                div.order__result-header Место отправления
+                                div.order__result-text.order__result-text--from Ялта, отель Ялта-Интурист
+
+                            div.order__result-row
+                                div.order__result-header Обратный трансфер
+                                div.order__result-text.order__result-text
+                                    span 25.10.2018,
+                                    span 16:00
+
+                            div.order__result-row
+                                div.order__result-header Пассажиры
+                                div.order__result-text 2
+
+                            div.order__result-row
+                                div.order__result-header Дополнительные товары и услуги
+                                div.order__result-text Детское кресло × 1 — 300 руб.
+                                div.order__result-text Бутылка питьевой воды × 1 — 120 руб.
+                                div.order__result-text Встреча в аэропорту — 200 руб.
+
+
+                            div.order__in-total.row
+                                div.col-md-4.order__in-total-span1 Итого
+                                div.col-md-8.order__in-total-span2
+                                    | 4 620
+                                    span.rub руб.
+
+
         include includes/footer
        
         script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js")

@@ -112,228 +112,168 @@
                 </fieldset>
               </div>
             </div>
-            <div class="row">
+            <div class="row k-radio">
               <fieldset class="checkbox">
                 <label for="child-seats-and-boosters-block">Детские кресла и бустеры</label>
                 <input type="checkbox" id="child-seats-and-boosters-block">
               </fieldset>
             </div>
+            <div class="row">
+              <div class="col-md-6">
+                <fieldset class="select">
+                  <div class="comment">Кресло</div><img class="tick" src="assets/img/select-triangle.svg" alt="">
+                  <select name="chair">
+                    <option selected>-</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                  </select>
+                </fieldset>
+                <div class="order-comment">+300 руб.</div>
+              </div>
+              <div class="col-md-6">
+                <fieldset class="select">
+                  <div class="comment">Бустеры</div><img class="tick" src="assets/img/select-triangle.svg" alt="">
+                  <select name="chair">
+                    <option selected>-</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                  </select>
+                </fieldset>
+                <div class="order-comment">+300 руб.</div>
+              </div>
+            </div>
+            <div class="row k-radio k-radio--back">
+              <fieldset class="checkbox">
+                <label for="back">Обратный трансфер</label>
+                <input type="checkbox" id="back">
+              </fieldset>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <fieldset>
+                  <input class="input" id="date-back" name="date-back">
+                  <label for="date-back">Дата</label>
+                </fieldset>
+              </div>
+              <div class="col-md-6">
+                <fieldset>
+                  <input class="input" id="time-back" name="time-back">
+                  <label for="time-back">Время</label>
+                </fieldset>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <h4>Контактные данные</h4>
+              </div>
+              <div class="col-md-12">
+                <fieldset>
+                  <input class="input" id="name" name="name">
+                  <label for="name">Имя и фамилия</label>
+                </fieldset>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <fieldset>
+                  <input class="input" id="email" name="email">
+                  <label for="email">Эл. почта</label>
+                </fieldset>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <fieldset>
+                  <input class="input" id="phone" name="phone">
+                  <label for="phone">Номер телефона</label>
+                </fieldset>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <fieldset>
+                  <input class="input" id="promocode" name="promocode">
+                  <label for="promocode">Промокод</label>
+                </fieldset>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <h4>Дополнительные товары и услуги</h4>
+              </div>
+              <div class="col-md-12">
+                <fieldset class="select">
+                  <div class="comment">Бутылка питьевой негазированной воды 0,5 л</div><img class="tick" src="assets/img/select-triangle.svg" alt="">
+                  <select name="water">
+                    <option selected>-</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                  </select>
+                </fieldset>
+                <div class="order-comment">+120 руб.</div>
+              </div>
+              <div class="row k-radio">
+                <fieldset class="checkbox">
+                  <label for="meet">Встреча в аэропорту с табличкой (+200 руб.)</label>
+                  <input type="checkbox" id="meet">
+                </fieldset>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="order__continue row">
+                  <div class="col-md-6">
+                    <input class="show" id="i-agree" type="checkbox" checked>
+                    <div class="i-agree-block">
+                      <label for="i-agree">Я согласен с условиями</label><a class="link" href="#"><span>Политики конфиденциальности</span></a>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <button>Продолжить</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </form>
-        </div>
-      </div>
-    </section>
-    <section class="reviews">
-      <h2>Отзывы</h2>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3" data-animation="fadeIn" data-animation-delay="150ms"><img class="reviews__triangle" src="assets/img/reviews-triangle.svg" alt="">
-            <p>
-              В&nbsp;наше время, отношение таксистов к&nbsp;мамам с&nbsp;детьми
-              какое-то предвзятое. Никогда не&nbsp;получалось уехать на&nbsp;такси
-              с&nbsp;первого раза, таксисты отказывались везти с&nbsp;ребенком без&nbsp;кресла,
-              хотя оператор был предупрежден о&nbsp;необходимости наличия кресла<span>…</span>
-            </p><a class="link" href="#"><span>Читать весь отзыв на сайте</span></a>
-            <div class="author">Vanessa87</div>
-          </div>
-          <div class="col-md-3" data-animation="fadeIn" data-animation-delay="300ms"><img class="reviews__triangle" src="assets/img/reviews-triangle.svg" alt="">
-            <p>
-              Часто пользуюсь услугами этой службы такси. Данное такси никогда не подводит,
-              приезжает точно в срок. У водителя всегда есть сдача, какую купюру я бы
-              не дала<span>…</span>
-            </p><a class="link" href="#"><span>Читать весь отзыв на сайте</span></a>
-            <div class="author">pytenkova</div>
-          </div>
-          <div class="col-md-3" data-animation="fadeIn" data-animation-delay="450ms"><img class="reviews__triangle" src="assets/img/reviews-triangle.svg" alt="">
-            <p>
-              Машинку назначили быстро, сообщение о машине пришло буквально
-              в течение 5 минут. Водитель даже без просьбы помог
-              с чемоданом. Вёз аккуратно, вёл себя очень вежливо<span>…</span>
-            </p><a class="link" href="#"><span>Читать весь отзыв на сайте</span></a>
-            <div class="author">shes7</div>
-          </div>
-          <div class="col-md-3" data-animation="fadeIn" data-animation-delay="600ms"><img class="reviews__triangle" src="assets/img/reviews-triangle.svg" alt="">
-            <p>
-              Заказывал через приложение, машина приехала через 10 минут.
-              Водитель помог убрать багаж. Сам по себе человек приятный.
-              Машина — иномарка, чистая и ухоженная. В общем, остались
-              только приятные впечатления<span>…</span>
-            </p><a class="link" href="#"><span>Читать весь отзыв на сайте</span></a>
-            <div class="author">halfkid</div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="question-answer">
-      <h2>Вопрос-ответ</h2>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 offset-2 question-answer__question">
-            <div class="question">Что если я не смог найти свой маршрут?
-              <div class="plus">
-                <div class="rectangle rectangle--1"></div>
-                <div class="rectangle rectangle--2"></div>
+          <div class="col-md-4">
+            <div class="order__result">
+              <div class="order__result-row">
+                <div class="order__result-header">Тариф</div>
+                <div class="order__result-text">«Эконом» (до 3 пассажиров и 3 багажей)</div>
               </div>
-            </div>
-            <div class="answer">
-              <div class="answer-container">
-                <p>
-                  Если не&nbsp;получится найти нужный маршрут, Вам необходимо связаться с&nbsp;нами через онлайн чат.
-                  Мы постараемся найти для&nbsp;вас водителя и&nbsp;сообщим стоимость поездки в&nbsp;течение 30 минут
-                </p>
+              <div class="order__result-row">
+                <div class="order__result-header">Контактная информация</div>
+                <div class="order__result-text order__result-text--name">Юрий Кетов</div>
+                <div class="order__result-text order__result-text--email">ketov1992@list.ru</div>
+                <div class="order__result-text order__result-text--phone">+7 (922) 310-48-70</div>
               </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-8 offset-2 question-answer__question">
-            <div class="question">А меня точно встретят?
-              <div class="plus">
-                <div class="rectangle rectangle--1"></div>
-                <div class="rectangle rectangle--2"></div>
+              <div class="order__result-row">
+                <div class="order__result-header">Место отправления</div>
+                <div class="order__result-text order__result-text--from">Ялта, отель Ялта-Интурист</div>
               </div>
-            </div>
-            <div class="answer">
-              <div class="answer-container">
-                <p>
-                  Мы гарантируем подачу машины. Это главная политика нашей компании!
-                  В&nbsp;любой непредвиденной ситуации мы быстро среагируем и&nbsp;подадим Вам машину.
-                  У&nbsp;водителя будет ваш телефон, а&nbsp;у&nbsp;вас — его телефон.
-                </p>
-                <p>
-                  Пожалуйста, держите
-                  телефон включенным. Более того, если Ваш рейс будет задержан на&nbsp;несколько
-                  часов, мы организуем другую машину, бесплатно!
-                </p>
+              <div class="order__result-row">
+                <div class="order__result-header">Обратный трансфер</div>
+                <div class="order__result-text order__result-text"><span>25.10.2018,</span><span>16:00</span></div>
               </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-8 offset-2 question-answer__question">
-            <div class="question">Что делать если меня не встретили?
-              <div class="plus">
-                <div class="rectangle rectangle--1"></div>
-                <div class="rectangle rectangle--2"></div>
+              <div class="order__result-row">
+                <div class="order__result-header">Пассажиры</div>
+                <div class="order__result-text">2</div>
               </div>
-            </div>
-            <div class="answer">
-              <div class="answer-container">
-                <p>
-                  Если вы не&nbsp;нашли водителя, или&nbsp;не&nbsp;смогли с&nbsp;ним связаться, сообщите
-                  нам по&nbsp;нашему телефону, и&nbsp;в&nbsp;течении 10 минут мы подадим Вам другую машину.
-                </p>
-                <p><b>Важно:</b> Ваш телефон должен быть включен и&nbsp;находиться в&nbsp;зоне связи.</p>
+              <div class="order__result-row">
+                <div class="order__result-header">Дополнительные товары и услуги</div>
+                <div class="order__result-text">Детское кресло × 1 — 300 руб.</div>
+                <div class="order__result-text">Бутылка питьевой воды × 1 — 120 руб.</div>
+                <div class="order__result-text">Встреча в аэропорту — 200 руб.</div>
               </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-8 offset-2 question-answer__question">
-            <div class="question">Как я найду своего водителя?
-              <div class="plus">
-                <div class="rectangle rectangle--1"></div>
-                <div class="rectangle rectangle--2"></div>
-              </div>
-            </div>
-            <div class="answer">
-              <div class="answer-container">
-                <p><b>Важно:</b> Если вы заказали функцию «Встреча с табличкой», то&nbsp;водитель
-                  будет встречать вас с&nbsp;табличкой, на&nbsp;которой будут написаны
-                  имя и&nbsp;фамилия, указанные в&nbsp;заказе. Если такой функцией
-                  Вы не&nbsp;воспользовались, то&nbsp;тогда, Вам необходимо связаться
-                  с&nbsp;водителем по&nbsp;прилету и&nbsp;согласовать место встречи.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-8 offset-2 question-answer__question">
-            <div class="question">Как мне связаться с водителем?
-              <div class="plus">
-                <div class="rectangle rectangle--1"></div>
-                <div class="rectangle rectangle--2"></div>
-              </div>
-            </div>
-            <div class="answer">
-              <div class="answer-container">
-                <p>
-                  Водитель, как правило, назначается за&nbsp;1-2 дня до&nbsp;поездки,
-                  Вы получите уведомление с&nbsp;контактными данными водителя.
-                  Также вы получите номер водителя в&nbsp;СМС на&nbsp;телефон, который
-                  был указан при&nbsp;бронировании. Важно: позвоните или&nbsp;напишите
-                  водителю СМС, если ваш рейс задержали более чем на&nbsp;полчаса или&nbsp;перенесли на&nbsp;другое время,
-                  а&nbsp;также если вы задерживаетесь при&nbsp;получении багажа в&nbsp;аэропорту.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-8 offset-2 question-answer__question">
-            <div class="question">За какой срок можно забронировать поездку?
-              <div class="plus">
-                <div class="rectangle rectangle--1"></div>
-                <div class="rectangle rectangle--2"></div>
-              </div>
-            </div>
-            <div class="answer">
-              <div class="answer-container">
-                <p>
-                  Забронировать поездку через сайт можно за&nbsp;1 час до&nbsp;прибытия,
-                  если Вам нужно организовать трансфер СРОЧНО, то&nbsp;Вам лучше связаться
-                  с&nbsp;нашим диспетчером через онлайн-форму или указанный в&nbsp;шапке номер телефона.
-                  Как правило, мы находим водителя за&nbsp;10 минут + время подачи.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-8 offset-2 question-answer__question">
-            <div class="question">Как проверить, что мой заказ принят?
-              <div class="plus">
-                <div class="rectangle rectangle--1"></div>
-                <div class="rectangle rectangle--2"></div>
-              </div>
-            </div>
-            <div class="answer">
-              <div class="answer-container">
-                <p>
-                  На&nbsp;указанную при&nbsp;бронировании почту должно прийти подтверждение — ваучер,
-                  в&nbsp;котором указаны номер заказа и&nbsp;все данные поездки. Если вы не&nbsp;получили письмо
-                  с&nbsp;подтверждением, обязательно свяжитесь с&nbsp;менеджером по почте<a class="link email" href="mailto:zakaz@vl-taxi.ru"><span>zakaz@vl-taxi.ru</span></a>, телефону<a class="link" href="tel:+79773478089"><span>8 (977) 347-80-89</span></a>или&nbsp;в&nbsp;чате.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-8 offset-2 question-answer__question">
-            <div class="question">Какое время указать?
-              <div class="plus">
-                <div class="rectangle rectangle--1"></div>
-                <div class="rectangle rectangle--2"></div>
-              </div>
-            </div>
-            <div class="answer">
-              <div class="answer-container">
-                <p>
-                  Если вам нужен трансфер из&nbsp;аэропорта или&nbsp;от&nbsp;вокзала,
-                  указывайте время прилета или&nbsp;прибытия: в&nbsp;этом случае водителю
-                  проще организовать встречу в&nbsp;аэропорту или&nbsp;на&nbsp;вокзале.
-                </p>
-                <p><b>Важно:</b> если вы узнаете об&nbsp;изменении времени прилета, пожалуйста,
-                  сообщите нам об&nbsp;этом, чтобы мы информировали перевозчика.
-                </p>
-                <p>
-                  Если вам нужен трансфер из&nbsp;гостиницы до аэропорта, указывайте время,
-                  когда вас нужно встретить на&nbsp;ресепшн. Вам потребуется рассчитать
-                  время выезда. Мы&nbsp;рекомендуем вычесть из&nbsp;времени вылета примерно
-                  три часа на&nbsp;регистрацию в&nbsp;аэропорту плюс длительность поездки.
-                  Примерное время, за&nbsp;которое водитель сможет добраться до&nbsp;аэропорта,
-                  указано на&nbsp;странице бронирования под&nbsp;картой, после выбора маршрута.
-                </p>
+              <div class="order__in-total row">
+                <div class="col-md-4 order__in-total-span1">Итого</div>
+                <div class="col-md-8 order__in-total-span2">4 620<span class="rub">руб.</span></div>
               </div>
             </div>
           </div>

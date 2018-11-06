@@ -48,14 +48,40 @@
                 <div class="row">
                   <div class="col-md-4">
                     <fieldset>
-                      <input class="input" id="from">
-                      <label for="from">Откуда</label>
+                      <fieldset class="select">
+                        <div class="comment">Откуда</div><img class="tick" src="assets/img/select-triangle.svg" alt="">
+                        <select name="from">
+                          <option>из Алупки</option>
+                          <option>из Бахчисарая</option>
+                          <option>из Белогорска</option>
+                          <option>из Верхней Кутузовки</option>
+                          <option>из Гаспры</option>
+                          <option>из Гурзуфа</option>
+                          <option>из Джанкой</option>
+                          <option>из Заозерного</option>
+                          <option>из Евпатории</option>
+                          <option selected>из Симферополя</option>
+                          <option>из Ялты</option>
+                        </select>
+                      </fieldset>
                     </fieldset>
                   </div>
                   <div class="col-md-4">
                     <fieldset>
-                      <input class="input focus" id="where" value="Симферополь">
-                      <label for="where">Куда</label>
+                      <fieldset class="select">
+                        <div class="comment">Куда</div><img class="tick" src="assets/img/select-triangle.svg" alt="">
+                        <select name="where">
+                          <option>в Алупку</option>
+                          <option>в Бахчисарай</option>
+                          <option>в Белогорск</option>
+                          <option>в Верхнюю Кутузовку</option>
+                          <option>в Гаспру</option>
+                          <option>в Гурзуф</option>
+                          <option>в Джанкой</option>
+                          <option>в Заозерный</option>
+                          <option selected>в Евпаторию</option>
+                        </select>
+                      </fieldset>
                     </fieldset>
                   </div>
                   <div class="col-md-2">
@@ -370,7 +396,7 @@
     <section class="how-to-order" id="how-to-order">
       <h2>Как заказать</h2>
       <div class="container">
-        <div class="row">
+        <div class="row" data-animation="fadeIn">
           <div class="col-md-10 offset-1">
             <p class="how-to-order__p1">
               Услуга трансфера от&nbsp;Вежливых людей - выгодная альтернатива вызова
@@ -380,7 +406,7 @@
             </p>
           </div>
         </div>
-        <div class="row row--advantages">
+        <div class="row" data-animation="fadeIn">
           <div class="col-md-4 row">
             <div class="col-md-4 advantages__number"><?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
@@ -436,8 +462,6 @@
               <p>Заполните форму</p>
             </div>
           </div>
-        </div>
-        <div class="row">
           <div class="col-md-4 row">
             <div class="col-md-4 advantages__number"><?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
@@ -494,7 +518,7 @@
             </div>
           </div>
         </div>
-        <div class="row">
+        <div class="row" data-animation="fadeIn">
           <div class="col-md-10 offset-1">
             <p class="how-to-order__p2">
               Заказать такси желательно заранее, за&nbsp;1-2 дня до&nbsp;вылета,
@@ -506,7 +530,7 @@
         </div>
       </div>
     </section>
-    <section class="destinations">
+    <section class="destinations" data-animation="fadeIn">
       <h2>Цены на популярные направления</h2>
       <div class="container">
         <div class="row">

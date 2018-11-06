@@ -1,10 +1,12 @@
 .order{
     h2{
-        margin: 84px 0 0 0;
+        margin: 91px 0 30px 0;
+    }
+    h4{
+        margin: 16px 0 16px 0;
     }
     form{
         box-shadow: 0 7px 56px 0px rgba(210,214,217,.5);
-        margin-top: 30px;
         padding: 48px 60px 0;
         h3{
             margin: 0 0 22px 0;
@@ -17,6 +19,107 @@
             .col-md-6:last-child{
                 padding-left: 8px
             }
+        }
+        .k-radio{
+            margin-bottom: 28px;
+            margin-top: -8px;
+        }
+        .k-radio--back{
+            margin-top: -28px;
+        }
+    }
+    .order-comment{
+        color: $dark-gray;
+        font-size: 75%;
+        margin-top: 4px;
+        text-align: right;
+    }
+    &__continue{
+        border-top: 1px solid $light-gray;
+        padding: 48px 0 0 0;
+        button{
+            width: 100%;
+        }
+        .col-md-6:first-child{
+            padding-left: 0;
+        }
+        .col-md-6:last-child{
+            padding-right: 0;
+        }
+        .show{
+            height: 20px;
+            left: 0;
+            position: absolute;
+            top: -3px;
+            width: 20px;
+        }
+    }
+    .row.order__continue{
+        margin: 24px 0 24px 0;
+    }
+    &__result{
+        background: $dark-blue;
+        color: $white;
+        padding: 32px 32px 9px 32px;
+    }
+    &__result-row{
+        margin: 15px 0 0 0;
+        &:first-child{
+            margin: 0;
+        }
+    }
+    &__result-header{
+        font-family: $CB;
+        font-size: 120%;
+    }
+    &__result-text{
+        line-height: 125%;
+        font-size: 105%;
+    }
+    &__in-total{
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        margin: 36px 0 0 0;
+        padding: 12px 0 0 0;
+    }
+    &__in-total-span1{
+        font-size: 115%;
+        padding-left: 0;
+        padding-top: 8px;
+    }
+    &__in-total-span2{
+        color: $green;
+        font-family: $CB;
+        font-size: 200%;
+        padding-right: 0;
+        text-align: right;
+
+        .rub{
+            font-size: 80%;
+            margin-left: 4px;
+        }
+    }
+}
+
+.i-agree-block{
+    font-size: 90%;
+    margin: -4px 0 0 0;
+    label{
+        color: $black;
+        display: block;
+        left: 26px;
+        margin: 0;
+        position: relative;
+        top: 0;
+    }
+    .link{
+        color: $black;
+        display: block;
+        left: 26px;
+        line-height: 145%;
+        max-width: 200px;
+        position: relative;
+        span{
+            line-height: 100%;
         }
     }
 }
