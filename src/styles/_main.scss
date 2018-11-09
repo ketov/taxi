@@ -33,9 +33,9 @@ body{
 
 h1{
     font-family: $CB;
-    font-size: 300%;
+    font-size: 375%;
     font-weight: normal;
-    line-height: 100%;
+    line-height: 115%;
     text-align: center;
 }
 
@@ -63,6 +63,7 @@ h4{
     margin: 0;
 }
 
+/*
 .link{
     span{
         background-image: linear-gradient($green,$green);
@@ -74,6 +75,22 @@ h4{
     }
     &:hover span{
         background-size: 21px 21px;
+    }
+}*/
+
+a{
+    color: $black;
+    text-decoration: none;
+    border-bottom: 1px solid $green;
+    background-image: linear-gradient($green 0, $green 100%);
+    background-size: 0 0;
+    background-repeat: repeat-x;
+    background-position: left bottom;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    &:hover{
+        background-size: 1px 100%;
     }
 }
 
@@ -257,6 +274,41 @@ input[type=checkbox].show{
     display: block;
 }
 
+.passengers-add{
+    background: white;
+    box-shadow: rgba(210, 214, 217, 0.5) 0px 0px 28px 0px;
+    color: $black;
+    display: none;
+    left: 10px;
+    padding: 16px 0 14px 4px;
+    position: absolute;
+    top: 48px;
+    width: 260px;
+    z-index: 33;
+    button{
+        color: $black;
+        background: none;
+        font-size: 140%;
+        padding: 0;
+    }
+    &__text{
+        -ms-flex-align: center;
+        align-items: center;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    &__actions{
+        -ms-flex-align: center;
+        align-items: center;
+        display: -ms-flexbox;
+        display: flex;
+        .col-md-4{
+            padding: 0;
+            text-align: center;
+        }
+    }
+}
+
 @font-face{
     font-family: CirceLight;
     src: url('../fonts/Circe-Light.ttf');
@@ -277,9 +329,13 @@ input[type=checkbox].show{
 }
 
 @media(max-width: 1200px){
-    h1{
+    /*h1{
         font-size: 370%;
         line-height: 115%;
+    }*/
+    h1{
+        font-size: 345%;
+        line-height: 110%;
     }
     h2{
         font-size: 275%;
@@ -295,10 +351,16 @@ input[type=checkbox].show{
     }
 }
 
+@media (max-width: 1100px) {
+    h1{
+        font-size: 315%;
+    }
+}
+
 @media(max-width: 1000px){
     h1{
-        font-size: 340%;
-        line-height: 115%;
+        /*font-size: 340%;
+        line-height: 115%;*/
     }
     h2{
         font-size: 245%;

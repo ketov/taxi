@@ -164,20 +164,6 @@ html
                             div.col-md-12
                                 h4 Дополнительные товары и услуги
 
-                            div.col-md-12
-                                fieldset.select
-                                    div.comment Бутылка питьевой негазированной воды 0,5 л
-                                    img.tick(src="assets/img/select-triangle.svg" alt="")
-                                    select(name="water")
-                                        option(selected) -
-                                        option 1
-                                        option 2
-                                        option 3
-                                        option 4
-                                        option 5
-                                        option 6
-                                div.order-comment +120 руб.
-
                             div.row.k-radio
                                 fieldset.checkbox
                                     label(for="meet") Встреча в аэропорту с табличкой (+200 руб.)
@@ -197,37 +183,43 @@ html
                                         button Продолжить
 
 
-                    div.col-md-4
-                        div.order__result
-                            div.order__result-row
-                                div.order__result-header Тариф
-                                div.order__result-text «Эконом» (до 3 пассажиров и 3 багажей)
+                    div.col-md-4#order__result-container
+                        div.order__result#order__result
+                            div.row
+                                div.col-md-6
+                                    div.order__result-row
+                                        div.order__result-header Тариф
+                                        div.order__result-text «Эконом» (до&nbsp;3 пассажиров и&nbsp;3&nbsp;багажей)
+                                div.col-md-6
+                                    div.order__result-row
+                                        div.order__result-header Пассажиры
+                                        div.order__result-text 2
 
-                            div.order__result-row
-                                div.order__result-header Контактная информация
-                                div.order__result-text.order__result-text--name Юрий Кетов
-                                div.order__result-text.order__result-text--email ketov1992@list.ru
-                                div.order__result-text.order__result-text--phone +7 (922) 310-48-70
+                            div.row
+                                div.col-md-6
+                                    div.order__result-row
+                                        div.order__result-header Место отправления
+                                        div.order__result-text.order__result-text--from Ялта, отель Ялта-Интурист
+                                div.col-md-6
+                                    div.order__result-row
+                                        div.order__result-header Обратный трансфер
+                                        div.order__result-text.order__result-text
+                                            span 25.10.2018,
+                                            span 16:00
 
-                            div.order__result-row
-                                div.order__result-header Место отправления
-                                div.order__result-text.order__result-text--from Ялта, отель Ялта-Интурист
+                            div.row
+                                div.col-md-12
+                                    div.order__result-row
+                                        div.order__result-header Контактная информация
+                                        div.order__result-text.order__result-text--name Юрий Кетов
+                                        div.order__result-text.order__result-text--email ketov1992@list.ru
 
-                            div.order__result-row
-                                div.order__result-header Обратный трансфер
-                                div.order__result-text.order__result-text
-                                    span 25.10.2018,
-                                    span 16:00
-
-                            div.order__result-row
-                                div.order__result-header Пассажиры
-                                div.order__result-text 2
-
-                            div.order__result-row
-                                div.order__result-header Дополнительные товары и услуги
-                                div.order__result-text Детское кресло × 1 — 300 руб.
-                                div.order__result-text Бутылка питьевой воды × 1 — 120 руб.
-                                div.order__result-text Встреча в аэропорту — 200 руб.
+                            div.row
+                                div.col-md-12
+                                    div.order__result-row
+                                        div.order__result-header Дополнительные товары и услуги
+                                        div.order__result-text Детское кресло × 1 — 300 руб.
+                                        div.order__result-text Встреча в аэропорту — 200 руб.
 
 
                             div.order__in-total.row

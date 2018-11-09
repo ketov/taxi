@@ -14,91 +14,55 @@ html
         //img(src="assets/img/index-desktop.png" alt="шаблон.десктоп" style="position: absolute; z-index: 1; opacity: 0.5;")
         include includes/header
         include includes/index-offer
-        include includes/reviews
-        include includes/advantages
-        include includes/standards
-        include includes/how-to-order
 
         section.destinations(data-animation="fadeIn")
             h2 Цены на популярные направления
             div.container
                 div.row
-                    div.col-md-4
-                        a.link(href="#")
-                            span.destinations__main-span
-                                i.i-left
-                                    | в Алупку
-                                    i.dash  —
-                                i.i-right 1 500 руб.
+                    div.col-md-6
+                        div.destinations__destination
+                            a.link(href="#") Алупка — Бахчисарай
+                            span.price 1 500 руб.
 
-                    div.col-md-4
-                        a.link(href="#")
-                            span.destinations__main-span
-                                i.i-left
-                                    | в Бахчисарай
-                                    i.dash  —
-                                i.i-right 1 190 руб.
+                    div.col-md-6
+                        div.destinations__destination
+                            a.link(href="#") Бахчисарай — Белогорск
+                            span.price 1 190 руб.
 
-                    div.col-md-4
-                        a.link(href="#")
-                            span.destinations__main-span
-                                i.i-left
-                                    | в Белогорск
-                                    i.dash  —
-                                i.i-right 990 руб.
+                    div.col-md-6
+                        div.destinations__destination
+                            a.link(href="#") Верхняя Кутузовка — Гаспра
+                            span.price 890 руб.
 
-                    div.col-md-4
-                        a.link(href="#")
-                            span.destinations__main-span
-                                i.i-left
-                                    | в Верхнюю Кутузовку
-                                    i.dash  —
-                                i.i-right 890 руб.
+                    div.col-md-6
+                        div.destinations__destination
+                            a.link(href="#") Джанкой — Евпатория
+                            span.price 1 590 руб.
 
-                    div.col-md-4
-                        a.link(href="#")
-                            span.destinations__main-span
-                                i.i-left
-                                    | в Гаспру
-                                    i.dash  —
-                                i.i-right 1 490 руб.
+                    div.col-md-6
+                        div.destinations__destination
+                            a.link(href="#") Заозерное — Гурзуф
+                            span.price 990 руб.
 
-                    div.col-md-4
-                        a.link(href="#")
-                            span.destinations__main-span
-                                i.i-left
-                                    | в Гурзуф
-                                    i.dash  —
-                                i.i-right 1 090 руб.
+                    div.col-md-6
+                        div.destinations__destination
+                            a.link(href="#") Верхняя Кутузовка — Симферополь
+                            span.price 2 090 руб.
 
-                    div.col-md-4
-                        a.link(href="#")
-                            span.destinations__main-span
-                                i.i-left
-                                    | в Джанкой
-                                    i.dash  —
-                                i.i-right 1 190 руб.
+                    div.col-md-6
+                        div.destinations__destination
+                            a.link(href="#") Джанкой — Гурзуф
+                            span.price 1 190 руб.
 
-                    div.col-md-4
-                        a.link(href="#")
-                            span.destinations__main-span
-                                i.i-left
-                                    | в Заозерное
-                                    i.dash  —
-                                i.i-right 1 190 руб.
+                    div.col-md-6
+                        div.destinations__destination
+                            a.link(href="#") Белогорск — Евпатория
+                            span.price 590 руб.
 
-                    div.col-md-4
-                        a.link(href="#")
-                            span.destinations__main-span
-                                i.i-left
-                                    | в Евпаторию
-                                    i.dash  —
-                                i.i-right 1 090 руб.
-
-
-
-
-
+        include includes/reviews
+        include includes/advantages
+        include includes/standards
+        include includes/how-to-order
         include includes/footer
        
         script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js")

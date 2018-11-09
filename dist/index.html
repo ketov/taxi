@@ -16,13 +16,12 @@
     <header data-animation="fadeIn" data-animation-delay="500ms">
       <div class="container">
         <div class="row">
-          <div class="col-md-2"><img class="logo" src="assets/img/logo.svg" alt="логотип"></div>
-          <div class="col-md-8 links"><a class="link" href="#"><span>Услуги трансфера</span></a><a class="link" href="#"><span>Частые вопросы</span></a><a class="link" href="#"><span>Гид «Как добраться»</span></a><a class="link" href="#"><span>О нас</span></a></div>
+          <div class="col-md-10"><a class="logo-link" href="index.html"><img class="logo" src="assets/img/logo.svg" alt="логотип"></a><a class="link" href="#">Услуги&nbsp;трансфера</a><a class="link" href="#">Частые&nbsp;вопросы</a><a class="link" href="#">Гид&nbsp;«Как&nbsp;добраться»</a><a class="link" href="#">О&nbsp;нас</a><a class="link" href="#">Отзывы</a><a class="link" href="#">Контакты</a><span class="clear"></span></div>
           <div class="col-md-2 phone"><a href="tel:+79223104870">+7 (922) 310-48-70</a></div>
         </div>
         <div class="row mobile">
           <div class="col-md-2"><img class="logo" src="assets/img/logo.svg" alt="логотип"></div>
-          <div class="col-md-8 links"><a class="link" href="#"><span>Услуги трансфера</span></a><a class="link" href="#"><span>Частые вопросы</span></a><a class="link" href="#"><span>Гид «Как добраться»</span></a><a class="link" href="#"><span>О нас</span></a></div>
+          <div class="col-md-8 links"><a class="link" href="#">Услуги трансфера</a><a class="link" href="#">Частые вопросы</a><a class="link" href="#">Гид «Как добраться»</a><a class="link" href="#">О нас</a><a class="link" href="#">Отзывы</a><a class="link" href="#">Контакты</a></div>
           <div class="col-md-2 phone"><a href="tel:+79223104870">+7 (922) 310-48-70</a></div>
         </div>
       </div>
@@ -42,61 +41,94 @@
           </div>
         </div>
         <div class="search search--main" data-animation="fadeIn" data-animation-delay="600ms">
-          <div class="container">
-            <div class="row">
-              <form class="col-md-10 offset-1 index-offer__form">
-                <div class="row">
-                  <div class="col-md-4">
+          <div class="row">
+            <form class="col-md-10 offset-1 index-offer__form">
+              <div class="row">
+                <div class="col-md-4">
+                  <fieldset>
                     <fieldset>
-                      <fieldset class="select">
-                        <div class="comment">Откуда</div><img class="tick" src="assets/img/select-triangle.svg" alt="">
-                        <select name="from">
-                          <option>из Алупки</option>
-                          <option>из Бахчисарая</option>
-                          <option>из Белогорска</option>
-                          <option>из Верхней Кутузовки</option>
-                          <option>из Гаспры</option>
-                          <option>из Гурзуфа</option>
-                          <option>из Джанкой</option>
-                          <option>из Заозерного</option>
-                          <option>из Евпатории</option>
-                          <option selected>из Симферополя</option>
-                          <option>из Ялты</option>
-                        </select>
-                      </fieldset>
+                      <input class="input focus" name="from" id="from" value="Симферополь">
+                      <label for="from">Откуда</label>
                     </fieldset>
-                  </div>
-                  <div class="col-md-4">
-                    <fieldset>
-                      <fieldset class="select">
-                        <div class="comment">Куда</div><img class="tick" src="assets/img/select-triangle.svg" alt="">
-                        <select name="where">
-                          <option>в Алупку</option>
-                          <option>в Бахчисарай</option>
-                          <option>в Белогорск</option>
-                          <option>в Верхнюю Кутузовку</option>
-                          <option>в Гаспру</option>
-                          <option>в Гурзуф</option>
-                          <option>в Джанкой</option>
-                          <option>в Заозерный</option>
-                          <option selected>в Евпаторию</option>
-                        </select>
-                      </fieldset>
-                    </fieldset>
-                  </div>
-                  <div class="col-md-2">
-                    <fieldset>
-                      <input class="input" id="passengers">
-                      <label for="passengers">Пассажиры</label>
-                    </fieldset>
-                  </div>
-                  <div class="col-md-2">
-                    <button>Найти</button>
-                  </div>
+                  </fieldset>
                 </div>
-              </form>
-            </div>
+                <div class="col-md-4">
+                  <fieldset>
+                    <fieldset>
+                      <input class="input" name="where" id="where">
+                      <label for="where">Куда</label>
+                    </fieldset>
+                  </fieldset>
+                </div>
+                <div class="col-md-2">
+                  <fieldset>
+                    <input class="input" id="passengers">
+                    <label for="passengers" id="label-for-passengers">Пассажиры</label>
+                    <div class="passengers-add">
+                      <div class="row">
+                        <div class="col-md-6 passengers-add__text">Взрослые</div>
+                        <div class="col-md-6 row passengers-add__actions">
+                          <div class="col-md-4">
+                            <button class="passengers-add__button" type="button">-</button>
+                          </div>
+                          <div class="col-md-4">0</div>
+                          <div class="col-md-4">
+                            <button class="passengers-add__button" type="button">+</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-6 passengers-add__text">Дети</div>
+                        <div class="col-md-6 row passengers-add__actions">
+                          <div class="col-md-4">
+                            <button class="passengers-add__button" type="button">-</button>
+                          </div>
+                          <div class="col-md-4">0</div>
+                          <div class="col-md-4">
+                            <button class="passengers-add__button" type="button">+</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </fieldset>
+                </div>
+                <div class="col-md-2">
+                  <button>Найти</button>
+                </div>
+              </div>
+            </form>
           </div><img class="main-img" src="assets/img/main-illustration.svg" alt="главная иллюстрация">
+        </div>
+      </div>
+    </section>
+    <section class="destinations" data-animation="fadeIn">
+      <h2>Цены на популярные направления</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="destinations__destination"><a class="link" href="#">Алупка — Бахчисарай</a><span class="price">1 500 руб.</span></div>
+          </div>
+          <div class="col-md-6">
+            <div class="destinations__destination"><a class="link" href="#">Бахчисарай — Белогорск</a><span class="price">1 190 руб.</span></div>
+          </div>
+          <div class="col-md-6">
+            <div class="destinations__destination"><a class="link" href="#">Верхняя Кутузовка — Гаспра</a><span class="price">890 руб.</span></div>
+          </div>
+          <div class="col-md-6">
+            <div class="destinations__destination"><a class="link" href="#">Джанкой — Евпатория</a><span class="price">1 590 руб.</span></div>
+          </div>
+          <div class="col-md-6">
+            <div class="destinations__destination"><a class="link" href="#">Заозерное — Гурзуф</a><span class="price">990 руб.</span></div>
+          </div>
+          <div class="col-md-6">
+            <div class="destinations__destination"><a class="link" href="#">Верхняя Кутузовка — Симферополь</a><span class="price">2 090 руб.</span></div>
+          </div>
+          <div class="col-md-6">
+            <div class="destinations__destination"><a class="link" href="#">Джанкой — Гурзуф</a><span class="price">1 190 руб.</span></div>
+          </div>
+          <div class="col-md-6">
+            <div class="destinations__destination"><a class="link" href="#">Белогорск — Евпатория</a><span class="price">590 руб.</span></div>
+          </div>
         </div>
       </div>
     </section>
@@ -522,43 +554,12 @@
         </div>
       </div>
     </section>
-    <section class="destinations" data-animation="fadeIn">
-      <h2>Цены на популярные направления</h2>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4"><a class="link" href="#"><span class="destinations__main-span"><i class="i-left">в Алупку<i class="dash"> —</i></i><i class="i-right">1 500 руб.</i></span></a></div>
-          <div class="col-md-4"><a class="link" href="#"><span class="destinations__main-span"><i class="i-left">в Бахчисарай<i class="dash"> —</i></i><i class="i-right">1 190 руб.</i></span></a></div>
-          <div class="col-md-4"><a class="link" href="#"><span class="destinations__main-span"><i class="i-left">в Белогорск<i class="dash"> —</i></i><i class="i-right">990 руб.</i></span></a></div>
-          <div class="col-md-4"><a class="link" href="#"><span class="destinations__main-span"><i class="i-left">в Верхнюю Кутузовку<i class="dash"> —</i></i><i class="i-right">890 руб.</i></span></a></div>
-          <div class="col-md-4"><a class="link" href="#"><span class="destinations__main-span"><i class="i-left">в Гаспру<i class="dash"> —</i></i><i class="i-right">1 490 руб.</i></span></a></div>
-          <div class="col-md-4"><a class="link" href="#"><span class="destinations__main-span"><i class="i-left">в Гурзуф<i class="dash"> —</i></i><i class="i-right">1 090 руб.</i></span></a></div>
-          <div class="col-md-4"><a class="link" href="#"><span class="destinations__main-span"><i class="i-left">в Джанкой<i class="dash"> —</i></i><i class="i-right">1 190 руб.</i></span></a></div>
-          <div class="col-md-4"><a class="link" href="#"><span class="destinations__main-span"><i class="i-left">в Заозерное<i class="dash"> —</i></i><i class="i-right">1 190 руб.</i></span></a></div>
-          <div class="col-md-4"><a class="link" href="#"><span class="destinations__main-span"><i class="i-left">в Евпаторию<i class="dash"> —</i></i><i class="i-right">1 090 руб.</i></span></a></div>
-        </div>
-      </div>
-    </section>
-    <footer>
+    <footer id="footer">
       <div class="container">
         <div class="row">
           <div class="col-md-3 copyright">© 2018 Служба такси «Вежливые люди»</div>
           <div class="col-md-6 row">
-            <div class="col-md-4 documents-container">
-              <div class="document"><a class="link" href="#"><span>Оферта для юр. лиц</span></a>
-                <div class="type-and-size">(doc, 44,6 Кб)</div>
-              </div>
-              <div class="document"><a class="link" href="#"><span>Оферта для физ. лиц</span></a>
-                <div class="type-and-size">(doc, 52,0 Кб)</div>
-              </div>
-            </div>
-            <div class="col-md-8 documents-container">
-              <div class="document"><a class="link" href="#"><span>Политика конфиденциальности</span></a>
-                <div class="type-and-size">(doc, 23,2 Кб)</div>
-              </div>
-              <div class="document"><a class="link" href="#"><span>Общие правила оказания трансферных услуг</span></a>
-                <div class="type-and-size">(doc, 14,9 Кб)</div>
-              </div>
-            </div>
+            <div><a href="rules.html">Правила и условия</a></div>
           </div>
           <div class="col-md-3 ketov">Дизайн — Юрий Кетов</div>
         </div>

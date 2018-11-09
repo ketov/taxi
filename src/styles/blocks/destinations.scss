@@ -1,12 +1,30 @@
 .destinations{
     h2{
-        margin: 85px 0 58px 0;
+        margin: 85px 0 40px 0;
+    }
+    .col-md-6{
+        margin: 0 0 20px 0;
+    }
+    .col-md-6:nth-child(2n+1){
+        padding-left: 0;
+        padding-right: 12px;
+    }
+    .col-md-6:nth-child(2n){
+        padding-left: 12px;
+        padding-right: 0;
+    }
+    &__destination{
+        box-shadow: 0 3px 30px 0 rgba(210,214,217,.5);
+        display: flex;
+        font-size: 115%;
+        justify-content: space-between;
+        padding: 18px 20px 18px 20px;
     }
     a {
-        display: flex;
-        color: $black;
-        font-size: 115%;
-        width: 100%;
+        /*display: flex;
+        color: $black;*/
+        /*font-size: 115%;*/
+        /*width: 100%;*/
     }
     .link{
         &:hover span{
@@ -18,14 +36,14 @@
         justify-content: space-between;
         padding: 0 0 8px 0;
         width: 100%;
-    }
+    }/*
     i{
         font-family: $CR;
         font-style: normal;
     }
     .dash{
         display: none;
-    }
+    }*/
     .col-md-4{
         margin: 0 0 36px 0;
     }
@@ -50,6 +68,14 @@
     .destinations{
         h2{
             margin: 80px 0 40px;
+        }
+    }
+}
+
+@media(max-width: 1100px){
+    .destinations{
+        h2{
+            margin: 60px 0 32px 0;
         }
     }
 }

@@ -9,7 +9,7 @@
     }
     &__breadcrumbs{
         text-align: center;
-        .link{
+        a{
             color: $white;
             font-size: 115%;
         }
@@ -21,7 +21,8 @@
         }
     }
     h1{
-        margin: 38px 0 28px 0;
+        margin: 38px auto 28px;
+        max-width: 1000px;
     }
     form{
         background: $white;
@@ -56,6 +57,24 @@
         &--main{
             padding: 32px 0 0;
         }
+    }
+}
+
+@media(max-width: 1100px){
+    .search{
+        padding: 84px 0 40px;
+        h1{
+            margin: 28px auto 16px;
+        }
+        &--main{
+            padding: 24px 0 0 0;
+        }
+        form{
+            padding: 48px 40px;
+        }
+    }
+    .search.search--inner.search--short-destinations{
+        padding: 84px 0 160px;
     }
 }
 

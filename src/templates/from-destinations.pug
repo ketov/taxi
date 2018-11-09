@@ -26,43 +26,39 @@ html
                         div.row
                             div.col-md-4
                                 fieldset
-                                    fieldset.select
-                                        div.comment Откуда
-                                        img.tick(src="assets/img/select-triangle.svg" alt="")
-                                        select(name="from")
-                                            option из Алупки
-                                            option из Бахчисарая
-                                            option из Белогорска
-                                            option из Верхней Кутузовки
-                                            option из Гаспры
-                                            option из Гурзуфа
-                                            option из Джанкой
-                                            option из Заозерного
-                                            option из Евпатории
-                                            option(selected) из Симферополя
-                                            option из Ялты
+                                    fieldset
+                                        input.input.focus(name="from" id="from" value="Симферополь")
+                                        label(for="from") Откуда
 
                             div.col-md-4
                                 fieldset
-                                    fieldset.select
-                                        div.comment Куда
-                                        img.tick(src="assets/img/select-triangle.svg" alt="")
-                                        select(name="where")
-                                            option(selected) в Алупку
-                                            option в Бахчисарай
-                                            option в Белогорск
-                                            option в Верхнюю Кутузовку
-                                            option в Гаспру
-                                            option в Гурзуф
-                                            option в Джанкой
-                                            option в Заозерный
-                                            option в Евпаторию
-                                            option в Симферополь
+                                    fieldset
+                                        input.input(name="where" id="where")
+                                        label(for="where") Куда
 
                             div.col-md-2
                                 fieldset
                                     input.input(id="passengers")
-                                    label(for="passengers") Пассажиры
+                                    label(for="passengers" id="label-for-passengers") Пассажиры
+
+                                    div.passengers-add
+                                        div.row
+                                            div.col-md-6.passengers-add__text Взрослые
+                                            div.col-md-6.row.passengers-add__actions
+                                                div.col-md-4
+                                                    button.passengers-add__button(type="button") -
+                                                div.col-md-4 0
+                                                div.col-md-4
+                                                    button.passengers-add__button(type="button") +
+
+                                        div.row
+                                            div.col-md-6.passengers-add__text Дети
+                                            div.col-md-6.row.passengers-add__actions
+                                                div.col-md-4
+                                                    button.passengers-add__button(type="button") -
+                                                div.col-md-4 0
+                                                div.col-md-4
+                                                    button.passengers-add__button(type="button") +
 
                             div.col-md-2
                                 button Найти
@@ -76,197 +72,126 @@ html
             h2 Все направления из аэропорта Симферополя
             div.container
                 div.row
-                    div.col-md-4
-                        a.link(href="#")
-                            span.destinations__main-span
-                                i.i-left
-                                    | в Алупку
-                                    i.dash  —
-                                i.i-right 1 500 руб.
+                    div.col-md-6
+                        div.destinations__destination
+                            a.link(href="#") Симферополь — Алупка
+                            span.price 1 500 руб.
 
-                    div.col-md-4
-                        a.link(href="#")
-                            span.destinations__main-span
-                                i.i-left
-                                    | в Бахчисарай
-                                    i.dash  —
-                                i.i-right 1 190 руб.
+                    div.col-md-6
+                        div.destinations__destination
+                            a.link(href="#") Симферополь — Бахчисарай
+                            span.price 1 190 руб.
 
-                    div.col-md-4
-                        a.link(href="#")
-                            span.destinations__main-span
-                                i.i-left
-                                    | в Белогорск
-                                    i.dash  —
-                                i.i-right 990 руб.
+                    div.col-md-6
+                        div.destinations__destination
+                            a.link(href="#") Симферополь — Белогорск
+                            span.price 990 руб.
 
-                    div.col-md-4
-                        a.link(href="#")
-                            span.destinations__main-span
-                                i.i-left
-                                    | в Верхнюю Кутузовку
-                                    i.dash  —
-                                i.i-right 890 руб.
+                    div.col-md-6
+                        div.destinations__destination
+                            a.link(href="#") Симферополь — Верхняя Кутузовка
+                            span.price 890 руб.
 
-                    div.col-md-4
-                        a.link(href="#")
-                            span.destinations__main-span
-                                i.i-left
-                                    | в Гаспру
-                                    i.dash  —
-                                i.i-right 1 490 руб.
+                    div.col-md-6
+                        div.destinations__destination
+                            a.link(href="#") Симферополь — Гаспра
+                            span.price 1 490 руб.
 
-                    div.col-md-4
-                        a.link(href="#")
-                            span.destinations__main-span
-                                i.i-left
-                                    | в Гурзуф
-                                    i.dash  —
-                                i.i-right 1 090 руб.
+                    div.col-md-6
+                        div.destinations__destination
+                            a.link(href="#") Симферополь — Гурзуф
+                            span.price 1 090 руб.
 
-                    div.col-md-4
-                        a.link(href="#")
-                            span.destinations__main-span
-                                i.i-left
-                                    | в Джанкой
-                                    i.dash  —
-                                i.i-right 1 190 руб.
+                    div.col-md-6
+                        div.destinations__destination
+                            a.link(href="#") Симферополь — Джанкой
+                            span.price 1 190 руб.
 
-                    div.col-md-4
-                        a.link(href="#")
-                            span.destinations__main-span
-                                i.i-left
-                                    | в Заозерный
-                                    i.dash  —
-                                i.i-right 1 190 руб.
+                    div.col-md-6
+                        div.destinations__destination
+                            a.link(href="#") Симферополь — Заозерное
+                            span.price 1 190 руб.
 
-                    div.col-md-4
-                        a.link(href="#")
-                            span.destinations__main-span
-                                i.i-left
-                                    | в Евпаторию
-                                    i.dash  —
-                                i.i-right 1 090 руб.
+                    div.col-md-6
+                        div.destinations__destination
+                            a.link(href="#") Симферополь — Евпатория
+                            span.price 1 090 руб.
 
-                    div.col-md-4
-                        a.link(href="#")
-                            span.destinations__main-span
-                                i.i-left
-                                    | в Инкерман
-                                    i.dash  —
-                                i.i-right 1 090 руб.
+                    div.col-md-6
+                        div.destinations__destination
+                            a.link(href="#") Симферополь — Инкерман
+                            span.price 1 090 руб.
 
-                    div.col-md-4
-                        a.link(href="#")
-                            span.destinations__main-span
-                                i.i-left
-                                    | в Казачью бухту
-                                    i.dash  —
-                                i.i-right 1 190 руб.
+                    div.col-md-6
+                        div.destinations__destination
+                            a.link(href="#") Симферополь — Казачья бухта
+                            span.price 1 190 руб.
 
-                    div.col-md-4
-                        a.link(href="#")
-                            span.destinations__main-span
-                                i.i-left
-                                    | в Керчь
-                                    i.dash  —
-                                i.i-right 3 890 руб.
+                    div.col-md-6
+                        div.destinations__destination
+                            a.link(href="#") Симферополь — Керчь
+                            span.price 3 890 руб.
 
-                    div.col-md-4
-                        a.link(href="#")
-                            span.destinations__main-span
-                                i.i-left
-                                    | в Нижнюю Кутузовку
-                                    i.dash  —
-                                i.i-right 990 руб.
+                    div.col-md-6
+                        div.destinations__destination
+                            a.link(href="#") Симферополь — Нижняя Кутузовка
+                            span.price 990 руб.
 
-                    div.col-md-4
-                        a.link(href="#")
-                            span.destinations__main-span
-                                i.i-left
-                                    | в Новый Свет
-                                    i.dash  —
-                                i.i-right 1 690 руб.
+                    div.col-md-6
+                        div.destinations__destination
+                            a.link(href="#") Симферополь — Новый Свет
+                            span.price 1 690 руб.
 
-                    div.col-md-4
-                        a.link(href="#")
-                            span.destinations__main-span
-                                i.i-left
-                                    | в Орловку
-                                    i.dash  —
-                                i.i-right 1 690 руб.
+                    div.col-md-6
+                        div.destinations__destination
+                            a.link(href="#") Симферополь — Орловка
+                            span.price 1 690 руб.
 
-                    div.col-md-4
-                        a.link(href="#")
-                            span.destinations__main-span
-                                i.i-left
-                                    | в Полюшко
-                                    i.dash  —
-                                i.i-right 1 090 руб.
+                    div.col-md-6
+                        div.destinations__destination
+                            a.link(href="#") Симферополь — Полюшко
+                            span.price 1 090 руб.
 
-                    div.col-md-4
-                        a.link(href="#")
-                            span.destinations__main-span
-                                i.i-left
-                                    | в Приморский
-                                    i.dash  —
-                                i.i-right 1 890 руб.
+                    div.col-md-6
+                        div.destinations__destination
+                            a.link(href="#") Симферополь — Приморский
+                            span.price 1 890 руб.
 
-                    div.col-md-4
-                        a.link(href="#")
-                            span.destinations__main-span
-                                i.i-left
-                                    | в Рыбачье
-                                    i.dash  —
-                                i.i-right 1 590 руб.
+                    div.col-md-6
+                        div.destinations__destination
+                            a.link(href="#") Симферополь — Рыбачье
+                            span.price 1 590 руб.
 
-                    div.col-md-4
-                        a.link(href="#")
-                            span.destinations__main-span
-                                i.i-left
-                                    | в Севастополь
-                                    i.dash  —
-                                i.i-right 1 090 руб.
+                    div.col-md-6
+                        div.destinations__destination
+                            a.link(href="#") Симферополь — Севастополь
+                            span.price 1 090 руб.
 
-                    div.col-md-4
-                        a.link(href="#")
-                            span.destinations__main-span
-                                i.i-left
-                                    | в Уютное
-                                    i.dash  —
-                                i.i-right 990 руб.
+                    div.col-md-6
+                        div.destinations__destination
+                            a.link(href="#") Симферополь — Уютное
+                            span.price 990 руб.
 
-                    div.col-md-4
-                        a.link(href="#")
-                            span.destinations__main-span
-                                i.i-left
-                                    | в Скалистое
-                                    i.dash  —
-                                i.i-right 690 руб.
+                    div.col-md-6
+                        div.destinations__destination
+                            a.link(href="#") Симферополь — Скалистое
+                            span.price 690 руб.
 
-                    div.col-md-4
-                        a.link(href="#")
-                            span.destinations__main-span
-                                i.i-left
-                                    | в Судак
-                                    i.dash  —
-                                i.i-right 1 490 руб.
+                    div.col-md-6
+                        div.destinations__destination
+                            a.link(href="#") Симферополь — Судак
+                            span.price 1 490 руб.
 
-                    div.col-md-4
-                        a.link(href="#")
-                            span.destinations__main-span
-                                i.i-left
-                                    | в Щелкино
-                                    i.dash  —
-                                i.i-right 2 090 руб.
+                    div.col-md-6
+                        div.destinations__destination
+                            a.link(href="#") Симферополь — Щелкино
+                            span.price 2 090 руб.
 
-                    div.col-md-4
-                        a.link(href="#")
-                            span.destinations__main-span
-                                i.i-left
-                                    | в Ялту
-                                    i.dash  —
-                                i.i-right 1 090 руб.
+                    div.col-md-6
+                        div.destinations__destination
+                            a.link(href="#") Симферополь — Ялта
+                            span.price 1 090 руб.
+
 
 
                 div.row

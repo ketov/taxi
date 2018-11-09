@@ -5,50 +5,47 @@ section.index-offer
                 h1 Заказывайте такси-трансфер в&nbsp;аэропорт Симферополя и&nbsp;города Крыма
 
         div.search.search--main(data-animation="fadeIn" data-animation-delay="600ms")
-            div.container
-                div.row
-                    form.col-md-10.offset-1.index-offer__form
-                        div.row
-                            div.col-md-4
+            div.row
+                form.col-md-10.offset-1.index-offer__form
+                    div.row
+                        div.col-md-4
+                            fieldset
                                 fieldset
-                                    fieldset.select
-                                        div.comment Откуда
-                                        img.tick(src="assets/img/select-triangle.svg" alt="")
-                                        select(name="from")
-                                            option из Алупки
-                                            option из Бахчисарая
-                                            option из Белогорска
-                                            option из Верхней Кутузовки
-                                            option из Гаспры
-                                            option из Гурзуфа
-                                            option из Джанкой
-                                            option из Заозерного
-                                            option из Евпатории
-                                            option(selected) из Симферополя
-                                            option из Ялты
+                                    input.input.focus(name="from" id="from" value="Симферополь")
+                                    label(for="from") Откуда
 
-                            div.col-md-4
+                        div.col-md-4
+                            fieldset
                                 fieldset
-                                    fieldset.select
-                                        div.comment Куда
-                                        img.tick(src="assets/img/select-triangle.svg" alt="")
-                                        select(name="where")
-                                            option в Алупку
-                                            option в Бахчисарай
-                                            option в Белогорск
-                                            option в Верхнюю Кутузовку
-                                            option в Гаспру
-                                            option в Гурзуф
-                                            option в Джанкой
-                                            option в Заозерный
-                                            option(selected) в Евпаторию
+                                    input.input(name="where" id="where")
+                                    label(for="where") Куда
 
-                            div.col-md-2
-                                fieldset
-                                    input.input(id="passengers")
-                                    label(for="passengers") Пассажиры
+                        div.col-md-2
+                            fieldset
+                                input.input(id="passengers")
+                                label(for="passengers" id="label-for-passengers") Пассажиры
 
-                            div.col-md-2
-                                button Найти
+                                div.passengers-add
+                                    div.row
+                                        div.col-md-6.passengers-add__text Взрослые
+                                        div.col-md-6.row.passengers-add__actions
+                                            div.col-md-4
+                                                button.passengers-add__button(type="button") -
+                                            div.col-md-4 0
+                                            div.col-md-4
+                                                button.passengers-add__button(type="button") +
+
+                                    div.row
+                                        div.col-md-6.passengers-add__text Дети
+                                        div.col-md-6.row.passengers-add__actions
+                                            div.col-md-4
+                                                button.passengers-add__button(type="button") -
+                                            div.col-md-4 0
+                                            div.col-md-4
+                                                button.passengers-add__button(type="button") +
+
+
+                        div.col-md-2
+                            button Найти
 
             img.main-img(src="assets/img/main-illustration.svg" alt="главная иллюстрация")

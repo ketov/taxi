@@ -16,13 +16,12 @@
     <header class="inner" data-animation="fadeIn" data-animation-delay="500ms">
       <div class="container">
         <div class="row">
-          <div class="col-md-2"><img class="logo" src="assets/img/logo.svg" alt="логотип"></div>
-          <div class="col-md-8 links"><a class="link" href="#"><span>Услуги трансфера</span></a><a class="link" href="#"><span>Частые вопросы</span></a><a class="link" href="#"><span>Гид «Как добраться»</span></a><a class="link" href="#"><span>О нас</span></a></div>
+          <div class="col-md-10"><a class="logo-link" href="index.html"><img class="logo" src="assets/img/logo.svg" alt="логотип"></a><a class="link" href="#">Услуги&nbsp;трансфера</a><a class="link" href="#">Частые&nbsp;вопросы</a><a class="link" href="#">Гид&nbsp;«Как&nbsp;добраться»</a><a class="link" href="#">О&nbsp;нас</a><a class="link" href="#">Отзывы</a><a class="link" href="#">Контакты</a><span class="clear"></span></div>
           <div class="col-md-2 phone"><a href="tel:+79223104870">+7 (922) 310-48-70</a></div>
         </div>
         <div class="row mobile">
           <div class="col-md-2"><img class="logo" src="assets/img/logo.svg" alt="логотип"></div>
-          <div class="col-md-8 links"><a class="link" href="#"><span>Услуги трансфера</span></a><a class="link" href="#"><span>Частые вопросы</span></a><a class="link" href="#"><span>Гид «Как добраться»</span></a><a class="link" href="#"><span>О нас</span></a></div>
+          <div class="col-md-8 links"><a class="link" href="#">Услуги трансфера</a><a class="link" href="#">Частые вопросы</a><a class="link" href="#">Гид «Как добраться»</a><a class="link" href="#">О нас</a><a class="link" href="#">Отзывы</a><a class="link" href="#">Контакты</a></div>
           <div class="col-md-2 phone"><a href="tel:+79223104870">+7 (922) 310-48-70</a></div>
         </div>
       </div>
@@ -203,21 +202,6 @@
               <div class="col-md-12">
                 <h4>Дополнительные товары и услуги</h4>
               </div>
-              <div class="col-md-12">
-                <fieldset class="select">
-                  <div class="comment">Бутылка питьевой негазированной воды 0,5 л</div><img class="tick" src="assets/img/select-triangle.svg" alt="">
-                  <select name="water">
-                    <option selected>-</option>
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                  </select>
-                </fieldset>
-                <div class="order-comment">+120 руб.</div>
-              </div>
               <div class="row k-radio">
                 <fieldset class="checkbox">
                   <label for="meet">Встреча в аэропорту с табличкой (+200 руб.)</label>
@@ -241,35 +225,53 @@
               </div>
             </div>
           </form>
-          <div class="col-md-4">
-            <div class="order__result">
-              <div class="order__result-row">
-                <div class="order__result-header">Тариф</div>
-                <div class="order__result-text">«Эконом» (до 3 пассажиров и 3 багажей)</div>
+          <div class="col-md-4" id="order__result-container">
+            <div class="order__result" id="order__result">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="order__result-row">
+                    <div class="order__result-header">Тариф</div>
+                    <div class="order__result-text">«Эконом» (до&nbsp;3 пассажиров и&nbsp;3&nbsp;багажей)</div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="order__result-row">
+                    <div class="order__result-header">Пассажиры</div>
+                    <div class="order__result-text">2</div>
+                  </div>
+                </div>
               </div>
-              <div class="order__result-row">
-                <div class="order__result-header">Контактная информация</div>
-                <div class="order__result-text order__result-text--name">Юрий Кетов</div>
-                <div class="order__result-text order__result-text--email">ketov1992@list.ru</div>
-                <div class="order__result-text order__result-text--phone">+7 (922) 310-48-70</div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="order__result-row">
+                    <div class="order__result-header">Место отправления</div>
+                    <div class="order__result-text order__result-text--from">Ялта, отель Ялта-Интурист</div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="order__result-row">
+                    <div class="order__result-header">Обратный трансфер</div>
+                    <div class="order__result-text order__result-text"><span>25.10.2018,</span><span>16:00</span></div>
+                  </div>
+                </div>
               </div>
-              <div class="order__result-row">
-                <div class="order__result-header">Место отправления</div>
-                <div class="order__result-text order__result-text--from">Ялта, отель Ялта-Интурист</div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="order__result-row">
+                    <div class="order__result-header">Контактная информация</div>
+                    <div class="order__result-text order__result-text--name">Юрий Кетов</div>
+                    <div class="order__result-text order__result-text--email">ketov1992@list.ru</div>
+                  </div>
+                </div>
               </div>
-              <div class="order__result-row">
-                <div class="order__result-header">Обратный трансфер</div>
-                <div class="order__result-text order__result-text"><span>25.10.2018,</span><span>16:00</span></div>
-              </div>
-              <div class="order__result-row">
-                <div class="order__result-header">Пассажиры</div>
-                <div class="order__result-text">2</div>
-              </div>
-              <div class="order__result-row">
-                <div class="order__result-header">Дополнительные товары и услуги</div>
-                <div class="order__result-text">Детское кресло × 1 — 300 руб.</div>
-                <div class="order__result-text">Бутылка питьевой воды × 1 — 120 руб.</div>
-                <div class="order__result-text">Встреча в аэропорту — 200 руб.</div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="order__result-row">
+                    <div class="order__result-header">Дополнительные товары и услуги</div>
+                    <div class="order__result-text">Детское кресло × 1 — 300 руб.</div>
+                    <div class="order__result-text">Встреча в аэропорту — 200 руб.</div>
+                  </div>
+                </div>
               </div>
               <div class="order__in-total row">
                 <div class="col-md-4 order__in-total-span1">Итого</div>
@@ -280,27 +282,12 @@
         </div>
       </div>
     </section>
-    <footer>
+    <footer id="footer">
       <div class="container">
         <div class="row">
           <div class="col-md-3 copyright">© 2018 Служба такси «Вежливые люди»</div>
           <div class="col-md-6 row">
-            <div class="col-md-4 documents-container">
-              <div class="document"><a class="link" href="#"><span>Оферта для юр. лиц</span></a>
-                <div class="type-and-size">(doc, 44,6 Кб)</div>
-              </div>
-              <div class="document"><a class="link" href="#"><span>Оферта для физ. лиц</span></a>
-                <div class="type-and-size">(doc, 52,0 Кб)</div>
-              </div>
-            </div>
-            <div class="col-md-8 documents-container">
-              <div class="document"><a class="link" href="#"><span>Политика конфиденциальности</span></a>
-                <div class="type-and-size">(doc, 23,2 Кб)</div>
-              </div>
-              <div class="document"><a class="link" href="#"><span>Общие правила оказания трансферных услуг</span></a>
-                <div class="type-and-size">(doc, 14,9 Кб)</div>
-              </div>
-            </div>
+            <div><a href="rules.html">Правила и условия</a></div>
           </div>
           <div class="col-md-3 ketov">Дизайн — Юрий Кетов</div>
         </div>

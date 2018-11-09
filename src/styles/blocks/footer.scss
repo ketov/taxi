@@ -2,30 +2,8 @@ footer{
     border-top: 1px solid $light-gray;
     font-size: 115%;
     margin: 160px 0 0 0;
-    padding: 24px 0 23px;
+    padding: 16px 0 13px;
     .copyright{
-        padding-left: 0;
-    }
-    .link{
-        color: $black;
-    }
-    .document{
-        background-image: url('../img/word-doc.svg');
-        background-repeat: no-repeat;
-        margin: 0 0 8px 0;
-        padding: 0 0 0 30px;
-        .link{
-            font-size: 85%;
-        }
-        .type-and-size{
-            color: $dark-gray;
-            font-size: 75%;
-        }
-        &:last-child{
-            margin: 0;
-        }
-    }
-    .documents-container{
         padding-left: 0;
     }
     .ketov{

@@ -8,6 +8,7 @@
     }
     &__nav{
         color: $blue;
+        border: none;
         display: block;
         font-size: 115%;
         margin: 0 0 14px 0px;
@@ -17,6 +18,7 @@
         }
         &:hover{
             color: $red;
+            background-size: 0 0;
         }
         &:hover span{
             border-bottom: 1px dotted $red;
@@ -56,6 +58,24 @@
         }
         p{
             margin: 12px 0 0;
+        }
+    }
+}
+
+@media(max-width: 1100px){
+    .standards{
+        padding: 60px 0 0 0;
+        h2{
+            margin: 0 0 20px;
+        }
+        p{
+            margin: 4px 0 0 0;
+        }
+        &__nav{
+            font-size: 100%;
+        }
+        &__h3{
+            margin: 18px 0 0;
         }
     }
 }

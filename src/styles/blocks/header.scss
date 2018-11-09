@@ -6,26 +6,43 @@ header{
     transition: 0.5s ease;
     width: 100%;
     z-index: 3;
+    .logo-link{
+        border-bottom: none;
+        display: block;
+        float: left;
+        margin-left: 0;
+        &:hover{
+            background-size: 0 0;
+        }
+    }
     .row{
         position: relative;
     }
-    .link{
+    a{
         color: $black;
-        margin: 0 2%;
+        margin: 0 1.7%;
     }
-    .col-md-8{
+    .link{
+        position: relative;
+        top: 15px;
+    }
+    .col-md-10{
         font-size: 115%;
-        text-align: center;
-        padding: 14px 0 0 0;
+        padding-left: 0;
+        padding-right: 0;
     }
     .phone{
-        padding-top: 14px;
+        padding-top: 17px;
         padding-right: 0;
         text-align: right;
         a{
+            border-bottom: none;
             color: $black;
             font-family: $CB;
             font-size: 140%;
+            &:hover{
+                background-size: 0 0;
+            }
         }
     }
 
@@ -70,9 +87,6 @@ header.active{
         display: block;
     }
 }
-
-
-
 
 #hamburger{
     display: none;
@@ -148,10 +162,42 @@ header.active{
 }
 
 @media(max-width: 1200px){
-
+    header{
+        a{
+            font-size: 90%;
+            margin: 0 1.5%;
+        }
+        .phone{
+            a{
+                font-size: 130%;
+            }
+        }
+    }
 }
 
-@media(max-width: 1150px){
+@media(max-width: 1100px){
+    header{
+        .col-md-10{
+            -ms-flex: 0 0 70.0%;
+            flex: 0 0 70.0%;
+            max-width: 70.0%;
+        }
+        .col-md-2{
+            -ms-flex: 0 0 30.0%;
+            flex: 0 0 30.0%;
+            max-width: 30.0%;
+        }
+        .link{
+            float: left;
+            top: 4px;
+        }
+        a{
+            margin: 0 1.9%;
+        }
+    }
+}
+
+@media(max-width: 850px){
     header{
         .row{
             display: none;

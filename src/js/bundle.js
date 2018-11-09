@@ -35,6 +35,7 @@ import "./blocks/advantages";
 import "./blocks/header";
 import "./blocks/how-to-order";
 import "./blocks/question-answer";
+import "./blocks/tariffs";
 //import "./blocks/nav";
 //import "./blocks/projects-slider";
 

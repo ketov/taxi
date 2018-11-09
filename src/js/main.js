@@ -111,6 +111,68 @@ $(document).ready(function () {
     }
 
 
+    if($("#order__result").length>0){
+        var el = document.getElementById('order__result');
+        var limit = document.getElementById('footer');
+        var elTop = el.getBoundingClientRect().top - document.body.getBoundingClientRect().top;
+        var limitTop = limit.getBoundingClientRect().top - document.body.getBoundingClientRect().top - 160;
+
+        window.addEventListener('scroll', function(){
+            var w = document.querySelector('#order__result-container').offsetWidth-30;
+            var h = $('#order__result').height();
+            if ((document.documentElement.scrollTop > elTop-70) && (document.documentElement.scrollTop < (limitTop-70-h))){
+                el.style.position = 'fixed';
+                el.style.top = '76px';
+                //el.style.width = w+'px';
+            }
+            else if(document.documentElement.scrollTop >= (limitTop-70-h))
+            {
+                el.style.position = 'absolute';
+                el.style.top = $('#order__result-container').height()-$('#order__result').height()+'px';
+                //alert(($('#standards-menu').height()-h));
+            }
+            else{
+                el.style.position = 'absolute';
+                el.style.top = 0;
+            }
+            el.style.width = w+'px';
+        });
+    }
+
+
+
+
+
+    $('#passengers').on('focus', function(){
+        var p = $('.passengers-add');
+        //if(p.hasClass('active')){
+        //    return;
+        //}
+        //else{
+            p.fadeIn(250);
+            //p.addClass('active');
+        //}
+        //p.fadeIn(400);
+
+    });
+
+    $(document).click(function (event) {
+        if ($(event.target).closest(".passengers-add").length || $(event.target).closest("#passengers").length || $(event.target).closest("#label-for-passengers").length){
+            return;
+        }
+           else{
+            $('.passengers-add').fadeOut(250);
+            //$('.passengers-add').removeClass('active');
+        }
+
+    });
+
+
+    //$('#passengers').on('focusout', function(){
+
+    //});
+
+
 
     //alert($('#standards-menu-container').height());
     //alert($('#standards-menu').height());
