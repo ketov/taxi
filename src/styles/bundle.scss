@@ -16,7 +16,7 @@
 // Библиотеки
 @import 'libs/bootstrap.scss';
 @import 'libs/animate.min.scss';
-//@import 'libs/swiper.min.scss';
+@import 'libs/swiper.min.scss';
 
 @import '_main.scss';
 
@@ -24,6 +24,7 @@
 @import 'blocks/404.scss';
 @import 'blocks/advantages.scss';
 @import 'blocks/all-pages.scss';
+@import 'blocks/cities.scss';
 @import 'blocks/destinations.scss';
 @import 'blocks/footer.scss';
 @import 'blocks/header.scss';
@@ -34,7 +35,9 @@
 @import 'blocks/reviews.scss';
 @import 'blocks/rules.scss';
 @import 'blocks/search.scss';
+@import 'blocks/seo.scss';
 @import 'blocks/short-destinations.scss';
+@import 'blocks/slider.scss';
 @import 'blocks/standards.scss';
 @import 'blocks/tariffs.scss';
 @import 'blocks/thankyou.scss';

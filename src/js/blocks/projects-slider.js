@@ -1,5 +1,5 @@
 $(document).ready(function () {
-   var projectsSlider = new Swiper('.gallery-top', {
+   /*var projectsSlider = new Swiper('.gallery-top', {
        autoplay: 5000,
         nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev',
@@ -24,5 +24,15 @@ $(document).ready(function () {
         }
     });
     projectsSlider.params.control = projectSliderThumbs;
-    projectSliderThumbs.params.control = projectsSlider;
+    projectSliderThumbs.params.control = projectsSlider;*/
+
+   //alert(1);
+    var swiper = new Swiper('.swiper-container', {
+        spaceBetween: 0,
+        effect: 'fade',
+        loop: true,
+        autoplay: 5000,
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+    });
 });

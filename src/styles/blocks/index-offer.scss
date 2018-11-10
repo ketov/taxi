@@ -8,6 +8,12 @@
     display: block;
     margin: -133px auto 0;
     max-width: 100%;
+    &--2{
+        display: none;
+    }
+    &--3{
+        display: none;
+    }
 }
 
 @media(max-width: 1200px){
@@ -38,6 +44,14 @@
             max-width: 100%;
         }
     }
+    .main-img{
+        &--1{
+            display: none;
+        }
+        &--2{
+            display: block;
+        }
+    }
 }
 
 @media(max-width: 1100px){
@@ -49,9 +63,24 @@
 }
 
 @media(max-width: 1000px){
-
+    .main-img{
+        &--2{
+            display: none;
+        }
+        &--3{
+            display: block;
+        }
+    }
 }
 
 @media(max-width: 850px){
 
+}
+
+@media(max-width: 770px){
+    .main-img{
+        &--3{
+            display: none;
+        }
+    }
 }

@@ -11,13 +11,24 @@ html
         meta(content='yes' name='apple-mobile-web-app-capable')
         link(rel="stylesheet" type="text/css" href="assets/css/all.min.css")
     body
-        //img(src="assets/img/DesktopHD.png" alt="шаблон.десктоп" style="position: absolute; z-index: 1; opacity: 0.5;")
         include includes/header-inner
+
         section.search.search--inner
-            div.search__breadcrumbs
-                a(href="#") Главная
-                span.slash /
-                span.current Такси в аэропорт Симферополя
+            div.container
+                ul.search__breadcrumbs(itemscope itemtype="http://schema.org/BreadcrumbList")
+                    li(itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem")
+                        a(itemscope itemtype="http://schema.org/Thing" itemprop="item" href="#")
+                            span(itemprop="name") Главная
+                        meta(itemprop="position" content="1")
+                    li
+                        span.splash /
+                    li(itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem")
+                        a(itemscope itemtype="http://schema.org/Thing" itemprop="item" href="#")
+                            span(itemprop="name") Такси в аэропорт Симферополя
+                        meta(itemprop="position" content="2")
+                    li.clear
+
+
             h1 Такси-трансфер в аэропорт Симферополя
             div.container
                 div.row
@@ -25,43 +36,39 @@ html
                         div.row
                             div.col-md-4
                                 fieldset
-                                    fieldset.select
-                                        div.comment Откуда
-                                        img.tick(src="assets/img/select-triangle.svg" alt="")
-                                        select(name="from")
-                                            option(selected) из Алупки
-                                            option из Бахчисарая
-                                            option из Белогорска
-                                            option из Верхней Кутузовки
-                                            option из Гаспры
-                                            option из Гурзуфа
-                                            option из Джанкой
-                                            option из Заозерного
-                                            option из Евпатории
-                                            option из Симферополя
-                                            option из Ялты
+                                    fieldset
+                                        input.input(name="from" id="from")
+                                        label(for="from") Откуда
 
                             div.col-md-4
                                 fieldset
-                                    fieldset.select
-                                        div.comment Куда
-                                        img.tick(src="assets/img/select-triangle.svg" alt="")
-                                        select(name="where")
-                                            option в Алупку
-                                            option в Бахчисарай
-                                            option в Белогорск
-                                            option в Верхнюю Кутузовку
-                                            option в Гаспру
-                                            option в Гурзуф
-                                            option в Джанкой
-                                            option в Заозерный
-                                            option в Евпаторию
-                                            option(selected) в Симферополь
+                                    fieldset
+                                        input.input.focus(name="where" id="where" value="Симферополь")
+                                        label(for="where") Куда
 
                             div.col-md-2
                                 fieldset
                                     input.input(id="passengers")
-                                    label(for="passengers") Пассажиры
+                                    label(for="passengers" id="label-for-passengers") Пассажиры
+
+                                    div.passengers-add
+                                        div.row
+                                            div.col-md-6.passengers-add__text Взрослые
+                                            div.col-md-6.row.passengers-add__actions
+                                                div.col-md-4
+                                                    button.passengers-add__button(type="button") -
+                                                div.col-md-4 0
+                                                div.col-md-4
+                                                    button.passengers-add__button(type="button") +
+
+                                        div.row
+                                            div.col-md-6.passengers-add__text Дети
+                                            div.col-md-6.row.passengers-add__actions
+                                                div.col-md-4
+                                                    button.passengers-add__button(type="button") -
+                                                div.col-md-4 0
+                                                div.col-md-4
+                                                    button.passengers-add__button(type="button") +
 
                             div.col-md-2
                                 button Найти

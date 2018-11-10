@@ -1,0 +1,45 @@
+.slider{
+    padding: 110px 0 0 0;
+    &__message{
+        background: $green;
+        color: $white;
+        font-size: 170%;
+        line-height: 145%;
+        padding: 40px 48px 44px;
+        margin: 0 0 -240px 0;
+        position: relative;
+        width: 35%;
+        z-index: 2;
+    }
+    &__slider-container{
+        float: right;
+        padding-left: 15px;
+        width: 75%;
+    }
+}
+
+.swiper-slide{
+    img{
+        max-width: 100%;
+    }
+}
+
+@media(max-width: 1380px){
+
+}
+
+@media(max-width: 1200px){
+
+}
+
+@media(max-width: 1000px){
+
+}
+
+@media(max-width: 850px){
+
+}
+
+@media(max-width: 767px){
+
+}

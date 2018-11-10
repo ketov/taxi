@@ -42,6 +42,7 @@
         }
         .col-md-6:first-child{
             padding-left: 0;
+            padding-top: 8px;
         }
         .col-md-6:last-child{
             padding-right: 0;
@@ -50,7 +51,7 @@
             height: 20px;
             left: 0;
             position: absolute;
-            top: -3px;
+            top: 5px;
             width: 20px;
         }
     }
@@ -77,6 +78,9 @@
                 padding-left: 0;
             }
         }
+    }
+    &__result-date{
+        margin-right: 6px;
     }
     &__result-header{
         font-family: $CB;
@@ -111,6 +115,15 @@
             margin-left: 4px;
         }
     }
+    h4.order__additional-services-h4{
+        margin: 16px 0 4px;
+    }
+}
+
+#children-seat-row,
+#back-row
+{
+    display: none;
 }
 
 .i-agree-block{
@@ -137,6 +150,8 @@
     }
 }
 
+
+
 @media(max-width: 1380px){
 
 }
@@ -146,7 +161,9 @@
 }
 
 @media(max-width: 1000px){
-
+    .order__result{
+        position: static !important;
+    }
 }
 
 @media(max-width: 850px){

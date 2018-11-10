@@ -1,14 +1,81 @@
 footer{
     border-top: 1px solid $light-gray;
     font-size: 115%;
-    margin: 160px 0 0 0;
-    padding: 16px 0 13px;
+    line-height: 125%;
+    margin: 160px 0 0;
+    padding: 18px 0 18px;
     .copyright{
         padding-left: 0;
     }
     .ketov{
         padding-right: 0;
         text-align: right;
+    }
+    .social{
+        border-bottom: none;
+        display: inline-block;
+        height: 24px;
+        margin: 0 2%;
+        position: relative;
+        width: 24px;
+        &:hover{
+            background-size: 0 0;
+        }
+        &:hover:after{
+            opacity: 0;
+        }
+        &:hover:before{
+            opacity: 1;
+        }
+        &:after{
+            background-repeat: no-repeat;
+            content: '';
+            height: 100%;
+            left: 0;
+            opacity: 1;
+            position: absolute;
+            top: 0;
+            transition: 0.25s;
+            width: 100%;
+        }
+        &:before{
+            background-repeat: no-repeat;
+            content: '';
+            height: 100%;
+            left: 0;
+            opacity: 0;
+            position: absolute;
+            top: 0;
+            transition: 0.25s;
+            width: 100%;
+        }
+        &--vk{
+            &:after{
+                background-image: url('../img/vk.svg');
+            }
+            &:before{
+                background-image: url('../img/vk-active.svg');
+            }
+
+        }
+        &--fb{
+            &:after{
+                background-image: url('../img/fb.svg');
+            }
+            &:before{
+                background-image: url('../img/fb-active.svg');
+            }
+
+        }
+        &--inst{
+            &:after{
+                background-image: url('../img/inst.svg');
+            }
+            &:before{
+                background-image: url('../img/inst-active.svg');
+            }
+
+        }
     }
 }
 

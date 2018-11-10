@@ -11,14 +11,25 @@ html
         meta(content='yes' name='apple-mobile-web-app-capable')
         link(rel="stylesheet" type="text/css" href="assets/css/all.min.css")
     body
-        //img(src="assets/img/DesktopHD.png" alt="шаблон.десктоп" style="position: absolute; z-index: 1; opacity: 0.5;")
         include includes/header-inner
+
         section.search.search--inner
-            div.search__breadcrumbs
-                a.link(href="#")
-                    span Главная
-                span.slash /
-                span.current Такси из аэропорта Симферополя
+            div.container
+                ul.search__breadcrumbs(itemscope itemtype="http://schema.org/BreadcrumbList")
+                    li(itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem")
+                        a(itemscope itemtype="http://schema.org/Thing" itemprop="item" href="#")
+                            span(itemprop="name") Главная
+                        meta(itemprop="position" content="1")
+                    li
+                        span.splash /
+                    li(itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem")
+                        a(itemscope itemtype="http://schema.org/Thing" itemprop="item" href="#")
+                            span(itemprop="name") Такси из аэропорта Симферополя
+                        meta(itemprop="position" content="2")
+                    li.clear
+
+
+
             h1 Такси-трансфер из аэропорта Симферополя
             div.container
                 div.row

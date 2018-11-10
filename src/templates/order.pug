@@ -10,20 +10,37 @@ html
         meta(content='width' name='MobileOptimized')
         meta(content='yes' name='apple-mobile-web-app-capable')
         link(rel="stylesheet" type="text/css" href="assets/css/all.min.css")
-    body
-        //img(src="assets/img/order-desktop.png" alt="шаблон.десктоп" style="position: absolute; z-index: 1; opacity: 0.5;")
-        include includes/header-inner
-        section.search.search--inner.search--order
-            div.search__breadcrumbs
-                a.link(href="#")
-                    span Главная
-                span.slash /
-                a.link(href="#")
-                    span Такси из Ялты
-                span.slash /
-                span.current Такси из Ялты в аэропорт Симферополя
 
-        section.order
+    body
+        include includes/header-inner
+
+        section.search.search--inner.search--order
+            div.container
+                ul.search__breadcrumbs(itemscope itemtype="http://schema.org/BreadcrumbList")
+                    li(itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem")
+                        a(itemscope itemtype="http://schema.org/Thing" itemprop="item" href="#")
+                            span(itemprop="name") Главная
+                        meta(itemprop="position" content="1")
+                    li
+                        span.splash /
+                    li(itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem")
+                        a(itemscope itemtype="http://schema.org/Thing" itemprop="item" href="#")
+                            span(itemprop="name") Такси из Ялты
+                        meta(itemprop="position" content="2")
+                    li
+                        span.splash /
+                    li(itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem")
+                        a(itemscope itemtype="http://schema.org/Thing" itemprop="item" href="#")
+                            span(itemprop="name") Такси из Ялты в аэропорт Симферополя
+                        meta(itemprop="position" content="3")
+                    li.clear
+
+
+
+
+
+
+        section.order(ng-app="myApp")
             h2 Заказ такси
             div.container
                 div.row
@@ -32,17 +49,17 @@ html
                             div.col-md-12
                                 h3 Информация о трансфере
                                 fieldset
-                                    input.input(id="from" name="from")
+                                    input.input(id="from" name="from" ng-model="from")
                                     label(for="from") Место отправления (адрес или название отеля)
 
                         div.row
                             div.col-md-6
                                 fieldset
-                                    input.input(id="date" name="date")
+                                    input.input(id="date" name="date" ng-model="date")
                                     label(for="date") Дата
                             div.col-md-6
                                 fieldset
-                                    input.input(id="time" name="time")
+                                    input.input(id="time" name="time" ng-model="time")
                                     label(for="time") Время
 
                         div.row
@@ -68,7 +85,7 @@ html
                                 fieldset.select
                                     div.comment Взрослые пассажиры
                                     img.tick(src="assets/img/select-triangle.svg" alt="")
-                                    select(name="adult-passengers")
+                                    select.passengers-select(name="adult-passengers")
                                         option(selected) 1
                                         option 2
                                         option 3
@@ -79,8 +96,8 @@ html
                                 fieldset.select
                                     div.comment Дети
                                     img.tick(src="assets/img/select-triangle.svg" alt="")
-                                    select(name="child-passengers")
-                                        option(selected) -
+                                    select.passengers-select(name="child-passengers")
+                                        option(selected) 0
                                         option 1
                                         option 2
                                         option 3
@@ -89,46 +106,46 @@ html
 
                         div.row.k-radio
                             fieldset.checkbox
-                                label(for="child-seats-and-boosters-block") Детские кресла и бустеры
+                                label(for="child-seats-and-boosters-block" data-block="#children-seat-row") Детские кресла и бустеры
                                 input(type="checkbox" id="child-seats-and-boosters-block")
 
-                        div.row
+                        div.row#children-seat-row
                             div.col-md-6
                                 fieldset.select
                                     div.comment Кресло
                                     img.tick(src="assets/img/select-triangle.svg" alt="")
-                                    select(name="chair")
-                                        option(selected) -
+                                    select#chair-select(name="chair" onchange="var n = this.value; $('#chair-result').text('Детское кресло × ' + n + ' — ' + 200*n + ' руб.'); $('#chair-result').attr('data-summ', 200*n); $('#order-summ').text(n*200+parseInt($('#booster-result').attr('data-summ'))+parseInt($('#order-summ').attr('data-start')));")
+                                        option(selected) 0
                                         option 1
                                         option 2
                                         option 3
-                                div.order-comment +300 руб.
+                                div.order-comment +200 руб.
 
                             div.col-md-6
                                 fieldset.select
                                     div.comment Бустеры
                                     img.tick(src="assets/img/select-triangle.svg" alt="")
-                                    select(name="chair")
-                                        option(selected) -
+                                    select#booster-select(name="chair" onchange="var n = this.value; $('#booster-result').text('Бустер × ' + n + ' — ' + 200*n + ' руб.'); $('#booster-result').attr('data-summ', 200*n); $('#order-summ').text(n*200+parseInt($('#chair-result').attr('data-summ'))+parseInt($('#order-summ').attr('data-start')));")
+                                        option(selected) 0
                                         option 1
                                         option 2
                                         option 3
-                                div.order-comment +300 руб.
+                                div.order-comment +200 руб.
 
 
                         div.row.k-radio.k-radio--back
                             fieldset.checkbox
-                                label(for="back") Обратный трансфер
+                                label(for="back" data-block="#back-row") Обратный трансфер
                                 input(type="checkbox" id="back")
 
-                        div.row
+                        div.row#back-row
                             div.col-md-6
                                 fieldset
-                                    input.input(id="date-back" name="date-back")
+                                    input.input(id="date-back" name="date-back" ng-model="dateBack")
                                     label(for="date-back") Дата
                             div.col-md-6
                                 fieldset
-                                    input.input(id="time-back" name="time-back")
+                                    input.input(id="time-back" name="time-back" ng-model="timeBack")
                                     label(for="time-back") Время
 
 
@@ -137,13 +154,13 @@ html
                                 h4 Контактные данные
                             div.col-md-12
                                 fieldset
-                                    input.input(id="name" name="name")
+                                    input.input(id="name" name="name" ng-model="name")
                                     label(for="name") Имя и фамилия
 
                         div.row
                             div.col-md-12
                                 fieldset
-                                    input.input(id="email" name="email")
+                                    input.input(id="email" name="email" ng-model="email")
                                     label(for="email") Эл. почта
 
                         div.row
@@ -162,23 +179,22 @@ html
 
                         div.row
                             div.col-md-12
-                                h4 Дополнительные товары и услуги
+                                h4.order__additional-services-h4 Дополнительные товары и услуги
 
                             div.row.k-radio
                                 fieldset.checkbox
                                     label(for="meet") Встреча в аэропорту с табличкой (+200 руб.)
-                                    input(type="checkbox" id="meet")
+                                    input(type="checkbox" id="meet" onchange="$('#meet-result').text('Встреча в аэропорту — 200 руб.'); if ($(this).is(':checked')){$('#order-summ').text(200+parseInt($('#chair-result').attr('data-summ'))+parseInt($('#order-summ').attr('data-start'))+parseInt($('#booster-result').attr('data-summ'))); $('#order-summ').attr('data-start', parseInt($('#order-summ').attr('data-start'))+200);} else{$('#meet-result').text(''); $('#order-summ').text(parseInt($('#order-summ').attr('data-start'))-200 + parseInt($('#booster-result').attr('data-summ')) + parseInt($('#chair-result').attr('data-summ'))); $('#order-summ').attr('data-start', parseInt($('#order-summ').attr('data-start'))-200);}")
 
 
                         div.row
                             div.col-md-12
                                 div.order__continue.row
                                     div.col-md-6
-                                        input.show#i-agree(type="checkbox" checked)
+                                        input.show#i-agree(type="checkbox" disabled checked)
                                         div.i-agree-block
                                             label(for="i-agree") Я согласен с условиями
-                                            a.link(href="#")
-                                                span Политики конфиденциальности
+                                            a(href="#") Политики конфиденциальности
                                     div.col-md-6
                                         button Продолжить
 
@@ -189,43 +205,44 @@ html
                                 div.col-md-6
                                     div.order__result-row
                                         div.order__result-header Тариф
-                                        div.order__result-text «Эконом» (до&nbsp;3 пассажиров и&nbsp;3&nbsp;багажей)
+                                        div.order__result-text «Эконом»
                                 div.col-md-6
                                     div.order__result-row
                                         div.order__result-header Пассажиры
-                                        div.order__result-text 2
+                                        div.order__result-text#passengers-result 1
 
                             div.row
                                 div.col-md-6
                                     div.order__result-row
                                         div.order__result-header Место отправления
-                                        div.order__result-text.order__result-text--from Ялта, отель Ялта-Интурист
+                                        div.order__result-text.order__result-text--from {{ from }} {{ date }} {{ time }}
                                 div.col-md-6
                                     div.order__result-row
                                         div.order__result-header Обратный трансфер
                                         div.order__result-text.order__result-text
-                                            span 25.10.2018,
-                                            span 16:00
+                                            span.order__result-date {{dateBack}}
+                                            span {{ timeBack}}
 
                             div.row
                                 div.col-md-12
                                     div.order__result-row
                                         div.order__result-header Контактная информация
-                                        div.order__result-text.order__result-text--name Юрий Кетов
-                                        div.order__result-text.order__result-text--email ketov1992@list.ru
+                                        div.order__result-text.order__result-text--name {{name}}
+                                        div.order__result-text.order__result-text--email {{email}}
 
                             div.row
                                 div.col-md-12
                                     div.order__result-row
                                         div.order__result-header Дополнительные товары и услуги
-                                        div.order__result-text Детское кресло × 1 — 300 руб.
-                                        div.order__result-text Встреча в аэропорту — 200 руб.
+                                        div.order__result-text#chair-result(data-summ="0")
+                                        div.order__result-text#booster-result(data-summ="0")
+                                        div.order__result-text#meet-result
 
 
                             div.order__in-total.row
                                 div.col-md-4.order__in-total-span1 Итого
                                 div.col-md-8.order__in-total-span2
-                                    | 4 620
+                                    span#order-summ(data-start="4620") 4620
                                     span.rub руб.
 
 
@@ -233,4 +250,6 @@ html
        
         script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js")
         script(src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js")
+        script(src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js")
         script(src="assets/js/app.min.js")
+        script var app = angular.module('myApp', []);

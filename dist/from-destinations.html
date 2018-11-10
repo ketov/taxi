@@ -12,7 +12,6 @@
     <link rel="stylesheet" type="text/css" href="assets/css/all.min.css">
   </head>
   <body>
-    <!--img(src="assets/img/DesktopHD.png" alt="шаблон.десктоп" style="position: absolute; z-index: 1; opacity: 0.5;")-->
     <header class="inner" data-animation="fadeIn" data-animation-delay="500ms">
       <div class="container">
         <div class="row">
@@ -34,7 +33,18 @@
       </div>
     </header>
     <section class="search search--inner">
-      <div class="search__breadcrumbs"><a class="link" href="#"><span>Главная</span></a><span class="slash">/</span><span class="current">Такси из аэропорта Симферополя</span></div>
+      <div class="container">
+        <ul class="search__breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
+          <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemscope itemtype="http://schema.org/Thing" itemprop="item" href="#"><span itemprop="name">Главная</span></a>
+            <meta itemprop="position" content="1">
+          </li>
+          <li><span class="splash">/</span></li>
+          <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemscope itemtype="http://schema.org/Thing" itemprop="item" href="#"><span itemprop="name">Такси из аэропорта Симферополя</span></a>
+            <meta itemprop="position" content="2">
+          </li>
+          <li class="clear"></li>
+        </ul>
+      </div>
       <h1>Такси-трансфер из аэропорта Симферополя</h1>
       <div class="container">
         <div class="row">
@@ -395,9 +405,10 @@
       <div class="container">
         <div class="row">
           <div class="col-md-3 copyright">© 2018 Служба такси «Вежливые люди»</div>
-          <div class="col-md-6 row">
+          <div class="col-md-2">
             <div><a href="rules.html">Правила и условия</a></div>
           </div>
+          <div class="col-md-4"><a class="social social--vk" href="#"></a><a class="social social--fb" href="#"></a><a class="social social--inst" href="#"></a></div>
           <div class="col-md-3 ketov">Дизайн — Юрий Кетов</div>
         </div>
       </div>

@@ -12,7 +12,6 @@
     <link rel="stylesheet" type="text/css" href="assets/css/all.min.css">
   </head>
   <body>
-    <!--img(src="assets/img/order-desktop.png" alt="шаблон.десктоп" style="position: absolute; z-index: 1; opacity: 0.5;")-->
     <header class="inner" data-animation="fadeIn" data-animation-delay="500ms">
       <div class="container">
         <div class="row">
@@ -34,9 +33,24 @@
       </div>
     </header>
     <section class="search search--inner search--order">
-      <div class="search__breadcrumbs"><a class="link" href="#"><span>Главная</span></a><span class="slash">/</span><a class="link" href="#"><span>Такси из Ялты</span></a><span class="slash">/</span><span class="current">Такси из Ялты в аэропорт Симферополя</span></div>
+      <div class="container">
+        <ul class="search__breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
+          <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemscope itemtype="http://schema.org/Thing" itemprop="item" href="#"><span itemprop="name">Главная</span></a>
+            <meta itemprop="position" content="1">
+          </li>
+          <li><span class="splash">/</span></li>
+          <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemscope itemtype="http://schema.org/Thing" itemprop="item" href="#"><span itemprop="name">Такси из Ялты</span></a>
+            <meta itemprop="position" content="2">
+          </li>
+          <li><span class="splash">/</span></li>
+          <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemscope itemtype="http://schema.org/Thing" itemprop="item" href="#"><span itemprop="name">Такси из Ялты в аэропорт Симферополя</span></a>
+            <meta itemprop="position" content="3">
+          </li>
+          <li class="clear"></li>
+        </ul>
+      </div>
     </section>
-    <section class="order">
+    <section class="order" ng-app="myApp">
       <h2>Заказ такси</h2>
       <div class="container">
         <div class="row">
@@ -45,7 +59,7 @@
               <div class="col-md-12">
                 <h3>Информация о трансфере</h3>
                 <fieldset>
-                  <input class="input" id="from" name="from">
+                  <input class="input" id="from" name="from" ng-model="from">
                   <label for="from">Место отправления (адрес или название отеля)</label>
                 </fieldset>
               </div>
@@ -53,13 +67,13 @@
             <div class="row">
               <div class="col-md-6">
                 <fieldset>
-                  <input class="input" id="date" name="date">
+                  <input class="input" id="date" name="date" ng-model="date">
                   <label for="date">Дата</label>
                 </fieldset>
               </div>
               <div class="col-md-6">
                 <fieldset>
-                  <input class="input" id="time" name="time">
+                  <input class="input" id="time" name="time" ng-model="time">
                   <label for="time">Время</label>
                 </fieldset>
               </div>
@@ -88,7 +102,7 @@
               <div class="col-md-6">
                 <fieldset class="select">
                   <div class="comment">Взрослые пассажиры</div><img class="tick" src="assets/img/select-triangle.svg" alt="">
-                  <select name="adult-passengers">
+                  <select class="passengers-select" name="adult-passengers">
                     <option selected>1</option>
                     <option>2</option>
                     <option>3</option>
@@ -100,8 +114,8 @@
               <div class="col-md-6">
                 <fieldset class="select">
                   <div class="comment">Дети</div><img class="tick" src="assets/img/select-triangle.svg" alt="">
-                  <select name="child-passengers">
-                    <option selected>-</option>
+                  <select class="passengers-select" name="child-passengers">
+                    <option selected>0</option>
                     <option>1</option>
                     <option>2</option>
                     <option>3</option>
@@ -113,52 +127,52 @@
             </div>
             <div class="row k-radio">
               <fieldset class="checkbox">
-                <label for="child-seats-and-boosters-block">Детские кресла и бустеры</label>
+                <label for="child-seats-and-boosters-block" data-block="#children-seat-row">Детские кресла и бустеры</label>
                 <input type="checkbox" id="child-seats-and-boosters-block">
               </fieldset>
             </div>
-            <div class="row">
+            <div class="row" id="children-seat-row">
               <div class="col-md-6">
                 <fieldset class="select">
                   <div class="comment">Кресло</div><img class="tick" src="assets/img/select-triangle.svg" alt="">
-                  <select name="chair">
-                    <option selected>-</option>
+                  <select id="chair-select" name="chair" onchange="var n = this.value; $('#chair-result').text('Детское кресло × ' + n + ' — ' + 200*n + ' руб.'); $('#chair-result').attr('data-summ', 200*n); $('#order-summ').text(n*200+parseInt($('#booster-result').attr('data-summ'))+parseInt($('#order-summ').attr('data-start')));">
+                    <option selected>0</option>
                     <option>1</option>
                     <option>2</option>
                     <option>3</option>
                   </select>
                 </fieldset>
-                <div class="order-comment">+300 руб.</div>
+                <div class="order-comment">+200 руб.</div>
               </div>
               <div class="col-md-6">
                 <fieldset class="select">
                   <div class="comment">Бустеры</div><img class="tick" src="assets/img/select-triangle.svg" alt="">
-                  <select name="chair">
-                    <option selected>-</option>
+                  <select id="booster-select" name="chair" onchange="var n = this.value; $('#booster-result').text('Бустер × ' + n + ' — ' + 200*n + ' руб.'); $('#booster-result').attr('data-summ', 200*n); $('#order-summ').text(n*200+parseInt($('#chair-result').attr('data-summ'))+parseInt($('#order-summ').attr('data-start')));">
+                    <option selected>0</option>
                     <option>1</option>
                     <option>2</option>
                     <option>3</option>
                   </select>
                 </fieldset>
-                <div class="order-comment">+300 руб.</div>
+                <div class="order-comment">+200 руб.</div>
               </div>
             </div>
             <div class="row k-radio k-radio--back">
               <fieldset class="checkbox">
-                <label for="back">Обратный трансфер</label>
+                <label for="back" data-block="#back-row">Обратный трансфер</label>
                 <input type="checkbox" id="back">
               </fieldset>
             </div>
-            <div class="row">
+            <div class="row" id="back-row">
               <div class="col-md-6">
                 <fieldset>
-                  <input class="input" id="date-back" name="date-back">
+                  <input class="input" id="date-back" name="date-back" ng-model="dateBack">
                   <label for="date-back">Дата</label>
                 </fieldset>
               </div>
               <div class="col-md-6">
                 <fieldset>
-                  <input class="input" id="time-back" name="time-back">
+                  <input class="input" id="time-back" name="time-back" ng-model="timeBack">
                   <label for="time-back">Время</label>
                 </fieldset>
               </div>
@@ -169,7 +183,7 @@
               </div>
               <div class="col-md-12">
                 <fieldset>
-                  <input class="input" id="name" name="name">
+                  <input class="input" id="name" name="name" ng-model="name">
                   <label for="name">Имя и фамилия</label>
                 </fieldset>
               </div>
@@ -177,7 +191,7 @@
             <div class="row">
               <div class="col-md-12">
                 <fieldset>
-                  <input class="input" id="email" name="email">
+                  <input class="input" id="email" name="email" ng-model="email">
                   <label for="email">Эл. почта</label>
                 </fieldset>
               </div>
@@ -200,12 +214,12 @@
             </div>
             <div class="row">
               <div class="col-md-12">
-                <h4>Дополнительные товары и услуги</h4>
+                <h4 class="order__additional-services-h4">Дополнительные товары и услуги</h4>
               </div>
               <div class="row k-radio">
                 <fieldset class="checkbox">
                   <label for="meet">Встреча в аэропорту с табличкой (+200 руб.)</label>
-                  <input type="checkbox" id="meet">
+                  <input type="checkbox" id="meet" onchange="$('#meet-result').text('Встреча в аэропорту — 200 руб.'); if ($(this).is(':checked')){$('#order-summ').text(200+parseInt($('#chair-result').attr('data-summ'))+parseInt($('#order-summ').attr('data-start'))+parseInt($('#booster-result').attr('data-summ'))); $('#order-summ').attr('data-start', parseInt($('#order-summ').attr('data-start'))+200);} else{$('#meet-result').text(''); $('#order-summ').text(parseInt($('#order-summ').attr('data-start'))-200 + parseInt($('#booster-result').attr('data-summ')) + parseInt($('#chair-result').attr('data-summ'))); $('#order-summ').attr('data-start', parseInt($('#order-summ').attr('data-start'))-200);}">
                 </fieldset>
               </div>
             </div>
@@ -213,9 +227,9 @@
               <div class="col-md-12">
                 <div class="order__continue row">
                   <div class="col-md-6">
-                    <input class="show" id="i-agree" type="checkbox" checked>
+                    <input class="show" id="i-agree" type="checkbox" disabled checked>
                     <div class="i-agree-block">
-                      <label for="i-agree">Я согласен с условиями</label><a class="link" href="#"><span>Политики конфиденциальности</span></a>
+                      <label for="i-agree">Я согласен с условиями</label><a href="#">Политики конфиденциальности</a>
                     </div>
                   </div>
                   <div class="col-md-6">
@@ -231,13 +245,13 @@
                 <div class="col-md-6">
                   <div class="order__result-row">
                     <div class="order__result-header">Тариф</div>
-                    <div class="order__result-text">«Эконом» (до&nbsp;3 пассажиров и&nbsp;3&nbsp;багажей)</div>
+                    <div class="order__result-text">«Эконом»</div>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="order__result-row">
                     <div class="order__result-header">Пассажиры</div>
-                    <div class="order__result-text">2</div>
+                    <div class="order__result-text" id="passengers-result">1</div>
                   </div>
                 </div>
               </div>
@@ -245,13 +259,13 @@
                 <div class="col-md-6">
                   <div class="order__result-row">
                     <div class="order__result-header">Место отправления</div>
-                    <div class="order__result-text order__result-text--from">Ялта, отель Ялта-Интурист</div>
+                    <div class="order__result-text order__result-text--from">{{ from }} {{ date }} {{ time }}</div>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="order__result-row">
                     <div class="order__result-header">Обратный трансфер</div>
-                    <div class="order__result-text order__result-text"><span>25.10.2018,</span><span>16:00</span></div>
+                    <div class="order__result-text order__result-text"><span class="order__result-date">{{dateBack}}</span><span>{{ timeBack}}</span></div>
                   </div>
                 </div>
               </div>
@@ -259,8 +273,8 @@
                 <div class="col-md-12">
                   <div class="order__result-row">
                     <div class="order__result-header">Контактная информация</div>
-                    <div class="order__result-text order__result-text--name">Юрий Кетов</div>
-                    <div class="order__result-text order__result-text--email">ketov1992@list.ru</div>
+                    <div class="order__result-text order__result-text--name">{{name}}</div>
+                    <div class="order__result-text order__result-text--email">{{email}}</div>
                   </div>
                 </div>
               </div>
@@ -268,14 +282,15 @@
                 <div class="col-md-12">
                   <div class="order__result-row">
                     <div class="order__result-header">Дополнительные товары и услуги</div>
-                    <div class="order__result-text">Детское кресло × 1 — 300 руб.</div>
-                    <div class="order__result-text">Встреча в аэропорту — 200 руб.</div>
+                    <div class="order__result-text" id="chair-result" data-summ="0"></div>
+                    <div class="order__result-text" id="booster-result" data-summ="0"></div>
+                    <div class="order__result-text" id="meet-result"></div>
                   </div>
                 </div>
               </div>
               <div class="order__in-total row">
                 <div class="col-md-4 order__in-total-span1">Итого</div>
-                <div class="col-md-8 order__in-total-span2">4 620<span class="rub">руб.</span></div>
+                <div class="col-md-8 order__in-total-span2"><span id="order-summ" data-start="4620">4620</span><span class="rub">руб.</span></div>
               </div>
             </div>
           </div>
@@ -286,15 +301,18 @@
       <div class="container">
         <div class="row">
           <div class="col-md-3 copyright">© 2018 Служба такси «Вежливые люди»</div>
-          <div class="col-md-6 row">
+          <div class="col-md-2">
             <div><a href="rules.html">Правила и условия</a></div>
           </div>
+          <div class="col-md-4"><a class="social social--vk" href="#"></a><a class="social social--fb" href="#"></a><a class="social social--inst" href="#"></a></div>
           <div class="col-md-3 ketov">Дизайн — Юрий Кетов</div>
         </div>
       </div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
     <script src="assets/js/app.min.js"></script>
+    <script>var app = angular.module('myApp', []);</script>
   </body>
 </html>

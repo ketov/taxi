@@ -12,7 +12,6 @@
     <link rel="stylesheet" type="text/css" href="assets/css/all.min.css">
   </head>
   <body>
-    <!--img(src="assets/img/tariffs-desktop.png" alt="шаблон.десктоп" style="position: absolute; z-index: 1; opacity: 0.5;")-->
     <header class="inner" data-animation="fadeIn" data-animation-delay="500ms">
       <div class="container">
         <div class="row">
@@ -34,7 +33,22 @@
       </div>
     </header>
     <section class="search search--inner">
-      <div class="search__breadcrumbs"><a class="link" href="#"><span>Главная</span></a><span class="slash">/</span><a class="link" href="#"><span>Такси из Ялты</span></a><span class="slash">/</span><span class="current">Такси из Ялты в аэропорт Симферополя</span></div>
+      <div class="container">
+        <ul class="search__breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
+          <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemscope itemtype="http://schema.org/Thing" itemprop="item" href="#"><span itemprop="name">Главная</span></a>
+            <meta itemprop="position" content="1">
+          </li>
+          <li><span class="splash">/</span></li>
+          <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemscope itemtype="http://schema.org/Thing" itemprop="item" href="#"><span itemprop="name">Такси из Ялты</span></a>
+            <meta itemprop="position" content="2">
+          </li>
+          <li><span class="splash">/</span></li>
+          <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemscope itemtype="http://schema.org/Thing" itemprop="item" href="#"><span itemprop="name">Такси из Ялты в аэропорт Симферополя</span></a>
+            <meta itemprop="position" content="3">
+          </li>
+          <li class="clear"></li>
+        </ul>
+      </div>
       <h1>Такси из Ялты в аэропорт Симферополя</h1>
       <div class="container">
         <div class="row">
@@ -42,46 +56,50 @@
             <div class="row">
               <div class="col-md-4">
                 <fieldset>
-                  <fieldset class="select">
-                    <div class="comment">Откуда</div><img class="tick" src="assets/img/select-triangle.svg" alt="">
-                    <select name="from">
-                      <option>из Алупки</option>
-                      <option>из Бахчисарая</option>
-                      <option>из Белогорска</option>
-                      <option>из Верхней Кутузовки</option>
-                      <option>из Гаспры</option>
-                      <option>из Гурзуфа</option>
-                      <option>из Джанкой</option>
-                      <option>из Заозерного</option>
-                      <option>из Евпатории</option>
-                      <option selected>из Ялты</option>
-                    </select>
+                  <fieldset>
+                    <input class="input focus" name="from" id="from" value="Ялта">
+                    <label for="from">Откуда</label>
                   </fieldset>
                 </fieldset>
               </div>
               <div class="col-md-4">
                 <fieldset>
-                  <fieldset class="select">
-                    <div class="comment">Куда</div><img class="tick" src="assets/img/select-triangle.svg" alt="">
-                    <select name="where">
-                      <option>в Алупку</option>
-                      <option>в Бахчисарай</option>
-                      <option>в Белогорск</option>
-                      <option>в Верхнюю Кутузовку</option>
-                      <option>в Гаспру</option>
-                      <option>в Гурзуф</option>
-                      <option>в Джанкой</option>
-                      <option>в Заозерный</option>
-                      <option>в Евпаторию</option>
-                      <option selected>в Симферополь</option>
-                    </select>
+                  <fieldset>
+                    <input class="input focus" name="where" id="where" value="Симферополь">
+                    <label for="where">Куда</label>
                   </fieldset>
                 </fieldset>
               </div>
               <div class="col-md-2">
                 <fieldset>
                   <input class="input" id="passengers">
-                  <label for="passengers">Пассажиры</label>
+                  <label for="passengers" id="label-for-passengers">Пассажиры</label>
+                  <div class="passengers-add">
+                    <div class="row">
+                      <div class="col-md-6 passengers-add__text">Взрослые</div>
+                      <div class="col-md-6 row passengers-add__actions">
+                        <div class="col-md-4">
+                          <button class="passengers-add__button" type="button">-</button>
+                        </div>
+                        <div class="col-md-4">0</div>
+                        <div class="col-md-4">
+                          <button class="passengers-add__button" type="button">+</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6 passengers-add__text">Дети</div>
+                      <div class="col-md-6 row passengers-add__actions">
+                        <div class="col-md-4">
+                          <button class="passengers-add__button" type="button">-</button>
+                        </div>
+                        <div class="col-md-4">0</div>
+                        <div class="col-md-4">
+                          <button class="passengers-add__button" type="button">+</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </fieldset>
               </div>
               <div class="col-md-2">
@@ -367,9 +385,10 @@
       <div class="container">
         <div class="row">
           <div class="col-md-3 copyright">© 2018 Служба такси «Вежливые люди»</div>
-          <div class="col-md-6 row">
+          <div class="col-md-2">
             <div><a href="rules.html">Правила и условия</a></div>
           </div>
+          <div class="col-md-4"><a class="social social--vk" href="#"></a><a class="social social--fb" href="#"></a><a class="social social--inst" href="#"></a></div>
           <div class="col-md-3 ketov">Дизайн — Юрий Кетов</div>
         </div>
       </div>
