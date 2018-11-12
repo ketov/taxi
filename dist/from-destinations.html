@@ -15,12 +15,12 @@
     <header class="inner" data-animation="fadeIn" data-animation-delay="500ms">
       <div class="container">
         <div class="row">
-          <div class="col-md-10"><a class="logo-link" href="index.html"><img class="logo" src="assets/img/logo.svg" alt="логотип"></a><a class="link" href="#">Услуги&nbsp;трансфера</a><a class="link" href="#">Частые&nbsp;вопросы</a><a class="link" href="#">Гид&nbsp;«Как&nbsp;добраться»</a><a class="link" href="#">О&nbsp;нас</a><a class="link" href="#">Отзывы</a><a class="link" href="#">Контакты</a><span class="clear"></span></div>
+          <div class="col-md-10"><a class="logo-link" href="index.html"><img class="logo" src="assets/img/logo.svg" alt="логотип"></a><a class="link" href="#">Услуги&nbsp;трансфера</a><a class="link" href="#">Частые&nbsp;вопросы</a><a class="link" href="#">Гид&nbsp;«Как&nbsp;добраться»</a><a class="link" href="#">О&nbsp;нас</a><a class="link" href="reviews.html">Отзывы</a><a class="link" href="contacts.html">Контакты</a><span class="clear"></span></div>
           <div class="col-md-2 phone"><a href="tel:+79223104870">+7 (922) 310-48-70</a></div>
         </div>
         <div class="row mobile">
           <div class="col-md-2"><img class="logo" src="assets/img/logo.svg" alt="логотип"></div>
-          <div class="col-md-8 links"><a class="link" href="#">Услуги трансфера</a><a class="link" href="#">Частые вопросы</a><a class="link" href="#">Гид «Как добраться»</a><a class="link" href="#">О нас</a><a class="link" href="#">Отзывы</a><a class="link" href="#">Контакты</a></div>
+          <div class="col-md-8 links"><a class="link" href="#">Услуги трансфера</a><a class="link" href="#">Частые вопросы</a><a class="link" href="#">Гид «Как добраться»</a><a class="link" href="#">О нас</a><a class="link" href="reviews.html">Отзывы</a><a class="link" href="contacts.html">Контакты</a></div>
           <div class="col-md-2 phone"><a href="tel:+79223104870">+7 (922) 310-48-70</a></div>
         </div>
       </div>
@@ -75,11 +75,11 @@
                       <div class="col-md-6 passengers-add__text">Взрослые</div>
                       <div class="col-md-6 row passengers-add__actions">
                         <div class="col-md-4">
-                          <button class="passengers-add__button" type="button">-</button>
+                          <button class="passengers-add__button" id="adult-minus" type="button">-</button>
                         </div>
-                        <div class="col-md-4">0</div>
+                        <div class="col-md-4" id="adult-number">0</div>
                         <div class="col-md-4">
-                          <button class="passengers-add__button" type="button">+</button>
+                          <button class="passengers-add__button" id="adult-plus" type="button">+</button>
                         </div>
                       </div>
                     </div>
@@ -87,14 +87,16 @@
                       <div class="col-md-6 passengers-add__text">Дети</div>
                       <div class="col-md-6 row passengers-add__actions">
                         <div class="col-md-4">
-                          <button class="passengers-add__button" type="button">-</button>
+                          <button class="passengers-add__button" id="children-minus" type="button">-</button>
                         </div>
-                        <div class="col-md-4">0</div>
+                        <div class="col-md-4" id="children-number">0</div>
                         <div class="col-md-4">
-                          <button class="passengers-add__button" type="button">+</button>
+                          <button class="passengers-add__button" id="children-plus" type="button">+</button>
                         </div>
                       </div>
                     </div>
+                    <input id="adult-number-input" type="hidden" value="0">
+                    <input id="children-number-input" type="hidden" value="0">
                   </div>
                 </fieldset>
               </div>
@@ -110,39 +112,89 @@
       <h2>Отзывы</h2>
       <div class="container">
         <div class="row">
-          <div class="col-md-3" data-animation="fadeIn" data-animation-delay="150ms"><img class="reviews__triangle" src="assets/img/reviews-triangle.svg" alt="">
-            <p>
-              В&nbsp;наше время, отношение таксистов к&nbsp;мамам с&nbsp;детьми
-              какое-то предвзятое. Никогда не&nbsp;получалось уехать на&nbsp;такси
-              с&nbsp;первого раза, таксисты отказывались везти с&nbsp;ребенком без&nbsp;кресла,
-              хотя оператор был предупрежден о&nbsp;необходимости наличия кресла<span>…</span>
-            </p><a class="link" href="#"><span>Читать весь отзыв на сайте</span></a>
-            <div class="author">Vanessa87</div>
+          <div class="col-md-3" data-animation="fadeIn" data-animation-delay="150ms" itemscope itemtype="http://schema.org/Review"><img class="reviews__triangle" src="assets/img/reviews-triangle.svg" alt="">
+            <div itemprop="reviewBody">
+              <p>
+                В&nbsp;наше время, отношение таксистов к&nbsp;мамам с&nbsp;детьми
+                какое-то предвзятое. Никогда не&nbsp;получалось уехать на&nbsp;такси
+                с&nbsp;первого раза, таксисты отказывались везти с&nbsp;ребенком без&nbsp;кресла,
+                хотя оператор был предупрежден о&nbsp;необходимости наличия кресла<span>…</span>
+              </p>
+            </div><a href="#" itemprop="url" target="_blank">Читать весь отзыв на сайте</a>
+            <div class="author"> <span itemprop="author" itemscope itemtype="http://schema.org/Person"> <span itemprop="name">Vanessa87</span></span></div>
           </div>
-          <div class="col-md-3" data-animation="fadeIn" data-animation-delay="300ms"><img class="reviews__triangle" src="assets/img/reviews-triangle.svg" alt="">
-            <p>
-              Часто пользуюсь услугами этой службы такси. Данное такси никогда не подводит,
-              приезжает точно в срок. У водителя всегда есть сдача, какую купюру я бы
-              не дала<span>…</span>
-            </p><a class="link" href="#"><span>Читать весь отзыв на сайте</span></a>
-            <div class="author">pytenkova</div>
+          <div class="col-md-3" data-animation="fadeIn" data-animation-delay="300ms" itemscope itemtype="http://schema.org/Review"><img class="reviews__triangle" src="assets/img/reviews-triangle.svg" alt="">
+            <div itemprop="reviewBody">
+              <p>
+                Часто пользуюсь услугами этой службы такси. Данное такси никогда не&nbsp;подводит,
+                приезжает точно в&nbsp;срок. У&nbsp;водителя всегда есть сдача, какую купюру я бы
+                не&nbsp;дала<span>…</span>
+              </p>
+            </div><a href="#" itemprop="url" target="_blank">Читать весь отзыв на сайте</a>
+            <div class="author"> <span itemprop="author" itemscope itemtype="http://schema.org/Person"> <span itemprop="name">pytenkova</span></span></div>
           </div>
-          <div class="col-md-3" data-animation="fadeIn" data-animation-delay="450ms"><img class="reviews__triangle" src="assets/img/reviews-triangle.svg" alt="">
-            <p>
-              Машинку назначили быстро, сообщение о машине пришло буквально
-              в течение 5 минут. Водитель даже без просьбы помог
-              с чемоданом. Вёз аккуратно, вёл себя очень вежливо<span>…</span>
-            </p><a class="link" href="#"><span>Читать весь отзыв на сайте</span></a>
-            <div class="author">shes7</div>
+          <div class="col-md-3" data-animation="fadeIn" data-animation-delay="450ms" itemscope itemtype="http://schema.org/Review"><img class="reviews__triangle" src="assets/img/reviews-triangle.svg" alt="">
+            <div itemprop="reviewBody">
+              <p>
+                Машинку назначили быстро, сообщение о&nbsp;машине пришло буквально
+                в&nbsp;течение 5&nbsp;минут. Водитель даже без&nbsp;просьбы помог
+                с&nbsp;чемоданом. Вёз аккуратно, вёл себя очень вежливо<span>…</span>
+              </p>
+            </div><a href="#" itemprop="url" target="_blank">Читать весь отзыв на сайте</a>
+            <div class="author"> <span itemprop="author" itemscope itemtype="http://schema.org/Person"> <span itemprop="name">shes7</span></span></div>
           </div>
-          <div class="col-md-3" data-animation="fadeIn" data-animation-delay="600ms"><img class="reviews__triangle" src="assets/img/reviews-triangle.svg" alt="">
-            <p>
-              Заказывал через приложение, машина приехала через 10 минут.
-              Водитель помог убрать багаж. Сам по себе человек приятный.
-              Машина — иномарка, чистая и ухоженная. В общем, остались
-              только приятные впечатления<span>…</span>
-            </p><a class="link" href="#"><span>Читать весь отзыв на сайте</span></a>
-            <div class="author">halfkid</div>
+          <div class="col-md-3" data-animation="fadeIn" data-animation-delay="600ms" itemscope itemtype="http://schema.org/Review"><img class="reviews__triangle" src="assets/img/reviews-triangle.svg" alt="">
+            <div itemprop="reviewBody">
+              <p>
+                Заказывал через приложение, машина приехала через 10&nbsp;минут.
+                Водитель помог убрать багаж. Сам по&nbsp;себе человек приятный.
+                Машина — иномарка, чистая и&nbsp;ухоженная. В&nbsp;общем, остались
+                только приятные впечатления<span>…</span>
+              </p>
+            </div><a href="#" itemprop="url" target="_blank">Читать весь отзыв на сайте</a>
+            <div class="author"> <span itemprop="author" itemscope itemtype="http://schema.org/Person"> <span itemprop="name">halfkid</span></span></div>
+          </div>
+          <div class="col-md-3" data-animation="fadeIn" data-animation-delay="150ms" itemscope itemtype="http://schema.org/Review"><img class="reviews__triangle" src="assets/img/reviews-triangle.svg" alt="">
+            <div itemprop="reviewBody">
+              <p>
+                Этим летом ездили (я, сестра и&nbsp;ее&nbsp;дочка) отдыхать в&nbsp;Коктебель. 
+                В&nbsp;Коктебеле мы были 5 дней отпуска, остальные 5 дней решили провести 
+                в&nbsp;Феодосии. Встал вопрос как&nbsp;туда добраться<span>…</span>
+              </p>
+            </div><a href="#" itemprop="url" target="_blank">Читать весь отзыв на сайте</a>
+            <div class="author"> <span itemprop="author" itemscope itemtype="http://schema.org/Person"> <span itemprop="name">Petr9777</span></span></div>
+          </div>
+          <div class="col-md-3" data-animation="fadeIn" data-animation-delay="300ms" itemscope itemtype="http://schema.org/Review"><img class="reviews__triangle" src="assets/img/reviews-triangle.svg" alt="">
+            <div itemprop="reviewBody">
+              <p>
+                Воспользовалась услугами этого милого такси в&nbsp;феврале, 
+                когда мы с&nbsp;мужем отдыхали в&nbsp;Ялте. Быстро и&nbsp;немудрено оформили 
+                туда и&nbsp;обратно трансфер. Водитель развлекал нас всю дорогу, 
+                так что советую<span>…</span>
+              </p>
+            </div><a href="#" itemprop="url" target="_blank">Читать весь отзыв на сайте</a>
+            <div class="author"> <span itemprop="author" itemscope itemtype="http://schema.org/Person"> <span itemprop="name">Тоня1234</span></span></div>
+          </div>
+          <div class="col-md-3" data-animation="fadeIn" data-animation-delay="450ms" itemscope itemtype="http://schema.org/Review"><img class="reviews__triangle" src="assets/img/reviews-triangle.svg" alt="">
+            <div itemprop="reviewBody">
+              <p>
+                Возвращалась из&nbsp;командировки. Очень устала и&nbsp;хотелось быстрее попасть домой. 
+                Пара служб предложила мне ждать, достаточно долго. Тогда я&nbsp;попробовала испытать 
+                судьбу и&nbsp;позвонила еще в&nbsp;службу Вежливые Люди. <span>…</span>
+              </p>
+            </div><a href="#" itemprop="url" target="_blank">Читать весь отзыв на сайте</a>
+            <div class="author"> <span itemprop="author" itemscope itemtype="http://schema.org/Person"> <span itemprop="name">Apachi</span></span></div>
+          </div>
+          <div class="col-md-3" data-animation="fadeIn" data-animation-delay="600ms" itemscope itemtype="http://schema.org/Review"><img class="reviews__triangle" src="assets/img/reviews-triangle.svg" alt="">
+            <div itemprop="reviewBody">
+              <p>
+                Прилетал в&nbsp;Крым по&nbsp;работе, на&nbsp;прошлой неделе. Воспользовался 
+                поисковиком чтобы найти такси. Выбрал первый в&nbsp;списке. 
+                Попал на&nbsp;сайт данного оператора, посмотрел тарифы, 
+                там же оставил онлайн заявку. По&nbsp;прилету ждал водитель.<span>…</span>
+              </p>
+            </div><a href="#" itemprop="url" target="_blank">Читать весь отзыв на сайте</a>
+            <div class="author"> <span itemprop="author" itemscope itemtype="http://schema.org/Person"> <span itemprop="name">MaryJ</span></span></div>
           </div>
         </div>
       </div>
@@ -322,7 +374,7 @@
       </div>
     </section>
     <section class="destinations">
-      <h2>Все направления из аэропорта Симферополя</h2>
+      <h2 class="h2-80">Все направления из аэропорта Симферополя</h2>
       <div class="container">
         <div class="row">
           <div class="col-md-6">

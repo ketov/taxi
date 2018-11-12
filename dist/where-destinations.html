@@ -15,12 +15,12 @@
     <header class="inner" data-animation="fadeIn" data-animation-delay="500ms">
       <div class="container">
         <div class="row">
-          <div class="col-md-10"><a class="logo-link" href="index.html"><img class="logo" src="assets/img/logo.svg" alt="логотип"></a><a class="link" href="#">Услуги&nbsp;трансфера</a><a class="link" href="#">Частые&nbsp;вопросы</a><a class="link" href="#">Гид&nbsp;«Как&nbsp;добраться»</a><a class="link" href="#">О&nbsp;нас</a><a class="link" href="#">Отзывы</a><a class="link" href="#">Контакты</a><span class="clear"></span></div>
+          <div class="col-md-10"><a class="logo-link" href="index.html"><img class="logo" src="assets/img/logo.svg" alt="логотип"></a><a class="link" href="#">Услуги&nbsp;трансфера</a><a class="link" href="#">Частые&nbsp;вопросы</a><a class="link" href="#">Гид&nbsp;«Как&nbsp;добраться»</a><a class="link" href="#">О&nbsp;нас</a><a class="link" href="reviews.html">Отзывы</a><a class="link" href="contacts.html">Контакты</a><span class="clear"></span></div>
           <div class="col-md-2 phone"><a href="tel:+79223104870">+7 (922) 310-48-70</a></div>
         </div>
         <div class="row mobile">
           <div class="col-md-2"><img class="logo" src="assets/img/logo.svg" alt="логотип"></div>
-          <div class="col-md-8 links"><a class="link" href="#">Услуги трансфера</a><a class="link" href="#">Частые вопросы</a><a class="link" href="#">Гид «Как добраться»</a><a class="link" href="#">О нас</a><a class="link" href="#">Отзывы</a><a class="link" href="#">Контакты</a></div>
+          <div class="col-md-8 links"><a class="link" href="#">Услуги трансфера</a><a class="link" href="#">Частые вопросы</a><a class="link" href="#">Гид «Как добраться»</a><a class="link" href="#">О нас</a><a class="link" href="reviews.html">Отзывы</a><a class="link" href="contacts.html">Контакты</a></div>
           <div class="col-md-2 phone"><a href="tel:+79223104870">+7 (922) 310-48-70</a></div>
         </div>
       </div>
@@ -75,11 +75,11 @@
                       <div class="col-md-6 passengers-add__text">Взрослые</div>
                       <div class="col-md-6 row passengers-add__actions">
                         <div class="col-md-4">
-                          <button class="passengers-add__button" type="button">-</button>
+                          <button class="passengers-add__button" id="adult-minus" type="button">-</button>
                         </div>
-                        <div class="col-md-4">0</div>
+                        <div class="col-md-4" id="adult-number">0</div>
                         <div class="col-md-4">
-                          <button class="passengers-add__button" type="button">+</button>
+                          <button class="passengers-add__button" id="adult-plus" type="button">+</button>
                         </div>
                       </div>
                     </div>
@@ -87,14 +87,16 @@
                       <div class="col-md-6 passengers-add__text">Дети</div>
                       <div class="col-md-6 row passengers-add__actions">
                         <div class="col-md-4">
-                          <button class="passengers-add__button" type="button">-</button>
+                          <button class="passengers-add__button" id="children-minus" type="button">-</button>
                         </div>
-                        <div class="col-md-4">0</div>
+                        <div class="col-md-4" id="children-number">0</div>
                         <div class="col-md-4">
-                          <button class="passengers-add__button" type="button">+</button>
+                          <button class="passengers-add__button" id="children-plus" type="button">+</button>
                         </div>
                       </div>
                     </div>
+                    <input id="adult-number-input" type="hidden" value="0">
+                    <input id="children-number-input" type="hidden" value="0">
                   </div>
                 </fieldset>
               </div>
@@ -107,7 +109,7 @@
       </div>
     </section>
     <section class="destinations">
-      <h2>Все направления в аэропорт Симферополя</h2>
+      <h2 class="h2-80">Все направления в аэропорт Симферополя</h2>
       <div class="container">
         <div class="row">
           <div class="col-md-6">

@@ -1,0 +1,43 @@
+doctype html
+html
+    head
+        title Контакты
+        meta(name="description", content="")
+        meta(name="keywords", content="")
+        meta(charset="UTF-8")
+        meta(name='viewport' content='width=device-width,initial-scale=1')
+        meta(content='true' name='HandheldFriendly')
+        meta(content='width' name='MobileOptimized')
+        meta(content='yes' name='apple-mobile-web-app-capable')
+        link(rel="stylesheet" type="text/css" href="assets/css/all.min.css")
+    body
+        include includes/header-inner
+        section.contacts.container
+            h2 Контакты
+            div.row(itemscope="" itemtype="http://schema.org/Organization")
+                div.col-md-3
+                    div.ooo(itemprop="name") ООО «Вежливые Люди»
+                    div(itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress")
+                        span(itemprop="addressLocality") Россия, Пермь,  
+                        span(itemprop="streetAddress")  ул.&nbsp;Краснофлотская,&nbsp;18-82, 
+                        span(itemprop="postalCode") 614016
+
+                div.col-md-3(itemprop="telephone") 
+                    a(href="tel:+79223104870") +7 (922) 310-48-70
+
+                div.col-md-3(itemprop="email") 
+                    a(href="mailto:zakaz@vl-taxi.ru") zakaz@vl-taxi.ru
+
+                div.col-md-3
+                    a.social.social--vk(href="#")
+                    a.social.social--fb(href="#")
+                    a.social.social--inst(href="#")
+
+
+        include includes/footer
+
+        script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js")
+        script(src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js")
+        script(src="assets/js/app.min.js")
+
+

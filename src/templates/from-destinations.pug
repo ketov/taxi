@@ -57,19 +57,21 @@ html
                                             div.col-md-6.passengers-add__text Взрослые
                                             div.col-md-6.row.passengers-add__actions
                                                 div.col-md-4
-                                                    button.passengers-add__button(type="button") -
-                                                div.col-md-4 0
+                                                    button.passengers-add__button#adult-minus(type="button") -
+                                                div.col-md-4#adult-number 0
                                                 div.col-md-4
-                                                    button.passengers-add__button(type="button") +
+                                                    button.passengers-add__button#adult-plus(type="button") +
 
                                         div.row
                                             div.col-md-6.passengers-add__text Дети
                                             div.col-md-6.row.passengers-add__actions
                                                 div.col-md-4
-                                                    button.passengers-add__button(type="button") -
-                                                div.col-md-4 0
+                                                    button.passengers-add__button#children-minus(type="button") -
+                                                div.col-md-4#children-number 0
                                                 div.col-md-4
-                                                    button.passengers-add__button(type="button") +
+                                                    button.passengers-add__button#children-plus(type="button") +
+                                        input#adult-number-input(type="hidden" value="0")
+                                        input#children-number-input(type="hidden" value="0")
 
                             div.col-md-2
                                 button Найти
@@ -80,7 +82,7 @@ html
         include includes/advantages
 
         section.destinations
-            h2 Все направления из аэропорта Симферополя
+            h2.h2-80 Все направления из аэропорта Симферополя
             div.container
                 div.row
                     div.col-md-6

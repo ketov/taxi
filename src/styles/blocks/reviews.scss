@@ -1,5 +1,9 @@
+.reviews-page{
+    padding-top: 60px;
+}
+
 .reviews{
-    margin: 84px 0 140px;
+    padding: 84px 0 0;
     h2{
         margin: 0 0 40px 0;
     }
@@ -11,14 +15,15 @@
         border: 1px solid $blue;
         -ms-flex: 0 0 23.8%;
         flex: 0 0 23.8%;
-        max-width: 23.8%;
+        margin-bottom: 100px;
         margin-right: 1.5%;
+        max-width: 23.8%;
         padding: 23px 28px 80px 28px;
-        &:last-child{
+        &:nth-child(4n){
             margin-right: 0;
         }
     }
-    .link{
+    a{
         bottom: 35px;
         color: $black;
         position: absolute;

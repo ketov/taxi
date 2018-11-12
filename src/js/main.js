@@ -161,15 +161,7 @@ $(document).ready(function () {
 
     $('#passengers').on('focus', function(){
         var p = $('.passengers-add');
-        //if(p.hasClass('active')){
-        //    return;
-        //}
-        //else{
-            p.fadeIn(250);
-            //p.addClass('active');
-        //}
-        //p.fadeIn(400);
-
+        p.fadeIn(250);
     });
 
     $(document).click(function (event) {
@@ -181,6 +173,44 @@ $(document).ready(function () {
             //$('.passengers-add').removeClass('active');
         }
 
+    });
+    
+    $('#adult-plus').on('click', function(){
+        var n = parseFloat($('#adult-number-input').val());
+        n = n+1;
+        $('#adult-number-input').val(n);
+        $('#adult-number').text(n);
+    });
+    
+    $('#children-plus').on('click', function(){
+        var n = parseFloat($('#children-number-input').val());
+        n = n+1;
+        $('#children-number-input').val(n);
+        $('#children-number').text(n);
+    });
+    
+    $('#adult-minus').on('click', function(){
+        var n = parseFloat($('#adult-number-input').val());
+        if(n==0){
+            return;
+        }
+        else{
+            n = n-1;
+            $('#adult-number-input').val(n);
+            $('#adult-number').text(n);
+        }        
+    });
+    
+    $('#children-minus').on('click', function(){
+        var n = parseFloat($('#children-number-input').val());
+        if(n==0){
+            return;
+        }
+        else{
+            n = n-1;
+            $('#children-number-input').val(n);
+            $('#children-number').text(n);
+        }        
     });
 
 
