@@ -47,10 +47,12 @@ html
                     form.col-md-6.offset-1
                         div.row
                             div.col-md-12
-                                h3 Информация о трансфере
+                                h3 Информация о&nbsp;трансфере
                                 fieldset
                                     input.input(id="from" name="from" ng-model="from")
-                                    label(for="from") Место отправления (адрес или название отеля)
+                                    label(for="from") 
+                                        | Место отправления 
+                                        span#label-from-hide (адрес или название отеля)
 
                         div.row
                             div.col-md-6
@@ -179,7 +181,7 @@ html
 
                         div.row
                             div.col-md-12
-                                h4.order__additional-services-h4 Дополнительные товары и услуги
+                                h4.order__additional-services-h4 Дополнительные товары и&nbsp;услуги
 
                             div.row.k-radio
                                 fieldset.checkbox
@@ -187,7 +189,7 @@ html
                                     input(type="checkbox" id="meet" onchange="$('#meet-result').text('Встреча в аэропорту — 200 руб.'); if ($(this).is(':checked')){$('#order-summ').text(200+parseInt($('#chair-result').attr('data-summ'))+parseInt($('#order-summ').attr('data-start'))+parseInt($('#booster-result').attr('data-summ'))); $('#order-summ').attr('data-start', parseInt($('#order-summ').attr('data-start'))+200);} else{$('#meet-result').text(''); $('#order-summ').text(parseInt($('#order-summ').attr('data-start'))-200 + parseInt($('#booster-result').attr('data-summ')) + parseInt($('#chair-result').attr('data-summ'))); $('#order-summ').attr('data-start', parseInt($('#order-summ').attr('data-start'))-200);}")
 
 
-                        div.row
+                        div.row.last-row
                             div.col-md-12
                                 div.order__continue.row
                                     div.col-md-6

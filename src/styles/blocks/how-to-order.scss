@@ -86,6 +86,7 @@
 @media(max-width: 1100px){
     .how-to-order{
         margin: 70px 0 0;
+        padding: 68px 0 80px;
         p{
             font-size: 145%;
         }
@@ -101,15 +102,103 @@
 
 }
 
-@media(max-width: 850px){
+@media(max-width: 900px){
+    .how-to-order{
+        p{
+            font-size: 125%;
+            line-height: 135%;
+            margin: 0;
+        }
+        &__number{
+            max-width: 70px;
+        }
+    }
+}
 
+
+@media(max-width: 850px){
+    .how-to-order{
+        margin-top: 52px;
+        padding: 48px 0 60px;
+        p{
+            font-size: 115%;
+            line-height: 145%;
+        }
+        .row{
+            margin: 0 0 40px;
+        }
+        .row:nth-last-child(2){
+            margin: 0 0 40px;
+        }
+        .row:nth-last-child(3){
+            margin: 0 0 40px;
+        }
+        h2{
+            margin: 0 0 20px;
+        }
+    }
 }
 
 @media(max-width: 767px){
+    .how-to-order{
+        h2{
+            margin: 0;
+        }
+        .col-md-4{
+            display: block;
+            margin: 0 auto 40px;
+            padding: 0;
+            text-align: center;
+            .col-md-4{
+                margin: 0 auto 16px;
+            }
+            .col-md-8{
+                text-align: center;
+                p{
+                    width: 100%;
+                }
+            }
+        }
 
+        p.how-to-order__p1{
+            margin: 0 0 20px 0;
+        }
+        
+        .col-md-10.offset-1{
+            margin-left: 0;
+        }
+        
+        .row{
+            margin: 0 0 0px;
+        }
+        .row:nth-last-child(2){
+            margin: 0 0 0px;
+        }
+        .row:nth-last-child(3){
+            margin: 0 0 0px;
+        }
+    }
 }
 
+@media(max-width: 600px){
+    .how-to-order{
+        margin-top: 28px;
+        .col-md-4.row{
+            -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
+}
 
+@media(max-width: 370px){
+    .how-to-order{
+        padding: 40px 0 44px;
+        &__number{
+            max-width: 56px;        
+        }
+    }
+}
 
 
 #h-1{

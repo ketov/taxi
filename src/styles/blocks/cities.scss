@@ -14,6 +14,13 @@
 }
 
 @media(max-width: 1200px){
+    .cities{
+        .col-md-2{
+            -ms-flex: 20%;
+            flex: 20%;
+            max-width: 20%;
+        }
+    }
     .reviews{
         margin: 60px 0 120px;
         h2{
@@ -23,6 +30,14 @@
 }
 
 @media(max-width: 1100px){
+    .cities{
+        margin: 60px 0 0;
+        .col-md-2{
+            -ms-flex: 25%;
+            flex: 25%;
+            max-width: 25%;
+        }
+    }
     .reviews{
         margin: 48px 0 32px;
         h2{
@@ -36,9 +51,40 @@
 }
 
 @media(max-width: 850px){
-
+    .cities{
+        .col-md-2{
+            -ms-flex: 33.33333%;
+            flex: 33.33333%;
+            max-width: 33.33333%;
+        }
+    }
 }
 
 @media(max-width: 767px){
+    .cities{
+        margin: 48px 0 0px 0;
+        h2{
+            margin: 0;
+        }
+    }
+}
 
+@media(max-width: 650px){
+    .cities{
+        .col-md-2{
+            -ms-flex: 50%;
+            flex: 50%;
+            max-width: 50%;
+        }
+    }
+}
+
+@media(max-width: 400px){
+    .cities{
+        .col-md-2{
+            -ms-flex: 100%;
+            flex: 100%;
+            max-width: 100%;
+        }
+    }
 }

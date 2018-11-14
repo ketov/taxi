@@ -69,6 +69,9 @@ header{
                 font-size: 360%;
             }
         }
+        .col-md-2{
+            padding: 0;
+        }
     }
 }
 
@@ -92,7 +95,7 @@ header.active{
 #hamburger{
     display: none;
     cursor: pointer;
-    padding: 24px 16px;
+    padding: 26px 16px 24px;
     position: absolute;
     right: 0;
     top: 0;
@@ -213,6 +216,15 @@ header.active{
                 flex: 0 0 100%;
                 max-width: 100%;
             }
+            .link{
+                display: table;
+                float: none;
+                margin: 0 auto 16px;
+                &:first-child{
+                    display: table;
+                    margin: 0 auto 16px;
+                }
+            }
         }
     }
 
@@ -226,7 +238,7 @@ header.active{
         overflow-y: auto;
         padding-bottom: 28px;
         .phone{
-            padding-top: 28px;
+            padding-top: 0;
         }
     }
 }
@@ -237,4 +249,47 @@ header.active{
 
 @media(max-width: 767px){
 
+}
+
+@media(max-width: 600px){
+    header{
+        .row.mobile{
+            .link{
+                font-size: 145%;
+            }
+            .phone a{
+                font-size: 300%;
+            }
+        }
+    }
+}
+
+@media(max-width: 450px){
+    header{
+        .row.mobile{
+            .link{
+                font-size: 125%;
+            }
+            .phone a{
+                font-size: 200%;
+            }
+        }
+    }
+}
+
+@media(max-width: 300px){
+    header{
+        .row.mobile{
+            .link{
+                font-size: 110%;
+                margin: 0 auto 10px;
+                &:first-child{
+                    margin: 12px auto 10px;
+                }
+            }
+            .phone a{
+                font-size: 150%;
+            }
+        }
+    }
 }

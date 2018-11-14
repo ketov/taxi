@@ -81,7 +81,16 @@
 }
 
 @media(max-width: 1000px){
-
+    #standards-menu-container{
+        display: none;
+    }
+    .standards{
+        .col-md-9{
+            -ms-flex: 0 0 97%;
+            flex: 0 0 97%;
+            max-width: 97%;
+        }
+    }
 }
 
 @media(max-width: 850px){

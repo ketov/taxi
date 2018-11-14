@@ -32,6 +32,7 @@
         li{
             display: inline-block;
             float: left;
+            text-align: center;
         }
         li.clear{
             float: none;
@@ -73,12 +74,15 @@
         &--main{
             padding: 32px 0 0;
         }
+        &--inner{
+            padding: 88px 0 28px;
+        }
     }
 }
 
 @media(max-width: 1100px){
     .search{
-        padding: 84px 0 40px;
+        padding: 84px 0 32px;
         h1{
             margin: 28px auto 16px;
         }
@@ -94,22 +98,66 @@
     }
 }
 
-@media(max-width: 1000px){
-
+@media(max-width: 900px){
+    .search{
+        padding: 84px 0 28px;
+        .col-md-4, .col-md-2{
+            -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+            margin-bottom: 16px;
+            max-width: 100%;
+            padding: 0;
+        }
+        .col-md-2{
+            &:last-child{
+                margin: 0;
+            }
+        }
+        .passengers-add__actions{
+            .col-md-4{
+                -ms-flex: 0 0 33%;
+                flex: 0 0 33%;
+                max-width: 33%;
+            }
+        }
+    }
 }
 
 @media(max-width: 850px){
-
+    .search{
+        ul{
+            li{
+                float: none;
+            }
+        }
+    }
 }
 
 @media(max-width: 767px){
 
 }
 
-@media(max-width: 650px){
-
+@media(max-width: 600px){
+    .search{
+        h1{
+            margin: 28px auto 20px;
+        }
+    }
 }
 
-@media(max-width: 550px){
+@media(max-width: 450px){
+    .search{
+        form{
+            padding: 36px 28px;
+        }
+    }
+}
 
+@media(max-width: 370px){
+    .search{
+        padding: 76px 0 28px;
+        .col-md-4, .col-md-2{
+            margin-bottom: 10px;
+        }
+    }
 }

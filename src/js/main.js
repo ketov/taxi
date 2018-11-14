@@ -180,6 +180,16 @@ $(document).ready(function () {
         n = n+1;
         $('#adult-number-input').val(n);
         $('#adult-number').text(n);
+        
+        var s = parseFloat($('#adult-number-input').val())+parseFloat($('#children-number-input').val());
+        if(s>0){
+            $('#passengers').val(s);
+            $('#passengers').addClass('focus');
+        }
+        else{
+            $('#passengers').val('');            
+            $('#passengers').addClass('focus');
+        }
     });
     
     $('#children-plus').on('click', function(){
@@ -187,6 +197,16 @@ $(document).ready(function () {
         n = n+1;
         $('#children-number-input').val(n);
         $('#children-number').text(n);
+        
+        var s = parseFloat($('#adult-number-input').val())+parseFloat($('#children-number-input').val());
+        if(s>0){
+            $('#passengers').val(s);
+            $('#passengers').addClass('focus');
+        }
+        else{
+            $('#passengers').val('');            
+            $('#passengers').addClass('focus');
+        }
     });
     
     $('#adult-minus').on('click', function(){
@@ -198,7 +218,18 @@ $(document).ready(function () {
             n = n-1;
             $('#adult-number-input').val(n);
             $('#adult-number').text(n);
-        }        
+        }   
+        
+        
+        var s = parseFloat($('#adult-number-input').val())+parseFloat($('#children-number-input').val());
+        if(s>0){
+            $('#passengers').val(s);
+            $('#passengers').addClass('focus');
+        }
+        else{
+            $('#passengers').val('');            
+            $('#passengers').addClass('focus');
+        }
     });
     
     $('#children-minus').on('click', function(){
@@ -210,7 +241,18 @@ $(document).ready(function () {
             n = n-1;
             $('#children-number-input').val(n);
             $('#children-number').text(n);
-        }        
+        }       
+        
+        
+        var s = parseFloat($('#adult-number-input').val())+parseFloat($('#children-number-input').val());
+        if(s>0){
+            $('#passengers').val(s);
+            $('#passengers').addClass('focus');
+        }
+        else{
+            $('#passengers').val('');            
+            $('#passengers').addClass('focus');
+        }
     });
 
 

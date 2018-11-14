@@ -25,6 +25,28 @@ body{
     width: 100%;
 }
 
+p::selection,
+a::selection,
+span::selection,
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection
+{
+    background: #ffc107;
+}
+
+p::-moz-selection,
+a::-moz-selection,
+span::-moz-selection,
+h1::-moz-selection,
+h2::-moz-selection,
+h3::-moz-selection,
+h4::-moz-selection
+{
+    background: #ffc107;
+}
+
 .wrapper{
     margin: 0 auto;
     min-width: 940px;
@@ -53,6 +75,8 @@ h1{
     font-size: 375%;
     font-weight: normal;
     line-height: 115%;
+    padding-left: 15px;
+    padding-right: 15px;
     text-align: center;
 }
 
@@ -61,6 +85,8 @@ h2{
     font-size: 300%;
     font-weight: normal;
     line-height: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
     text-align: center;
 }
 
@@ -259,6 +285,7 @@ fieldset.select:focus{
             left: 2px;
             position: absolute;
             transition: 0.25s ease;
+            top: 2px;
             width: 20px;
         }
         &:before{
@@ -405,7 +432,7 @@ input[type=checkbox].show{
     h2{
         font-size: 245%;
         margin: 0 0 16px;
-        padding: 0 0 16px;
+        padding: 0 15px 16px 15px;
     }
     p{
         font-size: 110%;
@@ -431,14 +458,31 @@ input[type=checkbox].show{
     }
 }
 
-@media(max-width: 550px){
-    h1{
-        font-size: 300%;
+@media(max-width: 600px){
+    h1 {
+        font-size: 280%;
+        line-height: 100%;
     }
 }
 
 @media(max-width: 450px){
     h1{
         font-size: 250%;
+    }
+}
+
+@media(max-width: 370px){
+    h1{
+        /*font-size: 340%;
+        line-height: 115%;*/
+        font-size: 230%;
+    }
+    h2{
+        font-size: 200%;
+    }
+    .passengers-add {
+        left: -20px;
+        padding: 16px 0 6px 4px;
+        width: 220px;
     }
 }

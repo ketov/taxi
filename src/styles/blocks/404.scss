@@ -10,6 +10,9 @@
     }
     p{
         font-size: 115%;
+        line-height: 125%;
+        padding-left: 15px;
+        padding-right: 15px;
         text-align: center;
     }
     .link{
@@ -65,9 +68,10 @@
         padding: 100px 0 0;
         h1{
             font-size: 1100%;
+            margin-bottom: 24px;
         }
         h3{
-            margin: -36px 0 6px;
+            margin: -36px 0 0;
         }
     }
 }
