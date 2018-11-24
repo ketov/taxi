@@ -15,6 +15,48 @@ html
         section.contacts.container
             h2 Контакты
             div.row(itemscope="" itemtype="http://schema.org/Organization")
+                div.col-md-5.offset-1
+                    div.contacts__row(itemprop="telephone")
+                        span.contacts__property Телефон для заказа такси:
+                        a(href="tel:+79223104870") +7&nbsp;(922)&nbsp;310-48-70
+                    div.contacts__row(itemprop="telephone")
+                        span.contacts__property Отдел контроля и качества обслуживания клиентов:
+                        a(href="tel:+79111111111") +7&nbsp;(911)&nbsp;111-11-11
+                    div.contacts__row(itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress")
+                        span.contacts__property Адрес:
+                        span(itemprop="addressLocality") Россия, Пермь,
+                        span(itemprop="streetAddress")  ул.&nbsp;Краснофлотская,&nbsp;18-82,
+                        span(itemprop="postalCode") 614016
+                    div.contacts__row(itemprop="email")
+                        span.contacts__property Эл. почта:
+                        a(href="mailto:zakaz@vl-taxi.ru") zakaz@vl-taxi.ru
+                    div.contacts__row
+                        span.contacts__property Мы в социальных сетях
+                        br
+                        a.social.social--vk(href="#")
+                        a.social.social--fb(href="#")
+                        a.social.social--inst(href="#")
+
+                div.col-md-5
+                    form
+                        h3 Форма обратной связи
+                        div.row
+                            div.col-md-6
+                                fieldset
+                                    input.input(id="name" name="name")
+                                    label(for="name") ФИО
+                            div.col-md-6
+                                fieldset
+                                    input.input(id="email" name="email")
+                                    label(for="email") Эл. почта
+                        fieldset#message-fieldset
+                            textarea.input(id="message" name="message")
+                            label(for="message") Сообщение
+                        button Отправить
+
+
+
+            //div.row(itemscope="" itemtype="http://schema.org/Organization")
                 div.col-md-3
                     div.ooo(itemprop="name") ООО «Вежливые Люди»
                     div(itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress")

@@ -35,14 +35,59 @@
     <section class="contacts container">
       <h2>Контакты</h2>
       <div class="row" itemscope="" itemtype="http://schema.org/Organization">
-        <div class="col-md-3">
-          <div class="ooo" itemprop="name">ООО «Вежливые Люди»</div>
-          <div itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress"><span itemprop="addressLocality">Россия, Пермь,  </span><span itemprop="streetAddress"> ул.&nbsp;Краснофлотская,&nbsp;18-82, </span><span itemprop="postalCode">614016</span></div>
+        <div class="col-md-5 offset-1">
+          <div class="contacts__row" itemprop="telephone"><span class="contacts__property">Телефон для заказа такси:</span><a href="tel:+79223104870">+7&nbsp;(922)&nbsp;310-48-70</a></div>
+          <div class="contacts__row" itemprop="telephone"><span class="contacts__property">Отдел контроля и качества обслуживания клиентов:</span><a href="tel:+79111111111">+7&nbsp;(911)&nbsp;111-11-11</a></div>
+          <div class="contacts__row" itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress"><span class="contacts__property">Адрес:</span><span itemprop="addressLocality">Россия, Пермь,</span><span itemprop="streetAddress"> ул.&nbsp;Краснофлотская,&nbsp;18-82,</span><span itemprop="postalCode">614016</span></div>
+          <div class="contacts__row" itemprop="email"><span class="contacts__property">Эл. почта:</span><a href="mailto:zakaz@vl-taxi.ru">zakaz@vl-taxi.ru</a></div>
+          <div class="contacts__row"><span class="contacts__property">Мы в социальных сетях</span><br><a class="social social--vk" href="#"></a><a class="social social--fb" href="#"></a><a class="social social--inst" href="#"></a></div>
         </div>
-        <div class="col-md-3" itemprop="telephone"> <a href="tel:+79223104870">+7 (922) 310-48-70</a></div>
-        <div class="col-md-3" itemprop="email"> <a href="mailto:zakaz@vl-taxi.ru">zakaz@vl-taxi.ru</a></div>
-        <div class="col-md-3"><a class="social social--vk" href="#"></a><a class="social social--fb" href="#"></a><a class="social social--inst" href="#"></a></div>
+        <div class="col-md-5">
+          <form>
+            <h3>Форма обратной связи</h3>
+            <div class="row">
+              <div class="col-md-6">
+                <fieldset>
+                  <input class="input" id="name" name="name">
+                  <label for="name">ФИО</label>
+                </fieldset>
+              </div>
+              <div class="col-md-6">
+                <fieldset>
+                  <input class="input" id="email" name="email">
+                  <label for="email">Эл. почта</label>
+                </fieldset>
+              </div>
+            </div>
+            <fieldset id="message-fieldset">
+              <textarea class="input" id="message" name="message"></textarea>
+              <label for="message">Сообщение</label>
+            </fieldset>
+            <button>Отправить</button>
+          </form>
+        </div>
       </div>
+      <!--div.row(itemscope="" itemtype="http://schema.org/Organization")
+      div.col-md-3
+          div.ooo(itemprop="name") ООО «Вежливые Люди»
+          div(itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress")
+              span(itemprop="addressLocality") Россия, Пермь,  
+              span(itemprop="streetAddress")  ул.&nbsp;Краснофлотская,&nbsp;18-82, 
+              span(itemprop="postalCode") 614016
+      
+      div.col-md-3(itemprop="telephone") 
+          a(href="tel:+79223104870") +7 (922) 310-48-70
+      
+      div.col-md-3(itemprop="email") 
+          a(href="mailto:zakaz@vl-taxi.ru") zakaz@vl-taxi.ru
+      
+      div.col-md-3
+          a.social.social--vk(href="#")
+          a.social.social--fb(href="#")
+          a.social.social--inst(href="#")
+      
+      
+      -->
     </section>
     <footer id="footer">
       <div class="container">

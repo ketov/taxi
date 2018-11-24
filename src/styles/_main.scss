@@ -192,7 +192,7 @@ button
     }
 }
 
-input{
+input, textarea{
     border: 1px solid $light-gray;
     margin: 0;
     outline: none;
@@ -201,7 +201,8 @@ input{
     width: 100%;
 }
 
-input.focus ~ label{
+input.focus ~ label,
+textarea.focus ~ label{
     font-size: 85%;
     top: 8px;
 }

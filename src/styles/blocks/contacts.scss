@@ -4,6 +4,45 @@
     .ooo{
         font-family: $CB;
     }
+    .col-md-5.offset-1{
+        margin-top: 12px;
+    }
+    form{
+        box-shadow: 0 7px 56px 0 rgba(210,214,217,.5);
+        padding: 36px 48px 48px;
+        h3{
+            line-height: 100%;
+            margin: 0 0 16px 0;
+        }
+        fieldset{
+            margin: 0 0 16px 0;
+        }
+        button{
+            width: 100%;
+        }
+        #message{
+            min-height: 120px;
+        }
+        #message-fieldset{
+            margin-bottom: 11px;
+        }
+        .col-md-6{
+            padding: 0;
+        }
+        .col-md-6:first-child{
+            padding-right: 8px;
+        }
+        .col-md-6:last-child{
+            padding-left: 8px;
+        }
+    }
+    &__row{
+        margin: 0 0 8px 0;
+    }
+    &__property{
+        font-family: $CB;
+        margin-right: 6px;
+    }
     .col-md-3{
         text-align: center;
     }
@@ -33,7 +72,7 @@
         border-bottom: none;
         display: inline-block;
         height: 24px;
-        margin: 0 2%;
+        margin: 4px 1% 0;
         position: relative;
         width: 24px;
         &:hover{
@@ -68,6 +107,7 @@
             width: 100%;
         }
         &--vk{
+            margin-left: 0;
             &:after{
                 background-image: url('../img/vk.svg');
             }
@@ -99,43 +139,59 @@
 
 @media(max-height: 1100px){
     .contacts{
-        padding: 360px 0 180px;
+        padding: 210px 0 30px;
     }
 }
-
-
 
 @media(max-height: 900px){
     .contacts{
-        padding: 300px 0 130px;
+        padding: 160px 0 0;
     }
 }
 
-@media(max-height: 800px){
+@media(max-width: 1200px){
     .contacts{
-        padding: 270px 0 90px;
+        padding: 120px 0 0;
+        form{
+            .col-md-6{
+                -ms-flex: 0 0 100%;
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+            .col-md-6:first-child{
+                padding-right: 0;
+            }
+            .col-md-6:last-child{
+                padding-left: 0;
+            }
+        }
     }
 }
 
-@media(max-height: 767px){
-    .contacts{
-        padding: 230px 0 30px;
-    }
-}
-
-@media(max-height: 700px){
+@media(max-width: 1000px){
     .contacts{
         h2{
-            margin: 0px 0 32px;
+            margin: 0 0 12px 0;
+        }
+        form{
+            padding: 28px 36px 40px;
+        }
+        .col-md-5{
+            -ms-flex: 0 0 58.333333%;
+            flex: 0 0 58.333333%;
+            max-width: 58.333333%;
+        }
+        .col-md-5.offset-1{
+            margin-left: 0;
+            -ms-flex: 0 0 41.666667%;
+            flex: 0 0 41.666667%;
+            max-width: 41.666667%;
         }
     }
 }
 
 @media(max-width: 900px){
     .contacts{
-        h2{
-            margin: 0 0 8px;
-        }
         .col-md-3{
             -ms-flex: 0 0 100%;
             flex: 0 0 100%;
@@ -148,10 +204,38 @@
     }
 }
 
+@media(max-width: 767px){
+    .contacts{
+        padding: 100px 0 0;
+        h2{
+            margin: 0;
+        }
+        .col-md-5{
+            -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+        .col-md-5.offset-1{
+            -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
+}
+
 @media(max-width: 500px){
     .contacts{
         h2{
             padding-bottom: 8px;
+        }
+        form{
+            padding: 24px 24px 36px;
+            fieldset{
+                margin: 0 0 12px;
+            }
+            #message-fieldset{
+                margin-bottom: 7px;
+            }
         }
     }
 }
@@ -175,29 +259,5 @@
 @media(max-width: 350px){
     .contacts{
 
-    }
-}
-
-@media (max-width: 1150px){
-    .contacts{
-        padding: 170px 0 40px;
-    }
-}
-
-@media(max-width: 600px){
-    .contacts{
-        padding: 148px 90px 0px;
-    }
-}
-
-@media(max-width: 500px){
-    .contacts{
-        padding: 148px 40px 0px;
-    }
-}
-
-@media(max-width: 500px){
-    .contacts{
-        padding: 148px 10px 0px;
     }
 }
