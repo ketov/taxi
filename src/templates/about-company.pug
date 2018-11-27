@@ -1,0 +1,82 @@
+doctype html
+html
+    head
+        title О нас
+        meta(name="description", content="")
+        meta(name="keywords", content="")
+        meta(charset="UTF-8") 
+        meta(name='viewport' content='width=device-width,initial-scale=1')
+        meta(content='true' name='HandheldFriendly')
+        meta(content='width' name='MobileOptimized')
+        meta(content='yes' name='apple-mobile-web-app-capable')
+        link(rel="stylesheet" type="text/css" href="assets/css/all.min.css")
+
+    body
+        include includes/header-inner
+
+        section.search.search--inner.search--order
+            div.container
+                ul.search__breadcrumbs(itemscope itemtype="http://schema.org/BreadcrumbList")
+                    li(itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem")
+                        a(itemscope itemtype="http://schema.org/Thing" itemprop="item" href="#")
+                            span(itemprop="name") Главная
+                        meta(itemprop="position" content="1")
+                    li
+                        span.splash /
+                    li(itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem")
+                        a(itemscope itemtype="http://schema.org/Thing" itemprop="item" href="#")
+                            span(itemprop="name") О нас
+                        meta(itemprop="position" content="3")
+                    li.clear
+
+        section.about-company
+            h2 О нас
+            div.container
+                div.row
+                    div.col-md-8.offset-2
+                        p 
+                            | Система заказа такси Вежливые люди — это индивидуальный трансфер 
+                            | из&nbsp;аэропорт Симферополь и&nbsp;по&nbsp;городам Крыма с&nbsp;профессиональным водителем!
+                        p
+                            | Система онлайн-бронирования трансферов такси «Вежливые люди» 
+                            | в&nbsp;Крыму объединяет более 1000 исполнителей, которые профессионально 
+                            | занимаются перевозкой пассажиров во&nbsp;все уголки полуострова, 
+                            | и,&nbsp;конечно же, из&nbsp;аэропорт Симферополь.
+                        p
+                            | Мы установили высокие стандарты сервиса и&nbsp;подписали с&nbsp;перевозчиками 
+                            | соглашения о&nbsp;том, какой должна быть услуга индивидуального трансфера.
+                            | Все для того, чтобы клиенты такси «Вежливые люди» по&nbsp;всему Крыму и&nbsp;в&nbsp;аэропорт 
+                            | Симферополь получали сервис стабильно высокого качества.
+            
+            
+                h2 Наш коллектив                
+                div.row.about-company__employee-row
+                    div.col-md-4
+                        img(src="https://image.shutterstock.com/image-photo/portrait-young-beautiful-cute-cheerful-450w-666258808.jpg" alt="сотрудник1")
+                        div.about-company__post Диспетчер
+                    div.col-md-4
+                        img(src="https://image.shutterstock.com/image-photo/happy-cheerful-young-woman-wearing-450w-613759379.jpg" alt="сотрудник2")
+                        div.about-company__post Диспетчер
+                    div.col-md-4
+                        img(src="https://image.shutterstock.com/image-photo/indoor-portrait-beautiful-brunette-young-450w-640005220.jpg" alt="сотрудник3")
+                        div.about-company__post Диспетчер    
+                    
+                div.row.about-company__employee-row
+                    div.col-md-4
+                        img(src="https://image.shutterstock.com/image-photo/handsome-unshaven-young-darkskinned-male-450w-640011838.jpg" alt="сотрудник4")
+                        div.about-company__post Диспетчер
+                    div.col-md-4
+                        img(src="https://image.shutterstock.com/image-photo/confidence-business-concept-portrait-charming-450w-1043571091.jpg" alt="сотрудник5")
+                        div.about-company__post Диспетчер
+                    div.col-md-4
+                        img(src="https://image.shutterstock.com/image-photo/isolated-shot-young-handsome-male-450w-762790210.jpg" alt="сотрудник6")
+                        div.about-company__post Диспетчер    
+                            
+        include includes/reviews
+        include includes/footer
+       
+        script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js")
+        script(src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js")
+        script(src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js")
+        script(src="assets/js/app.min.js")
+        script var app = angular.module('myApp', []);

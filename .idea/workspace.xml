@@ -25,53 +25,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="reviews.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/templates/includes/reviews.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2190">
-              <caret line="179" column="54" selection-start-line="179" selection-start-column="54" selection-end-line="179" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reviews.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/templates/reviews.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="54" column="117" selection-start-line="53" selection-start-column="40" selection-end-line="54" selection-end-column="117" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reviews.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/styles/blocks/reviews.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="244" column="18" lean-forward="true" selection-start-line="244" selection-start-column="18" selection-end-line="244" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contacts.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/templates/contacts.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="659">
-              <caret line="53" column="58" selection-start-line="51" selection-start-column="24" selection-end-line="53" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contacts.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styles/blocks/contacts.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="36" column="9" selection-start-line="28" selection-start-column="8" selection-end-line="36" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -166,8 +120,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2087" />
-    <option name="y" value="204" />
+    <option name="x" value="2100" />
+    <option name="y" value="125" />
     <option name="width" value="1740" />
     <option name="height" value="929" />
   </component>
@@ -264,16 +218,15 @@
       <workItem from="1541689279522" duration="8535000" />
       <workItem from="1541772810859" duration="8266000" />
       <workItem from="1541840181852" duration="23220000" />
-      <workItem from="1543059401791" duration="9584000" />
+      <workItem from="1543059401791" duration="9876000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133636000" />
+    <option name="totallyTimeSpent" value="133928000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2087" y="204" width="1740" height="929" extended-state="0" />
-    <editor active="true" />
+    <frame x="2100" y="125" width="1740" height="929" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -601,10 +554,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/blocks/contacts.scss">
+    <entry file="file://$PROJECT_DIR$/src/styles/blocks/reviews.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="36" column="9" selection-start-line="28" selection-start-column="8" selection-end-line="36" selection-end-column="9" />
+        <state relative-caret-position="312">
+          <caret line="244" column="18" lean-forward="true" selection-start-line="244" selection-start-column="18" selection-end-line="244" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -622,10 +575,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/blocks/reviews.scss">
+    <entry file="file://$PROJECT_DIR$/src/styles/blocks/contacts.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="244" column="18" lean-forward="true" selection-start-line="244" selection-start-column="18" selection-end-line="244" selection-end-column="18" />
+        <state relative-caret-position="444">
+          <caret line="36" column="9" selection-start-line="28" selection-start-column="8" selection-end-line="36" selection-end-column="9" />
         </state>
       </provider>
     </entry>
