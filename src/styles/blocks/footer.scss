@@ -4,6 +4,20 @@ footer{
     line-height: 125%;
     margin: 160px 0 0;
     padding: 18px 0 18px;
+    .links{
+        margin-bottom: 8px;
+    }
+    .phone{
+        border-bottom: none;
+        color: #18191e;
+        display: block;
+        font-family: $CB,sans-serif;
+        font-size: 105%;
+        margin: 4px 0 0 0;
+        &:hover{
+            background-size: 0 0;
+        }
+    }
     .copyright{
         padding-left: 0;
     }
