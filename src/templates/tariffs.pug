@@ -17,19 +17,19 @@ html
             div.container
                 ul.search__breadcrumbs(itemscope itemtype="http://schema.org/BreadcrumbList")
                     li(itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem")
-                        a(itemscope itemtype="http://schema.org/Thing" itemprop="item" href="#")
+                        a(itemscope itemtype="http://schema.org/Thing" itemprop="item" href="#" itemid="#")
                             span(itemprop="name") Главная
                         meta(itemprop="position" content="1")
                     li
                         span.splash /
                     li(itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem")
-                        a(itemscope itemtype="http://schema.org/Thing" itemprop="item" href="#")
+                        a(itemscope itemtype="http://schema.org/Thing" itemprop="item" href="#" itemid="#")
                             span(itemprop="name") Такси из Ялты
                         meta(itemprop="position" content="2")
                     li
                         span.splash /
                     li(itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem")
-                        a(itemscope itemtype="http://schema.org/Thing" itemprop="item" href="#")
+                        a(itemscope itemtype="http://schema.org/Thing" itemprop="item" href="#" itemid="#")
                             span(itemprop="name") Такси из Ялты в аэропорт Симферополя
                         meta(itemprop="position" content="3")
                     li.clear
@@ -143,6 +143,23 @@ html
 
 
         include includes/question-answer
+
+        section.seo
+            div.container
+                div.row
+                    div.col-md-8.offset-2
+                        p
+                            | Услуга трансфера — альтернатива заказу такси в&nbsp;аэропорт в&nbsp;чужой стране.
+                            | Возможен автомобильный трансфер между городами или&nbsp;туристическими местами,
+                            | но&nbsp;чаще всего это услуга поездки от&nbsp;или&nbsp;до&nbsp;транспортного узла: аэропорта,
+                            | железнодорожного или&nbsp;автовокзала, морского или&nbsp;речного порта.
+
+                        p
+                            | Бронирование трансферов обязательно делается заранее: для&nbsp;разных классов авто
+                            | в&nbsp;разных странах минимальное время, за&nbsp;которое нужно заказать
+                            | трансфер — от&nbsp;16 до&nbsp;24 часов. Предварительный заказ дает перевозчику подготовиться
+                            | к&nbsp;поездке, это&nbsp;объясняет преимущества индивидуальных трансферов.
+
         include includes/footer
        
         script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js")
