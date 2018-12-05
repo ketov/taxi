@@ -79,6 +79,34 @@
             margin-bottom: 15px;
             max-width: 33.33%;
         }
+        &__tariff-container{
+            &:last-child{
+                .comment{
+                    margin-left: -37px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 1300px){
+    .tariffs{
+        &__tariff-container{
+            .comment{
+                left: auto;
+                margin-left: -76px;
+                right: 0;
+                top: -68px;
+            }
+            &:last-child{
+                .comment{
+                    left: auto;
+                    margin-left: -76px;
+                    right: 0;
+                    top: -68px;
+                }
+            }
+        }
     }
 }
 
@@ -116,7 +144,7 @@
                 padding-right: 0;
                 .tariffs__tariff{
                     .comment{
-                        margin-left: -124px;
+                        /*margin-left: -124px;*/
                     }
                 }
             }
@@ -124,7 +152,7 @@
                 padding-right: 15px;
                 .tariffs__tariff{
                     .comment{
-                        margin-left: -21px;
+                        /*margin-left: -21px;*/
                     }
                 }
             }
@@ -139,11 +167,13 @@
             flex: 0 0 100%;
             margin-bottom: 15px;
             max-width: 100%;
+            .comment{
+            }
             &:nth-child(2n){
                 padding-right: 0;
                 .tariffs__tariff{
                     .comment{
-                        margin-left: -21px;
+                        /*margin-left: -21px;*/
                     }
                 }
             }
@@ -151,7 +181,7 @@
                 padding-right: 0;
                 .tariffs__tariff{
                     .comment{
-                        margin-left: -21px;
+                        /*margin-left: -21px;*/
                     }
                 }
             }
