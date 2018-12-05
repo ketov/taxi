@@ -6,9 +6,6 @@
         max-width: 168px;
     }
     form{
-        margin: 0 auto;
-        max-width: 400px;
-        width: 100%;
         fieldset{
             margin: 12px 0 12px 0;
         }
@@ -30,6 +27,18 @@
     .link{
         color: $black;
         margin-left: 6px;
+    }
+    &__container{
+        margin: 0 auto;
+        max-width: 400px;
+        padding: 0 15px;
+        width: 100%;
+        .comment{
+            margin-top: 12px;
+        }
+        .phone-not-found{
+            margin: 0 0 0 4px;
+        }
     }
 }
 
