@@ -67,6 +67,41 @@ $(document).ready(function () {
         }
     });
 
+    $('.with-hidden').on('input', function(){
+        var el = $(this);
+        //var ul = el.siblings('ul');
+        var l = el.val().length;
+        if(l>=1){
+            el.siblings('.suggestion-menu').fadeIn(250);
+            /*$(document).keydown(function(e){
+                if (e.keyCode == 40){
+                    alert('bottom');
+                    return;
+                }
+                else if(e.keyCode == 38){
+                    alert('top');
+                    return;
+                }
+                else{
+                    return;
+                }
+            });*/
+        }
+        else{
+            el.siblings('.suggestion-menu').fadeOut(250);
+        }
+    });
+
+    $('.with-hidden').on('focusout', function(){
+        var el = $(this);
+        el.siblings('.suggestion-menu').fadeOut(250);
+    });
+
+    $('.suggestion-menu li').on('click', function(){
+        var input = $(this).parent('ul').siblings('input');
+        input.val($(this).text());
+    });
+
 
     $('#adult-passengers-label').on('click', function(){
         $('#adult-passengers').children('option').show();

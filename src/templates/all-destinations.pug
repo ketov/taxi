@@ -37,14 +37,28 @@ html
                             div.col-md-4
                                 fieldset
                                     fieldset
-                                        input.input(name="from" id="from")
+                                        input.input.with-hidden(name="from" id="from" autocomplete="off")
                                         label(for="from") Откуда
+                                        ul.suggestion-menu
+                                            li Алупка
+                                            li Бахчисарай
+                                            li Верхняя Кутузовка
+                                            li Гаспра
+                                            li Евпатория
+
 
                             div.col-md-4
                                 fieldset
                                     fieldset
-                                        input.input.focus(name="where" id="where" value="Симферополь")
+                                        input.input.focus.with-hidden(name="where" id="where" value="Симферополь" autocomplete="off")
                                         label(for="where") Куда
+                                        ul.suggestion-menu
+                                            li Алупка
+                                            li Бахчисарай
+                                            li Верхняя Кутузовка
+                                            li Гаспра
+                                            li Евпатория
+
 
                             div.col-md-2
                                 fieldset

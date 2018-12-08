@@ -25,6 +25,33 @@ body{
     width: 100%;
 }
 
+.search ul.suggestion-menu{
+    background: $white;
+    box-shadow: rgba(210,214,217,.5) 0 0 28px 0;
+    color: #18191e;
+    display: none;
+    left: 10px;
+    position: absolute;
+    top: 48px;
+    width: 260px;
+    z-index: 33;
+    li{
+        border-bottom: 1px solid $light-gray;
+        cursor: pointer;
+        display: block;
+        float: none !important;
+        padding: 8px 8px 8px 12px;
+        text-align: left !important;
+        &:hover{
+            background: $blue;
+            color: $white;
+        }
+        &:last-child{
+            border-bottom: none;
+        }
+    }
+}
+
 p::selection,
 a::selection,
 span::selection,

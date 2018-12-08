@@ -3,8 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="51f40057-dd29-4859-9af8-9058ae62ad8d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/all-destinations.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/all-destinations.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/assets/css/all.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/all.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/blocks/tariffs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blocks/tariffs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/app.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/app.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/from-destinations.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/from-destinations.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/short-destinations.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/short-destinations.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/tariffs.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/tariffs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/blocks/not-found.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blocks/not-found.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/all-destinations.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/all-destinations.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/from-destinations.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/from-destinations.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/includes/index-offer.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/includes/index-offer.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/short-destinations.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/short-destinations.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/tariffs.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/tariffs.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/where-destinations.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/where-destinations.pug" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +29,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="tariffs.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/styles/blocks/tariffs.scss">
+      <file leaf-file-name="index-offer.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/templates/includes/index-offer.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="169" column="21" selection-start-line="169" selection-start-column="21" selection-end-line="169" selection-end-column="21" />
+            <state relative-caret-position="167">
+              <caret line="13" column="126" selection-start-line="13" selection-start-column="107" selection-end-line="13" selection-end-column="126" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="from-destinations.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/templates/from-destinations.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="515">
+              <caret line="47" column="56" lean-forward="true" selection-start-line="42" selection-start-column="40" selection-end-line="47" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tariffs.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/templates/tariffs.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="487">
+              <caret line="54" column="56" lean-forward="true" selection-start-line="49" selection-start-column="40" selection-end-line="54" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="where-destinations.pug" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/templates/where-destinations.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="633">
+              <caret line="58" column="56" selection-start-line="58" selection-start-column="56" selection-end-line="58" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="all-destinations.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/templates/all-destinations.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="524">
+              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="short-destinations.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/templates/short-destinations.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="511">
+              <caret line="63" column="56" lean-forward="true" selection-start-line="58" selection-start-column="40" selection-end-line="63" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="not-found.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/styles/blocks/not-found.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -65,37 +133,37 @@
         <option value="$PROJECT_DIR$/src/templates/includes/seo.pug" />
         <option value="$PROJECT_DIR$/src/styles/blocks/seo.scss" />
         <option value="$PROJECT_DIR$/src/styles/blocks/search.scss" />
-        <option value="$PROJECT_DIR$/src/templates/includes/index-offer.pug" />
         <option value="$PROJECT_DIR$/src/styles/blocks/index-offer.scss" />
         <option value="$PROJECT_DIR$/src/templates/index.pug" />
-        <option value="$PROJECT_DIR$/src/js/main.js" />
         <option value="$PROJECT_DIR$/src/js/bundle.js" />
         <option value="$PROJECT_DIR$/src/js/blocks/order.js" />
         <option value="$PROJECT_DIR$/src/styles/blocks/order.scss" />
         <option value="$PROJECT_DIR$/src/styles/blocks/destinations.scss" />
-        <option value="$PROJECT_DIR$/src/styles/_main.scss" />
         <option value="$PROJECT_DIR$/src/templates/contacts.pug" />
         <option value="$PROJECT_DIR$/src/styles/blocks/contacts.scss" />
         <option value="$PROJECT_DIR$/src/templates/reviews.pug" />
         <option value="$PROJECT_DIR$/src/templates/all-pages.pug" />
         <option value="$PROJECT_DIR$/src/templates/includes/header.pug" />
         <option value="$PROJECT_DIR$/src/templates/includes/header-inner.pug" />
-        <option value="$PROJECT_DIR$/src/templates/short-destinations.pug" />
         <option value="$PROJECT_DIR$/src/templates/faq.pug" />
-        <option value="$PROJECT_DIR$/src/templates/from-destinations.pug" />
-        <option value="$PROJECT_DIR$/src/templates/where-destinations.pug" />
         <option value="$PROJECT_DIR$/src/templates/order.pug" />
         <option value="$PROJECT_DIR$/src/templates/about-company.pug" />
-        <option value="$PROJECT_DIR$/src/templates/tariffs.pug" />
         <option value="$PROJECT_DIR$/src/styles/blocks/reviews.scss" />
-        <option value="$PROJECT_DIR$/src/templates/all-destinations.pug" />
         <option value="$PROJECT_DIR$/src/templates/includes/reviews.pug" />
         <option value="$PROJECT_DIR$/src/templates/includes/tariffs.pug" />
         <option value="$PROJECT_DIR$/src/templates/includes/footer.pug" />
         <option value="$PROJECT_DIR$/src/styles/blocks/footer.scss" />
         <option value="$PROJECT_DIR$/src/templates/not-found.pug" />
-        <option value="$PROJECT_DIR$/src/styles/blocks/not-found.scss" />
         <option value="$PROJECT_DIR$/src/styles/blocks/tariffs.scss" />
+        <option value="$PROJECT_DIR$/src/templates/includes/index-offer.pug" />
+        <option value="$PROJECT_DIR$/src/styles/_main.scss" />
+        <option value="$PROJECT_DIR$/src/js/main.js" />
+        <option value="$PROJECT_DIR$/src/templates/all-destinations.pug" />
+        <option value="$PROJECT_DIR$/src/templates/short-destinations.pug" />
+        <option value="$PROJECT_DIR$/src/styles/blocks/not-found.scss" />
+        <option value="$PROJECT_DIR$/src/templates/from-destinations.pug" />
+        <option value="$PROJECT_DIR$/src/templates/tariffs.pug" />
+        <option value="$PROJECT_DIR$/src/templates/where-destinations.pug" />
       </list>
     </option>
   </component>
@@ -119,8 +187,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="50" />
-    <option name="y" value="50" />
+    <option name="x" value="2028" />
+    <option name="y" value="86" />
     <option name="width" value="1740" />
     <option name="height" value="929" />
   </component>
@@ -141,6 +209,12 @@
               <item name="taxi" type="b2602c69:ProjectViewProjectNode" />
               <item name="taxi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taxi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="taxi" type="b2602c69:ProjectViewProjectNode" />
@@ -233,30 +307,31 @@
       <workItem from="1543822392633" duration="852000" />
       <workItem from="1543920056810" duration="28000" />
       <workItem from="1543987730979" duration="579000" />
-      <workItem from="1544007412760" duration="611000" />
+      <workItem from="1544007412760" duration="1677000" />
+      <workItem from="1544272038332" duration="2833000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141259000" />
+    <option name="totallyTimeSpent" value="145158000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="50" y="50" width="1740" height="929" extended-state="0" />
+    <frame x="2028" y="86" width="1740" height="929" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Gulp" order="2" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27326265" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2762073" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -375,20 +450,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/includes/index-offer.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="764">
-          <caret line="52" column="71" selection-start-line="52" selection-start-column="71" selection-end-line="52" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="96" selection-start-line="96" selection-end-line="96" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/blocks/order.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -414,13 +475,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="13" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/_main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="203" column="20" lean-forward="true" selection-start-line="203" selection-start-column="20" selection-end-line="203" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -473,20 +527,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/from-destinations.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="106" selection-start-line="25" selection-start-column="106" selection-end-line="25" selection-end-column="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/where-destinations.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="106" selection-start-line="25" selection-start-column="95" selection-end-line="25" selection-end-column="106" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/templates/about-company.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="389">
@@ -501,13 +541,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/tariffs.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="160" column="104" selection-start-line="160" selection-start-column="104" selection-end-line="160" selection-end-column="104" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/templates/order.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
@@ -515,24 +548,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/short-destinations.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="106" selection-start-line="30" selection-start-column="106" selection-end-line="30" selection-end-column="106" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/blocks/reviews.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="257" column="9" lean-forward="true" selection-start-line="257" selection-start-column="9" selection-end-line="257" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/all-destinations.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="219" column="104" selection-start-line="219" selection-start-column="104" selection-end-line="219" selection-end-column="104" />
         </state>
       </provider>
     </entry>
@@ -571,24 +590,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/index.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="23" column="49" selection-start-line="20" selection-start-column="20" selection-end-line="23" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/templates/includes/footer.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="67" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/blocks/not-found.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -601,8 +606,78 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/blocks/tariffs.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="169" column="21" selection-start-line="169" selection-start-column="21" selection-end-line="169" selection-end-column="21" />
+        <state relative-caret-position="242">
+          <caret line="151" column="36" lean-forward="true" selection-start-line="151" selection-start-column="36" selection-end-line="151" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/_main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="606">
+          <caret line="87" column="17" selection-start-line="87" selection-start-column="17" selection-end-line="87" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/index.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="49" selection-start-line="20" selection-start-column="20" selection-end-line="23" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/all-destinations.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/blocks/not-found.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/includes/index-offer.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="13" column="126" selection-start-line="13" selection-start-column="107" selection-end-line="13" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/short-destinations.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="63" column="56" lean-forward="true" selection-start-line="58" selection-start-column="40" selection-end-line="63" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/from-destinations.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="47" column="56" lean-forward="true" selection-start-line="42" selection-start-column="40" selection-end-line="47" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/tariffs.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="54" column="56" lean-forward="true" selection-start-line="49" selection-start-column="40" selection-end-line="54" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/where-destinations.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="633">
+          <caret line="58" column="56" selection-start-line="58" selection-start-column="56" selection-end-line="58" selection-end-column="56" />
         </state>
       </provider>
     </entry>
