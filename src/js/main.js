@@ -213,16 +213,17 @@ $(document).ready(function () {
     $('#adult-plus').on('click', function(){
         var n = parseFloat($('#adult-number-input').val());
         n = n+1;
-        $('#adult-number-input').val(n);
-        $('#adult-number').text(n);
+
         
         var s = parseFloat($('#adult-number-input').val())+parseFloat($('#children-number-input').val());
-        if(s>0){
-            $('#passengers').val(s);
+        if(s>=0&&s<8){
+            $('#passengers').val(s+1);
             $('#passengers').addClass('focus');
+            $('#adult-number-input').val(n);
+            $('#adult-number').text(n);
         }
         else{
-            $('#passengers').val('');            
+            //$('#passengers').val('');
             $('#passengers').addClass('focus');
         }
     });
@@ -230,16 +231,17 @@ $(document).ready(function () {
     $('#children-plus').on('click', function(){
         var n = parseFloat($('#children-number-input').val());
         n = n+1;
-        $('#children-number-input').val(n);
-        $('#children-number').text(n);
+
         
         var s = parseFloat($('#adult-number-input').val())+parseFloat($('#children-number-input').val());
-        if(s>0){
-            $('#passengers').val(s);
+        if(s>=0&&s<8){
+            $('#passengers').val(s+1);
             $('#passengers').addClass('focus');
+            $('#children-number-input').val(n);
+            $('#children-number').text(n);
         }
         else{
-            $('#passengers').val('');            
+            //$('#passengers').val('');
             $('#passengers').addClass('focus');
         }
     });
