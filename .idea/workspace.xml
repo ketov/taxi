@@ -3,8 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="51f40057-dd29-4859-9af8-9058ae62ad8d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/about-company.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/about-company.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/all.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/all.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/assets/js/app.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/app.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/from-destinations.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/from-destinations.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/reviews.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/reviews.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/short-destinations.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/short-destinations.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/tariffs.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/tariffs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/blocks/projects-slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/blocks/projects-slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/blocks/reviews.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blocks/reviews.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/blocks/tariffs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blocks/tariffs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/libs/swiper.min.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/libs/swiper.min.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/includes/reviews.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/includes/reviews.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/includes/slider.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/includes/slider.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/includes/tariffs.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/includes/tariffs.pug" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,12 +28,78 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/js/main.js">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="projects-slider.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/blocks/projects-slider.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="557">
-              <caret line="243" column="14" selection-start-line="243" selection-start-column="14" selection-end-line="243" selection-end-column="14" />
+            <state relative-caret-position="295">
+              <caret line="38" column="49" lean-forward="true" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tariffs.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/templates/includes/tariffs.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="72" column="32" lean-forward="true" selection-start-line="72" selection-start-column="32" selection-end-line="72" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tariffs.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/styles/blocks/tariffs.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="slider.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/templates/includes/slider.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="62" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reviews.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/templates/includes/reviews.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="674">
+              <caret line="330" column="57" selection-start-line="293" selection-start-column="28" selection-end-line="330" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="swiper.min.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/styles/libs/swiper.min.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="532" column="21" selection-start-line="532" selection-start-column="21" selection-end-line="532" selection-end-column="21" />
+              <folding>
+                <element signature="e#14857#16304#2" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_main.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/styles/_main.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="388" column="23" selection-start-line="388" selection-start-column="23" selection-end-line="388" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reviews.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/styles/blocks/reviews.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="565">
+              <caret line="194" column="5" lean-forward="true" selection-start-line="194" selection-start-column="5" selection-end-line="194" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -37,6 +117,11 @@
       <find>300</find>
       <find>детски</find>
       <find>имя</find>
+      <find>swiper-sli</find>
+      <find>swiper-slide{</find>
+      <find>swiper-slid</find>
+      <find>font-si</find>
+      <find>1</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -56,9 +141,6 @@
         <option value="$PROJECT_DIR$/src/styles/blocks/header.scss" />
         <option value="$PROJECT_DIR$/src/styles/blocks/slider.scss" />
         <option value="$PROJECT_DIR$/src/js/libs/swiper.min.js" />
-        <option value="$PROJECT_DIR$/src/templates/includes/slider.pug" />
-        <option value="$PROJECT_DIR$/src/js/blocks/projects-slider.js" />
-        <option value="$PROJECT_DIR$/src/styles/libs/swiper.min.scss" />
         <option value="$PROJECT_DIR$/src/styles/blocks/cities.scss" />
         <option value="$PROJECT_DIR$/src/templates/includes/cities.pug" />
         <option value="$PROJECT_DIR$/src/styles/bundle.scss" />
@@ -80,15 +162,10 @@
         <option value="$PROJECT_DIR$/src/templates/faq.pug" />
         <option value="$PROJECT_DIR$/src/templates/order.pug" />
         <option value="$PROJECT_DIR$/src/templates/about-company.pug" />
-        <option value="$PROJECT_DIR$/src/styles/blocks/reviews.scss" />
-        <option value="$PROJECT_DIR$/src/templates/includes/reviews.pug" />
-        <option value="$PROJECT_DIR$/src/templates/includes/tariffs.pug" />
         <option value="$PROJECT_DIR$/src/templates/includes/footer.pug" />
         <option value="$PROJECT_DIR$/src/styles/blocks/footer.scss" />
         <option value="$PROJECT_DIR$/src/templates/not-found.pug" />
-        <option value="$PROJECT_DIR$/src/styles/blocks/tariffs.scss" />
         <option value="$PROJECT_DIR$/src/templates/includes/index-offer.pug" />
-        <option value="$PROJECT_DIR$/src/styles/_main.scss" />
         <option value="$PROJECT_DIR$/src/templates/all-destinations.pug" />
         <option value="$PROJECT_DIR$/src/templates/short-destinations.pug" />
         <option value="$PROJECT_DIR$/src/styles/blocks/not-found.scss" />
@@ -96,6 +173,14 @@
         <option value="$PROJECT_DIR$/src/templates/tariffs.pug" />
         <option value="$PROJECT_DIR$/src/templates/where-destinations.pug" />
         <option value="$PROJECT_DIR$/src/js/main.js" />
+        <option value="$PROJECT_DIR$/src/templates/includes/slider.pug" />
+        <option value="$PROJECT_DIR$/src/styles/libs/swiper.min.scss" />
+        <option value="$PROJECT_DIR$/src/styles/_main.scss" />
+        <option value="$PROJECT_DIR$/src/templates/includes/reviews.pug" />
+        <option value="$PROJECT_DIR$/src/styles/blocks/reviews.scss" />
+        <option value="$PROJECT_DIR$/src/js/blocks/projects-slider.js" />
+        <option value="$PROJECT_DIR$/src/templates/includes/tariffs.pug" />
+        <option value="$PROJECT_DIR$/src/styles/blocks/tariffs.scss" />
       </list>
     </option>
   </component>
@@ -119,8 +204,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="170" />
-    <option name="y" value="110" />
+    <option name="x" value="118" />
+    <option name="y" value="93" />
     <option name="width" value="1740" />
     <option name="height" value="929" />
   </component>
@@ -129,7 +214,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -152,6 +236,27 @@
               <item name="taxi" type="b2602c69:ProjectViewProjectNode" />
               <item name="taxi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="blocks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taxi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taxi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taxi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -160,6 +265,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="styles" type="462c0819:PsiDirectoryNode" />
               <item name="blocks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taxi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taxi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="taxi" type="b2602c69:ProjectViewProjectNode" />
@@ -178,6 +290,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -241,37 +354,38 @@
       <workItem from="1543987730979" duration="579000" />
       <workItem from="1544007412760" duration="1677000" />
       <workItem from="1544272038332" duration="3032000" />
-      <workItem from="1544510825162" duration="628000" />
+      <workItem from="1544510825162" duration="1149000" />
+      <workItem from="1544617017072" duration="6316000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145985000" />
+    <option name="totallyTimeSpent" value="152822000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="170" y="110" width="1740" height="929" extended-state="0" />
+    <frame x="118" y="93" width="1740" height="929" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Gulp" order="2" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27915195" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2820966" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32982457" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32982457" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,52 +395,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/templates/thank-you.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/img/from-destinations-desktop.png" />
-    <entry file="file://$PROJECT_DIR$/src/js/pages/about-company.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/blocks/projects-slider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/pages/contacts.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/includes/slider.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/libs/swiper.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1219">
-          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/blocks/slider.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/libs/swiper.min.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="83" column="27" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -380,13 +452,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/blocks/order.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -481,27 +546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/blocks/reviews.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="257" column="9" lean-forward="true" selection-start-line="257" selection-start-column="9" selection-end-line="257" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/includes/reviews.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="326" column="18" selection-start-line="326" selection-start-column="18" selection-end-line="326" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/includes/tariffs.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/blocks/footer.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -534,20 +578,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/blocks/tariffs.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="151" column="36" lean-forward="true" selection-start-line="151" selection-start-column="36" selection-end-line="151" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/_main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -607,10 +637,97 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/blocks/advantages.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="243" column="14" selection-start-line="243" selection-start-column="14" selection-end-line="243" selection-end-column="14" />
+        <state relative-caret-position="178">
+          <caret line="226" column="47" selection-start-line="226" selection-start-column="47" selection-end-line="226" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/blocks/header.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/blocks/how-to-order.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-611" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/blocks/nav.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/blocks/order.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/libs/swiper.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/libs/swiper.min.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="532" column="21" selection-start-line="532" selection-start-column="21" selection-end-line="532" selection-end-column="21" />
+          <folding>
+            <element signature="e#14857#16304#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/includes/slider.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="62" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/includes/reviews.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="674">
+          <caret line="330" column="57" selection-start-line="293" selection-start-column="28" selection-end-line="330" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/_main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="388" column="23" selection-start-line="388" selection-start-column="23" selection-end-line="388" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/blocks/reviews.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="194" column="5" lean-forward="true" selection-start-line="194" selection-start-column="5" selection-end-line="194" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/blocks/projects-slider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="38" column="49" lean-forward="true" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/includes/tariffs.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="72" column="32" lean-forward="true" selection-start-line="72" selection-start-column="32" selection-end-line="72" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/blocks/tariffs.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
         </state>
       </provider>
     </entry>

@@ -80,6 +80,9 @@
 
 .reviews{
     padding: 84px 0 0;
+    .col-md-12{
+        padding: 0;
+    }
     h2{
         margin: 0 0 40px 0;
     }
@@ -141,6 +144,18 @@
             margin-right: 0;
         }
     }
+    .swiper-slide{
+        border: 1px solid $blue;
+        padding: 23px 28px 12px 28px;
+        display: block;
+        text-align: left;
+    }
+    .swiper-pagination--reviews{
+        margin-top: -12px;
+    }
+    .swiper-wrapper{
+        padding-bottom: 100px;
+    }
     a{
         bottom: 35px;
         color: $black;
@@ -186,6 +201,9 @@
         padding: 48px 0 0;
         h2{
             margin: 0 0 20px 0;
+        }
+        .swiper-slide{
+            padding: 16px 40px 12px 20px;
         }
         .col-md-3{
             -ms-flex: 0 0 49%;
