@@ -346,6 +346,20 @@ input[type=checkbox].show{
     display: block;
 }
 
+.input-error{
+    color: #fb3219;
+    font-size: 90%;
+    margin-top: 4px;
+}
+
+input.error, textarea.error{
+    border: 1px solid #fb3219;
+}
+
+.success{
+    color: $green;
+}
+
 .passengers-add{
     background: white;
     box-shadow: rgba(210, 214, 217, 0.5) 0px 0px 28px 0px;

@@ -59,7 +59,8 @@
               <div class="col-md-12">
                 <h3>Информация о&nbsp;трансфере</h3>
                 <fieldset>
-                  <input class="input" id="from" name="from" ng-model="from">
+                  <input class="input error" id="from" name="from" ng-model="from">
+                  <div class="input-error">Это обязательное поле</div>
                   <label for="from">
                      Место отправления <span id="label-from-hide">(адрес или название отеля)</span></label>
                 </fieldset>
@@ -68,7 +69,8 @@
             <div class="row">
               <div class="col-md-6">
                 <fieldset>
-                  <input class="input" id="date" name="date" ng-model="date">
+                  <input class="input error" id="date" name="date" ng-model="date">
+                  <div class="input-error">Это обязательное поле</div>
                   <label for="date">Дата</label>
                 </fieldset>
               </div>
