@@ -37,7 +37,7 @@ $(document).ready(function () {
     });
 
     var swiper1 = new Swiper('.swiper-reviews', {
-        slidesPerView: 4,
+        slidesPerView: 3,
         spaceBetween: 16,
         init: false,
         loop: true,

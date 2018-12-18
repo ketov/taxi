@@ -10,6 +10,9 @@ html
         meta(content='width' name='MobileOptimized')
         meta(content='yes' name='apple-mobile-web-app-capable')
         link(rel="stylesheet" type="text/css" href="assets/css/all.min.css")
+        link(ref="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon")
+        link(ref="icon" href="assets/img/favicon.ico" type="image/x-icon")
+
     body
         include includes/header
         include includes/index-offer
@@ -65,7 +68,28 @@ html
         include includes/cities
         include includes/seo
         include includes/slider
-        include includes/footer
+
+
+        footer#footer.footer-index
+            div.container
+                div.row
+                    div.col-md-3.copyright
+                        div © 2018 Служба такси «Вежливые люди»
+                    div.col-md-2
+                        div.links
+                            a(href="rules.html") Правила и&nbsp;условия
+                        div.links
+                            a(href="faq.html") Частые вопросы
+                        div.links
+                            a(href="contacts.html") Контакты
+                    div.col-md-4
+                        a.social.social--vk(href="#")
+                        a.social.social--fb(href="#")
+                        a.social.social--inst(href="#")
+                        a.phone(href="tel:+79223104870") +7 (922) 310-48-70
+
+                    div.col-md-3.ketov
+                        | Дизайн — Юрий Кетов
        
         script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js")
         script(src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js")

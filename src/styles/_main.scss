@@ -25,6 +25,46 @@ body{
     width: 100%;
 }
 
+footer.footer-index{
+    padding-bottom: 100px;
+}
+
+#search-index.fixed{
+    z-index: 3;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    position: fixed;
+    .main-img{
+        display: none;
+    }
+    form{
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-left: 0;
+
+        background: $green;
+        padding: 22px 32px;
+        z-index: 1;
+        button{
+            background: $blue;
+        }
+    }
+}
+
+@media(max-width: 900px){
+    #search-index.fixed{
+        position: relative !important;
+    }
+
+    footer.footer-index{
+        padding-bottom: 18px;
+    }
+}
+
+
+
 .search ul.suggestion-menu{
     background: $white;
     box-shadow: rgba(210,214,217,.5) 0 0 28px 0;

@@ -192,6 +192,25 @@ $(document).ready(function () {
 
 
 
+    if($("#search-index").length>0) {
+        var s1 = $('.reviews').offset().top,
+            w = $(window).height();
+        $(document).on('scroll', function (){
+            var scroll = $(document).scrollTop();
+            if(scroll  > s1-w/1.5) {
+                $('#search-index').addClass('fixed');
+            }
+            else{
+                $('#search-index').removeClass('fixed');
+            }
+        });
+    }
+    else{
+        return;
+    }
+
+
+
 
 
     $('#passengers').on('focus', function(){
