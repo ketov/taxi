@@ -176,11 +176,13 @@ html
                                     label(for="phone") Номер телефона
 
                         div.row
-                            div.col-md-12
-                                fieldset
-                                    input.input(id="promocode" name="promocode")
-                                    label(for="promocode") Промокод
-
+                            div.col-md-12.row#use-code
+                                div.col-md-6
+                                    fieldset
+                                        input.input(id="promocode" name="promocode" onkeyup="")
+                                        label(for="promocode") Промокод
+                                div.col-md-6
+                                    button(type="button") Применить промокод
 
 
                         div.row
@@ -248,8 +250,10 @@ html
                             div.order__in-total.row
                                 div.col-md-4.order__in-total-span1 Итого
                                 div.col-md-8.order__in-total-span2
-                                    span#order-summ(data-start="4620") 4620
-                                    span.rub руб.
+                                    div
+                                        span#order-summ(data-start="4620") 4620
+                                        span.rub руб.
+                                    div#one-way стоимость трансфера в&nbsp;один конец
 
 
         include includes/footer

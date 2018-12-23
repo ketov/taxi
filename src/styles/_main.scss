@@ -45,11 +45,23 @@ footer.footer-index{
         margin-left: 0;
 
         background: $green;
-        padding: 22px 32px;
+        padding: 22px 32px 20px;
         z-index: 1;
-        button{
-            background: $blue;
-        }
+    }
+    fieldset.select, input, textarea {
+        border: none;
+    }
+    button{
+        background: $blue;
+        padding: 18px 8px 17px;
+    }
+    .passengers-add__button{
+        background: none;
+        padding: 0;
+    }
+    .passengers-add {
+        top: auto;
+        bottom: 44px;
     }
 }
 

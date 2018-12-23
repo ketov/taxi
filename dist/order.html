@@ -21,7 +21,7 @@
           <div class="col-md-2 phone"><a href="tel:+79223104870">+7 (922) 310-48-70</a></div>
         </div>
         <div class="row mobile">
-          <div class="col-md-2"><img class="logo" src="assets/img/logo.svg" alt="логотип"></div>
+          <div class="col-md-2"><a class="logo-link" href="index.html"><img class="logo" src="assets/img/logo.svg" alt="логотип"></a></div>
           <div class="col-md-8 links"><a class="link" href="faq.html">Частые вопросы</a><a class="link" href="about-company.html">О нас</a><a class="link" href="reviews.html">Отзывы</a><a class="link" href="contacts.html">Контакты</a></div>
           <div class="col-md-2 phone"><a href="tel:+79223104870">+7 (922) 310-48-70</a></div>
         </div>
@@ -210,11 +210,16 @@
               </div>
             </div>
             <div class="row">
-              <div class="col-md-12">
-                <fieldset>
-                  <input class="input" id="promocode" name="promocode">
-                  <label for="promocode">Промокод</label>
-                </fieldset>
+              <div class="col-md-12 row" id="use-code">
+                <div class="col-md-6">
+                  <fieldset>
+                    <input class="input" id="promocode" name="promocode" onkeyup="">
+                    <label for="promocode">Промокод</label>
+                  </fieldset>
+                </div>
+                <div class="col-md-6">
+                  <button type="button">Применить промокод</button>
+                </div>
               </div>
             </div>
             <div class="row">
@@ -295,7 +300,10 @@
               </div>
               <div class="order__in-total row">
                 <div class="col-md-4 order__in-total-span1">Итого</div>
-                <div class="col-md-8 order__in-total-span2"><span id="order-summ" data-start="4620">4620</span><span class="rub">руб.</span></div>
+                <div class="col-md-8 order__in-total-span2">
+                  <div><span id="order-summ" data-start="4620">4620</span><span class="rub">руб.</span></div>
+                  <div id="one-way">стоимость трансфера в&nbsp;один конец</div>
+                </div>
               </div>
             </div>
           </div>

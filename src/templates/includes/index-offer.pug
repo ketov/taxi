@@ -34,7 +34,7 @@ section.index-offer
 
                         div.col-md-2
                             fieldset
-                                input.input(id="passengers")
+                                input.input(id="passengers" readonly autocomplete="off")
                                 label(for="passengers" id="label-for-passengers") Пассажиры
 
                                 div.passengers-add
@@ -57,7 +57,6 @@ section.index-offer
                                                 button.passengers-add__button#children-plus(type="button") +
                                     input#adult-number-input(type="hidden" value="0")
                                     input#children-number-input(type="hidden" value="0")
-
 
                         div.col-md-2
                             button Найти
