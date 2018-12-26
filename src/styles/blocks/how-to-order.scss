@@ -3,6 +3,8 @@
     color: $white;
     margin: 110px 0 0 0;
     padding: 105px 0 112px;
+    position: relative;
+    z-index: 1;
     h2{
         margin: 0 0 22px 0;
     }
@@ -163,11 +165,11 @@
         p.how-to-order__p1{
             margin: 0 0 20px 0;
         }
-        
+
         .col-md-10.offset-1{
             margin-left: 0;
         }
-        
+
         .row{
             margin: 0 0 0px;
         }
