@@ -34,14 +34,15 @@
             opacity: 0;
             padding: 11px 19px;
             position: absolute;
-            top: -60px;
+            top: 24px;
             transition: 0.5s ease;
             width: 234px;
+            z-index: 1;
         }
         .comment.active{
             display: block;
             opacity: 1;
-            top: -65px;
+            top: 36px;
         }
         img{
             display: block;
