@@ -1,10 +1,12 @@
 #one-way{
     color: $white;
-    display: none;
     font-family: $CR;
     font-size: 45%;
     line-height: 120%;
     margin: -5px 0 0 0;
+    .span-1{
+        display: none;
+    }
 }
 
 #use-code{

@@ -74,13 +74,23 @@
             line-height: 145%;
         }
         p.how-to-order__p1{
-            margin: 0 0 60px 0;
+            margin: 0 0 40px 0;
         }
         .col-md-4.row{
-            margin: 0 0 68px;
+            margin: 0 0 40px;
+        }
+        .col-md-4.row:nth-last-child(1){
+            margin: 0 0 40px;
+        }
+        .col-md-4.row:nth-last-child(2){
+            margin: 0 0 40px;
+        }
+        .col-md-4.row:nth-last-child(3){
+            margin: 0 0 40px;
         }
         h2{
-            margin: 0 0 28px;
+            padding: 0;
+            /*margin: 0 0 28px;*/
         }
     }
 }
@@ -95,7 +105,17 @@
         .col-md-4.row{
             -ms-flex: 0 0 48%;
             flex: 0 0 48%;
+            margin: 0 0 56px;
             max-width: 48%;
+        }
+        .col-md-4.row:nth-last-child(1){
+            margin: 0 0 56px;
+        }
+        .col-md-4.row:nth-last-child(2){
+            margin: 0 0 56px;
+        }
+        .col-md-4.row:nth-last-child(3){
+            margin: 0 0 56px;
         }
     }
 }
@@ -104,18 +124,7 @@
 
 }
 
-@media(max-width: 900px){
-    .how-to-order{
-        p{
-            font-size: 125%;
-            line-height: 135%;
-            margin: 0;
-        }
-        &__number{
-            max-width: 70px;
-        }
-    }
-}
+
 
 
 @media(max-width: 850px){
@@ -126,7 +135,7 @@
             font-size: 115%;
             line-height: 145%;
         }
-        .row{
+        /*.row{
             margin: 0 0 40px;
         }
         .row:nth-last-child(2){
@@ -134,7 +143,7 @@
         }
         .row:nth-last-child(3){
             margin: 0 0 40px;
-        }
+        }*/
         h2{
             margin: 0 0 20px;
         }
@@ -321,4 +330,27 @@
 @keyframes svganimation15{
     from {stroke-dashoffset: 430;}
     to {stroke-dashoffset: 0;}
+}
+
+
+
+
+
+@media(max-width: 900px){
+    .how-to-order{
+        p{
+            font-size: 125%;
+            line-height: 135%;
+            margin: 0;
+        }
+        &__number{
+            max-width: 70px;
+        }
+    }
+
+    #h-1, #h-2, #h-3, #h-4, #h-5, #h-6{
+        opacity: 1;
+        animation-name: none !important;
+    }
+
 }

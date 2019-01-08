@@ -30,15 +30,28 @@ footer.footer-index{
 }
 
 #search-index.fixed{
-    z-index: 3;
+    /*z-index: 3;
     bottom: 0;
     width: 100%;
     left: 0;
-    position: fixed;
-    .main-img{
-        display: none;
+    position: fixed;*/
+    position: relative;
+    z-index: 3;
+    .row{
+        min-height: 150px;
     }
+    /*.main-img{
+        display: none;
+    }*/
     form{
+        z-index: 3;
+        bottom: 0;
+        width: 100%;
+        left: 0;
+        position: fixed;
+
+
+
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
         max-width: 100%;
@@ -47,6 +60,9 @@ footer.footer-index{
         background: $green;
         padding: 22px 32px 20px;
         z-index: 1;
+        .row{
+            min-height: auto;
+        }
     }
     fieldset.select, input, textarea {
         border: none;
@@ -73,11 +89,15 @@ footer.footer-index{
 @media(max-width: 900px){
     #search-index.fixed{
         position: relative !important;
+        .row{
+            min-height: 370px;
+        }
     }
 
     footer.footer-index{
         padding-bottom: 18px;
     }
+
 }
 
 

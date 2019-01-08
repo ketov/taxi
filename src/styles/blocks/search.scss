@@ -100,7 +100,7 @@
 
 @media(max-width: 900px){
     .search{
-        padding: 84px 0 28px;
+        padding: 48px 0 28px;
         .col-md-4, .col-md-2{
             -ms-flex: 0 0 100%;
             flex: 0 0 100%;
@@ -119,6 +119,12 @@
                 flex: 0 0 33%;
                 max-width: 33%;
             }
+        }
+    }
+
+    #search-index.fixed{
+        form{
+            display: none;
         }
     }
 }

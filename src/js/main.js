@@ -110,7 +110,7 @@ $(document).ready(function () {
             $(block).css({'display':'flex'});
 
             if(block==='#back-row'){
-                $('#one-way').show();
+                $('#one-way').children('.span-1').show();
             }
         }
         else{
@@ -118,7 +118,7 @@ $(document).ready(function () {
             $(block).css({'display':'none'});
 
             if(block==='#back-row'){
-                $('#one-way').hide();
+                $('#one-way').children('.span-1').hide();
             }
         }
     });
