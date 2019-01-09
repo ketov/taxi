@@ -201,10 +201,10 @@ $(document).ready(function () {
         $(document).on('scroll', function (){
             var scroll = $(document).scrollTop();
             if(scroll  > s1-w/1.5) {
-                $('#search-index').addClass('fixed');
+                $('#search-index,#jcont').addClass('fixed');
             }
             else{
-                $('#search-index').removeClass('fixed');
+                $('#search-index,#jcont').removeClass('fixed');
             }
         });
     }

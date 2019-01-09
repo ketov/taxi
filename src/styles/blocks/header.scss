@@ -32,7 +32,7 @@ header{
         padding-right: 0;
     }
     .phone{
-        padding-top: 17px;
+        padding-top: 7px;
         padding-right: 0;
         text-align: right;
         a{
@@ -45,6 +45,10 @@ header{
                 background-size: 0 0;
             }
         }
+        .free8800{
+            position: absolute;
+            right: 0;
+        }
     }
 
     .row.mobile{
@@ -54,6 +58,10 @@ header{
         }
         .phone{
             display: none;
+            .free8800{
+                position: relative;
+                right: auto;
+            }
         }
         .link{
             display: block;
@@ -67,6 +75,9 @@ header{
             text-align: center;
             a{
                 font-size: 360%;
+            }
+            .free8800{
+                font-size: 120%;
             }
         }
         .col-md-2{
@@ -161,6 +172,10 @@ header.active{
         padding: 4px 0;
         .phone{
             font-size: 85%;
+            padding-top: 9px;
+            .free8800{
+                font-size: 95%;
+            }
         }
     }
 }
