@@ -18,12 +18,12 @@
       <div class="container">
         <div class="row">
           <div class="col-md-10"><a class="logo-link" href="index.html"><img class="logo" src="assets/img/logo.svg" alt="логотип"></a><a class="link" href="faq.html">Частые&nbsp;вопросы</a><a class="link" href="about-company.html">О&nbsp;нас</a><a class="link" href="reviews.html">Отзывы</a><a class="link" href="contacts.html">Контакты</a><span class="clear"></span></div>
-          <div class="col-md-2 phone"><a href="tel:+79223104870">+7 (922) 310-48-70</a></div>
+          <div class="col-md-2 phone"><a href="tel:88002003839">8 (800) 200-38-39</a></div>
         </div>
         <div class="row mobile">
           <div class="col-md-2"><a class="logo-link" href="index.html"><img class="logo" src="assets/img/logo.svg" alt="логотип"></a></div>
           <div class="col-md-8 links"><a class="link" href="faq.html">Частые вопросы</a><a class="link" href="about-company.html">О нас</a><a class="link" href="reviews.html">Отзывы</a><a class="link" href="contacts.html">Контакты</a></div>
-          <div class="col-md-2 phone"><a href="tel:+79223104870">+7 (922) 310-48-70</a></div>
+          <div class="col-md-2 phone"><a href="tel:88002003839">8 (800) 200-38-39</a></div>
         </div>
       </div>
       <div id="hamburger">
@@ -146,7 +146,7 @@
               <div class="col-md-6">
                 <fieldset class="select">
                   <div class="comment">Кресло</div><img class="tick" src="assets/img/select-triangle.svg" alt="">
-                  <select id="chair-select" name="chair" onchange="var n = this.value; $('#chair-result').text('Детское кресло × ' + n + ' — ' + 200*n + ' руб.'); $('#chair-result').attr('data-summ', 200*n); $('#order-summ').text(n*200+parseInt($('#booster-result').attr('data-summ'))+parseInt($('#order-summ').attr('data-start')));">
+                  <select id="chair-select" name="chair" onchange="var n = this.value; $('#chair-result').text('Детское кресло × ' + n + ' — ' + 200*n + ' руб.'); $('#chair-result').attr('data-summ', 200*n); var r = (n*200+parseInt($('#booster-result').attr('data-summ'))+parseInt($('#order-summ').attr('data-start'))); $('#order-summ').text(Math.round(r/50)*50);">
                     <option selected>0</option>
                     <option>1</option>
                     <option>2</option>
@@ -158,7 +158,7 @@
               <div class="col-md-6">
                 <fieldset class="select">
                   <div class="comment">Бустеры</div><img class="tick" src="assets/img/select-triangle.svg" alt="">
-                  <select id="booster-select" name="chair" onchange="var n = this.value; $('#booster-result').text('Бустер × ' + n + ' — ' + 200*n + ' руб.'); $('#booster-result').attr('data-summ', 200*n); $('#order-summ').text(n*200+parseInt($('#chair-result').attr('data-summ'))+parseInt($('#order-summ').attr('data-start')));">
+                  <select id="booster-select" name="chair" onchange="var n = this.value; $('#booster-result').text('Бустер × ' + n + ' — ' + 200*n + ' руб.'); $('#booster-result').attr('data-summ', 200*n); var r = (n*200+parseInt($('#chair-result').attr('data-summ'))+parseInt($('#order-summ').attr('data-start'))); $('#order-summ').text(Math.round(r/50)*50);">
                     <option selected>0</option>
                     <option>1</option>
                     <option>2</option>
@@ -235,7 +235,7 @@
               <div class="row k-radio">
                 <fieldset class="checkbox">
                   <label for="meet">Встреча в аэропорту с табличкой (+200 руб.)</label>
-                  <input type="checkbox" id="meet" onchange="$('#meet-result').text('Встреча в аэропорту — 200 руб.'); if ($(this).is(':checked')){$('#order-summ').text(200+parseInt($('#chair-result').attr('data-summ'))+parseInt($('#order-summ').attr('data-start'))+parseInt($('#booster-result').attr('data-summ'))); $('#order-summ').attr('data-start', parseInt($('#order-summ').attr('data-start'))+200);} else{$('#meet-result').text(''); $('#order-summ').text(parseInt($('#order-summ').attr('data-start'))-200 + parseInt($('#booster-result').attr('data-summ')) + parseInt($('#chair-result').attr('data-summ'))); $('#order-summ').attr('data-start', parseInt($('#order-summ').attr('data-start'))-200);}">
+                  <input type="checkbox" id="meet" onchange="$('#meet-result').text('Встреча в аэропорту — 200 руб.'); if ($(this).is(':checked')){var r = (200+parseInt($('#chair-result').attr('data-summ'))+parseInt($('#order-summ').attr('data-start'))+parseInt($('#booster-result').attr('data-summ'))); $('#order-summ').text(Math.round(r/50)*50); $('#order-summ').attr('data-start', parseInt($('#order-summ').attr('data-start'))+200);} else{$('#meet-result').text(''); var r = (parseInt($('#order-summ').attr('data-start'))-200 + parseInt($('#booster-result').attr('data-summ')) + parseInt($('#chair-result').attr('data-summ'))); $('#order-summ').text(Math.round(r/50)*50); $('#order-summ').attr('data-start', parseInt($('#order-summ').attr('data-start'))-200);}">
                 </fieldset>
               </div>
             </div>
@@ -327,7 +327,7 @@
             <div class="links"><a href="faq.html">Частые вопросы</a></div>
             <div class="links"><a href="contacts.html">Контакты</a></div>
           </div>
-          <div class="col-md-4"><a class="social social--vk" href="#"></a><a class="social social--fb" href="#"></a><a class="social social--inst" href="#"></a><a class="phone" href="tel:+79223104870">+7 (922) 310-48-70</a></div>
+          <div class="col-md-4"><a class="social social--vk" href="#"></a><a class="social social--fb" href="#"></a><a class="social social--inst" href="#"></a><a class="phone" href="tel:88002003839">8 (800) 200-38-39</a></div>
           <div class="col-md-3 ketov">Дизайн — Юрий Кетов</div>
         </div>
       </div>

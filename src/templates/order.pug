@@ -126,7 +126,7 @@ html
                                 fieldset.select
                                     div.comment Кресло
                                     img.tick(src="assets/img/select-triangle.svg" alt="")
-                                    select#chair-select(name="chair" onchange="var n = this.value; $('#chair-result').text('Детское кресло × ' + n + ' — ' + 200*n + ' руб.'); $('#chair-result').attr('data-summ', 200*n); $('#order-summ').text(n*200+parseInt($('#booster-result').attr('data-summ'))+parseInt($('#order-summ').attr('data-start')));")
+                                    select#chair-select(name="chair" onchange="var n = this.value; $('#chair-result').text('Детское кресло × ' + n + ' — ' + 200*n + ' руб.'); $('#chair-result').attr('data-summ', 200*n); var r = (n*200+parseInt($('#booster-result').attr('data-summ'))+parseInt($('#order-summ').attr('data-start'))); $('#order-summ').text(Math.round(r/50)*50);")
                                         option(selected) 0
                                         option 1
                                         option 2
@@ -137,7 +137,7 @@ html
                                 fieldset.select
                                     div.comment Бустеры
                                     img.tick(src="assets/img/select-triangle.svg" alt="")
-                                    select#booster-select(name="chair" onchange="var n = this.value; $('#booster-result').text('Бустер × ' + n + ' — ' + 200*n + ' руб.'); $('#booster-result').attr('data-summ', 200*n); $('#order-summ').text(n*200+parseInt($('#chair-result').attr('data-summ'))+parseInt($('#order-summ').attr('data-start')));")
+                                    select#booster-select(name="chair" onchange="var n = this.value; $('#booster-result').text('Бустер × ' + n + ' — ' + 200*n + ' руб.'); $('#booster-result').attr('data-summ', 200*n); var r = (n*200+parseInt($('#chair-result').attr('data-summ'))+parseInt($('#order-summ').attr('data-start'))); $('#order-summ').text(Math.round(r/50)*50);")
                                         option(selected) 0
                                         option 1
                                         option 2
@@ -198,7 +198,7 @@ html
                             div.row.k-radio
                                 fieldset.checkbox
                                     label(for="meet") Встреча в аэропорту с табличкой (+200 руб.)
-                                    input(type="checkbox" id="meet" onchange="$('#meet-result').text('Встреча в аэропорту — 200 руб.'); if ($(this).is(':checked')){$('#order-summ').text(200+parseInt($('#chair-result').attr('data-summ'))+parseInt($('#order-summ').attr('data-start'))+parseInt($('#booster-result').attr('data-summ'))); $('#order-summ').attr('data-start', parseInt($('#order-summ').attr('data-start'))+200);} else{$('#meet-result').text(''); $('#order-summ').text(parseInt($('#order-summ').attr('data-start'))-200 + parseInt($('#booster-result').attr('data-summ')) + parseInt($('#chair-result').attr('data-summ'))); $('#order-summ').attr('data-start', parseInt($('#order-summ').attr('data-start'))-200);}")
+                                    input(type="checkbox" id="meet" onchange="$('#meet-result').text('Встреча в аэропорту — 200 руб.'); if ($(this).is(':checked')){var r = (200+parseInt($('#chair-result').attr('data-summ'))+parseInt($('#order-summ').attr('data-start'))+parseInt($('#booster-result').attr('data-summ'))); $('#order-summ').text(Math.round(r/50)*50); $('#order-summ').attr('data-start', parseInt($('#order-summ').attr('data-start'))+200);} else{$('#meet-result').text(''); var r = (parseInt($('#order-summ').attr('data-start'))-200 + parseInt($('#booster-result').attr('data-summ')) + parseInt($('#chair-result').attr('data-summ'))); $('#order-summ').text(Math.round(r/50)*50); $('#order-summ').attr('data-start', parseInt($('#order-summ').attr('data-start'))-200);}")
 
 
                         div.row.last-row

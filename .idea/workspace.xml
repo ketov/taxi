@@ -6,11 +6,8 @@
       <change beforePath="$PROJECT_DIR$/dist/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/about-company.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/about-company.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/all-destinations.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/all-destinations.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/all.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/all.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/favicon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/contacts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/faq.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/favicon.ico" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/from-destinations.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/from-destinations.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/not-found.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/not-found.html" afterDir="false" />
@@ -22,16 +19,9 @@
       <change beforePath="$PROJECT_DIR$/dist/tariffs.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/tariffs.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/thank-you.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/thank-you.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/where-destinations.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/where-destinations.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/blocks/advantages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blocks/advantages.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/blocks/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blocks/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/blocks/how-to-order.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blocks/how-to-order.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/blocks/order.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blocks/order.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/blocks/search.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blocks/search.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/templates/includes/footer.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/includes/footer.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/includes/standards.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/includes/standards.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/includes/thank-you.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/includes/thank-you.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/includes/header-inner.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/includes/header-inner.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/includes/header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/includes/header.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/templates/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/index.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/templates/order.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/order.pug" afterDir="false" />
     </list>
@@ -47,35 +37,44 @@
       <file leaf-file-name="order.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/templates/order.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2620">
-              <caret line="47" column="53" selection-start-line="47" selection-start-column="53" selection-end-line="47" selection-end-column="53" />
+            <state relative-caret-position="496">
+              <caret line="200" column="691" selection-start-line="200" selection-start-column="691" selection-end-line="200" selection-end-column="691" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_main.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styles/_main.scss">
+      <file leaf-file-name="header.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/templates/includes/header.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7026">
-              <caret line="92" column="30" selection-start-line="92" selection-start-column="30" selection-end-line="92" selection-end-column="30" />
+            <state relative-caret-position="345">
+              <caret line="23" column="39" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="order.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styles/blocks/order.scss">
+      <file leaf-file-name="header-inner.pug" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/templates/includes/header-inner.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            <state relative-caret-position="180">
+              <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/js/main.js">
+      <file leaf-file-name="footer.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/templates/includes/footer.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="120" column="49" selection-start-line="120" selection-start-column="49" selection-end-line="120" selection-end-column="49" />
+            <state relative-caret-position="240">
+              <caret line="16" column="65" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/templates/index.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="586">
+              <caret line="88" column="73" selection-start-line="88" selection-start-column="73" selection-end-line="88" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -122,7 +121,6 @@
         <option value="$PROJECT_DIR$/src/js/blocks/order.js" />
         <option value="$PROJECT_DIR$/src/styles/blocks/destinations.scss" />
         <option value="$PROJECT_DIR$/src/styles/blocks/contacts.scss" />
-        <option value="$PROJECT_DIR$/src/templates/includes/header.pug" />
         <option value="$PROJECT_DIR$/src/styles/blocks/footer.scss" />
         <option value="$PROJECT_DIR$/src/styles/blocks/not-found.scss" />
         <option value="$PROJECT_DIR$/src/templates/includes/slider.pug" />
@@ -145,7 +143,6 @@
         <option value="$PROJECT_DIR$/src/templates/from-destinations.pug" />
         <option value="$PROJECT_DIR$/src/templates/where-destinations.pug" />
         <option value="$PROJECT_DIR$/src/templates/tariffs.pug" />
-        <option value="$PROJECT_DIR$/src/templates/includes/header-inner.pug" />
         <option value="$PROJECT_DIR$/src/templates/includes/reviews.pug" />
         <option value="$PROJECT_DIR$/src/js/blocks/projects-slider.js" />
         <option value="$PROJECT_DIR$/src/styles/blocks/tariffs.scss" />
@@ -157,12 +154,14 @@
         <option value="$PROJECT_DIR$/src/styles/blocks/advantages.scss" />
         <option value="$PROJECT_DIR$/src/styles/_main.scss" />
         <option value="$PROJECT_DIR$/src/styles/blocks/how-to-order.scss" />
-        <option value="$PROJECT_DIR$/src/templates/includes/footer.pug" />
-        <option value="$PROJECT_DIR$/src/templates/index.pug" />
         <option value="$PROJECT_DIR$/src/templates/includes/thank-you.pug" />
-        <option value="$PROJECT_DIR$/src/templates/order.pug" />
         <option value="$PROJECT_DIR$/src/styles/blocks/order.scss" />
         <option value="$PROJECT_DIR$/src/js/main.js" />
+        <option value="$PROJECT_DIR$/src/templates/order.pug" />
+        <option value="$PROJECT_DIR$/src/templates/includes/header.pug" />
+        <option value="$PROJECT_DIR$/src/templates/includes/footer.pug" />
+        <option value="$PROJECT_DIR$/src/templates/index.pug" />
+        <option value="$PROJECT_DIR$/src/templates/includes/header-inner.pug" />
       </list>
     </option>
   </component>
@@ -196,6 +195,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -258,7 +258,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -333,12 +332,13 @@
       <workItem from="1545557662558" duration="8248000" />
       <workItem from="1545824447160" duration="182000" />
       <workItem from="1546594253415" duration="2345000" />
-      <workItem from="1546960200788" duration="4409000" />
+      <workItem from="1546960200788" duration="4612000" />
+      <workItem from="1547044660812" duration="1825000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180110000" />
+    <option name="totallyTimeSpent" value="182138000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1999" y="63" width="1740" height="929" extended-state="0" />
@@ -351,7 +351,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Gulp" order="2" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3162544" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31978798" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -373,13 +373,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/styles/bundle.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/libs/animate.min.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -510,13 +503,6 @@
         <state relative-caret-position="-261" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/includes/header-inner.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="69" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/templates/includes/reviews.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
@@ -614,20 +600,6 @@
         <state relative-caret-position="-1084" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/includes/footer.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="67" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/index.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="76" column="75" selection-start-line="76" selection-start-column="75" selection-end-line="76" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/templates/thank-you.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -661,24 +633,10 @@
         <state relative-caret-position="-910" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/order.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2620">
-          <caret line="47" column="53" selection-start-line="47" selection-start-column="53" selection-end-line="47" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/_main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7026">
           <caret line="92" column="30" selection-start-line="92" selection-start-column="30" selection-end-line="92" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/blocks/order.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -693,6 +651,48 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
           <caret line="120" column="49" selection-start-line="120" selection-start-column="49" selection-end-line="120" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/blocks/order.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/order.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="200" column="691" selection-start-line="200" selection-start-column="691" selection-end-line="200" selection-end-column="691" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/includes/footer.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="65" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/index.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="88" column="73" selection-start-line="88" selection-start-column="73" selection-end-line="88" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/includes/header.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/includes/header-inner.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
         </state>
       </provider>
     </entry>
