@@ -1,6 +1,6 @@
 .contacts{
     font-size: 115%;
-    padding: 210px 0 60px;
+    padding: 80px 0 0 0;
     .ooo{
         font-family: $CB;
     }
@@ -137,21 +137,9 @@
     }
 }
 
-@media(max-height: 1100px){
-    .contacts{
-        padding: 210px 0 30px;
-    }
-}
-
-@media(max-height: 900px){
-    .contacts{
-        padding: 160px 0 0;
-    }
-}
-
 @media(max-width: 1200px){
     .contacts{
-        padding: 120px 0 0;
+        padding: 60px 0 0;
         form{
             .col-md-6{
                 -ms-flex: 0 0 100%;
@@ -206,7 +194,7 @@
 
 @media(max-width: 767px){
     .contacts{
-        padding: 100px 0 0;
+        padding: 60px 0 0;
         h2{
             margin: 0;
         }

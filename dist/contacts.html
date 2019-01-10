@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics-->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132117487-1"></script>
+    <script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-132117487-1');</script>
     <title>Контакты</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
@@ -42,14 +45,50 @@
         </div>
       </div>
     </header>
+    <section class="search search--inner search--order">
+      <div class="container">
+        <ul class="search__breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
+          <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemscope itemtype="http://schema.org/Thing" itemprop="item" href="#" itemid="#"><span itemprop="name">Главная</span></a>
+            <meta itemprop="position" content="1">
+          </li>
+          <li><span class="splash">/</span></li>
+          <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemscope itemtype="http://schema.org/Thing" itemprop="item" href="#" itemid="#"><span itemprop="name">Контакты</span></a>
+            <meta itemprop="position" content="2">
+          </li>
+          <li class="clear"></li>
+        </ul>
+      </div>
+    </section>
     <section class="contacts container">
       <h2>Контакты</h2>
       <div class="row" itemscope="" itemtype="http://schema.org/Organization">
+        <!--div.col-md-5.offset-1
+        div.contacts__row(itemprop="telephone")
+            span.contacts__property Телефон для заказа такси:
+            a(href="tel:+79223104870") +7&nbsp;(922)&nbsp;310-48-70
+        div.contacts__row(itemprop="telephone")
+            span.contacts__property Отдел контроля и качества обслуживания клиентов:
+            a(href="tel:+79111111111") +7&nbsp;(911)&nbsp;111-11-11
+        div.contacts__row(itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress")
+            span.contacts__property Адрес:
+            span(itemprop="addressLocality") Россия, Пермь,
+            span(itemprop="streetAddress")  ул.&nbsp;Краснофлотская,&nbsp;18-82,
+            span(itemprop="postalCode") 614016
+        div.contacts__row(itemprop="email")
+            span.contacts__property Эл. почта:
+            a(href="mailto:zakaz@vl-taxi.ru") zakaz@vl-taxi.ru
+        div.contacts__row
+            span.contacts__property Мы в социальных сетях
+            br
+            a.social.social--vk(href="#")
+            a.social.social--fb(href="#")
+            a.social.social--inst(href="#")
+        -->
         <div class="col-md-5 offset-1">
-          <div class="contacts__row" itemprop="telephone"><span class="contacts__property">Телефон для заказа такси:</span><a href="tel:+79223104870">+7&nbsp;(922)&nbsp;310-48-70</a></div>
-          <div class="contacts__row" itemprop="telephone"><span class="contacts__property">Отдел контроля и качества обслуживания клиентов:</span><a href="tel:+79111111111">+7&nbsp;(911)&nbsp;111-11-11</a></div>
+          <div class="contacts__row"><span class="contacts__property">Телефон для заказа такси:</span><a href="tel:+79223104870" itemprop="telephone">+7&nbsp;(922)&nbsp;310-48-70</a></div>
+          <div class="contacts__row"><span class="contacts__property">Отдел контроля и качества обслуживания клиентов:</span><a href="tel:+79111111111" itemprop="telephone">+7&nbsp;(911)&nbsp;111-11-11</a></div>
           <div class="contacts__row" itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress"><span class="contacts__property">Адрес:</span><span itemprop="addressLocality">Россия, Пермь,</span><span itemprop="streetAddress"> ул.&nbsp;Краснофлотская,&nbsp;18-82,</span><span itemprop="postalCode">614016</span></div>
-          <div class="contacts__row" itemprop="email"><span class="contacts__property">Эл. почта:</span><a href="mailto:zakaz@vl-taxi.ru">zakaz@vl-taxi.ru</a></div>
+          <div class="contacts__row"><span class="contacts__property">Эл. почта:</span><a href="mailto:zakaz@vl-taxi.ru" itemprop="email">zakaz@vl-taxi.ru</a></div>
           <div class="contacts__row"><span class="contacts__property">Мы в социальных сетях</span><br><a class="social social--vk" href="#"></a><a class="social social--fb" href="#"></a><a class="social social--inst" href="#"></a></div>
         </div>
         <div class="col-md-5">
@@ -77,27 +116,6 @@
           </form>
         </div>
       </div>
-      <!--div.row(itemscope="" itemtype="http://schema.org/Organization")
-      div.col-md-3
-          div.ooo(itemprop="name") ООО «Вежливые Люди»
-          div(itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress")
-              span(itemprop="addressLocality") Россия, Пермь,  
-              span(itemprop="streetAddress")  ул.&nbsp;Краснофлотская,&nbsp;18-82, 
-              span(itemprop="postalCode") 614016
-      
-      div.col-md-3(itemprop="telephone") 
-          a(href="tel:+79223104870") +7 (922) 310-48-70
-      
-      div.col-md-3(itemprop="email") 
-          a(href="mailto:zakaz@vl-taxi.ru") zakaz@vl-taxi.ru
-      
-      div.col-md-3
-          a.social.social--vk(href="#")
-          a.social.social--fb(href="#")
-          a.social.social--inst(href="#")
-      
-      
-      -->
     </section>
     <footer id="footer">
       <div class="container">
@@ -125,5 +143,11 @@
     <!-- BEGIN JIVOSITE CODE {literal}-->
     <script>(function(){ var widget_id = 'mEb3UbRg1A';var d=document;var w=window;function l(){var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script>
     <!-- {/literal} END JIVOSITE CODE-->
+    <!-- Yandex.Metrika counter-->
+    <script>(function (m, e, t, r, i, k, a) {m[i] = m[i] || function () {(m[i].a = m[i].a || []).push(arguments)}; m[i].l=1 * new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(51847976, "init", {id:51847976, clickmap:true, trackLinks:true, accurateTrackBounce:true});</script>
+    <noscript>
+      <div><img src="https://mc.yandex.ru/watch/51847976" style="position:absolute; left:-9999px;" alt=""></div>
+    </noscript>
+    <!-- /Yandex.Metrika counter-->
   </body>
 </html>

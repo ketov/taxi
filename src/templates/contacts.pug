@@ -1,6 +1,10 @@
 doctype html
 html
     head
+        // Global site tag (gtag.js) - Google Analytics
+        script(async src="https://www.googletagmanager.com/gtag/js?id=UA-132117487-1")
+        script window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-132117487-1');
+
         title Контакты
         meta(name="description", content="")
         meta(name="keywords", content="")
@@ -15,10 +19,26 @@ html
 
     body
         include includes/header-inner
+
+        section.search.search--inner.search--order
+            div.container
+                ul.search__breadcrumbs(itemscope itemtype="http://schema.org/BreadcrumbList")
+                    li(itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem")
+                        a(itemscope itemtype="http://schema.org/Thing" itemprop="item" href="#" itemid="#")
+                            span(itemprop="name") Главная
+                        meta(itemprop="position" content="1")
+                    li
+                        span.splash /
+                    li(itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem")
+                        a(itemscope itemtype="http://schema.org/Thing" itemprop="item" href="#" itemid="#")
+                            span(itemprop="name") Контакты
+                        meta(itemprop="position" content="2")
+                    li.clear
+
         section.contacts.container
             h2 Контакты
             div.row(itemscope="" itemtype="http://schema.org/Organization")
-                div.col-md-5.offset-1
+                //div.col-md-5.offset-1
                     div.contacts__row(itemprop="telephone")
                         span.contacts__property Телефон для заказа такси:
                         a(href="tel:+79223104870") +7&nbsp;(922)&nbsp;310-48-70
@@ -33,6 +53,27 @@ html
                     div.contacts__row(itemprop="email")
                         span.contacts__property Эл. почта:
                         a(href="mailto:zakaz@vl-taxi.ru") zakaz@vl-taxi.ru
+                    div.contacts__row
+                        span.contacts__property Мы в социальных сетях
+                        br
+                        a.social.social--vk(href="#")
+                        a.social.social--fb(href="#")
+                        a.social.social--inst(href="#")
+                div.col-md-5.offset-1
+                    div.contacts__row
+                        span.contacts__property Телефон для заказа такси:
+                        a(href="tel:+79223104870" itemprop="telephone") +7&nbsp;(922)&nbsp;310-48-70
+                    div.contacts__row
+                        span.contacts__property Отдел контроля и качества обслуживания клиентов:
+                        a(href="tel:+79111111111" itemprop="telephone") +7&nbsp;(911)&nbsp;111-11-11
+                    div.contacts__row(itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress")
+                        span.contacts__property Адрес:
+                        span(itemprop="addressLocality") Россия, Пермь,
+                        span(itemprop="streetAddress")  ул.&nbsp;Краснофлотская,&nbsp;18-82,
+                        span(itemprop="postalCode") 614016
+                    div.contacts__row
+                        span.contacts__property Эл. почта:
+                        a(href="mailto:zakaz@vl-taxi.ru" itemprop="email") zakaz@vl-taxi.ru
                     div.contacts__row
                         span.contacts__property Мы в социальных сетях
                         br
@@ -58,27 +99,6 @@ html
                         button Отправить
 
 
-
-            //div.row(itemscope="" itemtype="http://schema.org/Organization")
-                div.col-md-3
-                    div.ooo(itemprop="name") ООО «Вежливые Люди»
-                    div(itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress")
-                        span(itemprop="addressLocality") Россия, Пермь,  
-                        span(itemprop="streetAddress")  ул.&nbsp;Краснофлотская,&nbsp;18-82, 
-                        span(itemprop="postalCode") 614016
-
-                div.col-md-3(itemprop="telephone") 
-                    a(href="tel:+79223104870") +7 (922) 310-48-70
-
-                div.col-md-3(itemprop="email") 
-                    a(href="mailto:zakaz@vl-taxi.ru") zakaz@vl-taxi.ru
-
-                div.col-md-3
-                    a.social.social--vk(href="#")
-                    a.social.social--fb(href="#")
-                    a.social.social--inst(href="#")
-
-
         include includes/footer
 
         script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js")
@@ -88,3 +108,10 @@ html
         // BEGIN JIVOSITE CODE {literal}
         script (function(){ var widget_id = 'mEb3UbRg1A';var d=document;var w=window;function l(){var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
         // {/literal} END JIVOSITE CODE
+
+        // Yandex.Metrika counter
+        script (function (m, e, t, r, i, k, a) {m[i] = m[i] || function () {(m[i].a = m[i].a || []).push(arguments)}; m[i].l=1 * new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(51847976, "init", {id:51847976, clickmap:true, trackLinks:true, accurateTrackBounce:true});
+        noscript
+            div
+                img(src="https://mc.yandex.ru/watch/51847976" style="position:absolute; left:-9999px;" alt="")
+        // /Yandex.Metrika counter
