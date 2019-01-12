@@ -1,5 +1,8 @@
 .index-offer{
+    background-color: $blue;
+    padding: 0 0 28px 0;
     h1{
+        color: $white;
         margin: 129px 0 0 0;
     }
 }
@@ -45,6 +48,8 @@
         }
     }
     .main-img{
+        height: 471px;
+        width: 1004px;
         &--1{
             display: none;
         }
@@ -64,6 +69,8 @@
 
 @media(max-width: 1000px){
     .main-img{
+        width: 779px;
+        height: 468px;
         &--2{
             display: none;
         }
@@ -82,5 +89,8 @@
         &--3{
             display: none;
         }
+    }
+    .index-offer{
+        padding: 0;
     }
 }

@@ -1,132 +1,1565 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1138" height="470" viewBox="0 0 1138 470">
-  <defs>
-    <polygon id="main-illustration-a" points="0 470 1138 470 1138 0 0 0"/>
-  </defs>
-  <g fill="none" fill-rule="evenodd">
-    <path stroke="#2749FF" d="M98.5,211 L98.5,221"/>
-    <polygon stroke="#2749FF" points="115.5 285.5 142.5 285.5 142.5 247.5 115.5 247.5"/>
-    <path stroke="#2749FF" d="M143.5,361.5 L115.5,361.5 L115.5,321 C115.5,313.544 121.544,307.5 129,307.5 L130,307.5 C137.456,307.5 143.5,313.544 143.5,321 L143.5,361.5 Z"/>
-    <path stroke="#2749FF" stroke-width="2" d="M39.8936 308.6309C39.8936 303.7269 43.8696 299.7509 48.7726 299.7509 53.6766 299.7509 57.6526 303.7269 57.6526 308.6309M36.2866 308.6309L60.6356 308.6309"/>
-    <polyline stroke="#2749FF" stroke-width="2" points="41.697 308.631 43.501 326.667 54.322 326.667 56.126 308.631"/>
-    <path stroke="#2749FF" stroke-width="2" d="M48.9116,326.667 L48.9116,364.542"/>
-    <polygon stroke="#2749FF" stroke-width="2" points="43.501 394.302 47.108 364.542 50.715 364.542 54.323 394.302"/>
-    <mask id="main-illustration-b" fill="#fff">
-      <use xlink:href="#main-illustration-a"/>
-    </mask>
-    <polygon stroke="#2749FF" points="196.5 393.5 246.5 393.5 246.5 389.5 196.5 389.5" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" d="M129.5 307.5L129.5 361.5M115.5 327.3779L143.5 327.3779" mask="url(#main-illustration-b)"/>
-    <polygon stroke="#2749FF" stroke-width="2" points="90 211 260 211 260 204 90 204" mask="url(#main-illustration-b)"/>
-    <polygon stroke="#2749FF" points="113.5 289.5 144.5 289.5 144.5 285.5 113.5 285.5" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" d="M729.5 393.9375L729.5 377.9815C729.5 376.3295 732.5 371.0005 732.5 371.0005 732.5 371.0005 735.5 376.3295 735.5 377.9815L735.5 393.9995M740.5 393.9375L740.5 377.9815C740.5 376.3295 743.5 371.0005 743.5 371.0005 743.5 371.0005 746.5 376.3295 746.5 377.9815L746.5 393.9995" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" stroke-width="2" d="M786 269L705 269C703.35 269 702 267.65 702 266 702 264.35 703.35 263 705 263L786 263M732 269L732 369M715 269L731.375 285.375" mask="url(#main-illustration-b)"/>
-    <polyline stroke="#2749FF" stroke-width="2" points="777 369 777 277 897 277 897 369" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" stroke-linecap="round" d="M829.5 296L829.5 317M854.5 312L854.5 333M879.5 328L879.5 349" mask="url(#main-illustration-b)"/>
-    <polyline stroke="#2749FF" stroke-width="2" points="786 277 786 202 867 202 867 277" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" d="M751.5 393.9375L751.5 377.9815C751.5 376.3295 754.5 371.0005 754.5 371.0005 754.5 371.0005 757.5 376.3295 757.5 377.9815L757.5 393.9995M762.5 393.9375L762.5 377.9815C762.5 376.3295 765.5 371.0005 765.5 371.0005 765.5 371.0005 768.5 376.3295 768.5 377.9815L768.5 393.9995M773.5 393.9375L773.5 377.9815C773.5 376.3295 776.5 371.0005 776.5 371.0005 776.5 371.0005 779.5 376.3295 779.5 377.9815L779.5 393.9995M784.5 393.9375L784.5 377.9815C784.5 376.3295 787.5 371.0005 787.5 371.0005 787.5 371.0005 790.5 376.3295 790.5 377.9815L790.5 393.9995M795.5 393.9375L795.5 377.9815C795.5 376.3295 798.5 371.0005 798.5 371.0005 798.5 371.0005 801.5 376.3295 801.5 377.9815L801.5 393.9995M806.5 393.9375L806.5 377.9815C806.5 376.3295 809.5 371.0005 809.5 371.0005 809.5 371.0005 812.5 376.3295 812.5 377.9815L812.5 393.9995M817.5 393.9375L817.5 377.9815C817.5 376.3295 820.5 371.0005 820.5 371.0005 820.5 371.0005 823.5 376.3295 823.5 377.9815L823.5 393.9995M828.5 393.9375L828.5 377.9815C828.5 376.3295 831.5 371.0005 831.5 371.0005 831.5 371.0005 834.5 376.3295 834.5 377.9815L834.5 393.9995M839.5 393.9375L839.5 377.9815C839.5 376.3295 842.5 371.0005 842.5 371.0005 842.5 371.0005 845.5 376.3295 845.5 377.9815L845.5 393.9995M850.5 393.9375L850.5 377.9815C850.5 376.3295 853.5 371.0005 853.5 371.0005 853.5 371.0005 856.5 376.3295 856.5 377.9815L856.5 393.9995M861.5 393.9375L861.5 377.9815C861.5 376.3295 864.5 371.0005 864.5 371.0005 864.5 371.0005 867.5 376.3295 867.5 377.9815L867.5 393.9995M872.5 393.9375L872.5 377.9815C872.5 376.3295 875.5 371.0005 875.5 371.0005 875.5 371.0005 878.5 376.3295 878.5 377.9815L878.5 393.9995M765.5 369L765.5 333C765.5 326.925 755 317 755 317 755 317 744.5 326.925 744.5 333L744.5 369" mask="url(#main-illustration-b)"/>
-    <polyline stroke="#2749FF" stroke-width="2" points="705 263 705 242 747 242" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" d="M768.5 263L768.5 227C768.5 220.925 758 211 758 211 758 211 747.5 220.925 747.5 227L747.5 263M838 368.5C838 358.283 829.717 350 819.5 350 809.283 350 801 358.283 801 368.5M883.5 393.9375L883.5 377.9815C883.5 376.3295 886.5 371.0005 886.5 371.0005 886.5 371.0005 889.5 376.3295 889.5 377.9815L889.5 393.9995M894.5 393.9375L894.5 377.9815C894.5 376.3295 897.5 371.0005 897.5 371.0005 897.5 371.0005 900.5 376.3295 900.5 377.9815L900.5 393.9995M905.5 393.9375L905.5 377.9815C905.5 376.3295 908.5 371.0005 908.5 371.0005 908.5 371.0005 911.5 376.3295 911.5 377.9815L911.5 393.9995M916.5 393.9375L916.5 377.9815C916.5 376.3295 919.5 371.0005 919.5 371.0005 919.5 371.0005 922.5 376.3295 922.5 377.9815L922.5 393.9995M927.5 393.9375L927.5 377.9815C927.5 376.3295 930.5 371.0005 930.5 371.0005 930.5 371.0005 933.5 376.3295 933.5 377.9815L933.5 393.9995M938.5 393.9375L938.5 377.9815C938.5 376.3295 941.5 371.0005 941.5 371.0005 941.5 371.0005 944.5 376.3295 944.5 377.9815L944.5 393.9995M949.5 393.9375L949.5 377.9815C949.5 376.3295 952.5 371.0005 952.5 371.0005 952.5 371.0005 955.5 376.3295 955.5 377.9815L955.5 393.9995M960.5 393.9375L960.5 377.9815C960.5 376.3295 963.5 371.0005 963.5 371.0005 963.5 371.0005 966.5 376.3295 966.5 377.9815L966.5 393.9995M971.5 393.9375L971.5 377.9815C971.5 376.3295 974.5 371.0005 974.5 371.0005 974.5 371.0005 977.5 376.3295 977.5 377.9815L977.5 393.9995M982.5 393.9375L982.5 377.9815C982.5 376.3295 985.5 371.0005 985.5 371.0005 985.5 371.0005 988.5 376.3295 988.5 377.9815L988.5 393.9995M993.5 393.9375L993.5 377.9815C993.5 376.3295 996.5 371.0005 996.5 371.0005 996.5 371.0005 999.5 376.3295 999.5 377.9815L999.5 393.9995M1004.5 393.9375L1004.5 377.9815C1004.5 376.3295 1007.5 371.0005 1007.5 371.0005 1007.5 371.0005 1010.5 376.3295 1010.5 377.9815L1010.5 393.9995M1015.5 393.9375L1015.5 377.9815C1015.5 376.3295 1018.5 371.0005 1018.5 371.0005 1018.5 371.0005 1021.5 376.3295 1021.5 377.9815L1021.5 393.9995M1026.5 393.9375L1026.5 377.9815C1026.5 376.3295 1029.5 371.0005 1029.5 371.0005 1029.5 371.0005 1032.5 376.3295 1032.5 377.9815L1032.5 393.9995M1037.5 393.9375L1037.5 377.9815C1037.5 376.3295 1040.5 371.0005 1040.5 371.0005 1040.5 371.0005 1043.5 376.3295 1043.5 377.9815L1043.5 393.9995M1048.5 393.9375L1048.5 377.9815C1048.5 376.3295 1051.5 371.0005 1051.5 371.0005 1051.5 371.0005 1054.5 376.3295 1054.5 377.9815L1054.5 393.9995M1059.5 393.9375L1059.5 377.9815C1059.5 376.3295 1062.5 371.0005 1062.5 371.0005 1062.5 371.0005 1065.5 376.3295 1065.5 377.9815L1065.5 393.9995M1070.5 393.9375L1070.5 377.9815C1070.5 376.3295 1073.5 371.0005 1073.5 371.0005 1073.5 371.0005 1076.5 376.3295 1076.5 377.9815L1076.5 393.9995M1081.5 393.9375L1081.5 377.9815C1081.5 376.3295 1084.5 371.0005 1084.5 371.0005 1084.5 371.0005 1087.5 376.3295 1087.5 377.9815L1087.5 393.9995M1092.5 393.9375L1092.5 377.9815C1092.5 376.3295 1095.5 371.0005 1095.5 371.0005 1095.5 371.0005 1098.5 376.3295 1098.5 377.9815L1098.5 393.9995M1103.5 393.9375L1103.5 377.9815C1103.5 376.3295 1106.5 371.0005 1106.5 371.0005 1106.5 371.0005 1109.5 376.3295 1109.5 377.9815L1109.5 393.9995M1114.5 393.9375L1114.5 377.9815C1114.5 376.3295 1117.5 371.0005 1117.5 371.0005 1117.5 371.0005 1120.5 376.3295 1120.5 377.9815L1120.5 393.9995M1125.5 393.9375L1125.5 377.9815C1125.5 376.3295 1128.5 371.0005 1128.5 371.0005 1128.5 371.0005 1131.5 376.3295 1131.5 377.9815L1131.5 393.9995M711.5 242L711.5 263M717.5 242L717.5 263M723.5 242L723.5 263M729.5 242L729.5 263M735.5 242L735.5 263M741.5 242L741.5 263M774.5 242L774.5 263M780.5 242L780.5 263M873.5 242L873.5 263M879.5 242L879.5 263M885.5 242L885.5 263M891.5 242L891.5 263M822.5 256L822.5 230.385C822.5 226.062 815 219 815 219 815 219 807.5 226.062 807.5 230.385L807.5 256 822.5 256zM846.5 256L846.5 230.385C846.5 226.062 839 219 839 219 839 219 831.5 226.062 831.5 230.385L831.5 256 846.5 256zM1081.5 369L1081.5 333C1081.5 326.925 1071 317 1071 317 1071 317 1060.5 326.925 1060.5 333L1060.5 369" mask="url(#main-illustration-b)"/>
-    <polygon stroke="#2749FF" stroke-width="2" points="915 215 921 179 922 179 928 215" mask="url(#main-illustration-b)"/>
-    <polyline stroke="#2749FF" stroke-width="2" points="916 263 916 215 927 215 927 263" mask="url(#main-illustration-b)"/>
-    <polygon stroke="#2749FF" stroke-width="2" points="1005 215 1011 179 1012 179 1018 215" mask="url(#main-illustration-b)"/>
-    <polyline stroke="#2749FF" stroke-width="2" points="1006 263 1006 215 1017 215 1017 263" mask="url(#main-illustration-b)"/>
-    <polyline stroke="#2749FF" stroke-width="2" points="897 263 897 238 916 238" mask="url(#main-illustration-b)"/>
-    <polyline stroke="#2749FF" stroke-width="2" points="927 238 946 238 946 263" mask="url(#main-illustration-b)"/>
-    <polyline stroke="#2749FF" stroke-width="2" points="957 263 957 238 976 238 976 263" mask="url(#main-illustration-b)"/>
-    <polyline stroke="#2749FF" stroke-width="2" points="987 263 987 238 1006 238" mask="url(#main-illustration-b)"/>
-    <polyline stroke="#2749FF" stroke-width="2" points="897 263 1030 263 1036 263 1036 238 1017 238" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" d="M828 152.5L726 152.5C724.35 152.5 723 151.15 723 149.5 723 147.85 724.35 146.5 726 146.5L828 146.5C829.65 146.5 831 147.85 831 149.5 831 151.15 829.65 152.5 828 152.5zM828 118.5L726 118.5C724.35 118.5 723 117.15 723 115.5 723 113.85 724.35 112.5 726 112.5L828 112.5C829.65 112.5 831 113.85 831 115.5 831 117.15 829.65 118.5 828 118.5z" mask="url(#main-illustration-b)"/>
-    <polyline stroke="#2749FF" stroke-width="2" points="729.25 152 732 176 823.25 176 826 152" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" stroke-width="2" d="M732 176L732 242M823 176L823 180" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" d="M976.5,355 L976.5,319 C976.5,312.925 966,303 966,303 C966,303 955.5,312.925 955.5,319 L955.5,355 L976.5,355 Z" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" stroke-width="2" d="M867 242L897 242M867 263L897 263M867 269L897 269" mask="url(#main-illustration-b)"/>
-    <polyline stroke="#2749FF" stroke-width="2" points="729 100 729 88 741 88 741 100" mask="url(#main-illustration-b)"/>
-    <polyline stroke="#2749FF" stroke-width="2" points="750 100 750 88 762 88 762 100" mask="url(#main-illustration-b)"/>
-    <polyline stroke="#2749FF" stroke-width="2" points="771 100 771 88 783 88 783 100" mask="url(#main-illustration-b)"/>
-    <polyline stroke="#2749FF" stroke-width="2" points="792 100 792 88 804 88 804 100" mask="url(#main-illustration-b)"/>
-    <polyline stroke="#2749FF" stroke-width="2" points="813 100 813 88 825 88 825 100" mask="url(#main-illustration-b)"/>
-    <polyline stroke="#2749FF" stroke-width="2" points="729 112 729 100 825 100 825 112" mask="url(#main-illustration-b)"/>
-    <polygon stroke="#2749FF" stroke-width="2" points="733 65 742 29 744 29 752 65" mask="url(#main-illustration-b)"/>
-    <polyline stroke="#2749FF" stroke-width="2" points="735 88 735 65 750 65 750 88" mask="url(#main-illustration-b)"/>
-    <polyline stroke="#2749FF" stroke-width="2" points="1031 302 1111 302 1111 369" mask="url(#main-illustration-b)"/>
-    <polyline stroke="#2749FF" stroke-width="2" points="1095 302 1095 285 1111 285 1111 302" mask="url(#main-illustration-b)"/>
-    <polyline stroke="#2749FF" stroke-width="2" points="1073 302 1073 285 1089 285 1089 302" mask="url(#main-illustration-b)"/>
-    <polyline stroke="#2749FF" stroke-width="2" points="1051 302 1051 285 1067 285 1067 302" mask="url(#main-illustration-b)"/>
-    <polyline stroke="#2749FF" stroke-width="2" points="1031 285 1045 285 1045 302" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" stroke-width="2" d="M743 0L743 21M747 25C747 27.209 745.209 29 743 29 740.791 29 739 27.209 739 25 739 22.791 740.791 21 743 21 745.209 21 747 22.791 747 25z" mask="url(#main-illustration-b)"/>
-    <polygon stroke="#2749FF" stroke-width="2" points="802 65 811 29 813 29 821 65" mask="url(#main-illustration-b)"/>
-    <polyline stroke="#2749FF" stroke-width="2" points="804 88 804 65 819 65 819 88" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" stroke-width="2" d="M812 0L812 21M816 25C816 27.209 814.209 29 812 29 809.791 29 808 27.209 808 25 808 22.791 809.791 21 812 21 814.209 21 816 22.791 816 25z" mask="url(#main-illustration-b)"/>
-    <polyline stroke="#2749FF" stroke-width="2" points="786 202 780 202 780 181 792 181 792 190 798 190 798 181 807 181 807 190 814 190 814 181 823 181 823 190 830 190 830 181 839 181 839 190 846 190 846 181 855 181 855 190 861 190 861 181 873 181 873 202 867 202" mask="url(#main-illustration-b)"/>
-    <polyline stroke="#2749FF" stroke-width="2" points="508 394 640 394 702 394 1137 394 1137 369 715 369" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" d="M581.5 346.5L581.5 394.5M525.5 369.5L525.5 346.5" mask="url(#main-illustration-b)"/>
-    <polygon stroke="#2749FF" points="525.5 305.5 545.5 305.5 545.5 271.5 525.5 271.5" mask="url(#main-illustration-b)"/>
-    <polygon stroke="#2749FF" points="597.5 394.5 619.5 394.5 619.5 341.5 597.5 341.5" mask="url(#main-illustration-b)"/>
-    <polygon stroke="#2749FF" points="501.5 327.5 643.5 327.5 643.5 318.5 501.5 318.5" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" d="M535.5 271L535.5 305.5M545.5 288.5L525.5 288.5" mask="url(#main-illustration-b)"/>
-    <polygon stroke="#2749FF" points="599.5 305.5 619.5 305.5 619.5 271.5 599.5 271.5" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" d="M609.5 271L609.5 305.5M619.5 288.5L599.5 288.5" mask="url(#main-illustration-b)"/>
-    <polygon stroke="#2749FF" points="562.5 305.5 582.5 305.5 582.5 271.5 562.5 271.5" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" d="M572.5 271L572.5 305.5M582.5 288.5L562.5 288.5" mask="url(#main-illustration-b)"/>
-    <polygon stroke="#2749FF" points="525.5 258.5 545.5 258.5 545.5 224.5 525.5 224.5" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" d="M535.5 224L535.5 258.5M545.5 241.5L525.5 241.5" mask="url(#main-illustration-b)"/>
-    <polygon stroke="#2749FF" points="599.5 258.5 619.5 258.5 619.5 224.5 599.5 224.5" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" d="M609.5 224L609.5 258.5M619.5 241.5L599.5 241.5" mask="url(#main-illustration-b)"/>
-    <polygon stroke="#2749FF" points="562.5 258.5 582.5 258.5 582.5 224.5 562.5 224.5" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" d="M572.5 224L572.5 258.5M582.5 241.5L562.5 241.5" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" stroke-width="2" d="M505 318L505 206M640 206L640 318" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" d="M505,211.5 L639,211.5" mask="url(#main-illustration-b)"/>
-    <polygon stroke="#2749FF" points="501.5 206.5 643.5 206.5 643.5 197.5 501.5 197.5" mask="url(#main-illustration-b)"/>
-    <polygon stroke="#2749FF" stroke-width="2" points="505 196 516 196 516 138 505 138" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" d="M505,188.5 L516,188.5" mask="url(#main-illustration-b)"/>
-    <polygon stroke="#2749FF" stroke-width="2" points="629 196 640 196 640 138 629 138" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" d="M629,188.5 L640,188.5" mask="url(#main-illustration-b)"/>
-    <polygon stroke="#2749FF" points="601.5 365.5 613.5 365.5 613.5 345.5 601.5 345.5" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" d="M527.5 148L527.5 197M540.5 148L540.5 197M553.5 148L553.5 181M566.5 148L566.5 176M579.5 148L579.5 178M592.5 148L592.5 184M605.5 148L605.5 197M618.5 148L618.5 197" mask="url(#main-illustration-b)"/>
-    <polyline stroke="#2749FF" stroke-width="2" points="540 197 540 186.396 571.291 173.771 601 187.298 601.05 197" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" d="M574.8369,182.7275 C577.2929,185.1845 577.2929,189.1665 574.8369,191.6235 C572.3799,194.0795 568.3979,194.0795 565.9409,191.6235 C563.4849,189.1665 563.4849,185.1845 565.9409,182.7275 C568.3979,180.2715 572.3799,180.2715 574.8369,182.7275 Z" mask="url(#main-illustration-b)"/>
-    <polygon stroke="#2749FF" points="601.5 389.5 613.5 389.5 613.5 369.5 601.5 369.5" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" d="M617.5,367.5 C617.5,368.053 617.052,368.5 616.5,368.5 C615.948,368.5 615.5,368.053 615.5,367.5 C615.5,366.947 615.948,366.5 616.5,366.5 C617.052,366.5 617.5,366.947 617.5,367.5 Z" mask="url(#main-illustration-b)"/>
-    <polyline stroke="#2749FF" points="532.5 377.751 532.5 359.5 574.5 359.5 574.5 393.5" mask="url(#main-illustration-b)"/>
-    <polygon stroke="#2749FF" points="522.5 346.5 584.5 346.5 584.5 341.5 522.5 341.5" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" d="M550.5 376.5C550.5 377.053 550.052 377.5 549.5 377.5 548.948 377.5 548.5 377.053 548.5 376.5 548.5 375.947 548.948 375.5 549.5 375.5 550.052 375.5 550.5 375.947 550.5 376.5zM558.5 376.5C558.5 377.053 558.052 377.5 557.5 377.5 556.948 377.5 556.5 377.053 556.5 376.5 556.5 375.947 556.948 375.5 557.5 375.5 558.052 375.5 558.5 375.947 558.5 376.5z" mask="url(#main-illustration-b)"/>
-    <polygon stroke="#2749FF" points="532.5 355.5 574.5 355.5 574.5 350.5 532.5 350.5" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" stroke-width="2" d="M349.6665 394L-.000499999998 394M377.0146 342.3398C372.9976 335.4598 365.5416 330.8338 356.9996 330.8338 355.7746 330.8338 354.5716 330.9308 353.3976 331.1138 349.9116 322.7308 341.6456 316.8338 331.9996 316.8338 323.1296 316.8338 315.4276 321.8208 311.5356 329.1428L311.3796 329.4098C309.2176 327.3008 306.2606 325.9998 302.9996 325.9998 298.6806 325.9998 294.9056 328.2898 292.7916 331.7138 290.5566 326.5878 285.4506 322.9998 279.4996 322.9998 272.0386 322.9998 265.9006 328.6368 265.0956 335.8838 263.8446 335.3198 262.4606 334.9998 260.9996 334.9998 258.9866 334.9998 257.1116 335.5958 255.5416 336.6188" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" stroke-width="2" d="M421.8799 375.9414C421.0909 370.8814 416.5209 367.0004 410.9999 367.0004 409.8339 367.0004 408.7119 367.1754 407.6569 367.4974 407.8729 366.6974 407.9999 365.8634 407.9999 365.0004 407.9999 359.4774 403.2989 355.0004 397.4749 355.0014 397.2099 346.9494 390.6159 340.5004 382.4999 340.5004 380.1679 340.5004 377.9599 341.0324 375.9909 341.9824M532.6621 393.2158C533.5221 391.0068 534.0001 388.5668 534.0001 385.9998 534.0001 377.0588 528.1991 369.6598 520.6031 368.2588 520.8541 367.3788 521.0001 366.4568 521.0001 365.4998 521.0001 362.8858 519.9991 360.4948 518.3441 358.6568" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" stroke-width="2" d="M439.8975 346.7197C435.2905 348.3957 432.0005 352.8137 432.0005 357.9997 432.0005 358.1347 432.0155 358.2657 432.0205 358.4007 430.0585 357.5117 427.8485 356.9997 425.5005 356.9997 418.6545 356.9997 412.9315 361.2567 411.4135 366.9767M721.0366 393.6836C722.2976 391.0376 722.9996 388.0966 722.9996 384.9996 722.9996 375.8346 716.8496 368.0416 708.2736 365.1746M670.2705 363.584C668.9165 363.209 667.4845 363 665.9995 363 658.9335 363 653.0235 367.566 651.4345 373.707 649.8765 373.248 648.2195 373 646.4995 373 637.3875 373 629.9995 379.939 629.9995 388.5 629.9995 390.592 630.4415 392.587 631.2415 394.408" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" stroke-width="2" d="M702.5034 336.9795C703.3014 335.1465 703.7504 333.1265 703.7504 331.0005 703.7504 322.7155 697.0344 316.0005 688.7504 316.0005 680.4654 316.0005 673.7504 322.7155 673.7504 331.0005 673.7504 333.1265 674.1984 335.1465 674.9964 336.9795 670.2644 340.9235 667.2504 346.8585 667.2504 353.5005 667.2504 365.3745 676.8764 375.0005 688.7504 375.0005 700.6244 375.0005 710.2504 365.3745 710.2504 353.5005 710.2504 346.8585 707.2354 340.9235 702.5034 336.9795zM273 385L340 385M281 385L281 393M332 385L332 393" mask="url(#main-illustration-b)"/>
-    <polygon stroke="#2749FF" stroke-width="2" points="277 381 336 381 336 376 277 376" mask="url(#main-illustration-b)"/>
-    <polygon stroke="#2749FF" stroke-width="2" points="277 373 336 373 336 368 277 368" mask="url(#main-illustration-b)"/>
-    <polygon stroke="#2749FF" points="208.5 385.5 234.5 385.5 234.5 337.5 208.5 337.5" mask="url(#main-illustration-b)"/>
-    <polygon stroke="#2749FF" points="214.5 365.5 219.5 365.5 219.5 343.5 214.5 343.5" mask="url(#main-illustration-b)"/>
-    <polygon stroke="#2749FF" points="202.5 389.5 240.5 389.5 240.5 385.5 202.5 385.5" mask="url(#main-illustration-b)"/>
-    <polygon stroke="#2749FF" points="214.5 380.5 228.5 380.5 228.5 369.5 214.5 369.5" mask="url(#main-illustration-b)"/>
-    <polygon stroke="#2749FF" stroke-width="2" points="90 229 260 229 260 222 90 222" mask="url(#main-illustration-b)"/>
-    <polygon stroke="#2749FF" stroke-width="2" points="95 394 255 394 255 229 95 229" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" d="M117.5 211L117.5 221M136.5 212L136.5 222M155.5 212L155.5 222M174.5 211L174.5 221M193.5 211L193.5 221M212.5 212L212.5 222M231.5 212L231.5 222M250.5 211L250.5 221" mask="url(#main-illustration-b)"/>
-    <polygon stroke="#2749FF" points="223.5 365.5 228.5 365.5 228.5 343.5 223.5 343.5" mask="url(#main-illustration-b)"/>
-    <polygon stroke="#2749FF" points="160.5 285.5 187.5 285.5 187.5 247.5 160.5 247.5" mask="url(#main-illustration-b)"/>
-    <polygon stroke="#2749FF" points="158.5 289.5 189.5 289.5 189.5 285.5 158.5 285.5" mask="url(#main-illustration-b)"/>
-    <polygon stroke="#2749FF" points="205.5 285.5 232.5 285.5 232.5 247.5 205.5 247.5" mask="url(#main-illustration-b)"/>
-    <polygon stroke="#2749FF" points="203.5 289.5 234.5 289.5 234.5 285.5 203.5 285.5" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" d="M115.5 344.3779L143.5 344.3779M188.5 361.5L160.5 361.5 160.5 321C160.5 313.544 166.544 307.5 174 307.5L175 307.5C182.456 307.5 188.5 313.544 188.5 321L188.5 361.5zM174.5 307.5L174.5 361.5M160.5 327.3779L188.5 327.3779M160.5 344.3779L188.5 344.3779" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" stroke-width="2" d="M729 146L729 118M825 118L825 146M1030 369L1030 263M516 148L628 148M476.6675 342.9287C480.5545 336.1477 487.8645 331.5777 496.2415 331.5777 508.6925 331.5777 518.7865 341.6717 518.7865 354.1227 518.7865 366.5747 508.6925 376.6687 496.2415 376.6687 486.8205 376.6687 478.7495 370.8897 475.3785 362.6847" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" stroke-linecap="round" stroke-width="1.5" d="M501.8774 356.6289L496.0324 362.2649M487.4736 360.3857L496.2416 368.9447M694.8774 351.6289L689.0324 357.2649M680.4736 355.3857L689.2416 363.9447" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" stroke-linecap="round" stroke-width="2" d="M496 352.8711L496 388.0001M689 347L689 394" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" stroke-width="2" d="M768.75 242L786.75 242M897 242L897 277" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" d="M168.5 247.5L168.5 285.5M213.5 247.5L213.5 285.5M123.5 247.5L123.5 285.5" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" stroke-width="2" d="M473.0034,337.9463 C471.5504,336.2943 471.4314,333.4943 472.7374,331.7243 C472.7374,331.7243 476.0084,327.2933 476.0084,322.2563 C476.0084,315.8423 470.1284,310.1153 470.1284,310.1153 C468.5524,308.5803 468.3404,305.8823 469.6584,304.1203 C469.6584,304.1203 471.5004,301.6553 471.5004,297.9073 C471.5004,290.9343 465.8474,285.2823 458.8744,285.2823 C451.9014,285.2823 446.2494,290.9343 446.2494,297.9073 C446.2494,301.6553 448.0914,304.1203 448.0914,304.1203 C449.4084,305.8823 449.1964,308.5803 447.6204,310.1153 C447.6204,310.1153 441.7404,315.8423 441.7404,322.2563 C441.7404,327.2933 445.0114,331.7243 445.0114,331.7243 C446.3184,333.4943 446.1984,336.2943 444.7454,337.9463 C444.7454,337.9463 439.0354,344.4393 439.0354,351.1133 C439.0354,362.0703 447.9174,370.9533 458.8744,370.9533 C469.8324,370.9533 478.7144,362.0703 478.7144,351.1133 C478.7144,344.4393 473.0034,337.9463 473.0034,337.9463 Z" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" stroke-linecap="round" stroke-width="1.5" d="M458.8745 362.8369L464.2855 357.4259M458.8745 332.1758L464.2855 326.7648M458.8745 348.4082L453.4635 342.9972" mask="url(#main-illustration-b)"/>
-    <path fill="#FFF" d="M459,319.1504 L459,377.0004" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" stroke-width="2" d="M563,447 C563,433.8 552.2,423 539,423 C525.8,423 515,433.8 515,447 C515,447 514.825,450.858 515.912,455.429 L401.477,453.519 C401.953,452.036 402.5,446.5 402.5,446.5 C402.5,433.575 391.925,423 379,423 C366.075,423 355.5,433.575 355.5,446.5 L355.6,449 L352.291,448.632 C346.12,447.946 337.378,445.96 334.639,439.699 C333.104,436.191 334.414,432.012 335.194,428.536 C335.643,426.542 336.204,424.366 337.783,422.946 C339.907,421.034 340.18,419.761 340.18,419.761 L340.331,403.838 C340.331,403.838 339.694,401.502 342.454,400.016 C345.214,398.529 351.583,392.373 351.583,392.373 C351.583,392.373 360.076,386.216 361.562,385.366 C361.562,385.366 359.227,383.031 360.925,381.332 C360.925,381.332 361.35,380.695 366.551,379.952 C366.551,379.952 419.417,374.645 440.436,375.494 C440.436,375.494 466.656,376.662 480.244,382.182 C493.832,387.702 503.811,391.312 523.98,402.352 C523.98,402.352 547.546,404.899 568.778,412.542 C568.778,412.542 581.729,417.001 582.366,421.884 C582.366,421.884 587.249,426.555 587.249,432.287 C587.249,438.02 586.187,444.602 586.187,444.602 C586.187,444.602 586.187,445.45 586.824,446.087 C587.461,446.725 588.311,447.998 587.886,448.423 C587.461,448.848 578.544,453.73 562.408,455.005 L563,447 Z" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" stroke-linecap="round" stroke-width="1.5" d="M448.1851 383.2432C448.1851 383.2432 467.0811 384.0932 478.9701 389.6122 478.9701 389.6122 493.1951 395.7692 498.5031 398.7422 498.5031 398.7422 504.2351 401.2902 504.8721 401.7142 505.5091 402.1392 505.7211 402.5632 505.7211 403.8382 505.7211 405.1112 504.0231 408.2962 504.0231 408.2962 504.0231 408.2962 503.3861 409.5702 501.6871 409.5702 499.9891 409.5702 451.5821 405.5362 451.5821 405.5362L448.1851 383.2432zM466.9238 415.7539C461.4868 415.3079 456.3228 414.8799 452.4928 414.5629M410.7505 411.5078C405.3135 411.0608 400.1495 410.6338 396.3195 410.3168M438.8433 382.8184L439.4803 404.4744 399.9903 401.0774C399.9903 401.0774 399.1413 393.8584 401.2643 390.8864 403.3873 387.9144 405.7223 384.7294 405.7223 384.7294 405.7223 384.7294 424.1943 381.9694 438.8433 382.8184z" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" stroke-linecap="round" d="M391.1318 395.8887C388.4638 399.2377 386.4028 402.8427 386.4028 406.8107 386.4028 410.6167 387.2418 413.8207 388.6038 416.7177M510.1899 411.3926C510.8239 412.9206 511.4009 414.4696 511.8429 416.0686 513.1319 420.7396 513.2419 426.3196 512.7069 431.9686" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" stroke-linecap="round" stroke-width="2" d="M365.6372,447 C365.6372,454.38 371.6202,460.362 379.0002,460.362 C386.3802,460.362 392.3632,454.38 392.3632,447 C392.3632,439.62 386.3802,433.638 379.0002,433.638 C371.6202,433.638 365.6372,439.62 365.6372,447 Z" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" stroke-linecap="round" stroke-width="2" d="M360,447 C360,457.493 368.506,466 379,466 C389.494,466 398,457.493 398,447 C398,436.507 389.494,428 379,428 C368.506,428 360,436.507 360,447 Z" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" stroke-linecap="round" stroke-width="1.5" d="M356.7852 395.876C356.7852 395.876 359.7572 400.547 363.1542 401.184 363.1542 401.184 372.6022 402.988 373.6642 403.838 374.7252 404.687 374.7252 405.111 374.7252 405.111 374.7252 405.111 373.2392 406.598 371.3282 407.022 369.4172 407.446 362.1992 407.659 361.5622 407.659 360.9252 407.659 357.5282 407.871 356.4672 409.357 355.4052 410.844 352.6452 414.24 352.0082 415.939L344.7892 414.665C344.7892 414.665 341.8172 413.816 341.3922 412.33 340.9682 410.844 340.5432 407.871 341.3922 406.173 342.2422 404.475 342.8792 403.413 342.8792 403.413 342.8792 403.413 343.3032 402.352 347.5502 400.229 351.7962 398.105 356.7852 395.876 356.7852 395.876zM553.5977 416.4697C553.5977 416.4697 566.7607 416.0447 572.9177 418.3807 572.9177 418.3807 580.2427 421.2467 582.3657 424.6437 582.3657 424.6437 582.5777 425.2817 582.3657 426.5547 582.1537 427.8277 581.3047 427.4047 579.8177 427.1917 578.3317 426.9797 571.5377 425.7047 571.5377 425.7047 571.5377 425.7047 567.0787 424.8567 563.8947 422.7337 560.7097 420.6107 553.5977 416.4697 553.5977 416.4697z" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" stroke-linecap="round" d="M443.8325,383.1367 C445.7175,404.9127 445.6285,426.4107 446.0755,448.2097" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" stroke-linecap="round" stroke-width="2" d="M476 469L571 469M312 469L396 469M271 469L294 469M242 469L255 469M525.6372 447C525.6372 454.38 531.6202 460.362 539.0002 460.362 546.3802 460.362 552.3632 454.38 552.3632 447 552.3632 439.62 546.3802 433.638 539.0002 433.638 531.6202 433.638 525.6372 439.62 525.6372 447z" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" stroke-linecap="round" stroke-width="2" d="M520 447C520 457.493 528.506 466 539 466 549.494 466 558 457.493 558 447 558 436.507 549.494 428 539 428 528.506 428 520 436.507 520 447zM459 319.1504L459 377.0004" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" d="M553.5,359.5 L553.5,394" mask="url(#main-illustration-b)"/>
-    <path stroke="#2749FF" stroke-width="2" d="M505 333.667L505 327M640 327L640 374.5" mask="url(#main-illustration-b)"/>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1138 470" style="enable-background:new 0 0 1138 470;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#FFFFFF;}
+	.st1{fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st2{filter:url(#Adobe_OpacityMaskFilter);}
+	.st3{fill:#FFFFFF;}
+	.st4{mask:url(#main-illustration-b_1_);fill:none;stroke:#FFFFFF;}
+	.st5{filter:url(#Adobe_OpacityMaskFilter_1_);}
+	.st6{mask:url(#main-illustration-b_2_);fill:none;stroke:#FFFFFF;}
+	.st7{filter:url(#Adobe_OpacityMaskFilter_2_);}
+	.st8{mask:url(#main-illustration-b_3_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st9{filter:url(#Adobe_OpacityMaskFilter_3_);}
+	.st10{mask:url(#main-illustration-b_4_);fill:none;stroke:#FFFFFF;}
+	.st11{filter:url(#Adobe_OpacityMaskFilter_4_);}
+	.st12{mask:url(#main-illustration-b_5_);fill:none;stroke:#FFFFFF;}
+	.st13{filter:url(#Adobe_OpacityMaskFilter_5_);}
+	.st14{mask:url(#main-illustration-b_6_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st15{filter:url(#Adobe_OpacityMaskFilter_6_);}
+	.st16{mask:url(#main-illustration-b_7_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st17{filter:url(#Adobe_OpacityMaskFilter_7_);}
+	.st18{mask:url(#main-illustration-b_8_);fill:none;stroke:#FFFFFF;stroke-linecap:round;}
+	.st19{filter:url(#Adobe_OpacityMaskFilter_8_);}
+	.st20{mask:url(#main-illustration-b_9_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st21{filter:url(#Adobe_OpacityMaskFilter_9_);}
+	.st22{mask:url(#main-illustration-b_10_);fill:none;stroke:#FFFFFF;}
+	.st23{filter:url(#Adobe_OpacityMaskFilter_10_);}
+	.st24{mask:url(#main-illustration-b_11_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st25{filter:url(#Adobe_OpacityMaskFilter_11_);}
+	.st26{mask:url(#main-illustration-b_12_);fill:none;stroke:#FFFFFF;}
+	.st27{filter:url(#Adobe_OpacityMaskFilter_12_);}
+	.st28{mask:url(#main-illustration-b_13_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st29{filter:url(#Adobe_OpacityMaskFilter_13_);}
+	.st30{mask:url(#main-illustration-b_14_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st31{filter:url(#Adobe_OpacityMaskFilter_14_);}
+	.st32{mask:url(#main-illustration-b_15_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st33{filter:url(#Adobe_OpacityMaskFilter_15_);}
+	.st34{mask:url(#main-illustration-b_16_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st35{filter:url(#Adobe_OpacityMaskFilter_16_);}
+	.st36{mask:url(#main-illustration-b_17_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st37{filter:url(#Adobe_OpacityMaskFilter_17_);}
+	.st38{mask:url(#main-illustration-b_18_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st39{filter:url(#Adobe_OpacityMaskFilter_18_);}
+	.st40{mask:url(#main-illustration-b_19_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st41{filter:url(#Adobe_OpacityMaskFilter_19_);}
+	.st42{mask:url(#main-illustration-b_20_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st43{filter:url(#Adobe_OpacityMaskFilter_20_);}
+	.st44{mask:url(#main-illustration-b_21_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st45{filter:url(#Adobe_OpacityMaskFilter_21_);}
+	.st46{mask:url(#main-illustration-b_22_);fill:none;stroke:#FFFFFF;}
+	.st47{filter:url(#Adobe_OpacityMaskFilter_22_);}
+	.st48{mask:url(#main-illustration-b_23_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st49{filter:url(#Adobe_OpacityMaskFilter_23_);}
+	.st50{mask:url(#main-illustration-b_24_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st51{filter:url(#Adobe_OpacityMaskFilter_24_);}
+	.st52{mask:url(#main-illustration-b_25_);fill:none;stroke:#FFFFFF;}
+	.st53{filter:url(#Adobe_OpacityMaskFilter_25_);}
+	.st54{mask:url(#main-illustration-b_26_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st55{filter:url(#Adobe_OpacityMaskFilter_26_);}
+	.st56{mask:url(#main-illustration-b_27_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st57{filter:url(#Adobe_OpacityMaskFilter_27_);}
+	.st58{mask:url(#main-illustration-b_28_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st59{filter:url(#Adobe_OpacityMaskFilter_28_);}
+	.st60{mask:url(#main-illustration-b_29_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st61{filter:url(#Adobe_OpacityMaskFilter_29_);}
+	.st62{mask:url(#main-illustration-b_30_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st63{filter:url(#Adobe_OpacityMaskFilter_30_);}
+	.st64{mask:url(#main-illustration-b_31_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st65{filter:url(#Adobe_OpacityMaskFilter_31_);}
+	.st66{mask:url(#main-illustration-b_32_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st67{filter:url(#Adobe_OpacityMaskFilter_32_);}
+	.st68{mask:url(#main-illustration-b_33_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st69{filter:url(#Adobe_OpacityMaskFilter_33_);}
+	.st70{mask:url(#main-illustration-b_34_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st71{filter:url(#Adobe_OpacityMaskFilter_34_);}
+	.st72{mask:url(#main-illustration-b_35_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st73{filter:url(#Adobe_OpacityMaskFilter_35_);}
+	.st74{mask:url(#main-illustration-b_36_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st75{filter:url(#Adobe_OpacityMaskFilter_36_);}
+	.st76{mask:url(#main-illustration-b_37_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st77{filter:url(#Adobe_OpacityMaskFilter_37_);}
+	.st78{mask:url(#main-illustration-b_38_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st79{filter:url(#Adobe_OpacityMaskFilter_38_);}
+	.st80{mask:url(#main-illustration-b_39_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st81{filter:url(#Adobe_OpacityMaskFilter_39_);}
+	.st82{mask:url(#main-illustration-b_40_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st83{filter:url(#Adobe_OpacityMaskFilter_40_);}
+	.st84{mask:url(#main-illustration-b_41_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st85{filter:url(#Adobe_OpacityMaskFilter_41_);}
+	.st86{mask:url(#main-illustration-b_42_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st87{filter:url(#Adobe_OpacityMaskFilter_42_);}
+	.st88{mask:url(#main-illustration-b_43_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st89{filter:url(#Adobe_OpacityMaskFilter_43_);}
+	.st90{mask:url(#main-illustration-b_44_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st91{filter:url(#Adobe_OpacityMaskFilter_44_);}
+	.st92{mask:url(#main-illustration-b_45_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st93{filter:url(#Adobe_OpacityMaskFilter_45_);}
+	.st94{mask:url(#main-illustration-b_46_);fill:none;stroke:#FFFFFF;}
+	.st95{filter:url(#Adobe_OpacityMaskFilter_46_);}
+	.st96{mask:url(#main-illustration-b_47_);fill:none;stroke:#FFFFFF;}
+	.st97{filter:url(#Adobe_OpacityMaskFilter_47_);}
+	.st98{mask:url(#main-illustration-b_48_);fill:none;stroke:#FFFFFF;}
+	.st99{filter:url(#Adobe_OpacityMaskFilter_48_);}
+	.st100{mask:url(#main-illustration-b_49_);fill:none;stroke:#FFFFFF;}
+	.st101{filter:url(#Adobe_OpacityMaskFilter_49_);}
+	.st102{mask:url(#main-illustration-b_50_);fill:none;stroke:#FFFFFF;}
+	.st103{filter:url(#Adobe_OpacityMaskFilter_50_);}
+	.st104{mask:url(#main-illustration-b_51_);fill:none;stroke:#FFFFFF;}
+	.st105{filter:url(#Adobe_OpacityMaskFilter_51_);}
+	.st106{mask:url(#main-illustration-b_52_);fill:none;stroke:#FFFFFF;}
+	.st107{filter:url(#Adobe_OpacityMaskFilter_52_);}
+	.st108{mask:url(#main-illustration-b_53_);fill:none;stroke:#FFFFFF;}
+	.st109{filter:url(#Adobe_OpacityMaskFilter_53_);}
+	.st110{mask:url(#main-illustration-b_54_);fill:none;stroke:#FFFFFF;}
+	.st111{filter:url(#Adobe_OpacityMaskFilter_54_);}
+	.st112{mask:url(#main-illustration-b_55_);fill:none;stroke:#FFFFFF;}
+	.st113{filter:url(#Adobe_OpacityMaskFilter_55_);}
+	.st114{mask:url(#main-illustration-b_56_);fill:none;stroke:#FFFFFF;}
+	.st115{filter:url(#Adobe_OpacityMaskFilter_56_);}
+	.st116{mask:url(#main-illustration-b_57_);fill:none;stroke:#FFFFFF;}
+	.st117{filter:url(#Adobe_OpacityMaskFilter_57_);}
+	.st118{mask:url(#main-illustration-b_58_);fill:none;stroke:#FFFFFF;}
+	.st119{filter:url(#Adobe_OpacityMaskFilter_58_);}
+	.st120{mask:url(#main-illustration-b_59_);fill:none;stroke:#FFFFFF;}
+	.st121{filter:url(#Adobe_OpacityMaskFilter_59_);}
+	.st122{mask:url(#main-illustration-b_60_);fill:none;stroke:#FFFFFF;}
+	.st123{filter:url(#Adobe_OpacityMaskFilter_60_);}
+	.st124{mask:url(#main-illustration-b_61_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st125{filter:url(#Adobe_OpacityMaskFilter_61_);}
+	.st126{mask:url(#main-illustration-b_62_);fill:none;stroke:#FFFFFF;}
+	.st127{filter:url(#Adobe_OpacityMaskFilter_62_);}
+	.st128{mask:url(#main-illustration-b_63_);fill:none;stroke:#FFFFFF;}
+	.st129{filter:url(#Adobe_OpacityMaskFilter_63_);}
+	.st130{mask:url(#main-illustration-b_64_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st131{filter:url(#Adobe_OpacityMaskFilter_64_);}
+	.st132{mask:url(#main-illustration-b_65_);fill:none;stroke:#FFFFFF;}
+	.st133{filter:url(#Adobe_OpacityMaskFilter_65_);}
+	.st134{mask:url(#main-illustration-b_66_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st135{filter:url(#Adobe_OpacityMaskFilter_66_);}
+	.st136{mask:url(#main-illustration-b_67_);fill:none;stroke:#FFFFFF;}
+	.st137{filter:url(#Adobe_OpacityMaskFilter_67_);}
+	.st138{mask:url(#main-illustration-b_68_);fill:none;stroke:#FFFFFF;}
+	.st139{filter:url(#Adobe_OpacityMaskFilter_68_);}
+	.st140{mask:url(#main-illustration-b_69_);fill:none;stroke:#FFFFFF;}
+	.st141{filter:url(#Adobe_OpacityMaskFilter_69_);}
+	.st142{mask:url(#main-illustration-b_70_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st143{filter:url(#Adobe_OpacityMaskFilter_70_);}
+	.st144{mask:url(#main-illustration-b_71_);fill:none;stroke:#FFFFFF;}
+	.st145{filter:url(#Adobe_OpacityMaskFilter_71_);}
+	.st146{mask:url(#main-illustration-b_72_);fill:none;stroke:#FFFFFF;}
+	.st147{filter:url(#Adobe_OpacityMaskFilter_72_);}
+	.st148{mask:url(#main-illustration-b_73_);fill:none;stroke:#FFFFFF;}
+	.st149{filter:url(#Adobe_OpacityMaskFilter_73_);}
+	.st150{mask:url(#main-illustration-b_74_);fill:none;stroke:#FFFFFF;}
+	.st151{filter:url(#Adobe_OpacityMaskFilter_74_);}
+	.st152{mask:url(#main-illustration-b_75_);fill:none;stroke:#FFFFFF;}
+	.st153{filter:url(#Adobe_OpacityMaskFilter_75_);}
+	.st154{mask:url(#main-illustration-b_76_);fill:none;stroke:#FFFFFF;}
+	.st155{filter:url(#Adobe_OpacityMaskFilter_76_);}
+	.st156{mask:url(#main-illustration-b_77_);fill:none;stroke:#FFFFFF;}
+	.st157{filter:url(#Adobe_OpacityMaskFilter_77_);}
+	.st158{mask:url(#main-illustration-b_78_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st159{filter:url(#Adobe_OpacityMaskFilter_78_);}
+	.st160{mask:url(#main-illustration-b_79_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st161{filter:url(#Adobe_OpacityMaskFilter_79_);}
+	.st162{mask:url(#main-illustration-b_80_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st163{filter:url(#Adobe_OpacityMaskFilter_80_);}
+	.st164{mask:url(#main-illustration-b_81_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st165{filter:url(#Adobe_OpacityMaskFilter_81_);}
+	.st166{mask:url(#main-illustration-b_82_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st167{filter:url(#Adobe_OpacityMaskFilter_82_);}
+	.st168{mask:url(#main-illustration-b_83_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st169{filter:url(#Adobe_OpacityMaskFilter_83_);}
+	.st170{mask:url(#main-illustration-b_84_);fill:none;stroke:#FFFFFF;}
+	.st171{filter:url(#Adobe_OpacityMaskFilter_84_);}
+	.st172{mask:url(#main-illustration-b_85_);fill:none;stroke:#FFFFFF;}
+	.st173{filter:url(#Adobe_OpacityMaskFilter_85_);}
+	.st174{mask:url(#main-illustration-b_86_);fill:none;stroke:#FFFFFF;}
+	.st175{filter:url(#Adobe_OpacityMaskFilter_86_);}
+	.st176{mask:url(#main-illustration-b_87_);fill:none;stroke:#FFFFFF;}
+	.st177{filter:url(#Adobe_OpacityMaskFilter_87_);}
+	.st178{mask:url(#main-illustration-b_88_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st179{filter:url(#Adobe_OpacityMaskFilter_88_);}
+	.st180{mask:url(#main-illustration-b_89_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st181{filter:url(#Adobe_OpacityMaskFilter_89_);}
+	.st182{mask:url(#main-illustration-b_90_);fill:none;stroke:#FFFFFF;}
+	.st183{filter:url(#Adobe_OpacityMaskFilter_90_);}
+	.st184{mask:url(#main-illustration-b_91_);fill:none;stroke:#FFFFFF;}
+	.st185{filter:url(#Adobe_OpacityMaskFilter_91_);}
+	.st186{mask:url(#main-illustration-b_92_);fill:none;stroke:#FFFFFF;}
+	.st187{filter:url(#Adobe_OpacityMaskFilter_92_);}
+	.st188{mask:url(#main-illustration-b_93_);fill:none;stroke:#FFFFFF;}
+	.st189{filter:url(#Adobe_OpacityMaskFilter_93_);}
+	.st190{mask:url(#main-illustration-b_94_);fill:none;stroke:#FFFFFF;}
+	.st191{filter:url(#Adobe_OpacityMaskFilter_94_);}
+	.st192{mask:url(#main-illustration-b_95_);fill:none;stroke:#FFFFFF;}
+	.st193{filter:url(#Adobe_OpacityMaskFilter_95_);}
+	.st194{mask:url(#main-illustration-b_96_);fill:none;stroke:#FFFFFF;}
+	.st195{filter:url(#Adobe_OpacityMaskFilter_96_);}
+	.st196{mask:url(#main-illustration-b_97_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st197{filter:url(#Adobe_OpacityMaskFilter_97_);}
+	.st198{mask:url(#main-illustration-b_98_);fill:none;stroke:#FFFFFF;stroke-width:1.5;stroke-linecap:round;}
+	.st199{filter:url(#Adobe_OpacityMaskFilter_98_);}
+	.st200{mask:url(#main-illustration-b_99_);fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linecap:round;}
+	.st201{filter:url(#Adobe_OpacityMaskFilter_99_);}
+	.st202{mask:url(#main-illustration-b_100_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st203{filter:url(#Adobe_OpacityMaskFilter_100_);}
+	.st204{mask:url(#main-illustration-b_101_);fill:none;stroke:#FFFFFF;}
+	.st205{filter:url(#Adobe_OpacityMaskFilter_101_);}
+	.st206{mask:url(#main-illustration-b_102_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st207{filter:url(#Adobe_OpacityMaskFilter_102_);}
+	.st208{mask:url(#main-illustration-b_103_);fill:none;stroke:#FFFFFF;stroke-width:1.5;stroke-linecap:round;}
+	.st209{filter:url(#Adobe_OpacityMaskFilter_103_);}
+	.st210{mask:url(#main-illustration-b_104_);fill:#FFFFFF;}
+	.st211{filter:url(#Adobe_OpacityMaskFilter_104_);}
+	.st212{mask:url(#main-illustration-b_105_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st213{filter:url(#Adobe_OpacityMaskFilter_105_);}
+	.st214{mask:url(#main-illustration-b_106_);fill:none;stroke:#FFFFFF;stroke-width:1.5;stroke-linecap:round;}
+	.st215{filter:url(#Adobe_OpacityMaskFilter_106_);}
+	.st216{mask:url(#main-illustration-b_107_);fill:none;stroke:#FFFFFF;stroke-linecap:round;}
+	.st217{filter:url(#Adobe_OpacityMaskFilter_107_);}
+	.st218{mask:url(#main-illustration-b_108_);fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linecap:round;}
+	.st219{filter:url(#Adobe_OpacityMaskFilter_108_);}
+	.st220{mask:url(#main-illustration-b_109_);fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linecap:round;}
+	.st221{filter:url(#Adobe_OpacityMaskFilter_109_);}
+	.st222{mask:url(#main-illustration-b_110_);fill:none;stroke:#FFFFFF;stroke-width:1.5;stroke-linecap:round;}
+	.st223{filter:url(#Adobe_OpacityMaskFilter_110_);}
+	.st224{mask:url(#main-illustration-b_111_);fill:none;stroke:#FFFFFF;stroke-linecap:round;}
+	.st225{filter:url(#Adobe_OpacityMaskFilter_111_);}
+	.st226{mask:url(#main-illustration-b_112_);fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linecap:round;}
+	.st227{filter:url(#Adobe_OpacityMaskFilter_112_);}
+	.st228{mask:url(#main-illustration-b_113_);fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linecap:round;}
+	.st229{filter:url(#Adobe_OpacityMaskFilter_113_);}
+	.st230{mask:url(#main-illustration-b_114_);fill:none;stroke:#FFFFFF;}
+	.st231{filter:url(#Adobe_OpacityMaskFilter_114_);}
+	.st232{mask:url(#main-illustration-b_115_);fill:none;stroke:#FFFFFF;stroke-width:2;}
+</style>
+<g>
+	<path class="st0" d="M98.5,211v10"/>
+	<polygon class="st0" points="115.5,285.5 142.5,285.5 142.5,247.5 115.5,247.5 	"/>
+	<path class="st0" d="M143.5,361.5h-28V321c0-7.5,6-13.5,13.5-13.5h1c7.5,0,13.5,6,13.5,13.5V361.5z"/>
+	<path class="st1" d="M39.9,308.6c0-4.9,4-8.9,8.9-8.9c4.9,0,8.9,4,8.9,8.9 M36.3,308.6h24.3"/>
+	<polyline class="st1" points="41.7,308.6 43.5,326.7 54.3,326.7 56.1,308.6 	"/>
+	<path class="st1" d="M48.9,326.7v37.9"/>
+	<polyline class="st1" points="43.5,394.3 47.1,364.5 50.7,364.5 54.3,394.3 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="196" y="389" width="51" height="5">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="196" y="389" width="51" height="5" id="main-illustration-b_1_">
+		<g class="st2">
+			<polygon id="main-illustration-a_1_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polygon class="st4" points="196.5,393.5 246.5,393.5 246.5,389.5 196.5,389.5 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_1_" filterUnits="userSpaceOnUse" x="115.5" y="307.5" width="28" height="54">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="115.5" y="307.5" width="28" height="54" id="main-illustration-b_2_">
+		<g class="st5">
+			<polygon id="main-illustration-a_2_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st6" d="M129.5,307.5v54 M115.5,327.4h28"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_2_" filterUnits="userSpaceOnUse" x="89" y="203" width="172" height="9">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="89" y="203" width="172" height="9" id="main-illustration-b_3_">
+		<g class="st7">
+			<polygon id="main-illustration-a_3_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polygon class="st8" points="90,211 260,211 260,204 90,204 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_3_" filterUnits="userSpaceOnUse" x="113" y="285" width="32" height="5">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="113" y="285" width="32" height="5" id="main-illustration-b_4_">
+		<g class="st9">
+			<polygon id="main-illustration-a_4_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polygon class="st10" points="113.5,289.5 144.5,289.5 144.5,285.5 113.5,285.5 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_4_" filterUnits="userSpaceOnUse" x="729" y="370" width="18" height="24">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="729" y="370" width="18" height="24" id="main-illustration-b_5_">
+		<g class="st11">
+			<polygon id="main-illustration-a_5_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st12" d="M729.5,393.9v-16c0-1.7,3-7,3-7s3,5.3,3,7v16 M740.5,393.9v-16c0-1.7,3-7,3-7s3,5.3,3,7v16"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_5_" filterUnits="userSpaceOnUse" x="701" y="262" width="85" height="107">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="701" y="262" width="85" height="107" id="main-illustration-b_6_">
+		<g class="st13">
+			<polygon id="main-illustration-a_6_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st14" d="M786,269h-81c-1.7,0-3-1.4-3-3s1.3-3,3-3h81 M732,269v100 M715,269l16.4,16.4"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_6_" filterUnits="userSpaceOnUse" x="776" y="276" width="122" height="93">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="776" y="276" width="122" height="93" id="main-illustration-b_7_">
+		<g class="st15">
+			<polygon id="main-illustration-a_7_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polyline class="st16" points="777,369 777,277 897,277 897,369 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_7_" filterUnits="userSpaceOnUse" x="829" y="295.5" width="51" height="54">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="829" y="295.5" width="51" height="54" id="main-illustration-b_8_">
+		<g class="st17">
+			<polygon id="main-illustration-a_8_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st18" d="M829.5,296v21 M854.5,312v21 M879.5,328v21"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_8_" filterUnits="userSpaceOnUse" x="785" y="201" width="83" height="76">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="785" y="201" width="83" height="76" id="main-illustration-b_9_">
+		<g class="st19">
+			<polygon id="main-illustration-a_9_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polyline class="st20" points="786,277 786,202 867,202 867,277 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_9_" filterUnits="userSpaceOnUse" x="744" y="316.3" width="135" height="77.7">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="744" y="316.3" width="135" height="77.7" id="main-illustration-b_10_">
+		<g class="st21">
+			<polygon id="main-illustration-a_10_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st22" d="M751.5,393.9v-16c0-1.7,3-7,3-7s3,5.3,3,7v16 M762.5,393.9v-16c0-1.7,3-7,3-7s3,5.3,3,7v16 M773.5,393.9v-16
+		c0-1.7,3-7,3-7s3,5.3,3,7v16 M784.5,393.9v-16c0-1.7,3-7,3-7s3,5.3,3,7v16 M795.5,393.9v-16c0-1.7,3-7,3-7s3,5.3,3,7v16
+		 M806.5,393.9v-16c0-1.7,3-7,3-7s3,5.3,3,7v16 M817.5,393.9v-16c0-1.7,3-7,3-7s3,5.3,3,7v16 M828.5,393.9v-16c0-1.7,3-7,3-7
+		s3,5.3,3,7v16 M839.5,393.9v-16c0-1.7,3-7,3-7s3,5.3,3,7v16 M850.5,393.9v-16c0-1.7,3-7,3-7s3,5.3,3,7v16 M861.5,393.9v-16
+		c0-1.7,3-7,3-7s3,5.3,3,7v16 M872.5,393.9v-16c0-1.7,3-7,3-7s3,5.3,3,7v16 M765.5,369v-36c0-6.1-10.5-16-10.5-16s-10.5,9.9-10.5,16
+		v36"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_10_" filterUnits="userSpaceOnUse" x="704" y="241" width="43" height="22">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="704" y="241" width="43" height="22" id="main-illustration-b_11_">
+		<g class="st23">
+			<polygon id="main-illustration-a_11_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polyline class="st24" points="705,263 705,242 747,242 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_11_" filterUnits="userSpaceOnUse" x="711" y="210.3" width="421" height="183.7">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="711" y="210.3" width="421" height="183.7" id="main-illustration-b_12_">
+		<g class="st25">
+			<polygon id="main-illustration-a_12_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st26" d="M768.5,263v-36c0-6.1-10.5-16-10.5-16s-10.5,9.9-10.5,16v36 M838,368.5c0-10.2-8.3-18.5-18.5-18.5
+		s-18.5,8.3-18.5,18.5 M883.5,393.9v-16c0-1.7,3-7,3-7s3,5.3,3,7v16 M894.5,393.9v-16c0-1.7,3-7,3-7s3,5.3,3,7v16 M905.5,393.9v-16
+		c0-1.7,3-7,3-7s3,5.3,3,7v16 M916.5,393.9v-16c0-1.7,3-7,3-7s3,5.3,3,7v16 M927.5,393.9v-16c0-1.7,3-7,3-7s3,5.3,3,7v16
+		 M938.5,393.9v-16c0-1.7,3-7,3-7s3,5.3,3,7v16 M949.5,393.9v-16c0-1.7,3-7,3-7s3,5.3,3,7v16 M960.5,393.9v-16c0-1.7,3-7,3-7
+		s3,5.3,3,7v16 M971.5,393.9v-16c0-1.7,3-7,3-7s3,5.3,3,7v16 M982.5,393.9v-16c0-1.7,3-7,3-7s3,5.3,3,7v16 M993.5,393.9v-16
+		c0-1.7,3-7,3-7s3,5.3,3,7v16 M1004.5,393.9v-16c0-1.7,3-7,3-7s3,5.3,3,7v16 M1015.5,393.9v-16c0-1.7,3-7,3-7s3,5.3,3,7v16
+		 M1026.5,393.9v-16c0-1.7,3-7,3-7s3,5.3,3,7v16 M1037.5,393.9v-16c0-1.7,3-7,3-7s3,5.3,3,7v16 M1048.5,393.9v-16c0-1.7,3-7,3-7
+		s3,5.3,3,7v16 M1059.5,393.9v-16c0-1.7,3-7,3-7s3,5.3,3,7v16 M1070.5,393.9v-16c0-1.7,3-7,3-7s3,5.3,3,7v16 M1081.5,393.9v-16
+		c0-1.7,3-7,3-7s3,5.3,3,7v16 M1092.5,393.9v-16c0-1.7,3-7,3-7s3,5.3,3,7v16 M1103.5,393.9v-16c0-1.7,3-7,3-7s3,5.3,3,7v16
+		 M1114.5,393.9v-16c0-1.7,3-7,3-7s3,5.3,3,7v16 M1125.5,393.9v-16c0-1.7,3-7,3-7s3,5.3,3,7v16 M711.5,242v21 M717.5,242v21
+		 M723.5,242v21 M729.5,242v21 M735.5,242v21 M741.5,242v21 M774.5,242v21 M780.5,242v21 M873.5,242v21 M879.5,242v21 M885.5,242v21
+		 M891.5,242v21 M822.5,256v-25.6c0-4.3-7.5-11.4-7.5-11.4s-7.5,7.1-7.5,11.4V256H822.5z M846.5,256v-25.6c0-4.3-7.5-11.4-7.5-11.4
+		s-7.5,7.1-7.5,11.4V256H846.5z M1081.5,369v-36c0-6.1-10.5-16-10.5-16s-10.5,9.9-10.5,16v36"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_12_" filterUnits="userSpaceOnUse" x="913.8" y="178" width="15.4" height="38">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="913.8" y="178" width="15.4" height="38" id="main-illustration-b_13_">
+		<g class="st27">
+			<polygon id="main-illustration-a_13_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polygon class="st28" points="915,215 921,179 922,179 928,215 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_13_" filterUnits="userSpaceOnUse" x="915" y="214" width="13" height="49">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="915" y="214" width="13" height="49" id="main-illustration-b_14_">
+		<g class="st29">
+			<polygon id="main-illustration-a_14_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polyline class="st30" points="916,263 916,215 927,215 927,263 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_14_" filterUnits="userSpaceOnUse" x="1003.8" y="178" width="15.4" height="38">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="1003.8" y="178" width="15.4" height="38" id="main-illustration-b_15_">
+		<g class="st31">
+			<polygon id="main-illustration-a_15_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polygon class="st32" points="1005,215 1011,179 1012,179 1018,215 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_15_" filterUnits="userSpaceOnUse" x="1005" y="214" width="13" height="49">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="1005" y="214" width="13" height="49" id="main-illustration-b_16_">
+		<g class="st33">
+			<polygon id="main-illustration-a_16_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polyline class="st34" points="1006,263 1006,215 1017,215 1017,263 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_16_" filterUnits="userSpaceOnUse" x="896" y="237" width="20" height="26">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="896" y="237" width="20" height="26" id="main-illustration-b_17_">
+		<g class="st35">
+			<polygon id="main-illustration-a_17_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polyline class="st36" points="897,263 897,238 916,238 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_17_" filterUnits="userSpaceOnUse" x="927" y="237" width="20" height="26">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="927" y="237" width="20" height="26" id="main-illustration-b_18_">
+		<g class="st37">
+			<polygon id="main-illustration-a_18_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polyline class="st38" points="927,238 946,238 946,263 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_18_" filterUnits="userSpaceOnUse" x="956" y="237" width="21" height="26">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="956" y="237" width="21" height="26" id="main-illustration-b_19_">
+		<g class="st39">
+			<polygon id="main-illustration-a_19_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polyline class="st40" points="957,263 957,238 976,238 976,263 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_19_" filterUnits="userSpaceOnUse" x="986" y="237" width="20" height="26">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="986" y="237" width="20" height="26" id="main-illustration-b_20_">
+		<g class="st41">
+			<polygon id="main-illustration-a_20_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polyline class="st42" points="987,263 987,238 1006,238 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_20_" filterUnits="userSpaceOnUse" x="897" y="237" width="140" height="27">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="897" y="237" width="140" height="27" id="main-illustration-b_21_">
+		<g class="st43">
+			<polygon id="main-illustration-a_21_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polyline class="st44" points="897,263 1030,263 1036,263 1036,238 1017,238 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_21_" filterUnits="userSpaceOnUse" x="722.5" y="112" width="109" height="41">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="722.5" y="112" width="109" height="41" id="main-illustration-b_22_">
+		<g class="st45">
+			<polygon id="main-illustration-a_22_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st46" d="M828,152.5H726c-1.7,0-3-1.4-3-3s1.3-3,3-3h102c1.7,0,3,1.4,3,3S829.7,152.5,828,152.5z M828,118.5H726
+		c-1.7,0-3-1.3-3-3s1.3-3,3-3h102c1.7,0,3,1.3,3,3S829.7,118.5,828,118.5z"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_22_" filterUnits="userSpaceOnUse" x="728.3" y="151.9" width="98.7" height="25.1">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="728.3" y="151.9" width="98.7" height="25.1" id="main-illustration-b_23_">
+		<g class="st47">
+			<polygon id="main-illustration-a_23_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polyline class="st48" points="729.2,152 732,176 823.2,176 826,152 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_23_" filterUnits="userSpaceOnUse" x="731" y="176" width="93" height="66">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="731" y="176" width="93" height="66" id="main-illustration-b_24_">
+		<g class="st49">
+			<polygon id="main-illustration-a_24_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st50" d="M732,176v66 M823,176v4"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_24_" filterUnits="userSpaceOnUse" x="955" y="302.3" width="22" height="53.2">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="955" y="302.3" width="22" height="53.2" id="main-illustration-b_25_">
+		<g class="st51">
+			<polygon id="main-illustration-a_25_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st52" d="M976.5,355v-36c0-6.1-10.5-16-10.5-16s-10.5,9.9-10.5,16v36H976.5z"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_25_" filterUnits="userSpaceOnUse" x="867" y="241" width="30" height="29">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="867" y="241" width="30" height="29" id="main-illustration-b_26_">
+		<g class="st53">
+			<polygon id="main-illustration-a_26_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st54" d="M867,242h30 M867,263h30 M867,269h30"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_26_" filterUnits="userSpaceOnUse" x="728" y="87" width="14" height="13">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="728" y="87" width="14" height="13" id="main-illustration-b_27_">
+		<g class="st55">
+			<polygon id="main-illustration-a_27_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polyline class="st56" points="729,100 729,88 741,88 741,100 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_27_" filterUnits="userSpaceOnUse" x="749" y="87" width="14" height="13">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="749" y="87" width="14" height="13" id="main-illustration-b_28_">
+		<g class="st57">
+			<polygon id="main-illustration-a_28_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polyline class="st58" points="750,100 750,88 762,88 762,100 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_28_" filterUnits="userSpaceOnUse" x="770" y="87" width="14" height="13">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="770" y="87" width="14" height="13" id="main-illustration-b_29_">
+		<g class="st59">
+			<polygon id="main-illustration-a_29_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polyline class="st60" points="771,100 771,88 783,88 783,100 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_29_" filterUnits="userSpaceOnUse" x="791" y="87" width="14" height="13">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="791" y="87" width="14" height="13" id="main-illustration-b_30_">
+		<g class="st61">
+			<polygon id="main-illustration-a_30_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polyline class="st62" points="792,100 792,88 804,88 804,100 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_30_" filterUnits="userSpaceOnUse" x="812" y="87" width="14" height="13">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="812" y="87" width="14" height="13" id="main-illustration-b_31_">
+		<g class="st63">
+			<polygon id="main-illustration-a_31_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polyline class="st64" points="813,100 813,88 825,88 825,100 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_31_" filterUnits="userSpaceOnUse" x="728" y="99" width="98" height="13">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="728" y="99" width="98" height="13" id="main-illustration-b_32_">
+		<g class="st65">
+			<polygon id="main-illustration-a_32_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polyline class="st66" points="729,112 729,100 825,100 825,112 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_32_" filterUnits="userSpaceOnUse" x="731.7" y="28" width="21.5" height="38">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="731.7" y="28" width="21.5" height="38" id="main-illustration-b_33_">
+		<g class="st67">
+			<polygon id="main-illustration-a_33_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polygon class="st68" points="733,65 742,29 744,29 752,65 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_33_" filterUnits="userSpaceOnUse" x="734" y="64" width="17" height="24">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="734" y="64" width="17" height="24" id="main-illustration-b_34_">
+		<g class="st69">
+			<polygon id="main-illustration-a_34_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polyline class="st70" points="735,88 735,65 750,65 750,88 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_34_" filterUnits="userSpaceOnUse" x="1031" y="301" width="81" height="68">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="1031" y="301" width="81" height="68" id="main-illustration-b_35_">
+		<g class="st71">
+			<polygon id="main-illustration-a_35_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polyline class="st72" points="1031,302 1111,302 1111,369 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_35_" filterUnits="userSpaceOnUse" x="1094" y="284" width="18" height="18">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="1094" y="284" width="18" height="18" id="main-illustration-b_36_">
+		<g class="st73">
+			<polygon id="main-illustration-a_36_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polyline class="st74" points="1095,302 1095,285 1111,285 1111,302 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_36_" filterUnits="userSpaceOnUse" x="1072" y="284" width="18" height="18">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="1072" y="284" width="18" height="18" id="main-illustration-b_37_">
+		<g class="st75">
+			<polygon id="main-illustration-a_37_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polyline class="st76" points="1073,302 1073,285 1089,285 1089,302 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_37_" filterUnits="userSpaceOnUse" x="1050" y="284" width="18" height="18">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="1050" y="284" width="18" height="18" id="main-illustration-b_38_">
+		<g class="st77">
+			<polygon id="main-illustration-a_38_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polyline class="st78" points="1051,302 1051,285 1067,285 1067,302 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_38_" filterUnits="userSpaceOnUse" x="1031" y="284" width="15" height="18">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="1031" y="284" width="15" height="18" id="main-illustration-b_39_">
+		<g class="st79">
+			<polygon id="main-illustration-a_39_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polyline class="st80" points="1031,285 1045,285 1045,302 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_39_" filterUnits="userSpaceOnUse" x="738" y="0" width="10" height="30">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="738" y="0" width="10" height="30" id="main-illustration-b_40_">
+		<g class="st81">
+			<polygon id="main-illustration-a_40_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st82" d="M743,0v21 M747,25c0,2.2-1.8,4-4,4s-4-1.8-4-4s1.8-4,4-4S747,22.8,747,25z"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_40_" filterUnits="userSpaceOnUse" x="800.7" y="28" width="21.5" height="38">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="800.7" y="28" width="21.5" height="38" id="main-illustration-b_41_">
+		<g class="st83">
+			<polygon id="main-illustration-a_41_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polygon class="st84" points="802,65 811,29 813,29 821,65 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_41_" filterUnits="userSpaceOnUse" x="803" y="64" width="17" height="24">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="803" y="64" width="17" height="24" id="main-illustration-b_42_">
+		<g class="st85">
+			<polygon id="main-illustration-a_42_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polyline class="st86" points="804,88 804,65 819,65 819,88 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_42_" filterUnits="userSpaceOnUse" x="807" y="0" width="10" height="30">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="807" y="0" width="10" height="30" id="main-illustration-b_43_">
+		<g class="st87">
+			<polygon id="main-illustration-a_43_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st88" d="M812,0v21 M816,25c0,2.2-1.8,4-4,4s-4-1.8-4-4s1.8-4,4-4S816,22.8,816,25z"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_43_" filterUnits="userSpaceOnUse" x="779" y="180" width="95" height="23">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="779" y="180" width="95" height="23" id="main-illustration-b_44_">
+		<g class="st89">
+			<polygon id="main-illustration-a_44_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polyline class="st90" points="786,202 780,202 780,181 792,181 792,190 798,190 798,181 807,181 807,190 814,190 814,181 823,181 
+		823,190 830,190 830,181 839,181 839,190 846,190 846,181 855,181 855,190 861,190 861,181 873,181 873,202 867,202 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_44_" filterUnits="userSpaceOnUse" x="508" y="368" width="630" height="27">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="508" y="368" width="630" height="27" id="main-illustration-b_45_">
+		<g class="st91">
+			<polygon id="main-illustration-a_45_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polyline class="st92" points="508,394 640,394 702,394 1137,394 1137,369 715,369 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_45_" filterUnits="userSpaceOnUse" x="525" y="346.5" width="57" height="48">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="525" y="346.5" width="57" height="48" id="main-illustration-b_46_">
+		<g class="st93">
+			<polygon id="main-illustration-a_46_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st94" d="M581.5,346.5v48 M525.5,369.5v-23"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_46_" filterUnits="userSpaceOnUse" x="525" y="271" width="21" height="35">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="525" y="271" width="21" height="35" id="main-illustration-b_47_">
+		<g class="st95">
+			<polygon id="main-illustration-a_47_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polygon class="st96" points="525.5,305.5 545.5,305.5 545.5,271.5 525.5,271.5 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_47_" filterUnits="userSpaceOnUse" x="597" y="341" width="23" height="54">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="597" y="341" width="23" height="54" id="main-illustration-b_48_">
+		<g class="st97">
+			<polygon id="main-illustration-a_48_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polygon class="st98" points="597.5,394.5 619.5,394.5 619.5,341.5 597.5,341.5 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_48_" filterUnits="userSpaceOnUse" x="501" y="318" width="143" height="10">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="501" y="318" width="143" height="10" id="main-illustration-b_49_">
+		<g class="st99">
+			<polygon id="main-illustration-a_49_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polygon class="st100" points="501.5,327.5 643.5,327.5 643.5,318.5 501.5,318.5 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_49_" filterUnits="userSpaceOnUse" x="525.5" y="271" width="20" height="34.5">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="525.5" y="271" width="20" height="34.5" id="main-illustration-b_50_">
+		<g class="st101">
+			<polygon id="main-illustration-a_50_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st102" d="M535.5,271v34.5 M545.5,288.5h-20"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_50_" filterUnits="userSpaceOnUse" x="599" y="271" width="21" height="35">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="599" y="271" width="21" height="35" id="main-illustration-b_51_">
+		<g class="st103">
+			<polygon id="main-illustration-a_51_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polygon class="st104" points="599.5,305.5 619.5,305.5 619.5,271.5 599.5,271.5 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_51_" filterUnits="userSpaceOnUse" x="599.5" y="271" width="20" height="34.5">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="599.5" y="271" width="20" height="34.5" id="main-illustration-b_52_">
+		<g class="st105">
+			<polygon id="main-illustration-a_52_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st106" d="M609.5,271v34.5 M619.5,288.5h-20"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_52_" filterUnits="userSpaceOnUse" x="562" y="271" width="21" height="35">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="562" y="271" width="21" height="35" id="main-illustration-b_53_">
+		<g class="st107">
+			<polygon id="main-illustration-a_53_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polygon class="st108" points="562.5,305.5 582.5,305.5 582.5,271.5 562.5,271.5 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_53_" filterUnits="userSpaceOnUse" x="562.5" y="271" width="20" height="34.5">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="562.5" y="271" width="20" height="34.5" id="main-illustration-b_54_">
+		<g class="st109">
+			<polygon id="main-illustration-a_54_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st110" d="M572.5,271v34.5 M582.5,288.5h-20"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_54_" filterUnits="userSpaceOnUse" x="525" y="224" width="21" height="35">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="525" y="224" width="21" height="35" id="main-illustration-b_55_">
+		<g class="st111">
+			<polygon id="main-illustration-a_55_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polygon class="st112" points="525.5,258.5 545.5,258.5 545.5,224.5 525.5,224.5 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_55_" filterUnits="userSpaceOnUse" x="525.5" y="224" width="20" height="34.5">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="525.5" y="224" width="20" height="34.5" id="main-illustration-b_56_">
+		<g class="st113">
+			<polygon id="main-illustration-a_56_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st114" d="M535.5,224v34.5 M545.5,241.5h-20"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_56_" filterUnits="userSpaceOnUse" x="599" y="224" width="21" height="35">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="599" y="224" width="21" height="35" id="main-illustration-b_57_">
+		<g class="st115">
+			<polygon id="main-illustration-a_57_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polygon class="st116" points="599.5,258.5 619.5,258.5 619.5,224.5 599.5,224.5 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_57_" filterUnits="userSpaceOnUse" x="599.5" y="224" width="20" height="34.5">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="599.5" y="224" width="20" height="34.5" id="main-illustration-b_58_">
+		<g class="st117">
+			<polygon id="main-illustration-a_58_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st118" d="M609.5,224v34.5 M619.5,241.5h-20"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_58_" filterUnits="userSpaceOnUse" x="562" y="224" width="21" height="35">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="562" y="224" width="21" height="35" id="main-illustration-b_59_">
+		<g class="st119">
+			<polygon id="main-illustration-a_59_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polygon class="st120" points="562.5,258.5 582.5,258.5 582.5,224.5 562.5,224.5 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_59_" filterUnits="userSpaceOnUse" x="562.5" y="224" width="20" height="34.5">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="562.5" y="224" width="20" height="34.5" id="main-illustration-b_60_">
+		<g class="st121">
+			<polygon id="main-illustration-a_60_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st122" d="M572.5,224v34.5 M582.5,241.5h-20"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_60_" filterUnits="userSpaceOnUse" x="504" y="206" width="137" height="112">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="504" y="206" width="137" height="112" id="main-illustration-b_61_">
+		<g class="st123">
+			<polygon id="main-illustration-a_61_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st124" d="M505,318V206 M640,206v112"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_61_" filterUnits="userSpaceOnUse" x="505" y="211" width="134" height="1">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="505" y="211" width="134" height="1" id="main-illustration-b_62_">
+		<g class="st125">
+			<polygon id="main-illustration-a_62_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st126" d="M505,211.5h134"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_62_" filterUnits="userSpaceOnUse" x="501" y="197" width="143" height="10">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="501" y="197" width="143" height="10" id="main-illustration-b_63_">
+		<g class="st127">
+			<polygon id="main-illustration-a_63_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polygon class="st128" points="501.5,206.5 643.5,206.5 643.5,197.5 501.5,197.5 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_63_" filterUnits="userSpaceOnUse" x="504" y="137" width="13" height="60">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="504" y="137" width="13" height="60" id="main-illustration-b_64_">
+		<g class="st129">
+			<polygon id="main-illustration-a_64_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polygon class="st130" points="505,196 516,196 516,138 505,138 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_64_" filterUnits="userSpaceOnUse" x="505" y="188" width="11" height="1">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="505" y="188" width="11" height="1" id="main-illustration-b_65_">
+		<g class="st131">
+			<polygon id="main-illustration-a_65_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st132" d="M505,188.5h11"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_65_" filterUnits="userSpaceOnUse" x="628" y="137" width="13" height="60">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="628" y="137" width="13" height="60" id="main-illustration-b_66_">
+		<g class="st133">
+			<polygon id="main-illustration-a_66_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polygon class="st134" points="629,196 640,196 640,138 629,138 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_66_" filterUnits="userSpaceOnUse" x="629" y="188" width="11" height="1">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="629" y="188" width="11" height="1" id="main-illustration-b_67_">
+		<g class="st135">
+			<polygon id="main-illustration-a_67_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st136" d="M629,188.5h11"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_67_" filterUnits="userSpaceOnUse" x="601" y="345" width="13" height="21">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="601" y="345" width="13" height="21" id="main-illustration-b_68_">
+		<g class="st137">
+			<polygon id="main-illustration-a_68_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polygon class="st138" points="601.5,365.5 613.5,365.5 613.5,345.5 601.5,345.5 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_68_" filterUnits="userSpaceOnUse" x="527" y="148" width="92" height="49">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="527" y="148" width="92" height="49" id="main-illustration-b_69_">
+		<g class="st139">
+			<polygon id="main-illustration-a_69_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st140" d="M527.5,148v49 M540.5,148v49 M553.5,148v33 M566.5,148v28 M579.5,148v30 M592.5,148v36 M605.5,148v49
+		 M618.5,148v49"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_69_" filterUnits="userSpaceOnUse" x="539" y="172.7" width="63" height="24.3">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="539" y="172.7" width="63" height="24.3" id="main-illustration-b_70_">
+		<g class="st141">
+			<polygon id="main-illustration-a_70_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polyline class="st142" points="540,197 540,186.4 571.3,173.8 601,187.3 601,197 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_70_" filterUnits="userSpaceOnUse" x="563.6" y="180.4" width="13.6" height="13.6">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="563.6" y="180.4" width="13.6" height="13.6" id="main-illustration-b_71_">
+		<g class="st143">
+			<polygon id="main-illustration-a_71_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st144" d="M574.8,182.7c2.5,2.5,2.5,6.4,0,8.9c-2.5,2.5-6.4,2.5-8.9,0c-2.5-2.5-2.5-6.4,0-8.9
+		C568.4,180.3,572.4,180.3,574.8,182.7z"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_71_" filterUnits="userSpaceOnUse" x="601" y="369" width="13" height="21">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="601" y="369" width="13" height="21" id="main-illustration-b_72_">
+		<g class="st145">
+			<polygon id="main-illustration-a_72_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polygon class="st146" points="601.5,389.5 613.5,389.5 613.5,369.5 601.5,369.5 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_72_" filterUnits="userSpaceOnUse" x="615" y="366" width="3" height="3">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="615" y="366" width="3" height="3" id="main-illustration-b_73_">
+		<g class="st147">
+			<polygon id="main-illustration-a_73_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st148" d="M617.5,367.5c0,0.6-0.4,1-1,1s-1-0.4-1-1s0.4-1,1-1S617.5,366.9,617.5,367.5z"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_73_" filterUnits="userSpaceOnUse" x="532" y="359" width="43" height="34.5">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="532" y="359" width="43" height="34.5" id="main-illustration-b_74_">
+		<g class="st149">
+			<polygon id="main-illustration-a_74_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polyline class="st150" points="532.5,377.8 532.5,359.5 574.5,359.5 574.5,393.5 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_74_" filterUnits="userSpaceOnUse" x="522" y="341" width="63" height="6">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="522" y="341" width="63" height="6" id="main-illustration-b_75_">
+		<g class="st151">
+			<polygon id="main-illustration-a_75_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polygon class="st152" points="522.5,346.5 584.5,346.5 584.5,341.5 522.5,341.5 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_75_" filterUnits="userSpaceOnUse" x="548" y="375" width="11" height="3">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="548" y="375" width="11" height="3" id="main-illustration-b_76_">
+		<g class="st153">
+			<polygon id="main-illustration-a_76_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st154" d="M550.5,376.5c0,0.6-0.4,1-1,1s-1-0.4-1-1s0.4-1,1-1S550.5,375.9,550.5,376.5z M558.5,376.5c0,0.6-0.4,1-1,1
+		s-1-0.4-1-1s0.4-1,1-1S558.5,375.9,558.5,376.5z"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_76_" filterUnits="userSpaceOnUse" x="532" y="350" width="43" height="6">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="532" y="350" width="43" height="6" id="main-illustration-b_77_">
+		<g class="st155">
+			<polygon id="main-illustration-a_77_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polygon class="st156" points="532.5,355.5 574.5,355.5 574.5,350.5 532.5,350.5 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_77_" filterUnits="userSpaceOnUse" x="0" y="315.8" width="377.9" height="79.2">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="0" y="315.8" width="377.9" height="79.2" id="main-illustration-b_78_">
+		<g class="st157">
+			<polygon id="main-illustration-a_78_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st158" d="M349.7,394H0 M377,342.3c-4-6.9-11.5-11.5-20-11.5c-1.2,0-2.4,0.1-3.6,0.3c-3.5-8.4-11.8-14.3-21.4-14.3
+		c-8.9,0-16.6,5-20.5,12.3l-0.2,0.3c-2.2-2.1-5.1-3.4-8.4-3.4c-4.3,0-8.1,2.3-10.2,5.7c-2.2-5.1-7.3-8.7-13.3-8.7
+		c-7.5,0-13.6,5.6-14.4,12.9c-1.3-0.6-2.6-0.9-4.1-0.9c-2,0-3.9,0.6-5.5,1.6"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_78_" filterUnits="userSpaceOnUse" x="375.6" y="339.5" width="159.4" height="54.1">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="375.6" y="339.5" width="159.4" height="54.1" id="main-illustration-b_79_">
+		<g class="st159">
+			<polygon id="main-illustration-a_79_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st160" d="M421.9,375.9c-0.8-5.1-5.4-8.9-10.9-8.9c-1.2,0-2.3,0.2-3.3,0.5c0.2-0.8,0.3-1.6,0.3-2.5
+		c0-5.5-4.7-10-10.5-10c-0.3-8.1-6.9-14.5-15-14.5c-2.3,0-4.5,0.5-6.5,1.5 M532.7,393.2c0.9-2.2,1.3-4.6,1.3-7.2
+		c0-8.9-5.8-16.3-13.4-17.7c0.3-0.9,0.4-1.8,0.4-2.8c0-2.6-1-5-2.7-6.8"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_79_" filterUnits="userSpaceOnUse" x="410.4" y="345.8" width="313.6" height="49">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="410.4" y="345.8" width="313.6" height="49" id="main-illustration-b_80_">
+		<g class="st161">
+			<polygon id="main-illustration-a_80_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st162" d="M439.9,346.7c-4.6,1.7-7.9,6.1-7.9,11.3c0,0.1,0,0.3,0,0.4c-2-0.9-4.2-1.4-6.5-1.4c-6.8,0-12.6,4.3-14.1,10
+		 M721,393.7c1.3-2.6,2-5.6,2-8.7c0-9.2-6.1-17-14.7-19.8 M670.3,363.6c-1.4-0.4-2.8-0.6-4.3-0.6c-7.1,0-13,4.6-14.6,10.7
+		c-1.6-0.5-3.2-0.7-4.9-0.7c-9.1,0-16.5,6.9-16.5,15.5c0,2.1,0.4,4.1,1.2,5.9"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_80_" filterUnits="userSpaceOnUse" x="273" y="315" width="438.3" height="78">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="273" y="315" width="438.3" height="78" id="main-illustration-b_81_">
+		<g class="st163">
+			<polygon id="main-illustration-a_81_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st164" d="M702.5,337c0.8-1.8,1.2-3.9,1.2-6c0-8.3-6.7-15-15-15c-8.3,0-15,6.7-15,15c0,2.1,0.4,4.1,1.2,6
+		c-4.7,3.9-7.7,9.9-7.7,16.5c0,11.9,9.6,21.5,21.5,21.5c11.9,0,21.5-9.6,21.5-21.5C710.3,346.9,707.2,340.9,702.5,337z M273,385h67
+		 M281,385v8 M332,385v8"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_81_" filterUnits="userSpaceOnUse" x="276" y="375" width="61" height="7">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="276" y="375" width="61" height="7" id="main-illustration-b_82_">
+		<g class="st165">
+			<polygon id="main-illustration-a_82_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polygon class="st166" points="277,381 336,381 336,376 277,376 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_82_" filterUnits="userSpaceOnUse" x="276" y="367" width="61" height="7">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="276" y="367" width="61" height="7" id="main-illustration-b_83_">
+		<g class="st167">
+			<polygon id="main-illustration-a_83_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polygon class="st168" points="277,373 336,373 336,368 277,368 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_83_" filterUnits="userSpaceOnUse" x="208" y="337" width="27" height="49">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="208" y="337" width="27" height="49" id="main-illustration-b_84_">
+		<g class="st169">
+			<polygon id="main-illustration-a_84_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polygon class="st170" points="208.5,385.5 234.5,385.5 234.5,337.5 208.5,337.5 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_84_" filterUnits="userSpaceOnUse" x="214" y="343" width="6" height="23">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="214" y="343" width="6" height="23" id="main-illustration-b_85_">
+		<g class="st171">
+			<polygon id="main-illustration-a_85_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polygon class="st172" points="214.5,365.5 219.5,365.5 219.5,343.5 214.5,343.5 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_85_" filterUnits="userSpaceOnUse" x="202" y="385" width="39" height="5">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="202" y="385" width="39" height="5" id="main-illustration-b_86_">
+		<g class="st173">
+			<polygon id="main-illustration-a_86_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polygon class="st174" points="202.5,389.5 240.5,389.5 240.5,385.5 202.5,385.5 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_86_" filterUnits="userSpaceOnUse" x="214" y="369" width="15" height="12">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="214" y="369" width="15" height="12" id="main-illustration-b_87_">
+		<g class="st175">
+			<polygon id="main-illustration-a_87_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polygon class="st176" points="214.5,380.5 228.5,380.5 228.5,369.5 214.5,369.5 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_87_" filterUnits="userSpaceOnUse" x="89" y="221" width="172" height="9">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="89" y="221" width="172" height="9" id="main-illustration-b_88_">
+		<g class="st177">
+			<polygon id="main-illustration-a_88_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polygon class="st178" points="90,229 260,229 260,222 90,222 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_88_" filterUnits="userSpaceOnUse" x="94" y="228" width="162" height="167">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="94" y="228" width="162" height="167" id="main-illustration-b_89_">
+		<g class="st179">
+			<polygon id="main-illustration-a_89_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polygon class="st180" points="95,394 255,394 255,229 95,229 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_89_" filterUnits="userSpaceOnUse" x="117" y="211" width="134" height="11">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="117" y="211" width="134" height="11" id="main-illustration-b_90_">
+		<g class="st181">
+			<polygon id="main-illustration-a_90_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st182" d="M117.5,211v10 M136.5,212v10 M155.5,212v10 M174.5,211v10 M193.5,211v10 M212.5,212v10 M231.5,212v10
+		 M250.5,211v10"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_90_" filterUnits="userSpaceOnUse" x="223" y="343" width="6" height="23">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="223" y="343" width="6" height="23" id="main-illustration-b_91_">
+		<g class="st183">
+			<polygon id="main-illustration-a_91_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polygon class="st184" points="223.5,365.5 228.5,365.5 228.5,343.5 223.5,343.5 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_91_" filterUnits="userSpaceOnUse" x="160" y="247" width="28" height="39">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="160" y="247" width="28" height="39" id="main-illustration-b_92_">
+		<g class="st185">
+			<polygon id="main-illustration-a_92_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polygon class="st186" points="160.5,285.5 187.5,285.5 187.5,247.5 160.5,247.5 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_92_" filterUnits="userSpaceOnUse" x="158" y="285" width="32" height="5">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="158" y="285" width="32" height="5" id="main-illustration-b_93_">
+		<g class="st187">
+			<polygon id="main-illustration-a_93_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polygon class="st188" points="158.5,289.5 189.5,289.5 189.5,285.5 158.5,285.5 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_93_" filterUnits="userSpaceOnUse" x="205" y="247" width="28" height="39">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="205" y="247" width="28" height="39" id="main-illustration-b_94_">
+		<g class="st189">
+			<polygon id="main-illustration-a_94_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polygon class="st190" points="205.5,285.5 232.5,285.5 232.5,247.5 205.5,247.5 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_94_" filterUnits="userSpaceOnUse" x="203" y="285" width="32" height="5">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="203" y="285" width="32" height="5" id="main-illustration-b_95_">
+		<g class="st191">
+			<polygon id="main-illustration-a_95_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<polygon class="st192" points="203.5,289.5 234.5,289.5 234.5,285.5 203.5,285.5 	"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_95_" filterUnits="userSpaceOnUse" x="115.5" y="307" width="73.5" height="55">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="115.5" y="307" width="73.5" height="55" id="main-illustration-b_96_">
+		<g class="st193">
+			<polygon id="main-illustration-a_96_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st194" d="M115.5,344.4h28 M188.5,361.5h-28V321c0-7.5,6-13.5,13.5-13.5h1c7.5,0,13.5,6,13.5,13.5V361.5z M174.5,307.5
+		v54 M160.5,327.4h28 M160.5,344.4h28"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_96_" filterUnits="userSpaceOnUse" x="474.5" y="118" width="556.5" height="259.7">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="474.5" y="118" width="556.5" height="259.7" id="main-illustration-b_97_">
+		<g class="st195">
+			<polygon id="main-illustration-a_97_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st196" d="M729,146v-28 M825,118v28 M1030,369V263 M516,148h112 M476.7,342.9c3.9-6.8,11.2-11.4,19.6-11.4
+		c12.5,0,22.5,10.1,22.5,22.5c0,12.5-10.1,22.5-22.5,22.5c-9.4,0-17.5-5.8-20.9-14"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_97_" filterUnits="userSpaceOnUse" x="486.7" y="350.9" width="208.9" height="18.8">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="486.7" y="350.9" width="208.9" height="18.8" id="main-illustration-b_98_">
+		<g class="st197">
+			<polygon id="main-illustration-a_98_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st198" d="M501.9,356.6l-5.8,5.6 M487.5,360.4l8.8,8.6 M694.9,351.6l-5.8,5.6 M680.5,355.4l8.8,8.6"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_98_" filterUnits="userSpaceOnUse" x="495" y="346" width="195" height="49">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="495" y="346" width="195" height="49" id="main-illustration-b_99_">
+		<g class="st199">
+			<polygon id="main-illustration-a_99_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st200" d="M496,352.9V388 M689,347v47"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_99_" filterUnits="userSpaceOnUse" x="768.8" y="241" width="129.2" height="36">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="768.8" y="241" width="129.2" height="36" id="main-illustration-b_100_">
+		<g class="st201">
+			<polygon id="main-illustration-a_100_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st202" d="M768.8,242h18 M897,242v35"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_100_" filterUnits="userSpaceOnUse" x="123" y="247.5" width="91" height="38">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="123" y="247.5" width="91" height="38" id="main-illustration-b_101_">
+		<g class="st203">
+			<polygon id="main-illustration-a_101_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st204" d="M168.5,247.5v38 M213.5,247.5v38 M123.5,247.5v38"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_101_" filterUnits="userSpaceOnUse" x="438" y="284.3" width="41.7" height="87.7">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="438" y="284.3" width="41.7" height="87.7" id="main-illustration-b_102_">
+		<g class="st205">
+			<polygon id="main-illustration-a_102_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st206" d="M473,337.9c-1.5-1.7-1.6-4.5-0.3-6.2c0,0,3.3-4.4,3.3-9.5c0-6.4-5.9-12.1-5.9-12.1c-1.6-1.5-1.8-4.2-0.5-6
+		c0,0,1.8-2.5,1.8-6.2c0-7-5.7-12.6-12.6-12.6c-7,0-12.6,5.7-12.6,12.6c0,3.7,1.8,6.2,1.8,6.2c1.3,1.8,1.1,4.5-0.5,6
+		c0,0-5.9,5.7-5.9,12.1c0,5,3.3,9.5,3.3,9.5c1.3,1.8,1.2,4.6-0.3,6.2c0,0-5.7,6.5-5.7,13.2c0,11,8.9,19.8,19.8,19.8
+		c11,0,19.8-8.9,19.8-19.8C478.7,344.4,473,337.9,473,337.9z"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_102_" filterUnits="userSpaceOnUse" x="452.7" y="326" width="12.3" height="37.6">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="452.7" y="326" width="12.3" height="37.6" id="main-illustration-b_103_">
+		<g class="st207">
+			<polygon id="main-illustration-a_103_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st208" d="M458.9,362.8l5.4-5.4 M458.9,332.2l5.4-5.4 M458.9,348.4l-5.4-5.4"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_103_" filterUnits="userSpaceOnUse" x="459" y="319.2" width="0" height="57.9">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="459" y="319.2" width="0" height="57.9" id="main-illustration-b_104_">
+		<g class="st209">
+			<polygon id="main-illustration-a_104_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st210" d="M459,319.2V377"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_104_" filterUnits="userSpaceOnUse" x="332.9" y="374.4" width="256.1" height="82">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="332.9" y="374.4" width="256.1" height="82" id="main-illustration-b_105_">
+		<g class="st211">
+			<polygon id="main-illustration-a_105_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st212" d="M563,447c0-13.2-10.8-24-24-24s-24,10.8-24,24c0,0-0.2,3.9,0.9,8.4l-114.4-1.9c0.5-1.5,1-7,1-7
+		c0-12.9-10.6-23.5-23.5-23.5s-23.5,10.6-23.5,23.5l0.1,2.5l-3.3-0.4c-6.2-0.7-14.9-2.7-17.7-8.9c-1.5-3.5-0.2-7.7,0.6-11.2
+		c0.4-2,1-4.2,2.6-5.6c2.1-1.9,2.4-3.2,2.4-3.2l0.2-15.9c0,0-0.6-2.3,2.1-3.8c2.8-1.5,9.1-7.6,9.1-7.6s8.5-6.2,10-7
+		c0,0-2.3-2.3-0.6-4c0,0,0.4-0.6,5.6-1.4c0,0,52.9-5.3,73.9-4.5c0,0,26.2,1.2,39.8,6.7c13.6,5.5,23.6,9.1,43.7,20.2
+		c0,0,23.6,2.5,44.8,10.2c0,0,13,4.5,13.6,9.3c0,0,4.9,4.7,4.9,10.4c0,5.7-1.1,12.3-1.1,12.3s0,0.8,0.6,1.5c0.6,0.6,1.5,1.9,1.1,2.3
+		c-0.4,0.4-9.3,5.3-25.5,6.6L563,447z"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_105_" filterUnits="userSpaceOnUse" x="395.6" y="381.9" width="110.9" height="34.6">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="395.6" y="381.9" width="110.9" height="34.6" id="main-illustration-b_106_">
+		<g class="st213">
+			<polygon id="main-illustration-a_106_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st214" d="M448.2,383.2c0,0,18.9,0.9,30.8,6.4c0,0,14.2,6.2,19.5,9.1c0,0,5.7,2.5,6.4,3c0.6,0.4,0.8,0.8,0.8,2.1
+		c0,1.3-1.7,4.5-1.7,4.5s-0.6,1.3-2.3,1.3c-1.7,0-50.1-4-50.1-4L448.2,383.2z M466.9,415.8c-5.4-0.4-10.6-0.9-14.4-1.2 M410.8,411.5
+		c-5.4-0.4-10.6-0.9-14.4-1.2 M438.8,382.8l0.6,21.7l-39.5-3.4c0,0-0.8-7.2,1.3-10.2c2.1-3,4.5-6.2,4.5-6.2S424.2,382,438.8,382.8z"
+		/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_106_" filterUnits="userSpaceOnUse" x="385.9" y="395.4" width="127.6" height="37.1">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="385.9" y="395.4" width="127.6" height="37.1" id="main-illustration-b_107_">
+		<g class="st215">
+			<polygon id="main-illustration-a_107_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st216" d="M391.1,395.9c-2.7,3.3-4.7,7-4.7,10.9c0,3.8,0.8,7,2.2,9.9 M510.2,411.4c0.6,1.5,1.2,3.1,1.7,4.7
+		c1.3,4.7,1.4,10.3,0.9,15.9"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_107_" filterUnits="userSpaceOnUse" x="364.6" y="432.6" width="28.7" height="28.7">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="364.6" y="432.6" width="28.7" height="28.7" id="main-illustration-b_108_">
+		<g class="st217">
+			<polygon id="main-illustration-a_108_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st218" d="M365.6,447c0,7.4,6,13.4,13.4,13.4c7.4,0,13.4-6,13.4-13.4s-6-13.4-13.4-13.4
+		C371.6,433.6,365.6,439.6,365.6,447z"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_108_" filterUnits="userSpaceOnUse" x="359" y="427" width="40" height="40">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="359" y="427" width="40" height="40" id="main-illustration-b_109_">
+		<g class="st219">
+			<polygon id="main-illustration-a_109_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st220" d="M360,447c0,10.5,8.5,19,19,19s19-8.5,19-19s-8.5-19-19-19S360,436.5,360,447z"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_109_" filterUnits="userSpaceOnUse" x="340.2" y="394.9" width="243.1" height="33.3">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="340.2" y="394.9" width="243.1" height="33.3" id="main-illustration-b_110_">
+		<g class="st221">
+			<polygon id="main-illustration-a_110_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st222" d="M356.8,395.9c0,0,3,4.7,6.4,5.3c0,0,9.4,1.8,10.5,2.7c1.1,0.8,1.1,1.3,1.1,1.3s-1.5,1.5-3.4,1.9
+		c-1.9,0.4-9.1,0.6-9.8,0.6s-4,0.2-5.1,1.7c-1.1,1.5-3.8,4.9-4.5,6.6l-7.2-1.3c0,0-3-0.8-3.4-2.3c-0.4-1.5-0.8-4.5,0-6.2
+		c0.8-1.7,1.5-2.8,1.5-2.8s0.4-1.1,4.7-3.2C351.8,398.1,356.8,395.9,356.8,395.9z M553.6,416.5c0,0,13.2-0.4,19.3,1.9
+		c0,0,7.3,2.9,9.4,6.3c0,0,0.2,0.6,0,1.9c-0.2,1.3-1.1,0.9-2.5,0.6c-1.5-0.2-8.3-1.5-8.3-1.5s-4.5-0.8-7.6-3
+		C560.7,420.6,553.6,416.5,553.6,416.5z"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_110_" filterUnits="userSpaceOnUse" x="443.3" y="382.6" width="3.2" height="66.1">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="443.3" y="382.6" width="3.2" height="66.1" id="main-illustration-b_111_">
+		<g class="st223">
+			<polygon id="main-illustration-a_111_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st224" d="M443.8,383.1c1.9,21.8,1.8,43.3,2.2,65.1"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_111_" filterUnits="userSpaceOnUse" x="241" y="432.6" width="331" height="37.4">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="241" y="432.6" width="331" height="37.4" id="main-illustration-b_112_">
+		<g class="st225">
+			<polygon id="main-illustration-a_112_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st226" d="M476,469h95 M312,469h84 M271,469h23 M242,469h13 M525.6,447c0,7.4,6,13.4,13.4,13.4s13.4-6,13.4-13.4
+		s-6-13.4-13.4-13.4S525.6,439.6,525.6,447z"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_112_" filterUnits="userSpaceOnUse" x="458" y="318.2" width="101" height="148.8">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="458" y="318.2" width="101" height="148.8" id="main-illustration-b_113_">
+		<g class="st227">
+			<polygon id="main-illustration-a_113_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st228" d="M520,447c0,10.5,8.5,19,19,19s19-8.5,19-19s-8.5-19-19-19S520,436.5,520,447z M459,319.2V377"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_113_" filterUnits="userSpaceOnUse" x="553" y="359.5" width="1" height="34.5">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="553" y="359.5" width="1" height="34.5" id="main-illustration-b_114_">
+		<g class="st229">
+			<polygon id="main-illustration-a_114_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st230" d="M553.5,359.5V394"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_114_" filterUnits="userSpaceOnUse" x="504" y="327" width="137" height="47.5">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="504" y="327" width="137" height="47.5" id="main-illustration-b_115_">
+		<g class="st231">
+			<polygon id="main-illustration-a_115_" class="st3" points="0,470 1138,470 1138,0 0,0 			"/>
+		</g>
+	</mask>
+	<path class="st232" d="M505,333.7V327 M640,327v47.5"/>
+</g>
 </svg>

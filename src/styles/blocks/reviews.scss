@@ -265,6 +265,14 @@
     }
 }
 
+@media(max-width: 640px){
+    .reviews{
+        .swiper-slide{
+            height: fit-content;
+        }
+    }
+}
+
 @media(max-width: 600px){
     .reviews{
         padding: 40px 0 0;

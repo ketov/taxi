@@ -19,7 +19,43 @@ html
         style @media(min-width:901px){#jcont.fixed{margin-bottom: 97px !important;}}
 
     body
-        include includes/header
+        header(data-animation="fadeIn" data-animation-delay="500ms" class="inner")
+            div.container
+                div.row
+                    div.col-md-10
+                        a.logo-link(href="index.html")
+                            img.logo(src="assets/img/logo.svg" alt="логотип")
+                        a.link(href="faq.html") Частые&nbsp;вопросы
+                        a.link(href="about-company.html") О&nbsp;нас
+                        a.link(href="reviews.html") Отзывы
+                        a.link(href="contacts.html") Контакты
+                        span.clear
+                    div.col-md-2.phone
+                        a(href="tel:88002003839") 8 (800) 200-38-39
+                        div.free8800
+                            nobr бесплатно для звонков из&nbsp;России
+
+                div.row.mobile
+                    div.col-md-2
+                        img.logo(src="assets/img/logo.svg" alt="логотип")
+                    div.col-md-8.links
+                        a.link(href="faq.html") Частые вопросы
+                        a.link(href="about-company.html") О нас
+                        a.link(href="reviews.html") Отзывы
+                        a.link(href="contacts.html") Контакты
+                    div.col-md-2.phone
+                        a(href="tel:88002003839") 8 (800) 200-38-39
+                        div.free8800
+                            nobr бесплатно для звонков из&nbsp;России
+
+            div#hamburger
+                div.hamburger__container
+                    div.hamburger__block.hamburger__block--1
+                    div.hamburger__block.hamburger__block--2
+                    div.hamburger__block.hamburger__block--3
+
+
+
         include includes/index-offer
 
         section.destinations(data-animation="fadeIn")
