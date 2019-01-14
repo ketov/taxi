@@ -71,6 +71,9 @@ footer.footer-index{
     fieldset.select, input, textarea {
         border: none;
     }
+    input.error{
+        border: 1px solid $red;
+    }
     button{
         background: $blue;
         padding: 18px 8px 17px;

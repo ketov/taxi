@@ -3,64 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="51f40057-dd29-4859-9af8-9058ae62ad8d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/all-destinations.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/all-destinations.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/assets/css/all.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/all.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/direction-not-found.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/direction-not-found.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/h-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/h-1.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/h-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/h-2.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/h-3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/h-3.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/h-4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/h-4.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/h-5.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/h-5.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/h-6.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/h-6.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/main-illustration.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/main-illustration.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/main-illustration1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/main-illustration1.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/main-illustration2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/main-illustration2.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/n-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/n-1.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/n-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/n-2.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/n-3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/n-3.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/n-4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/n-4.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/n-5.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/n-5.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/n-6.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/n-6.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/n-7.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/n-7.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/n-8.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/n-8.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/n-9.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/n-9.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/from-destinations.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/from-destinations.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/short-destinations.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/short-destinations.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tariffs.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/tariffs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/where-destinations.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/where-destinations.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/direction-not-found.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/direction-not-found.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/h-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/h-1.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/h-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/h-2.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/h-3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/h-3.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/h-4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/h-4.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/h-5.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/h-5.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/h-6.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/h-6.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/main-illustration.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/main-illustration.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/main-illustration1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/main-illustration1.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/main-illustration2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/main-illustration2.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/n-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/n-1.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/n-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/n-2.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/n-3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/n-3.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/n-4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/n-4.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/n-5.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/n-5.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/n-6.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/n-6.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/n-7.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/n-7.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/n-8.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/n-8.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/n-9.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/n-9.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/order.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/blocks/index-offer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blocks/index-offer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/blocks/order.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blocks/order.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/blocks/reviews.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blocks/reviews.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/blocks/search.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blocks/search.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/404.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/404.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/all-destinations.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/all-destinations.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/from-destinations.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/from-destinations.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/short-destinations.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/short-destinations.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/tariffs.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/tariffs.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/where-destinations.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/where-destinations.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/order.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/order.pug" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -71,34 +18,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="projects-slider.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/blocks/projects-slider.js">
+      <file leaf-file-name="search.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/styles/blocks/search.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-107" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="swiper.min.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styles/libs/swiper.min.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6593" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_main.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styles/_main.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="543">
-              <caret line="498" column="1" selection-start-line="498" selection-start-column="1" selection-end-line="498" selection-end-column="1" />
+            <state relative-caret-position="642">
+              <caret line="172" column="1" selection-start-line="172" selection-start-column="1" selection-end-line="172" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reviews.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/styles/blocks/reviews.scss">
+      <file leaf-file-name="_main.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/styles/_main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="270" column="32" selection-start-line="270" selection-start-column="32" selection-end-line="270" selection-end-column="32" />
+            <state relative-caret-position="618">
+              <caret line="74" column="31" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index-offer.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/styles/blocks/index-offer.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-6">
+              <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -126,8 +68,10 @@
       <find>итого</find>
       <find>flex</find>
       <find>one-</find>
-      <find>fix</find>
       <find>swip</find>
+      <find>врем</find>
+      <find>fix</find>
+      <find>input</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -152,7 +96,6 @@
         <option value="$PROJECT_DIR$/src/templates/rules.pug" />
         <option value="$PROJECT_DIR$/src/templates/reviews-success.pug" />
         <option value="$PROJECT_DIR$/src/templates/reviews.pug" />
-        <option value="$PROJECT_DIR$/src/templates/order.pug" />
         <option value="$PROJECT_DIR$/src/templates/not-found.pug" />
         <option value="$PROJECT_DIR$/src/templates/faq.pug" />
         <option value="$PROJECT_DIR$/src/templates/contacts.pug" />
@@ -177,16 +120,17 @@
         <option value="$PROJECT_DIR$/src/img/n-7.svg" />
         <option value="$PROJECT_DIR$/src/img/n-8.svg" />
         <option value="$PROJECT_DIR$/src/img/n-9.svg" />
-        <option value="$PROJECT_DIR$/src/styles/blocks/search.scss" />
         <option value="$PROJECT_DIR$/src/templates/tariffs.pug" />
         <option value="$PROJECT_DIR$/src/img/direction-not-found.svg" />
         <option value="$PROJECT_DIR$/src/templates/where-destinations.pug" />
         <option value="$PROJECT_DIR$/src/templates/short-destinations.pug" />
         <option value="$PROJECT_DIR$/src/styles/blocks/index-offer.scss" />
         <option value="$PROJECT_DIR$/src/templates/from-destinations.pug" />
-        <option value="$PROJECT_DIR$/src/styles/blocks/order.scss" />
-        <option value="$PROJECT_DIR$/src/styles/_main.scss" />
         <option value="$PROJECT_DIR$/src/styles/blocks/reviews.scss" />
+        <option value="$PROJECT_DIR$/src/templates/order.pug" />
+        <option value="$PROJECT_DIR$/src/styles/blocks/order.scss" />
+        <option value="$PROJECT_DIR$/src/styles/blocks/search.scss" />
+        <option value="$PROJECT_DIR$/src/styles/_main.scss" />
       </list>
     </option>
   </component>
@@ -220,7 +164,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -314,6 +257,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -392,12 +336,13 @@
       <workItem from="1547044660812" duration="2305000" />
       <workItem from="1547047544534" duration="3867000" />
       <workItem from="1547097249465" duration="3258000" />
-      <workItem from="1547291250934" duration="3732000" />
+      <workItem from="1547291250934" duration="4233000" />
+      <workItem from="1547442843796" duration="363000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193475000" />
+    <option name="totallyTimeSpent" value="194339000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1997" y="60" width="1740" height="929" extended-state="0" />
@@ -410,7 +355,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Gulp" order="2" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3303887" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33392227" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -509,13 +454,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/order.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/templates/not-found.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -599,31 +537,10 @@
     <entry file="file://$PROJECT_DIR$/src/img/h-1.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/blocks/order.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="208" column="34" selection-start-line="208" selection-start-column="34" selection-end-line="208" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/templates/from-destinations.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/blocks/index-offer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/blocks/search.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="106" column="29" selection-start-line="106" selection-start-column="29" selection-end-line="106" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -689,17 +606,45 @@
         <state relative-caret-position="-6593" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/_main.scss">
+    <entry file="file://$PROJECT_DIR$/src/styles/blocks/reviews.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="498" column="1" selection-start-line="498" selection-start-column="1" selection-end-line="498" selection-end-column="1" />
+        <state relative-caret-position="84">
+          <caret line="241" column="1" lean-forward="true" selection-start-line="241" selection-start-column="1" selection-end-line="241" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/blocks/reviews.scss">
+    <entry file="file://$PROJECT_DIR$/src/templates/order.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="270" column="32" selection-start-line="270" selection-start-column="32" selection-end-line="270" selection-end-column="32" />
+        <state relative-caret-position="15">
+          <caret line="78" column="94" selection-start-line="78" selection-start-column="94" selection-end-line="78" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/blocks/order.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/blocks/index-offer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6">
+          <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/blocks/search.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="642">
+          <caret line="172" column="1" selection-start-line="172" selection-start-column="1" selection-end-line="172" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/_main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="74" column="31" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
         </state>
       </provider>
     </entry>
