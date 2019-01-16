@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51f40057-dd29-4859-9af8-9058ae62ad8d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/all.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/all.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/app.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/app.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/order.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/blocks/order.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blocks/order.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/order.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/order.pug" afterDir="false" />
-    </list>
+    <list default="true" id="51f40057-dd29-4859-9af8-9058ae62ad8d" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,8 +41,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+            <state relative-caret-position="450">
+              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -168,8 +159,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="46" />
+    <option name="x" value="75" />
+    <option name="y" value="43" />
     <option name="width" value="1740" />
     <option name="height" value="929" />
   </component>
@@ -328,15 +319,15 @@
       <workItem from="1547097249465" duration="3258000" />
       <workItem from="1547291250934" duration="4233000" />
       <workItem from="1547442843796" duration="1067000" />
-      <workItem from="1547620264901" duration="1116000" />
+      <workItem from="1547620264901" duration="1595000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196159000" />
+    <option name="totallyTimeSpent" value="196638000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="46" width="1740" height="929" extended-state="0" />
+    <frame x="75" y="43" width="1740" height="929" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -634,8 +625,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        <state relative-caret-position="450">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
         </state>
       </provider>
     </entry>
