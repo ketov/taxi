@@ -210,12 +210,13 @@ html
                             div.col-md-12
                                 div.order__continue.row
                                     div.col-md-6
-                                        input.show#i-agree(type="checkbox" disabled checked)
+                                        input.show#i-agree(type="checkbox")
                                         div.i-agree-block
                                             label(for="i-agree") Я согласен с условиями
                                             a(href="#") Политики конфиденциальности
                                     div.col-md-6
-                                        button Продолжить
+                                        button#order-continue.not-agree Продолжить
+                                        div.input-error#need-agree Необходимо согласие с условиями политики конфиденциальности
 
 
                     div.col-md-4#order__result-container

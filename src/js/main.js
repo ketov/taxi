@@ -10,6 +10,30 @@
 }*/
 
 
+var chbox;
+chbox=document.getElementById('i-agree');
+
+$(chbox).on('change', function() {
+    if (chbox.checked) {
+        $('#order-continue').removeClass('not-agree');
+        $('#need-agree').hide();
+    }
+    else {
+        $('#order-continue').addClass('not-agree');
+        $('#need-agree').show();
+    }
+});
+
+$('#order-continue').on('click', function(){
+    var el = $(this);
+    if(el.hasClass('not-agree')){
+        $('#need-agree').show();
+    }
+    else{
+        $('#need-agree').hide();
+    }
+});
+
 
 
 $(document).ready(function () {

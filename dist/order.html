@@ -255,13 +255,14 @@
               <div class="col-md-12">
                 <div class="order__continue row">
                   <div class="col-md-6">
-                    <input class="show" id="i-agree" type="checkbox" disabled checked>
+                    <input class="show" id="i-agree" type="checkbox">
                     <div class="i-agree-block">
                       <label for="i-agree">Я согласен с условиями</label><a href="#">Политики конфиденциальности</a>
                     </div>
                   </div>
                   <div class="col-md-6">
-                    <button>Продолжить</button>
+                    <button class="not-agree" id="order-continue">Продолжить</button>
+                    <div class="input-error" id="need-agree">Необходимо согласие с условиями политики конфиденциальности</div>
                   </div>
                 </div>
               </div>

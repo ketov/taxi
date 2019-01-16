@@ -1,3 +1,7 @@
+#need-agree{
+    display: none;
+}
+
 #one-way{
     color: $white;
     font-family: $CR;
@@ -70,6 +74,13 @@
         padding: 48px 0 0 0;
         button{
             width: 100%;
+        }
+        button.not-agree{
+            background: $light-gray;
+            cursor: default;
+            &:active{
+                top: 0;
+            }
         }
         .col-md-6:first-child{
             padding-left: 0;
