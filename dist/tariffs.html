@@ -47,18 +47,15 @@
     </header>
     <section class="search search--inner search--pattern">
       <div class="container">
-        <ul class="search__breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
-          <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemscope itemtype="http://schema.org/Thing" itemprop="item" href="#" itemid="#"><span itemprop="name">Главная</span></a>
-            <meta itemprop="position" content="1">
-          </li>
+        <ul class="search__breadcrumbs" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+          <li class="route-item" itemscope="" itemtype="http://schema.org/ListItem" itemprop="itemListElement"><a href="#" itemprop="item"><span itemprop="name">Главная</span>
+              <meta itemprop="position" content="1"></a></li>
           <li><span class="splash">/</span></li>
-          <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemscope itemtype="http://schema.org/Thing" itemprop="item" href="#" itemid="#"><span itemprop="name">Такси из Ялты</span></a>
-            <meta itemprop="position" content="2">
-          </li>
+          <li class="route-item" itemscope="" itemtype="http://schema.org/ListItem" itemprop="itemListElement"><a href="#" itemprop="item"><span itemprop="name">Такси из Ялты</span>
+              <meta itemprop="position" content="2"></a></li>
           <li><span class="splash">/</span></li>
-          <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemscope itemtype="http://schema.org/Thing" itemprop="item" href="#" itemid="#"><span itemprop="name">Такси из Ялты в аэропорт Симферополя</span></a>
-            <meta itemprop="position" content="3">
-          </li>
+          <li class="route-item" itemscope="" itemtype="http://schema.org/ListItem" itemprop="itemListElement"><a href="javascript:void(0);" itemprop="item"><span itemprop="name">Такси из Ялты в аэропорт Симферополя</span>
+              <meta itemprop="position" content="3"></a></li>
           <li class="clear"></li>
         </ul>
       </div>
@@ -177,29 +174,44 @@
               <form class="tariffs__form" action="/order" method="post"><a class="button" href="#">Заказать<br>такси</a></form>
             </div>
           </div>
-          <div class="col-md-2 tariffs__tariff-container">
-            <div class="tariffs__tariff"><img class="i" src="assets/img/i.svg" alt="i">
-              <div class="comment">Недорогое такси для&nbsp;пары или&nbsp;семьи с&nbsp;ребёнком</div><img src="assets/img/tariff-minivan.svg" alt="Минивен">
-              <div class="name">Минивен</div>
-              <div class="model">Hyundai h1</div>
-              <div class="price">3 600<span class="rub">руб.</span></div>
-              <form class="tariffs__form" action="/order" method="post"><a class="button" href="#">Заказать<br>такси</a></form>
-            </div>
-          </div>
-          <div class="col-md-2 tariffs__tariff-container">
-            <div class="tariffs__tariff"><img class="i" src="assets/img/i.svg" alt="i">
-              <div class="comment">Недорогое такси для&nbsp;пары или&nbsp;семьи с&nbsp;ребёнком</div><img src="assets/img/tariff-business.svg" alt="Бизнес">
-              <div class="name">Бизнес</div>
-              <div class="model">Mercedes e200</div>
-              <div class="price">3 900<span class="rub">руб.</span></div>
-              <form class="tariffs__form" action="/order" method="post"><a class="button" href="#">Заказать<br>такси</a></form>
-            </div>
-          </div>
+          <!--div.col-md-2.tariffs__tariff-container
+          div.tariffs__tariff
+              img.i(src="assets/img/i.svg" alt="i")
+              div.comment Недорогое такси для&nbsp;пары или&nbsp;семьи с&nbsp;ребёнком
+              img(src="assets/img/tariff-minivan.svg" alt="Минивен")
+              div.name Минивен
+              div.model Hyundai h1
+              div.price
+                  | 3 600
+                  span.rub руб.
+              form.tariffs__form(action="/order" method="post")
+                  a.button(href="#")
+                          | Заказать
+                          br
+                          | такси
+          
+          -->
+          <!--div.col-md-2.tariffs__tariff-container
+          div.tariffs__tariff
+              img.i(src="assets/img/i.svg" alt="i")
+              div.comment Недорогое такси для&nbsp;пары или&nbsp;семьи с&nbsp;ребёнком
+              img(src="assets/img/tariff-business.svg" alt="Бизнес")
+              div.name Бизнес
+              div.model Mercedes e200
+              div.price
+                  | 3 900
+                  span.rub руб.
+              form.tariffs__form(action="/order" method="post")
+                  a.button(href="#")
+                      | Заказать
+                      br
+                      | такси
+          -->
         </div>
       </div>
     </section>
     <section class="reviews">
-      <h2>Отзывы</h2>
+      <h1>Отзывы</h1>
       <div class="container">
         <div class="row">
           <div class="col-md-12">

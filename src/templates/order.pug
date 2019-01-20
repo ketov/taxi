@@ -22,28 +22,24 @@ html
 
         section.search.search--inner.search--order
             div.container
-                ul.search__breadcrumbs(itemscope itemtype="http://schema.org/BreadcrumbList")
-                    li(itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem")
-                        a(itemscope itemtype="http://schema.org/Thing" itemprop="item" href="#" itemid="#")
+                ul.search__breadcrumbs(itemscope="" itemtype="http://schema.org/BreadcrumbList")
+                    li(itemscope="" itemtype="http://schema.org/ListItem" itemprop="itemListElement" class="route-item")
+                        a(href="#" itemprop="item")
                             span(itemprop="name") Главная
-                        meta(itemprop="position" content="1")
+                            meta(itemprop="position" content="1")
                     li
                         span.splash /
-                    li(itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem")
-                        a(itemscope itemtype="http://schema.org/Thing" itemprop="item" href="#" itemid="#")
+                    li(itemscope="" itemtype="http://schema.org/ListItem" itemprop="itemListElement" class="route-item")
+                        a(href="#" itemprop="item")
                             span(itemprop="name") Такси из Ялты
-                        meta(itemprop="position" content="2")
+                            meta(itemprop="position" content="2")
                     li
                         span.splash /
-                    li(itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem")
-                        a(itemscope itemtype="http://schema.org/Thing" itemprop="item" href="#" itemid="#")
+                    li(itemscope="" itemtype="http://schema.org/ListItem" itemprop="itemListElement" class="route-item")
+                        a(href="javascript:void(0);" itemprop="item")
                             span(itemprop="name") Такси из Ялты в аэропорт Симферополя
-                        meta(itemprop="position" content="3")
+                            meta(itemprop="position" content="3")
                     li.clear
-
-
-
-
 
 
         section.order(ng-app="myApp")

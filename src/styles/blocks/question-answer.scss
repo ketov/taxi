@@ -1,6 +1,6 @@
 .question-answer{
-    h2{
-        margin: 80px 0 48px 0px;
+    h1{
+        margin: 60px 0 32px 0px;
     }
     &__question{
         box-shadow: 0px 7px 56px -3px rgba(210, 214, 217, 0.5);
@@ -78,7 +78,7 @@
 
 @media(max-width: 1200px){
     .question-answer{
-        h2{
+        h1{
             margin: 60px 0 32px;
         }
         &__question{
@@ -109,7 +109,7 @@
 
 @media(max-width: 1000px){
     .question-answer{
-        h2{
+        h1{
             padding: 0 15px 0px;
         }
     }
@@ -165,7 +165,7 @@
 
 @media(max-width: 450px){
     .question-answer{
-        h2{
+        h1{
             margin: 40px 0 20px;
         }
     }

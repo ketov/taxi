@@ -11,6 +11,9 @@
         margin: 40px 0 22px;
         text-align: center;
     }
+    .row{
+        justify-content: space-around;
+    }
     &__tariff{
         background: $white;
         color: $black;

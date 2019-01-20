@@ -86,8 +86,8 @@
     .col-md-12{
         padding: 0;
     }
-    h2{
-        margin: 0 0 40px 0;
+    h1,h2{
+        margin: 0 0 32px 0;
     }
 
     &__itemreviewed{
@@ -186,7 +186,7 @@
     .reviews{
         margin: 0;
         padding: 60px 0 0;
-        h2{
+        h1,h2{
             margin: 0 0 20px;
         }
         .col-md-3{
@@ -202,7 +202,7 @@
     .reviews{
         margin: 0px 0 0px;
         padding: 48px 0 0;
-        h2{
+        h1,h2{
             margin: 0 0 20px 0;
         }
         .swiper-slide{
@@ -229,7 +229,7 @@
 
 @media(max-width: 1000px){
     .reviews{
-        h2{
+        h1,h2{
             padding: 0;
         }
     }
