@@ -74,6 +74,11 @@
             width: 100%;
         }
     }
+    &__tariff.inactive a{
+        background: $light-gray;
+        cursor: pointer;
+        pointer-events: none;
+    }
     &__tariff-container{
         &:last-child{
             .comment{
