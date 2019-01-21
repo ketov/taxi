@@ -41,6 +41,7 @@
             float: none;
         }
         li:nth-last-child(2) a{
+            pointer-events: none;
             color: $white;
             cursor: default;
             text-decoration: none;

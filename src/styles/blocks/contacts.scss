@@ -134,6 +134,15 @@
             }
 
         }
+        &--ok{
+            &:after{
+                background-image: url('../img/ok.svg');
+            }
+            &:before{
+                background-image: url('../img/ok-active.svg');
+            }
+
+        }
     }
 }
 

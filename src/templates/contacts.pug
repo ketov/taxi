@@ -30,7 +30,7 @@ html
                     li
                         span.splash /
                     li(itemscope="" itemtype="http://schema.org/ListItem" itemprop="itemListElement" class="route-item")
-                        a(href="javascript:void(0);" itemprop="item")
+                        a(href="#" itemprop="item")
                             span(itemprop="name") Контакты
                             meta(itemprop="position" content="2")
                     li.clear
@@ -52,14 +52,15 @@ html
                         span(itemprop="postalCode") 614016,
                         span(itemprop="telephone") +7&nbsp;(911)&nbsp;111-11-11
                     div.contacts__row
-                        span.contacts__property(itemprop="email") Эл. почта:
-                        span zakaz@vl-taxi.ru
+                        span.contacts__property Эл. почта:
+                        span(itemprop="email") zakaz@vl-taxi.ru
                     div.contacts__row
                         span.contacts__property Мы в социальных сетях
                         br
                         a.social.social--vk(href="#")
                         a.social.social--fb(href="#")
                         a.social.social--inst(href="#")
+                        a.social.social--ok(href="#")
 
                 div.col-md-5
                     form

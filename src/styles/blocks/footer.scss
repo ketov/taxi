@@ -67,6 +67,7 @@ footer{
             width: 100%;
         }
         &--vk{
+            margin-left: 0;
             &:after{
                 background-image: url('../img/vk.svg');
             }
@@ -90,6 +91,15 @@ footer{
             }
             &:before{
                 background-image: url('../img/inst-active.svg');
+            }
+
+        }
+        &--ok{
+            &:after{
+                background-image: url('../img/ok.svg');
+            }
+            &:before{
+                background-image: url('../img/ok-active.svg');
             }
 
         }
