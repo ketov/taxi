@@ -79,6 +79,11 @@
         cursor: pointer;
         pointer-events: none;
     }
+    &__tariff.inactive button{
+        background: $light-gray;
+        cursor: pointer;
+        pointer-events: none;
+    }
     &__tariff-container{
         &:last-child{
             .comment{
