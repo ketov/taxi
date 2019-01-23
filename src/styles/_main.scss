@@ -201,7 +201,11 @@ h2{
     text-align: center;
 }
 
-h3{
+.h3{
+    display: block;
+}
+
+h3, .h3{
     font-family: $CB;
     font-size: 200%;
     font-weight: normal;
@@ -533,7 +537,7 @@ input.error, textarea.error{
     h2{
         font-size: 275%;
     }
-    h3{
+    h3, .h3{
         font-size: 180%;
     }
     p{
