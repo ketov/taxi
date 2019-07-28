@@ -1,0 +1,10 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6.5 22.5L8.5 19.5" stroke="#A3A3A3" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M18.5 22.5L16.5 19.5" stroke="#A3A3A3" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M17 6.5H8C6.89543 6.5 6 7.39543 6 8.5V17.5C6 18.6046 6.89543 19.5 8 19.5H17C18.1046 19.5 19 18.6046 19 17.5V8.5C19 7.39543 18.1046 6.5 17 6.5Z" stroke="#A3A3A3" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M9.5 17.5C10.0523 17.5 10.5 17.0523 10.5 16.5C10.5 15.9477 10.0523 15.5 9.5 15.5C8.94772 15.5 8.5 15.9477 8.5 16.5C8.5 17.0523 8.94772 17.5 9.5 17.5Z" fill="#A3A3A3"/>
+<path d="M15.5 17.5C16.0523 17.5 16.5 17.0523 16.5 16.5C16.5 15.9477 16.0523 15.5 15.5 15.5C14.9477 15.5 14.5 15.9477 14.5 16.5C14.5 17.0523 14.9477 17.5 15.5 17.5Z" fill="#A3A3A3"/>
+<path d="M6 13.5H19" stroke="#A3A3A3" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M12.5 13.5V6.5" stroke="#A3A3A3" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M10.5005 6.5L9.50049 4L17.5005 2" stroke="#A3A3A3" stroke-width="1.5" stroke-miterlimit="10"/>
+</svg>
